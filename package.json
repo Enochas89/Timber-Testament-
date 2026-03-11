@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Scalable local SEO website generator for Timber & Testament Custom Carpentry",
+  "dependencies": {
+    "sharp": "^0.34.4"
+  },
   "scripts": {
     "build": "node scripts/generate-site.js"
   }

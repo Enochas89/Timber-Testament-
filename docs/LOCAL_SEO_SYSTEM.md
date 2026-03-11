@@ -41,7 +41,7 @@ Output directory: `dist/`
 ### Templates
 
 - `src/templates/layout.js`
-  - global head tags
+  - shared SEO head renderer (React Helmet equivalent in static generation)
   - canonical/robots/OG/Twitter
   - global schema blocks
   - breadcrumb markup
@@ -212,6 +212,27 @@ Reusable static conversion modules:
 
 Inserted across key templates with configurable copy.
 
+## Homepage SEO Content
+
+Homepage now includes:
+
+- primary keyword H1: `Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee`
+- hero paragraph covering custom carpentry, built-ins, cabinetry, finish carpentry, Cleveland TN, and Southeast Tennessee
+- service area text explicitly mentioning Cleveland TN, Athens TN, Charleston TN, Chattanooga TN, and Ooltewah TN
+- service spotlight cards for:
+  - Custom Built-Ins
+  - Cabinetry
+  - Floating Shelves
+  - Custom Libraries
+  - Mantels
+  - Finish Carpentry
+- process section:
+  - Consultation
+  - Design
+  - Workshop Fabrication
+  - Installation
+- visible trust/contact block (phone, email, service area)
+
 ## Project Page Enhancements
 
 Project pages now include:
@@ -240,6 +261,14 @@ Generated in `dist/`:
 - `performance-report.json`
 - `image-manifest.json`
 - `content-uniqueness.json`
+
+`seo-audit.json` includes explicit checks for:
+
+- missing titles
+- missing meta descriptions
+- missing image alt text
+- duplicate H1 groups
+- duplicate meta description groups
 
 ## Deployment Notes
 

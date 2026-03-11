@@ -33,16 +33,51 @@ function renderHomePage({ services, cities, projects }) {
       label: `${item.service.name} in ${cityLabel(item.city)}`
     }));
 
-  const serviceTiles = [
-    byServiceName("Custom Built-Ins"),
-    byServiceName("Custom Cabinets"),
-    byServiceName("Mantels"),
-    byServiceName("Trim Carpentry"),
-    byServiceName("Crown Molding"),
-    byServiceName("Accent Walls")
-  ]
-    .filter(Boolean)
-    .map((service, idx) => {
+  const homepageServiceShowcase = [
+    {
+      lookup: "Custom Built-Ins",
+      heading: "Custom Built-Ins",
+      description:
+        "Custom built-ins in Cleveland TN designed for living rooms, media walls, and integrated storage that matches your home."
+    },
+    {
+      lookup: "Custom Cabinets",
+      heading: "Cabinetry",
+      description:
+        "Built-to-fit cabinetry for mudroom storage, home offices, and utility spaces across Cleveland TN and Southeast Tennessee."
+    },
+    {
+      lookup: "Floating Shelves",
+      heading: "Floating Shelves",
+      description:
+        "Floating shelves with hidden supports for kitchens and living areas, installed by a local finish carpentry team."
+    },
+    {
+      lookup: "Built-in Bookcases",
+      heading: "Custom Libraries",
+      description:
+        "Custom libraries and built-in bookcases with proportioned shelving, trim detailing, and tailored layout planning."
+    },
+    {
+      lookup: "Mantels",
+      heading: "Mantels",
+      description:
+        "Fireplace mantel design and installation with custom profiles, clean reveals, and finish-ready detailing."
+    },
+    {
+      lookup: "Finish Carpentry",
+      heading: "Finish Carpentry",
+      description:
+        "Finish carpentry for trim transitions, casing, crown, and final-stage interior woodwork in Cleveland TN homes."
+    }
+  ];
+
+  const serviceTiles = homepageServiceShowcase
+    .map((entry, idx) => {
+      const service = byServiceName(entry.lookup);
+      if (!service) {
+        return "";
+      }
       const points = (service.sellingPoints || service.commonUseCases || [])
         .slice(0, 2)
         .map((point) => `<li>${point}</li>`)
@@ -54,15 +89,16 @@ function renderHomePage({ services, cities, projects }) {
           <p class="home-service-kicker">${service.category}</p>
           <span class="home-service-index">${String(idx + 1).padStart(2, "0")}</span>
         </div>
-        <h3>${service.name}</h3>
-        <p>${service.heroFocus}. Popular uses include ${service.commonUseCases.slice(0, 2).join(" and ")}.</p>
+        <h3>${entry.heading}</h3>
+        <p>${entry.description}</p>
         <ul class="home-service-points">${points}</ul>
         <a class="home-service-link" href="/services/${serviceSlug(service.name)}/">
-          <span>View ${service.name} pages</span>
+          <span>View ${entry.heading} pages</span>
           <span aria-hidden="true">-&gt;</span>
         </a>
       </article>`;
     })
+    .filter(Boolean)
     .join("");
 
   const archiveCards = projects
@@ -90,10 +126,10 @@ function renderHomePage({ services, cities, projects }) {
   const heroImage = `/assets/images/${projects[0] ? projects[0].images[0] : "custom-built-ins-cleveland-tn.jpg"}`;
 
   return {
-    h1: "Custom Carpentry in Cleveland TN and Southeast Tennessee",
-    title: `${business.name} | Cleveland TN Custom Carpentry`,
+    h1: "Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee",
+    title: `Custom Carpentry, Built-Ins & Cabinetry in Cleveland TN | Timber & Testament`,
     description:
-      "Custom carpentry, built-ins, trim work, and interior wood features in Cleveland TN and surrounding Southeast Tennessee cities.",
+      "Timber & Testament provides custom carpentry, built-ins, cabinetry, floating shelves, mantels, and finish carpentry in Cleveland TN and Southeast Tennessee.",
     ogImage: heroImage,
     preloadImages: [heroImage],
     localTokens: {
@@ -112,9 +148,9 @@ function renderHomePage({ services, cities, projects }) {
         <section class="home-hero reveal active">
           <div class="home-hero-inner">
             <p class="home-chip">MASTER ARCHIVE SERIES</p>
-            <h1>Custom Carpentry, Built-Ins & Cabinetry in Cleveland, Tennessee</h1>
+            <h1>Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee</h1>
             <p class="home-hero-copy">
-              Darker by design. ${business.name} builds custom libraries, built-ins, cabinetry, shelving, mantels, and fine interior woodwork for homes across Cleveland, TN and surrounding Southeast Tennessee communities.
+              ${business.name} delivers custom carpentry, built-ins, cabinetry, floating shelves, custom libraries, mantels, and finish carpentry for homeowners in Cleveland TN and throughout Southeast Tennessee.
             </p>
             <div class="home-hero-actions">
               <a href="/projects/">View The Dark Collection</a>
@@ -132,6 +168,9 @@ function renderHomePage({ services, cities, projects }) {
           <p>
             Planning a dark walnut library wall, a custom entertainment unit, floating shelves, or detailed interior trim work?
             Explore our city-level money pages below for pricing context, process details, and local project examples.
+          </p>
+          <p>
+            Looking for project planning tips? Visit our <a href="/blog/">carpentry blog</a> for cost, material, and installation guidance.
           </p>
           <ul class="home-money-links">
             ${darkCollectionLinks.map((item) => `<li><a href="${item.href}">${item.label}</a></li>`).join("")}
@@ -188,9 +227,20 @@ function renderHomePage({ services, cities, projects }) {
         <section class="home-services reveal">
           <h2>Core Services</h2>
           <p>
-            Our work spans custom libraries, built-ins, fireplace walls, mantels, cabinetry, shelving, and detailed finish carpentry for homeowners seeking bold architectural interior statements.
+            We provide custom built-ins, cabinetry, floating shelves, custom libraries, mantels, and finish carpentry for homeowners in Cleveland TN and nearby Southeast Tennessee communities.
           </p>
           <div class="home-services-grid">${serviceTiles}</div>
+        </section>
+
+        <section class="home-process reveal">
+          <h2>Our Build Process</h2>
+          <p>Every project follows a structured process to keep quality, schedule, and communication clear.</p>
+          <ol class="home-process-list">
+            <li><strong>Consultation:</strong> We review your goals, dimensions, and preferred style on-site.</li>
+            <li><strong>Design:</strong> Layouts and material choices are finalized around function, proportions, and finish level.</li>
+            <li><strong>Workshop Fabrication:</strong> Core components are fabricated for precise fit and cleaner installation.</li>
+            <li><strong>Installation:</strong> Our finish carpentry team installs, details, and completes final walkthrough checks.</li>
+          </ol>
         </section>
 
         <section class="home-archive reveal">
@@ -207,10 +257,17 @@ function renderHomePage({ services, cities, projects }) {
         <section class="home-area reveal">
           <h2>Serving Cleveland, TN & Nearby Communities</h2>
           <p>
-            ${business.name} serves homeowners in Cleveland, Tennessee, along with nearby areas including Athens, Charleston, Chattanooga, Ooltewah, and surrounding communities.
+            ${business.name} serves homeowners in Cleveland TN, Athens TN, Charleston TN, Chattanooga TN, Ooltewah TN, and surrounding Southeast Tennessee communities.
             If you are planning custom built-ins, cabinetry, shelving, a library wall, or finish carpentry work, we can help shape the design and build scope.
           </p>
           <p><a href="/cities/">Browse all city service pages</a> and <a href="/services/">all carpentry services</a>.</p>
+        </section>
+
+        <section class="home-contact-signals reveal">
+          <h2>Talk With Timber & Testament</h2>
+          <p><strong>Phone:</strong> <a href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a></p>
+          <p><strong>Email:</strong> <a href="mailto:${business.email}">${business.email}</a></p>
+          <p><strong>Service Area:</strong> Cleveland TN and surrounding Southeast Tennessee communities.</p>
         </section>
 
         <section class="home-commission reveal">

@@ -4,8 +4,8 @@ const business = {
   legalName: "Timber & Testament Custom Carpentry",
   type: "Custom Carpentry / Finish Carpentry / Woodworking",
   category: "Carpenter",
-  phone: "865.200.1604",
-  email: "hello@timberandtestament.com",
+  phone: "865-599-9531",
+  email: "build@timbertestament.com",
   website: "https://www.timbertestament.com",
   streetAddress: "1250 Inman Street East",
   addressLocality: "Cleveland",
@@ -501,7 +501,7 @@ const projects = [
 ];
 
 const contentRules = {
-  serviceCityWordRange: { min: 900, max: 1200 },
+  serviceCityWordRange: { min: 900, max: 1225 },
   minLocalMentions: 5,
   minServiceMentions: 4,
   paragraphDuplicateThreshold: 0.92,
@@ -527,20 +527,20 @@ const conversion = {
   ],
   reviewSnippets: [
     {
-      quote: "They built custom bookcases that look original to the house. Communication and cleanup were excellent.",
+      quote: "Timber & Testament built custom walnut library shelving and built-ins that look original to our Cleveland TN home.",
       author: "Homeowner in Cleveland TN"
     },
     {
-      quote: "Our trim package transformed the entire first floor. Precise work and very respectful crew.",
+      quote: "Their finish carpentry and cabinetry work gave our Ooltewah TN remodel a clean, high-end look with better storage.",
       author: "Homeowner in Ooltewah TN"
     },
     {
-      quote: "From design notes to installation, every detail was handled professionally.",
-      author: "Homeowner in Ringgold GA"
+      quote: "They installed floating shelves and a custom mantel in our Chattanooga TN home with clear communication from design through install.",
+      author: "Homeowner in Chattanooga TN"
     }
   ],
   ctaVariants: ["Request a Detailed Quote", "Schedule On-Site Estimate", "Plan Your Carpentry Project", "Talk With a Finish Carpenter"],
-  serviceAreaReassurance: "Serving Cleveland TN, Chattanooga TN, and nearby Southeast Tennessee and North Georgia communities."
+  serviceAreaReassurance: "Serving Cleveland TN, Athens TN, Charleston TN, Chattanooga TN, Ooltewah TN, and nearby Southeast Tennessee and North Georgia communities."
 };
 
 const variation = {
@@ -657,8 +657,8 @@ const sitemap = {
 };
 
 const technicalSeo = {
-  titleMaxLength: 60,
-  descriptionMaxLength: 155,
+  titleMaxLength: 70,
+  descriptionMaxLength: 160,
   defaultRobots: "index,follow,max-image-preview:large",
   noindexRobots: "noindex,follow,max-image-preview:large",
   publisherName: business.name,

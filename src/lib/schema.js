@@ -4,7 +4,7 @@ const { canonicalFor } = require("./seo");
 function localBusinessSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "Carpenter",
+    "@type": ["LocalBusiness", "Carpenter"],
     "@id": `${business.website}/#localbusiness`,
     name: business.name,
     legalName: business.legalName,
@@ -12,6 +12,7 @@ function localBusinessSchema() {
     email: business.email,
     url: business.website,
     image: `${business.website}${business.defaultOgImage}`,
+    logo: `${business.website}${business.defaultOgImage}`,
     priceRange: "$$",
     foundingDate: business.yearFounded,
     openingHours: business.hours,
@@ -32,7 +33,17 @@ function localBusinessSchema() {
       "@type": "City",
       name: city
     })),
-    sameAs: Object.values(business.profileUrls).filter(Boolean)
+    sameAs: Object.values(business.profileUrls).filter(Boolean),
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "customer service",
+        telephone: business.phone,
+        email: business.email,
+        areaServed: business.primaryRegion,
+        availableLanguage: ["English"]
+      }
+    ]
   };
 }
 
@@ -44,7 +55,17 @@ function organizationSchema() {
     name: business.name,
     url: business.website,
     logo: `${business.website}${business.defaultOgImage}`,
-    sameAs: Object.values(business.profileUrls).filter(Boolean)
+    sameAs: Object.values(business.profileUrls).filter(Boolean),
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "sales",
+        telephone: business.phone,
+        email: business.email,
+        areaServed: business.primaryRegion,
+        availableLanguage: ["English"]
+      }
+    ]
   };
 }
 

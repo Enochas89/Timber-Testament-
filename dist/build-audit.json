@@ -15,9 +15,9 @@
     "cityHubs": 15,
     "projectPages": 6,
     "blogPages": 20,
-    "averageWordCount": 916,
-    "wordCountMin": 247,
-    "wordCountMax": 1189,
+    "averageWordCount": 929,
+    "wordCountMin": 250,
+    "wordCountMax": 1204,
     "qualityFlaggedPages": 0,
     "excludedFromSitemap": 0,
     "noindexPages": 0,
@@ -29,7 +29,14 @@
       "flaggedPages": 0
     },
     "missingSeoElements": 0,
-    "imageIssues": {}
+    "imageIssues": {},
+    "imageOptimization": {
+      "enabled": true,
+      "optimizedFiles": 6,
+      "bytesSaved": 6097338,
+      "generatedResponsiveVariants": 21,
+      "warnings": []
+    }
   },
   "missingMetaRoutes": [],
   "missingTitleRoutes": [],

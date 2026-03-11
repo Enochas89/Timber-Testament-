@@ -20,6 +20,7 @@ function renderHead({
 }) {
   const computedRobots = robots || resolveRobots(false);
   const normalizedOgImage = ogImage && ogImage.startsWith("http") ? ogImage : `${business.website}${ogImage || business.defaultOgImage}`;
+  const socialImageAlt = `${title} - ${business.primaryCity}`;
   const preloadLinks = preloadImages
     .filter(Boolean)
     .map((image) => `<link rel="preload" as="image" href="${image}">`)
@@ -53,11 +54,15 @@ function renderHead({
     <meta property="og:description" content="${description}">
     <meta property="og:url" content="${canonical}">
     <meta property="og:image" content="${normalizedOgImage}">
+    <meta property="og:image:alt" content="${socialImageAlt}">
     <meta property="og:site_name" content="${business.name}">
+    <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${title}">
     <meta name="twitter:description" content="${description}">
+    <meta name="twitter:url" content="${canonical}">
     <meta name="twitter:image" content="${normalizedOgImage}">
+    <meta name="twitter:image:alt" content="${socialImageAlt}">
     ${tracking}
     <link rel="dns-prefetch" href="//www.google.com">
     <link rel="preconnect" href="https://www.google.com" crossorigin>

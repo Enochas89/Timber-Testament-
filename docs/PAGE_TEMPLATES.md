@@ -128,6 +128,15 @@ Templates:
 
 - `renderHomePage`, `renderServicesIndex`, `renderProjectsIndex`, `renderCitiesIndex`, `renderBlogIndex`, `renderAboutPage`, `renderContactPage`
 
+Homepage includes SEO-specific sections:
+
+- keyword-focused hero/H1 for Cleveland TN
+- service spotlight cards with money-keyword copy
+- explicit local service area mentions
+- customer review snippets with service + city wording
+- process authority section (consultation, design, workshop fabrication, installation)
+- visible contact trust signals (phone/email/service area)
+
 Contact form note:
 
 - `/contact` currently uses `mailto:` fallback and should be wired to deployment form handling if needed.

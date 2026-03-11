@@ -9,8 +9,7 @@ const {
   projects,
   contentRules,
   indexation,
-  sitemap,
-  technicalSeo
+  sitemap
 } = require("../src/config");
 const { renderLayout } = require("../src/templates/layout");
 const { renderServiceCityPage } = require("../src/templates/serviceCityPage");
@@ -40,13 +39,6 @@ const { renderStickyMobileCta } = require("../src/lib/conversionBlocks");
 const distDir = path.resolve("dist");
 const publicDir = path.resolve("public");
 
-function truncateValue(input, maxLength) {
-  if (!input || input.length <= maxLength) {
-    return input || "";
-  }
-  return `${input.slice(0, maxLength - 3).trim()}...`;
-}
-
 function ensureDir(targetPath) {
   fs.mkdirSync(path.dirname(targetPath), { recursive: true });
 }
@@ -73,6 +65,98 @@ function copyDirectory(source, destination) {
       fs.copyFileSync(srcPath, destPath);
     }
   }
+}
+
+async function optimizeImagesForPerformance(imageDir) {
+  const summary = {
+    enabled: false,
+    optimizedFiles: 0,
+    bytesSaved: 0,
+    generatedResponsiveVariants: 0,
+    warnings: []
+  };
+  const responsiveImageIndex = {};
+
+  if (!fs.existsSync(imageDir)) {
+    summary.warnings.push("image_directory_missing");
+    return { summary, responsiveImageIndex };
+  }
+
+  let sharp;
+  try {
+    sharp = require("sharp");
+    summary.enabled = true;
+  } catch (error) {
+    summary.warnings.push("sharp_not_installed_image_compression_skipped");
+    return { summary, responsiveImageIndex };
+  }
+
+  const files = fs
+    .readdirSync(imageDir, { withFileTypes: true })
+    .filter((entry) => entry.isFile())
+    .map((entry) => entry.name)
+    .filter((name) => /\.(jpg|jpeg|png)$/i.test(name))
+    .filter((name) => !/-\d+w\.webp$/i.test(name));
+
+  for (const filename of files) {
+    const fullPath = path.join(imageDir, filename);
+    const beforeBytes = fs.statSync(fullPath).size;
+    const ext = path.extname(filename).toLowerCase();
+
+    let optimizedBuffer = null;
+    try {
+      if (ext === ".jpg" || ext === ".jpeg") {
+        optimizedBuffer = await sharp(fullPath).rotate().jpeg({ quality: 82, progressive: true, mozjpeg: true }).toBuffer();
+      } else if (ext === ".png") {
+        optimizedBuffer = await sharp(fullPath).rotate().png({ compressionLevel: 9, quality: 80 }).toBuffer();
+      }
+    } catch (error) {
+      summary.warnings.push(`optimization_failed:${filename}`);
+    }
+
+    if (optimizedBuffer && optimizedBuffer.length < beforeBytes) {
+      try {
+        const tempPath = `${fullPath}.tmp`;
+        fs.writeFileSync(tempPath, optimizedBuffer);
+        fs.renameSync(tempPath, fullPath);
+        summary.optimizedFiles += 1;
+        summary.bytesSaved += beforeBytes - optimizedBuffer.length;
+      } catch (error) {
+        summary.warnings.push(`write_optimized_file_failed:${filename}`);
+      }
+    }
+
+    try {
+      const metadata = await sharp(fullPath).metadata();
+      const widths = [480, 768, 1200].filter((width) => !metadata.width || width < metadata.width);
+      const baseName = filename.replace(/\.[^.]+$/, "");
+      const srcsetParts = [];
+
+      for (const width of widths) {
+        const variantName = `${baseName}-${width}w.webp`;
+        const variantPath = path.join(imageDir, variantName);
+        await sharp(fullPath)
+          .rotate()
+          .resize({ width, withoutEnlargement: true })
+          .webp({ quality: 76 })
+          .toFile(variantPath);
+        srcsetParts.push(`/assets/images/${variantName} ${width}w`);
+        summary.generatedResponsiveVariants += 1;
+      }
+
+      if (srcsetParts.length) {
+        responsiveImageIndex[`/assets/images/${filename}`] = {
+          srcset: srcsetParts.join(", "),
+          sizes: "(max-width: 768px) 100vw, 1200px"
+        };
+      }
+    } catch (error) {
+      summary.warnings.push(`responsive_variant_failed:${filename}`);
+    }
+  }
+
+  summary.bytesSaved = Math.max(0, summary.bytesSaved);
+  return { summary, responsiveImageIndex };
 }
 
 function createImagePlaceholders(imageNames) {
@@ -184,9 +268,19 @@ function isSeoFriendlyImageFilename(filename) {
   return /^[a-z0-9]+(?:-[a-z0-9]+)*\.(?:jpg|jpeg|png|webp|avif|gif)$/.test(filename);
 }
 
-function normalizeImageTags(html) {
+function normalizeImageTags(html, responsiveImageIndex = {}) {
   return html.replace(/<img\b[^>]*>/gim, (tag) => {
     const attrsToAdd = [];
+    const src = getAttributeValue(tag, "src");
+
+    const responsiveData = src ? responsiveImageIndex[src] : null;
+    if (responsiveData && !hasAttribute(tag, "srcset")) {
+      attrsToAdd.push(`srcset="${responsiveData.srcset}"`);
+    }
+    if (responsiveData && !hasAttribute(tag, "sizes")) {
+      attrsToAdd.push(`sizes="${responsiveData.sizes}"`);
+    }
+
     if (!hasAttribute(tag, "loading")) {
       attrsToAdd.push('loading="lazy"');
     }
@@ -268,18 +362,16 @@ function createCanonicalAudit(seoAudit) {
   };
 }
 
-function renderPageEntry(pageEntry) {
+function renderPageEntry(pageEntry, responsiveImageIndex = {}) {
   const breadcrumbs = buildBreadcrumbs(pageEntry.route, pageEntry.page.h1 || pageEntry.page.title);
   pageEntry.breadcrumbs = breadcrumbs;
   pageEntry.canonical = canonicalFor(pageEntry.route);
   pageEntry.pageType = pageEntry.type || inferPageType(pageEntry.route);
-  const normalizedTitle = truncateValue(pageEntry.page.title, technicalSeo.titleMaxLength);
-  const normalizedDescription = truncateValue(pageEntry.page.description, technicalSeo.descriptionMaxLength);
 
   const html = renderLayout({
     route: pageEntry.route,
-    title: normalizedTitle,
-    description: normalizedDescription,
+    title: pageEntry.page.title,
+    description: pageEntry.page.description,
     canonical: pageEntry.canonical,
     content: pageEntry.page.content,
     extraSchema: pageEntry.page.extraSchema || [],
@@ -290,7 +382,7 @@ function renderPageEntry(pageEntry) {
     preloadImages: pageEntry.page.preloadImages || []
   });
 
-  pageEntry.html = normalizeImageTags(html);
+  pageEntry.html = normalizeImageTags(html, responsiveImageIndex);
   pageEntry.textContent = pageEntry.page.content.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
   pageEntry.type = pageEntry.pageType;
 }
@@ -311,10 +403,12 @@ function addPage(pageEntries, route, page, explicitType = "") {
   pageEntries.push(entry);
 }
 
-function build() {
+async function build() {
   fs.rmSync(distDir, { recursive: true, force: true });
   fs.mkdirSync(distDir, { recursive: true });
   copyDirectory(publicDir, distDir);
+  const imageDir = path.join(distDir, "assets", "images");
+  const imageOptimization = await optimizeImagesForPerformance(imageDir);
 
   const pageEntries = [];
 
@@ -370,7 +464,7 @@ function build() {
     addPage(pageEntries, route, post, "blog");
   });
 
-  pageEntries.forEach((entry) => renderPageEntry(entry));
+  pageEntries.forEach((entry) => renderPageEntry(entry, imageOptimization.responsiveImageIndex));
 
   const qualityAudit = pageEntries.map((entry) => createPageQualityAudit({ page: entry }));
 
@@ -389,7 +483,7 @@ function build() {
     }
   });
 
-  pageEntries.forEach((entry) => renderPageEntry(entry));
+  pageEntries.forEach((entry) => renderPageEntry(entry, imageOptimization.responsiveImageIndex));
 
   pageEntries.forEach((entry) => {
     writeFile(entry.route, entry.html);
@@ -419,6 +513,10 @@ function build() {
   createImagePlaceholders(allImageNames);
 
   const performanceReport = createPerformanceReport(pageEntries, imageManifest, distDir);
+  const performanceReportWithOptimization = {
+    ...performanceReport,
+    imageOptimization: imageOptimization.summary
+  };
 
   const qualityWarnings = qualityAudit.filter((item) => item.issues.length > 0);
   const excludedFromSitemap = pageEntries.filter((page) => page.excludeFromSitemap).map((page) => page.route);
@@ -438,7 +536,10 @@ function build() {
         1000
     ) / 1000;
   const duplicateRiskMax = Math.max(...seoAudit.pageAudits.map((page) => page.duplicateRiskScore));
-  const missingSeoElements = seoAudit.pageAudits.reduce((sum, page) => sum + page.issues.length, 0);
+  const missingSeoElements = seoAudit.pageAudits.reduce(
+    (sum, page) => sum + page.issues.filter((issue) => issue.startsWith("missing_")).length,
+    0
+  );
 
   const buildSummary = {
     totalPages: pageEntries.length + 1,
@@ -468,6 +569,7 @@ function build() {
     missingSeoElements,
     imageIssues: imageIssueCounts
   };
+  buildSummary.imageOptimization = imageOptimization.summary;
 
   const pageQualityReport = {
     thresholds: contentRules,
@@ -482,6 +584,17 @@ function build() {
 
   const seoAuditReport = {
     ...seoAudit,
+    seoChecks: {
+      missingTitles: seoAudit.pageAudits.filter((page) => page.issues.includes("missing_title")).map((page) => page.route),
+      missingMetaDescriptions: seoAudit.pageAudits
+        .filter((page) => page.issues.includes("missing_meta_description"))
+        .map((page) => page.route),
+      missingAltText: imageIssues
+        .filter((issue) => issue.issue === "missing_image_alt")
+        .map((issue) => issue.route),
+      duplicateH1Groups: seoAudit.duplicateH1s,
+      duplicateMetaDescriptionGroups: seoAudit.duplicateMetaDescriptions
+    },
     imageIssues,
     imageIssueCounts,
     pagesMarkedNoindex: noindexPages,
@@ -541,7 +654,7 @@ function build() {
   fs.writeFileSync(path.join(distDir, "internal-link-audit.json"), JSON.stringify(internalLinkAudit, null, 2), "utf8");
   fs.writeFileSync(path.join(distDir, "canonical-audit.json"), JSON.stringify(canonicalAudit, null, 2), "utf8");
   fs.writeFileSync(path.join(distDir, "build-audit.json"), JSON.stringify(buildAuditReport, null, 2), "utf8");
-  fs.writeFileSync(path.join(distDir, "performance-report.json"), JSON.stringify(performanceReport, null, 2), "utf8");
+  fs.writeFileSync(path.join(distDir, "performance-report.json"), JSON.stringify(performanceReportWithOptimization, null, 2), "utf8");
   fs.writeFileSync(path.join(distDir, "image-manifest.json"), JSON.stringify(imageManifest, null, 2), "utf8");
   fs.writeFileSync(path.join(distDir, "content-uniqueness.json"), JSON.stringify(uniquenessReport, null, 2), "utf8");
 
@@ -549,5 +662,8 @@ function build() {
   console.log(JSON.stringify(buildSummary, null, 2));
 }
 
-build();
+build().catch((error) => {
+  console.error("Build failed.", error);
+  process.exit(1);
+});
 

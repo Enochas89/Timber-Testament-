@@ -24,6 +24,16 @@ body {
   line-height: 1.6;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
 a {
   color: #7a3c18;
   text-decoration-thickness: 2px;
@@ -353,8 +363,10 @@ section {
 .home-intro,
 .home-specialties,
 .home-services,
+.home-process,
 .home-archive,
 .home-area,
+.home-contact-signals,
 .home-commission,
 .home-main .conversion-block {
   width: min(1200px, 92vw);
@@ -418,14 +430,18 @@ section {
 
 .home-intro,
 .home-services,
+.home-process,
 .home-area,
+.home-contact-signals,
 .home-commission,
 .home-main .conversion-block {
   padding: 2.2rem 2rem;
 }
 
 .home-intro,
+.home-process,
 .home-area,
+.home-contact-signals,
 .home-main .conversion-block {
   background: var(--charcoal-grain);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -433,7 +449,9 @@ section {
 
 .home-intro h2,
 .home-services h2,
+.home-process h2,
 .home-area h2,
+.home-contact-signals h2,
 .home-commission h2,
 .home-archive h2 {
   margin-top: 0;
@@ -446,9 +464,25 @@ section {
 
 .home-intro p,
 .home-services p,
+.home-process p,
 .home-area p,
+.home-contact-signals p,
 .home-commission p {
   color: rgba(255, 255, 255, 0.56);
+}
+
+.home-process-list {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.home-process-list li {
+  margin-bottom: 0.5rem;
+}
+
+.home-process-list strong {
+  color: #fff;
 }
 
 .home-money-links {
@@ -821,6 +855,8 @@ section {
 }
 
 .home-area,
+.home-process,
+.home-contact-signals,
 .home-commission,
 .home-main .conversion-block {
   margin-top: 1rem;
@@ -938,8 +974,10 @@ section {
   .home-intro,
   .home-specialties,
   .home-services,
+  .home-process,
   .home-archive,
   .home-area,
+  .home-contact-signals,
   .home-commission,
   .home-main .conversion-block {
     width: min(1200px, 94vw);
