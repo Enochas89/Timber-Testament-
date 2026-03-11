@@ -4,7 +4,7 @@ const business = {
   legalName: "Timber & Testament Custom Carpentry",
   type: "Custom Carpentry / Finish Carpentry / Woodworking",
   category: "Carpenter",
-  phone: "865-599-9531",
+  phone: "865.200.1604",
   email: "build@timbertestament.com",
   website: "https://www.timbertestament.com",
   streetAddress: "1250 Inman Street East",
