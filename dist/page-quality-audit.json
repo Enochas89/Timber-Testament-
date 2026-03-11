@@ -22,10 +22,10 @@
     {
       "route": "/home",
       "pageType": "home",
-      "wordCount": 794,
+      "wordCount": 842,
       "localMentions": 15,
       "serviceMentions": 7,
-      "paragraphCount": 34,
+      "paragraphCount": 40,
       "issues": [],
       "noindexRecommended": false,
       "excludeFromSitemapRecommended": false

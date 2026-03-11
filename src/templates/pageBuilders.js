@@ -42,14 +42,27 @@ function renderHomePage({ services, cities, projects }) {
     byServiceName("Accent Walls")
   ]
     .filter(Boolean)
-    .map(
-      (service) => `
-      <article class="home-service-card reveal">
+    .map((service, idx) => {
+      const points = (service.sellingPoints || service.commonUseCases || [])
+        .slice(0, 2)
+        .map((point) => `<li>${point}</li>`)
+        .join("");
+
+      return `
+      <article class="home-service-card reveal" style="transition-delay: ${idx * 80}ms;">
+        <div class="home-service-head">
+          <p class="home-service-kicker">${service.category}</p>
+          <span class="home-service-index">${String(idx + 1).padStart(2, "0")}</span>
+        </div>
         <h3>${service.name}</h3>
         <p>${service.heroFocus}. Popular uses include ${service.commonUseCases.slice(0, 2).join(" and ")}.</p>
-        <a href="/services/${serviceSlug(service.name)}/">View ${service.name} pages</a>
-      </article>`
-    )
+        <ul class="home-service-points">${points}</ul>
+        <a class="home-service-link" href="/services/${serviceSlug(service.name)}/">
+          <span>View ${service.name} pages</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </article>`;
+    })
     .join("");
 
   const archiveCards = projects
