@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const { createSeoPageEntries, writeSeoSummary } = require("./generateSeoPages");
 
 const {
   business,
@@ -202,10 +203,13 @@ function routePriority(route, pageType) {
   if (Object.prototype.hasOwnProperty.call(sitemap.priorities, route)) {
     return sitemap.priorities[route];
   }
+  if (pageType === "money") {
+    return 0.9;
+  }
   if (route.startsWith("/services/")) {
     return 0.9;
   }
-  if (route.startsWith("/cities/")) {
+  if (route.startsWith("/cities/") || /-carpentry\/?$/.test(route)) {
     return 0.8;
   }
   if (pageType === "project") {
@@ -363,7 +367,7 @@ function createCanonicalAudit(seoAudit) {
 }
 
 function renderPageEntry(pageEntry, responsiveImageIndex = {}) {
-  const breadcrumbs = buildBreadcrumbs(pageEntry.route, pageEntry.page.h1 || pageEntry.page.title);
+  const breadcrumbs = pageEntry.page.breadcrumbs || buildBreadcrumbs(pageEntry.route, pageEntry.page.h1 || pageEntry.page.title);
   pageEntry.breadcrumbs = breadcrumbs;
   pageEntry.canonical = canonicalFor(pageEntry.route);
   pageEntry.pageType = pageEntry.type || inferPageType(pageEntry.route);
@@ -400,12 +404,18 @@ function addPage(pageEntries, route, page, explicitType = "") {
     uniquenessFingerprint: page.uniquenessFingerprint || "",
     uniquenessSource: page.uniquenessSource || ""
   };
+  const existingIndex = pageEntries.findIndex((existing) => existing.route === route);
+  if (existingIndex >= 0) {
+    pageEntries[existingIndex] = entry;
+    return;
+  }
   pageEntries.push(entry);
 }
 
 async function build() {
   fs.rmSync(distDir, { recursive: true, force: true });
   fs.mkdirSync(distDir, { recursive: true });
+  // Copies static verification files (Google Search Console, etc.) to root of deployment
   copyDirectory(publicDir, distDir);
   const imageDir = path.join(distDir, "assets", "images");
   const imageOptimization = await optimizeImagesForPerformance(imageDir);
@@ -451,6 +461,11 @@ async function build() {
       });
       addPage(pageEntries, route, page, "money");
     });
+  });
+
+  const generatedSeoPages = createSeoPageEntries({ projectPool: projects });
+  generatedSeoPages.entries.forEach((entry) => {
+    addPage(pageEntries, entry.route, entry.page, entry.type);
   });
 
   projects.forEach((project) => {
@@ -546,6 +561,10 @@ async function build() {
     generatedRoutes: pageEntries.length + 1,
     pageTypes: pageTypeCounts,
     serviceCityPages: services.length * cities.length,
+    generatedSeoPagesTotal: generatedSeoPages.summary.totalPagesGenerated,
+    generatedSeoLandingPages: generatedSeoPages.summary.serviceCityPages,
+    generatedSeoCityHubs: generatedSeoPages.summary.cityHubPages,
+    generatedSeoServiceHubs: generatedSeoPages.summary.serviceHubPages,
     serviceHubs: services.length,
     cityHubs: cities.length,
     projectPages: projects.length,
@@ -648,6 +667,7 @@ async function build() {
     }));
 
   fs.writeFileSync(path.join(distDir, "build-summary.json"), JSON.stringify(buildSummary, null, 2), "utf8");
+  writeSeoSummary(generatedSeoPages.summary, distDir);
   fs.writeFileSync(path.join(distDir, "page-quality-audit.json"), JSON.stringify(pageQualityReport, null, 2), "utf8");
   fs.writeFileSync(path.join(distDir, "seo-audit.json"), JSON.stringify(seoAuditReport, null, 2), "utf8");
   fs.writeFileSync(path.join(distDir, "title-meta-h1-audit.json"), JSON.stringify(titleMetaH1Audit, null, 2), "utf8");

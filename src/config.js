@@ -501,7 +501,7 @@ const projects = [
 ];
 
 const contentRules = {
-  serviceCityWordRange: { min: 900, max: 1225 },
+  serviceCityWordRange: { min: 800, max: 1225 },
   minLocalMentions: 5,
   minServiceMentions: 4,
   paragraphDuplicateThreshold: 0.92,

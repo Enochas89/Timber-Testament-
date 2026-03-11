@@ -112,16 +112,16 @@
     },
     {
       "route": "/services/custom-built-ins",
-      "title": "Custom Built-Ins | Timber & Testament Custom Carpentry",
-      "description": "Custom Built-Ins services throughout Southeast Tennessee and nearby North Georgia cities.",
+      "title": "Custom Built-Ins Services | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins across Cleveland and surrounding Southeast Tennessee communities with custom planning and installation.",
       "canonical": "https://www.timbertestament.com/services/custom-built-ins/",
-      "h1": "Custom Built-Ins",
+      "h1": "Custom Built-Ins by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
-      "faqSetKey": "none",
+      "faqSetKey": "service-hub:custom-built-ins:Do you offer custom built-ins across Southeast Tennessee?|How long does custom custom built-ins installation usually take?",
       "duplicateParagraphSources": [
         "/"
       ],
-      "duplicateRiskScore": 0.125,
+      "duplicateRiskScore": 0.067,
       "issues": []
     },
     {
@@ -140,44 +140,44 @@
     },
     {
       "route": "/services/finish-carpentry",
-      "title": "Finish Carpentry | Timber & Testament Custom Carpentry",
-      "description": "Finish Carpentry services throughout Southeast Tennessee and nearby North Georgia cities.",
+      "title": "Finish Carpentry Services | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry across Cleveland and surrounding Southeast Tennessee communities with custom planning and installation.",
       "canonical": "https://www.timbertestament.com/services/finish-carpentry/",
-      "h1": "Finish Carpentry",
+      "h1": "Finish Carpentry by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
-      "faqSetKey": "none",
+      "faqSetKey": "service-hub:finish-carpentry:What affects finish carpentry project pricing?",
       "duplicateParagraphSources": [
         "/"
       ],
-      "duplicateRiskScore": 0.125,
+      "duplicateRiskScore": 0.067,
       "issues": []
     },
     {
       "route": "/services/floating-shelves",
-      "title": "Floating Shelves | Timber & Testament Custom Carpentry",
-      "description": "Floating Shelves services throughout Southeast Tennessee and nearby North Georgia cities.",
+      "title": "Floating Shelves Services | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves across Cleveland and surrounding Southeast Tennessee communities with custom planning and installation.",
       "canonical": "https://www.timbertestament.com/services/floating-shelves/",
-      "h1": "Floating Shelves",
+      "h1": "Floating Shelves by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
-      "faqSetKey": "none",
+      "faqSetKey": "service-hub:floating-shelves:Do you offer floating shelves across Southeast Tennessee?",
       "duplicateParagraphSources": [
         "/"
       ],
-      "duplicateRiskScore": 0.125,
+      "duplicateRiskScore": 0.071,
       "issues": []
     },
     {
       "route": "/services/mantels",
-      "title": "Mantels | Timber & Testament Custom Carpentry",
-      "description": "Mantels services throughout Southeast Tennessee and nearby North Georgia cities.",
+      "title": "Mantels Services | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels across Cleveland and surrounding Southeast Tennessee communities with custom planning and installation.",
       "canonical": "https://www.timbertestament.com/services/mantels/",
-      "h1": "Mantels",
+      "h1": "Mantels by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
-      "faqSetKey": "none",
+      "faqSetKey": "service-hub:mantels:Can mantels be matched to existing trim and finishes?",
       "duplicateParagraphSources": [
         "/"
       ],
-      "duplicateRiskScore": 0.125,
+      "duplicateRiskScore": 0.071,
       "issues": []
     },
     {
@@ -4931,6 +4931,3409 @@
         "/"
       ],
       "duplicateRiskScore": 0.276,
+      "issues": []
+    },
+    {
+      "route": "/services/cabinetry",
+      "title": "Cabinetry Services | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry across Cleveland and surrounding Southeast Tennessee communities with custom planning and installation.",
+      "canonical": "https://www.timbertestament.com/services/cabinetry/",
+      "h1": "Cabinetry by Timber & Testament",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "service-hub:cabinetry:Do you offer cabinetry across Southeast Tennessee?|How long does custom cabinetry installation usually take?",
+      "duplicateParagraphSources": [
+        "/services/custom-built-ins",
+        "/"
+      ],
+      "duplicateRiskScore": 0.125,
+      "issues": []
+    },
+    {
+      "route": "/services/custom-libraries",
+      "title": "Custom Libraries Services | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries across Cleveland and surrounding Southeast Tennessee communities with custom planning and installation.",
+      "canonical": "https://www.timbertestament.com/services/custom-libraries/",
+      "h1": "Custom Libraries by Timber & Testament",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "service-hub:custom-libraries:Do you offer custom libraries across Southeast Tennessee?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.067,
+      "issues": []
+    },
+    {
+      "route": "/cleveland-tn-carpentry",
+      "title": "Custom Carpentry in Cleveland TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Cleveland TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/cleveland-tn-carpentry/",
+      "h1": "Custom Carpentry in Cleveland, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:cleveland-tn:Do you provide on-site estimates in Cleveland?|Do you also serve nearby communities around Cleveland?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/athens-tn-carpentry",
+      "title": "Custom Carpentry in Athens TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Athens TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/athens-tn-carpentry/",
+      "h1": "Custom Carpentry in Athens, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:athens-tn:What carpentry services are most requested in Athens TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.067,
+      "issues": []
+    },
+    {
+      "route": "/charleston-tn-carpentry",
+      "title": "Custom Carpentry in Charleston TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Charleston TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/charleston-tn-carpentry/",
+      "h1": "Custom Carpentry in Charleston, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:charleston-tn:Can projects in Charleston be completed in stages?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/ooltewah-tn-carpentry",
+      "title": "Custom Carpentry in Ooltewah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Ooltewah TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/ooltewah-tn-carpentry/",
+      "h1": "Custom Carpentry in Ooltewah, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:ooltewah-tn:What carpentry services are most requested in Ooltewah TN?|Can projects in Ooltewah be completed in stages?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": []
+    },
+    {
+      "route": "/collegedale-tn-carpentry",
+      "title": "Custom Carpentry in Collegedale TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Collegedale TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/collegedale-tn-carpentry/",
+      "h1": "Custom Carpentry in Collegedale, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:collegedale-tn:What carpentry services are most requested in Collegedale TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.067,
+      "issues": []
+    },
+    {
+      "route": "/apison-tn-carpentry",
+      "title": "Custom Carpentry in Apison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Apison TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/apison-tn-carpentry/",
+      "h1": "Custom Carpentry in Apison, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:apison-tn:Do you provide on-site estimates in Apison?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/chattanooga-tn-carpentry",
+      "title": "Custom Carpentry in Chattanooga TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Chattanooga TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/chattanooga-tn-carpentry/",
+      "h1": "Custom Carpentry in Chattanooga, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:chattanooga-tn:Can projects in Chattanooga be completed in stages?|What carpentry services are most requested in Chattanooga TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/calhoun-tn-carpentry",
+      "title": "Custom Carpentry in Calhoun TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Calhoun TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/calhoun-tn-carpentry/",
+      "h1": "Custom Carpentry in Calhoun, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:calhoun-tn:Do you also serve nearby communities around Calhoun?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/riceville-tn-carpentry",
+      "title": "Custom Carpentry in Riceville TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Riceville TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/riceville-tn-carpentry/",
+      "h1": "Custom Carpentry in Riceville, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:riceville-tn:What carpentry services are most requested in Riceville TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/benton-tn-carpentry",
+      "title": "Custom Carpentry in Benton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Benton TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/benton-tn-carpentry/",
+      "h1": "Custom Carpentry in Benton, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:benton-tn:Do you also serve nearby communities around Benton?|Do you provide on-site estimates in Benton?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": []
+    },
+    {
+      "route": "/soddy-daisy-tn-carpentry",
+      "title": "Custom Carpentry in Soddy-Daisy TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Soddy-Daisy TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/soddy-daisy-tn-carpentry/",
+      "h1": "Custom Carpentry in Soddy-Daisy, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:soddy-daisy-tn:Do you also serve nearby communities around Soddy-Daisy?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/harrison-tn-carpentry",
+      "title": "Custom Carpentry in Harrison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Harrison TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/harrison-tn-carpentry/",
+      "h1": "Custom Carpentry in Harrison, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:harrison-tn:Do you provide on-site estimates in Harrison?|Do you also serve nearby communities around Harrison?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": []
+    },
+    {
+      "route": "/dayton-tn-carpentry",
+      "title": "Custom Carpentry in Dayton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Dayton TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/dayton-tn-carpentry/",
+      "h1": "Custom Carpentry in Dayton, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:dayton-tn:Can projects in Dayton be completed in stages?|What carpentry services are most requested in Dayton TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": []
+    },
+    {
+      "route": "/georgetown-tn-carpentry",
+      "title": "Custom Carpentry in Georgetown TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Georgetown TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/georgetown-tn-carpentry/",
+      "h1": "Custom Carpentry in Georgetown, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:georgetown-tn:What carpentry services are most requested in Georgetown TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/decatur-tn-carpentry",
+      "title": "Custom Carpentry in Decatur TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Decatur TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/decatur-tn-carpentry/",
+      "h1": "Custom Carpentry in Decatur, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:decatur-tn:Do you also serve nearby communities around Decatur?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/etowah-tn-carpentry",
+      "title": "Custom Carpentry in Etowah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Etowah TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/etowah-tn-carpentry/",
+      "h1": "Custom Carpentry in Etowah, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:etowah-tn:Do you provide on-site estimates in Etowah?|Do you also serve nearby communities around Etowah?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": []
+    },
+    {
+      "route": "/englewood-tn-carpentry",
+      "title": "Custom Carpentry in Englewood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Englewood TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/englewood-tn-carpentry/",
+      "h1": "Custom Carpentry in Englewood, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:englewood-tn:Do you provide on-site estimates in Englewood?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/sale-creek-tn-carpentry",
+      "title": "Custom Carpentry in Sale Creek TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Sale Creek TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/sale-creek-tn-carpentry/",
+      "h1": "Custom Carpentry in Sale Creek, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:sale-creek-tn:Do you also serve nearby communities around Sale Creek?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/birchwood-tn-carpentry",
+      "title": "Custom Carpentry in Birchwood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Birchwood TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/birchwood-tn-carpentry/",
+      "h1": "Custom Carpentry in Birchwood, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:birchwood-tn:What carpentry services are most requested in Birchwood TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/dunlap-tn-carpentry",
+      "title": "Custom Carpentry in Dunlap TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Dunlap TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/dunlap-tn-carpentry/",
+      "h1": "Custom Carpentry in Dunlap, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:dunlap-tn:Do you also serve nearby communities around Dunlap?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/red-bank-tn-carpentry",
+      "title": "Custom Carpentry in Red Bank TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Red Bank TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/red-bank-tn-carpentry/",
+      "h1": "Custom Carpentry in Red Bank, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:red-bank-tn:Do you also serve nearby communities around Red Bank?|Do you provide on-site estimates in Red Bank?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": []
+    },
+    {
+      "route": "/signal-mountain-tn-carpentry",
+      "title": "Custom Carpentry in Signal Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Signal Mountain TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/signal-mountain-tn-carpentry/",
+      "h1": "Custom Carpentry in Signal Mountain, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:signal-mountain-tn:Do you also serve nearby communities around Signal Mountain?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": [
+        "meta_description_too_long"
+      ]
+    },
+    {
+      "route": "/lookout-mountain-tn-carpentry",
+      "title": "Custom Carpentry in Lookout Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Lookout Mountain TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/lookout-mountain-tn-carpentry/",
+      "h1": "Custom Carpentry in Lookout Mountain, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:lookout-mountain-tn:Can projects in Lookout Mountain be completed in stages?|What carpentry services are most requested in Lookout Mountain TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": [
+        "meta_description_too_long"
+      ]
+    },
+    {
+      "route": "/east-ridge-tn-carpentry",
+      "title": "Custom Carpentry in East Ridge TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in East Ridge TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/east-ridge-tn-carpentry/",
+      "h1": "Custom Carpentry in East Ridge, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:east-ridge-tn:Can projects in East Ridge be completed in stages?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.063,
+      "issues": []
+    },
+    {
+      "route": "/hixson-tn-carpentry",
+      "title": "Custom Carpentry in Hixson TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom carpentry in Hixson TN including built-ins, cabinetry, floating shelves, mantels, finish carpentry, and custom libraries.",
+      "canonical": "https://www.timbertestament.com/hixson-tn-carpentry/",
+      "h1": "Custom Carpentry in Hixson, TN",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "city-hub:hixson-tn:Can projects in Hixson be completed in stages?|What carpentry services are most requested in Hixson TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.059,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-cleveland-tn",
+      "title": "Custom Built-Ins in Cleveland TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Cleveland TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-cleveland-tn/",
+      "h1": "Custom Built-Ins in Cleveland TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:cleveland-tn:Should custom built-ins be painted or stained?|How long does a typical custom built-ins project take in Cleveland?|How much does custom built-ins cost in Cleveland TN?",
+      "duplicateParagraphSources": [
+        "/"
+      ],
+      "duplicateRiskScore": 0.045,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-athens-tn",
+      "title": "Custom Built-Ins in Athens TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Athens TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-athens-tn/",
+      "h1": "Custom Built-Ins in Athens TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:athens-tn:How is custom built-ins pricing determined in Athens TN?|How much does custom built-ins cost in Athens TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown Athens?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.217,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-charleston-tn",
+      "title": "Custom Built-Ins in Charleston TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Charleston TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-charleston-tn/",
+      "h1": "Custom Built-Ins in Charleston TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:charleston-tn:What is a typical timeline for custom built-ins in Charleston?|Do you serve neighborhoods outside downtown Charleston?|How much does custom built-ins cost in Charleston TN?|What materials do you recommend for custom built-ins in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.217,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-ooltewah-tn",
+      "title": "Custom Built-Ins in Ooltewah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Ooltewah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-ooltewah-tn/",
+      "h1": "Custom Built-Ins in Ooltewah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:ooltewah-tn:What is a typical timeline for custom built-ins in Ooltewah?|How much does custom built-ins cost in Ooltewah TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown Ooltewah?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-collegedale-tn",
+      "title": "Custom Built-Ins in Collegedale TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Collegedale TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-collegedale-tn/",
+      "h1": "Custom Built-Ins in Collegedale TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:collegedale-tn:What is a typical timeline for custom built-ins in Collegedale?|How much does custom built-ins cost in Collegedale TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown Collegedale?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-apison-tn",
+      "title": "Custom Built-Ins in Apison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Apison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-apison-tn/",
+      "h1": "Custom Built-Ins in Apison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:apison-tn:How is custom built-ins pricing determined in Apison TN?|Do you provide design guidance before installation?|Do you serve neighborhoods outside downtown Apison?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.227,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-chattanooga-tn",
+      "title": "Custom Built-Ins in Chattanooga TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Chattanooga TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-chattanooga-tn/",
+      "h1": "Custom Built-Ins in Chattanooga TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:chattanooga-tn:What is a typical timeline for custom built-ins in Chattanooga?|What materials do you recommend for custom built-ins in Tennessee homes?|How long does a typical custom built-ins project take in Chattanooga?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-calhoun-tn",
+      "title": "Custom Built-Ins in Calhoun TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Calhoun TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-calhoun-tn/",
+      "h1": "Custom Built-Ins in Calhoun TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:calhoun-tn:Should custom built-ins be painted or stained?|Can this work be phased if I have multiple rooms?|How long does a typical custom built-ins project take in Calhoun?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-riceville-tn",
+      "title": "Custom Built-Ins in Riceville TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Riceville TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-riceville-tn/",
+      "h1": "Custom Built-Ins in Riceville TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:riceville-tn:How is custom built-ins pricing determined in Riceville TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown Riceville?|How much does custom built-ins cost in Riceville TN?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-benton-tn",
+      "title": "Custom Built-Ins in Benton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Benton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-benton-tn/",
+      "h1": "Custom Built-Ins in Benton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:benton-tn:How is custom built-ins pricing determined in Benton TN?|Can this work be phased if I have multiple rooms?|How long does a typical custom built-ins project take in Benton?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-soddy-daisy-tn",
+      "title": "Custom Built-Ins in Soddy-Daisy TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Soddy-Daisy TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-soddy-daisy-tn/",
+      "h1": "Custom Built-Ins in Soddy-Daisy TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:soddy-daisy-tn:Should custom built-ins be painted or stained?|Can this work be phased if I have multiple rooms?|What materials do you recommend for custom built-ins in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.227,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-harrison-tn",
+      "title": "Custom Built-Ins in Harrison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Harrison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-harrison-tn/",
+      "h1": "Custom Built-Ins in Harrison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:harrison-tn:Should custom built-ins be painted or stained?|How long does a typical custom built-ins project take in Harrison?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-dayton-tn",
+      "title": "Custom Built-Ins in Dayton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Dayton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-dayton-tn/",
+      "h1": "Custom Built-Ins in Dayton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:dayton-tn:What is a typical timeline for custom built-ins in Dayton?|How much does custom built-ins cost in Dayton TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown Dayton?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-georgetown-tn",
+      "title": "Custom Built-Ins in Georgetown TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Georgetown TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-georgetown-tn/",
+      "h1": "Custom Built-Ins in Georgetown TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:georgetown-tn:How is custom built-ins pricing determined in Georgetown TN?|How much does custom built-ins cost in Georgetown TN?|How long does a typical custom built-ins project take in Georgetown?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-decatur-tn",
+      "title": "Custom Built-Ins in Decatur TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Decatur TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-decatur-tn/",
+      "h1": "Custom Built-Ins in Decatur TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:decatur-tn:Should custom built-ins be painted or stained?|Do you provide design guidance before installation?|How much does custom built-ins cost in Decatur TN?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.227,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-etowah-tn",
+      "title": "Custom Built-Ins in Etowah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Etowah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-etowah-tn/",
+      "h1": "Custom Built-Ins in Etowah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:etowah-tn:Should custom built-ins be painted or stained?|Do you provide design guidance before installation?|What materials do you recommend for custom built-ins in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-englewood-tn",
+      "title": "Custom Built-Ins in Englewood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Englewood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-englewood-tn/",
+      "h1": "Custom Built-Ins in Englewood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:englewood-tn:How is custom built-ins pricing determined in Englewood TN?|Can this work be phased if I have multiple rooms?|What materials do you recommend for custom built-ins in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-sale-creek-tn",
+      "title": "Custom Built-Ins in Sale Creek TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Sale Creek TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-sale-creek-tn/",
+      "h1": "Custom Built-Ins in Sale Creek TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:sale-creek-tn:Should custom built-ins be painted or stained?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical custom built-ins project take in Sale Creek?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-birchwood-tn",
+      "title": "Custom Built-Ins in Birchwood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Birchwood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-birchwood-tn/",
+      "h1": "Custom Built-Ins in Birchwood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:birchwood-tn:What is a typical timeline for custom built-ins in Birchwood?|How much does custom built-ins cost in Birchwood TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown Birchwood?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-dunlap-tn",
+      "title": "Custom Built-Ins in Dunlap TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Dunlap TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-dunlap-tn/",
+      "h1": "Custom Built-Ins in Dunlap TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:dunlap-tn:Should custom built-ins be painted or stained?|Can this work be phased if I have multiple rooms?|How long does a typical custom built-ins project take in Dunlap?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-red-bank-tn",
+      "title": "Custom Built-Ins in Red Bank TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Red Bank TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-red-bank-tn/",
+      "h1": "Custom Built-Ins in Red Bank TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:red-bank-tn:How is custom built-ins pricing determined in Red Bank TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical custom built-ins project take in Red Bank?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-signal-mountain-tn",
+      "title": "Custom Built-Ins in Signal Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Signal Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-signal-mountain-tn/",
+      "h1": "Custom Built-Ins in Signal Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:signal-mountain-tn:Should custom built-ins be painted or stained?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical custom built-ins project take in Signal Mountain?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-lookout-mountain-tn",
+      "title": "Custom Built-Ins in Lookout Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Lookout Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-lookout-mountain-tn/",
+      "h1": "Custom Built-Ins in Lookout Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:lookout-mountain-tn:What is a typical timeline for custom built-ins in Lookout Mountain?|How much does custom built-ins cost in Lookout Mountain TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown Lookout Mountain?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-east-ridge-tn",
+      "title": "Custom Built-Ins in East Ridge TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in East Ridge TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-east-ridge-tn/",
+      "h1": "Custom Built-Ins in East Ridge TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:east-ridge-tn:How is custom built-ins pricing determined in East Ridge TN?|How much does custom built-ins cost in East Ridge TN?|What materials do you recommend for custom built-ins in Tennessee homes?|Do you serve neighborhoods outside downtown East Ridge?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-built-ins-hixson-tn",
+      "title": "Custom Built-Ins in Hixson TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom built-ins in Hixson TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-built-ins-hixson-tn/",
+      "h1": "Custom Built-Ins in Hixson TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-built-ins:hixson-tn:How is custom built-ins pricing determined in Hixson TN?|How much does custom built-ins cost in Hixson TN?|Can this work be phased if I have multiple rooms?|How long does a typical custom built-ins project take in Hixson?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-cleveland-tn",
+      "title": "Cabinetry in Cleveland TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Cleveland TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-cleveland-tn/",
+      "h1": "Cabinetry in Cleveland TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:cleveland-tn:How is cabinetry pricing determined in Cleveland TN?|How long does a typical cabinetry project take in Cleveland?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-athens-tn",
+      "title": "Cabinetry in Athens TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Athens TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-athens-tn/",
+      "h1": "Cabinetry in Athens TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:athens-tn:Can hardware and accessories be customized for cabinetry?|What materials do you recommend for cabinetry in Tennessee homes?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-charleston-tn",
+      "title": "Cabinetry in Charleston TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Charleston TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-charleston-tn/",
+      "h1": "Cabinetry in Charleston TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:charleston-tn:Can hardware and accessories be customized for cabinetry?|What materials do you recommend for cabinetry in Tennessee homes?|How long does a typical cabinetry project take in Charleston?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-ooltewah-tn",
+      "title": "Cabinetry in Ooltewah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Ooltewah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-ooltewah-tn/",
+      "h1": "Cabinetry in Ooltewah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:ooltewah-tn:Can hardware and accessories be customized for cabinetry?|Do you serve neighborhoods outside downtown Ooltewah?|How much does cabinetry cost in Ooltewah TN?|What materials do you recommend for cabinetry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-ooltewah-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-collegedale-tn",
+      "title": "Cabinetry in Collegedale TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Collegedale TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-collegedale-tn/",
+      "h1": "Cabinetry in Collegedale TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:collegedale-tn:Can hardware and accessories be customized for cabinetry?|Do you serve neighborhoods outside downtown Collegedale?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-collegedale-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-apison-tn",
+      "title": "Cabinetry in Apison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Apison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-apison-tn/",
+      "h1": "Cabinetry in Apison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:apison-tn:How is cabinetry pricing determined in Apison TN?|Can this work be phased if I have multiple rooms?|How long does a typical cabinetry project take in Apison?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-chattanooga-tn",
+      "title": "Cabinetry in Chattanooga TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Chattanooga TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-chattanooga-tn/",
+      "h1": "Cabinetry in Chattanooga TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:chattanooga-tn:Can hardware and accessories be customized for cabinetry?|What materials do you recommend for cabinetry in Tennessee homes?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-chattanooga-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-calhoun-tn",
+      "title": "Cabinetry in Calhoun TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Calhoun TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-calhoun-tn/",
+      "h1": "Cabinetry in Calhoun TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:calhoun-tn:How is cabinetry pricing determined in Calhoun TN?|Can this work be phased if I have multiple rooms?|How long does a typical cabinetry project take in Calhoun?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-riceville-tn",
+      "title": "Cabinetry in Riceville TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Riceville TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-riceville-tn/",
+      "h1": "Cabinetry in Riceville TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:riceville-tn:Can hardware and accessories be customized for cabinetry?|How much does cabinetry cost in Riceville TN?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-riceville-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-benton-tn",
+      "title": "Cabinetry in Benton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Benton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-benton-tn/",
+      "h1": "Cabinetry in Benton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:benton-tn:How is cabinetry pricing determined in Benton TN?|Do you provide design guidance before installation?|Do you serve neighborhoods outside downtown Benton?|How much does cabinetry cost in Benton TN?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-benton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-soddy-daisy-tn",
+      "title": "Cabinetry in Soddy-Daisy TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Soddy-Daisy TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-soddy-daisy-tn/",
+      "h1": "Cabinetry in Soddy-Daisy TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:soddy-daisy-tn:How is cabinetry pricing determined in Soddy-Daisy TN?|Can this work be phased if I have multiple rooms?|How much does cabinetry cost in Soddy-Daisy TN?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-soddy-daisy-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-harrison-tn",
+      "title": "Cabinetry in Harrison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Harrison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-harrison-tn/",
+      "h1": "Cabinetry in Harrison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:harrison-tn:How is cabinetry pricing determined in Harrison TN?|How long does a typical cabinetry project take in Harrison?|How much does cabinetry cost in Harrison TN?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-harrison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-dayton-tn",
+      "title": "Cabinetry in Dayton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Dayton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-dayton-tn/",
+      "h1": "Cabinetry in Dayton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:dayton-tn:How is cabinetry pricing determined in Dayton TN?|What materials do you recommend for cabinetry in Tennessee homes?|How long does a typical cabinetry project take in Dayton?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-dayton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-georgetown-tn",
+      "title": "Cabinetry in Georgetown TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Georgetown TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-georgetown-tn/",
+      "h1": "Cabinetry in Georgetown TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:georgetown-tn:How is cabinetry pricing determined in Georgetown TN?|Do you serve neighborhoods outside downtown Georgetown?|How much does cabinetry cost in Georgetown TN?|What materials do you recommend for cabinetry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-georgetown-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-decatur-tn",
+      "title": "Cabinetry in Decatur TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Decatur TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-decatur-tn/",
+      "h1": "Cabinetry in Decatur TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:decatur-tn:How is cabinetry pricing determined in Decatur TN?|Do you provide design guidance before installation?|Do you serve neighborhoods outside downtown Decatur?|How much does cabinetry cost in Decatur TN?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-decatur-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-etowah-tn",
+      "title": "Cabinetry in Etowah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Etowah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-etowah-tn/",
+      "h1": "Cabinetry in Etowah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:etowah-tn:How is cabinetry pricing determined in Etowah TN?|Can this work be phased if I have multiple rooms?|How long does a typical cabinetry project take in Etowah?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-etowah-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-englewood-tn",
+      "title": "Cabinetry in Englewood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Englewood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-englewood-tn/",
+      "h1": "Cabinetry in Englewood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:englewood-tn:How is cabinetry pricing determined in Englewood TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical cabinetry project take in Englewood?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-englewood-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-sale-creek-tn",
+      "title": "Cabinetry in Sale Creek TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Sale Creek TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-sale-creek-tn/",
+      "h1": "Cabinetry in Sale Creek TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:sale-creek-tn:How is cabinetry pricing determined in Sale Creek TN?|Do you provide design guidance before installation?|What materials do you recommend for cabinetry in Tennessee homes?|Do you serve neighborhoods outside downtown Sale Creek?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-sale-creek-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-birchwood-tn",
+      "title": "Cabinetry in Birchwood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Birchwood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-birchwood-tn/",
+      "h1": "Cabinetry in Birchwood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:birchwood-tn:How is cabinetry pricing determined in Birchwood TN?|What materials do you recommend for cabinetry in Tennessee homes?|Do you serve neighborhoods outside downtown Birchwood?|How much does cabinetry cost in Birchwood TN?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-birchwood-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-dunlap-tn",
+      "title": "Cabinetry in Dunlap TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Dunlap TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-dunlap-tn/",
+      "h1": "Cabinetry in Dunlap TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:dunlap-tn:How is cabinetry pricing determined in Dunlap TN?|Do you provide design guidance before installation?|How much does cabinetry cost in Dunlap TN?|What materials do you recommend for cabinetry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-dunlap-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-red-bank-tn",
+      "title": "Cabinetry in Red Bank TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Red Bank TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-red-bank-tn/",
+      "h1": "Cabinetry in Red Bank TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:red-bank-tn:How is cabinetry pricing determined in Red Bank TN?|How long does a typical cabinetry project take in Red Bank?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-red-bank-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-signal-mountain-tn",
+      "title": "Cabinetry in Signal Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Signal Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-signal-mountain-tn/",
+      "h1": "Cabinetry in Signal Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:signal-mountain-tn:How is cabinetry pricing determined in Signal Mountain TN?|How long does a typical cabinetry project take in Signal Mountain?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-signal-mountain-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-lookout-mountain-tn",
+      "title": "Cabinetry in Lookout Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Lookout Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-lookout-mountain-tn/",
+      "h1": "Cabinetry in Lookout Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:lookout-mountain-tn:How is cabinetry pricing determined in Lookout Mountain TN?|What materials do you recommend for cabinetry in Tennessee homes?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-lookout-mountain-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-east-ridge-tn",
+      "title": "Cabinetry in East Ridge TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in East Ridge TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-east-ridge-tn/",
+      "h1": "Cabinetry in East Ridge TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:east-ridge-tn:How is cabinetry pricing determined in East Ridge TN?|How much does cabinetry cost in East Ridge TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-east-ridge-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/cabinetry-hixson-tn",
+      "title": "Cabinetry in Hixson TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides cabinetry in Hixson TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/cabinetry-hixson-tn/",
+      "h1": "Cabinetry in Hixson TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:cabinetry:hixson-tn:Can hardware and accessories be customized for cabinetry?|What materials do you recommend for cabinetry in Tennessee homes?|Do you serve neighborhoods outside downtown Hixson?|How much does cabinetry cost in Hixson TN?",
+      "duplicateParagraphSources": [
+        "/cabinetry-cleveland-tn",
+        "/cabinetry-cleveland-tn",
+        "/custom-built-ins-hixson-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-cleveland-tn",
+      "title": "Floating Shelves in Cleveland TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Cleveland TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-cleveland-tn/",
+      "h1": "Floating Shelves in Cleveland TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:cleveland-tn:How is floating shelves pricing determined in Cleveland TN?|Do you provide design guidance before installation?|Do you serve neighborhoods outside downtown Cleveland?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.227,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-athens-tn",
+      "title": "Floating Shelves in Athens TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Athens TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-athens-tn/",
+      "h1": "Floating Shelves in Athens TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:athens-tn:How is floating shelves pricing determined in Athens TN?|What materials do you recommend for floating shelves in Tennessee homes?|How long does a typical floating shelves project take in Athens?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-charleston-tn",
+      "title": "Floating Shelves in Charleston TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Charleston TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-charleston-tn/",
+      "h1": "Floating Shelves in Charleston TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:charleston-tn:How is floating shelves pricing determined in Charleston TN?|How much does floating shelves cost in Charleston TN?|What materials do you recommend for floating shelves in Tennessee homes?|Do you serve neighborhoods outside downtown Charleston?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-ooltewah-tn",
+      "title": "Floating Shelves in Ooltewah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Ooltewah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-ooltewah-tn/",
+      "h1": "Floating Shelves in Ooltewah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:ooltewah-tn:How is floating shelves pricing determined in Ooltewah TN?|Do you serve neighborhoods outside downtown Ooltewah?|How long does a typical floating shelves project take in Ooltewah?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-ooltewah-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-collegedale-tn",
+      "title": "Floating Shelves in Collegedale TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Collegedale TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-collegedale-tn/",
+      "h1": "Floating Shelves in Collegedale TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:collegedale-tn:How is floating shelves pricing determined in Collegedale TN?|Do you serve neighborhoods outside downtown Collegedale?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-collegedale-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-apison-tn",
+      "title": "Floating Shelves in Apison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Apison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-apison-tn/",
+      "h1": "Floating Shelves in Apison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:apison-tn:How is floating shelves pricing determined in Apison TN?|Can this work be phased if I have multiple rooms?|How long does a typical floating shelves project take in Apison?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-chattanooga-tn",
+      "title": "Floating Shelves in Chattanooga TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Chattanooga TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-chattanooga-tn/",
+      "h1": "Floating Shelves in Chattanooga TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:chattanooga-tn:How is floating shelves pricing determined in Chattanooga TN?|What materials do you recommend for floating shelves in Tennessee homes?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-chattanooga-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-calhoun-tn",
+      "title": "Floating Shelves in Calhoun TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Calhoun TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-calhoun-tn/",
+      "h1": "Floating Shelves in Calhoun TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:calhoun-tn:How is floating shelves pricing determined in Calhoun TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical floating shelves project take in Calhoun?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-riceville-tn",
+      "title": "Floating Shelves in Riceville TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Riceville TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-riceville-tn/",
+      "h1": "Floating Shelves in Riceville TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:riceville-tn:How is floating shelves pricing determined in Riceville TN?|How much does floating shelves cost in Riceville TN?|What materials do you recommend for floating shelves in Tennessee homes?|Do you serve neighborhoods outside downtown Riceville?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-riceville-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-benton-tn",
+      "title": "Floating Shelves in Benton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Benton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-benton-tn/",
+      "h1": "Floating Shelves in Benton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:benton-tn:How is floating shelves pricing determined in Benton TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical floating shelves project take in Benton?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-benton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-soddy-daisy-tn",
+      "title": "Floating Shelves in Soddy-Daisy TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Soddy-Daisy TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-soddy-daisy-tn/",
+      "h1": "Floating Shelves in Soddy-Daisy TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:soddy-daisy-tn:How is floating shelves pricing determined in Soddy-Daisy TN?|Can this work be phased if I have multiple rooms?|How much does floating shelves cost in Soddy-Daisy TN?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-soddy-daisy-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-harrison-tn",
+      "title": "Floating Shelves in Harrison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Harrison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-harrison-tn/",
+      "h1": "Floating Shelves in Harrison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:harrison-tn:How is floating shelves pricing determined in Harrison TN?|How long does a typical floating shelves project take in Harrison?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-harrison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-dayton-tn",
+      "title": "Floating Shelves in Dayton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Dayton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-dayton-tn/",
+      "h1": "Floating Shelves in Dayton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:dayton-tn:How is floating shelves pricing determined in Dayton TN?|Do you serve neighborhoods outside downtown Dayton?|How much does floating shelves cost in Dayton TN?|What materials do you recommend for floating shelves in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-dayton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-georgetown-tn",
+      "title": "Floating Shelves in Georgetown TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Georgetown TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-georgetown-tn/",
+      "h1": "Floating Shelves in Georgetown TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:georgetown-tn:How is floating shelves pricing determined in Georgetown TN?|Do you serve neighborhoods outside downtown Georgetown?|How long does a typical floating shelves project take in Georgetown?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-georgetown-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-decatur-tn",
+      "title": "Floating Shelves in Decatur TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Decatur TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-decatur-tn/",
+      "h1": "Floating Shelves in Decatur TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:decatur-tn:How is floating shelves pricing determined in Decatur TN?|Can this work be phased if I have multiple rooms?|How much does floating shelves cost in Decatur TN?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-decatur-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-etowah-tn",
+      "title": "Floating Shelves in Etowah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Etowah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-etowah-tn/",
+      "h1": "Floating Shelves in Etowah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:etowah-tn:How is floating shelves pricing determined in Etowah TN?|Can this work be phased if I have multiple rooms?|Do you serve neighborhoods outside downtown Etowah?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-etowah-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-englewood-tn",
+      "title": "Floating Shelves in Englewood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Englewood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-englewood-tn/",
+      "h1": "Floating Shelves in Englewood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:englewood-tn:How is floating shelves pricing determined in Englewood TN?|How long does a typical floating shelves project take in Englewood?|How much does floating shelves cost in Englewood TN?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-englewood-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-sale-creek-tn",
+      "title": "Floating Shelves in Sale Creek TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Sale Creek TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-sale-creek-tn/",
+      "h1": "Floating Shelves in Sale Creek TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:sale-creek-tn:How is floating shelves pricing determined in Sale Creek TN?|Can this work be phased if I have multiple rooms?|How long does a typical floating shelves project take in Sale Creek?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-sale-creek-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-birchwood-tn",
+      "title": "Floating Shelves in Birchwood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Birchwood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-birchwood-tn/",
+      "h1": "Floating Shelves in Birchwood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:birchwood-tn:How is floating shelves pricing determined in Birchwood TN?|What materials do you recommend for floating shelves in Tennessee homes?|How long does a typical floating shelves project take in Birchwood?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-birchwood-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-dunlap-tn",
+      "title": "Floating Shelves in Dunlap TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Dunlap TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-dunlap-tn/",
+      "h1": "Floating Shelves in Dunlap TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:dunlap-tn:How is floating shelves pricing determined in Dunlap TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical floating shelves project take in Dunlap?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-dunlap-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-red-bank-tn",
+      "title": "Floating Shelves in Red Bank TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Red Bank TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-red-bank-tn/",
+      "h1": "Floating Shelves in Red Bank TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:red-bank-tn:How is floating shelves pricing determined in Red Bank TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical floating shelves project take in Red Bank?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-red-bank-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-signal-mountain-tn",
+      "title": "Floating Shelves in Signal Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Signal Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-signal-mountain-tn/",
+      "h1": "Floating Shelves in Signal Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:signal-mountain-tn:How is floating shelves pricing determined in Signal Mountain TN?|How long does a typical floating shelves project take in Signal Mountain?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-signal-mountain-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-lookout-mountain-tn",
+      "title": "Floating Shelves in Lookout Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Lookout Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-lookout-mountain-tn/",
+      "h1": "Floating Shelves in Lookout Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:lookout-mountain-tn:How is floating shelves pricing determined in Lookout Mountain TN?|How much does floating shelves cost in Lookout Mountain TN?|Can this work be phased if I have multiple rooms?|How long does a typical floating shelves project take in Lookout Mountain?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-lookout-mountain-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-east-ridge-tn",
+      "title": "Floating Shelves in East Ridge TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in East Ridge TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-east-ridge-tn/",
+      "h1": "Floating Shelves in East Ridge TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:east-ridge-tn:How is floating shelves pricing determined in East Ridge TN?|What materials do you recommend for floating shelves in Tennessee homes?|Do you serve neighborhoods outside downtown East Ridge?|How much does floating shelves cost in East Ridge TN?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-east-ridge-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/floating-shelves-hixson-tn",
+      "title": "Floating Shelves in Hixson TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides floating shelves in Hixson TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/floating-shelves-hixson-tn/",
+      "h1": "Floating Shelves in Hixson TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:floating-shelves:hixson-tn:How is floating shelves pricing determined in Hixson TN?|What materials do you recommend for floating shelves in Tennessee homes?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/floating-shelves-cleveland-tn",
+        "/custom-built-ins-hixson-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-cleveland-tn",
+      "title": "Mantels in Cleveland TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Cleveland TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-cleveland-tn/",
+      "h1": "Mantels in Cleveland TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:cleveland-tn:What is a typical timeline for mantels in Cleveland?|What materials do you recommend for mantels in Tennessee homes?|Do you serve neighborhoods outside downtown Cleveland?|How much does mantels cost in Cleveland TN?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/mantels-athens-tn",
+      "title": "Mantels in Athens TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Athens TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-athens-tn/",
+      "h1": "Mantels in Athens TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:athens-tn:How is mantels pricing determined in Athens TN?|Can this work be phased if I have multiple rooms?|How much does mantels cost in Athens TN?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-charleston-tn",
+      "title": "Mantels in Charleston TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Charleston TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-charleston-tn/",
+      "h1": "Mantels in Charleston TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:charleston-tn:How is mantels pricing determined in Charleston TN?|How long does a typical mantels project take in Charleston?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/mantels-ooltewah-tn",
+      "title": "Mantels in Ooltewah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Ooltewah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-ooltewah-tn/",
+      "h1": "Mantels in Ooltewah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:ooltewah-tn:How is mantels pricing determined in Ooltewah TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical mantels project take in Ooltewah?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-ooltewah-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/mantels-collegedale-tn",
+      "title": "Mantels in Collegedale TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Collegedale TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-collegedale-tn/",
+      "h1": "Mantels in Collegedale TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:collegedale-tn:How is mantels pricing determined in Collegedale TN?|How long does a typical mantels project take in Collegedale?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-collegedale-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/mantels-apison-tn",
+      "title": "Mantels in Apison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Apison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-apison-tn/",
+      "h1": "Mantels in Apison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:apison-tn:What is a typical timeline for mantels in Apison?|What materials do you recommend for mantels in Tennessee homes?|Do you serve neighborhoods outside downtown Apison?|How much does mantels cost in Apison TN?",
+      "duplicateParagraphSources": [
+        "/mantels-athens-tn",
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/mantels-chattanooga-tn",
+      "title": "Mantels in Chattanooga TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Chattanooga TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-chattanooga-tn/",
+      "h1": "Mantels in Chattanooga TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:chattanooga-tn:How is mantels pricing determined in Chattanooga TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical mantels project take in Chattanooga?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-chattanooga-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/mantels-calhoun-tn",
+      "title": "Mantels in Calhoun TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Calhoun TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-calhoun-tn/",
+      "h1": "Mantels in Calhoun TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:calhoun-tn:How is mantels pricing determined in Calhoun TN?|What materials do you recommend for mantels in Tennessee homes?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-riceville-tn",
+      "title": "Mantels in Riceville TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Riceville TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-riceville-tn/",
+      "h1": "Mantels in Riceville TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:riceville-tn:How is mantels pricing determined in Riceville TN?|How long does a typical mantels project take in Riceville?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-athens-tn",
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-riceville-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/mantels-benton-tn",
+      "title": "Mantels in Benton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Benton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-benton-tn/",
+      "h1": "Mantels in Benton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:benton-tn:How is mantels pricing determined in Benton TN?|How much does mantels cost in Benton TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-athens-tn",
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-benton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/mantels-soddy-daisy-tn",
+      "title": "Mantels in Soddy-Daisy TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Soddy-Daisy TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-soddy-daisy-tn/",
+      "h1": "Mantels in Soddy-Daisy TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:soddy-daisy-tn:What is a typical timeline for mantels in Soddy-Daisy?|How much does mantels cost in Soddy-Daisy TN?|What materials do you recommend for mantels in Tennessee homes?|Do you serve neighborhoods outside downtown Soddy-Daisy?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-soddy-daisy-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/mantels-harrison-tn",
+      "title": "Mantels in Harrison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Harrison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-harrison-tn/",
+      "h1": "Mantels in Harrison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:harrison-tn:How is mantels pricing determined in Harrison TN?|What materials do you recommend for mantels in Tennessee homes?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-harrison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/mantels-dayton-tn",
+      "title": "Mantels in Dayton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Dayton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-dayton-tn/",
+      "h1": "Mantels in Dayton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:dayton-tn:How is mantels pricing determined in Dayton TN?|Can this work be phased if I have multiple rooms?|What materials do you recommend for mantels in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-dayton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-georgetown-tn",
+      "title": "Mantels in Georgetown TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Georgetown TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-georgetown-tn/",
+      "h1": "Mantels in Georgetown TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:georgetown-tn:How is mantels pricing determined in Georgetown TN?|Do you provide design guidance before installation?|How much does mantels cost in Georgetown TN?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-georgetown-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-decatur-tn",
+      "title": "Mantels in Decatur TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Decatur TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-decatur-tn/",
+      "h1": "Mantels in Decatur TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:decatur-tn:What is a typical timeline for mantels in Decatur?|Do you serve neighborhoods outside downtown Decatur?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-decatur-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/mantels-etowah-tn",
+      "title": "Mantels in Etowah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Etowah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-etowah-tn/",
+      "h1": "Mantels in Etowah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:etowah-tn:What is a typical timeline for mantels in Etowah?|What materials do you recommend for mantels in Tennessee homes?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/mantels-athens-tn",
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-etowah-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/mantels-englewood-tn",
+      "title": "Mantels in Englewood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Englewood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-englewood-tn/",
+      "h1": "Mantels in Englewood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:englewood-tn:What is a typical timeline for mantels in Englewood?|How much does mantels cost in Englewood TN?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-englewood-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-sale-creek-tn",
+      "title": "Mantels in Sale Creek TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Sale Creek TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-sale-creek-tn/",
+      "h1": "Mantels in Sale Creek TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:sale-creek-tn:What is a typical timeline for mantels in Sale Creek?|Do you serve neighborhoods outside downtown Sale Creek?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-sale-creek-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/mantels-birchwood-tn",
+      "title": "Mantels in Birchwood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Birchwood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-birchwood-tn/",
+      "h1": "Mantels in Birchwood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:birchwood-tn:How is mantels pricing determined in Birchwood TN?|How long does a typical mantels project take in Birchwood?|How much does mantels cost in Birchwood TN?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-birchwood-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-dunlap-tn",
+      "title": "Mantels in Dunlap TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Dunlap TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-dunlap-tn/",
+      "h1": "Mantels in Dunlap TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:dunlap-tn:What is a typical timeline for mantels in Dunlap?|How much does mantels cost in Dunlap TN?|What materials do you recommend for mantels in Tennessee homes?|Do you serve neighborhoods outside downtown Dunlap?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-dunlap-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/mantels-red-bank-tn",
+      "title": "Mantels in Red Bank TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Red Bank TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-red-bank-tn/",
+      "h1": "Mantels in Red Bank TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:red-bank-tn:How is mantels pricing determined in Red Bank TN?|How much does mantels cost in Red Bank TN?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/mantels-athens-tn",
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-red-bank-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/mantels-signal-mountain-tn",
+      "title": "Mantels in Signal Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Signal Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-signal-mountain-tn/",
+      "h1": "Mantels in Signal Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:signal-mountain-tn:How is mantels pricing determined in Signal Mountain TN?|Do you serve neighborhoods outside downtown Signal Mountain?|How much does mantels cost in Signal Mountain TN?|What materials do you recommend for mantels in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/mantels-athens-tn",
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-signal-mountain-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/mantels-lookout-mountain-tn",
+      "title": "Mantels in Lookout Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Lookout Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-lookout-mountain-tn/",
+      "h1": "Mantels in Lookout Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:lookout-mountain-tn:How is mantels pricing determined in Lookout Mountain TN?|Can this work be phased if I have multiple rooms?|What materials do you recommend for mantels in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-lookout-mountain-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/mantels-east-ridge-tn",
+      "title": "Mantels in East Ridge TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in East Ridge TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-east-ridge-tn/",
+      "h1": "Mantels in East Ridge TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:east-ridge-tn:How is mantels pricing determined in East Ridge TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical mantels project take in East Ridge?",
+      "duplicateParagraphSources": [
+        "/mantels-athens-tn",
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-east-ridge-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/mantels-hixson-tn",
+      "title": "Mantels in Hixson TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides mantels in Hixson TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/mantels-hixson-tn/",
+      "h1": "Mantels in Hixson TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:mantels:hixson-tn:How is mantels pricing determined in Hixson TN?|Can this work be phased if I have multiple rooms?|How long does a typical mantels project take in Hixson?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/mantels-cleveland-tn",
+        "/custom-built-ins-hixson-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-cleveland-tn",
+      "title": "Finish Carpentry in Cleveland TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Cleveland TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-cleveland-tn/",
+      "h1": "Finish Carpentry in Cleveland TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:cleveland-tn:How do you handle final finish and detail work?|What materials do you recommend for finish carpentry in Tennessee homes?|Do you serve neighborhoods outside downtown Cleveland?|How much does finish carpentry cost in Cleveland TN?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.217,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-athens-tn",
+      "title": "Finish Carpentry in Athens TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Athens TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-athens-tn/",
+      "h1": "Finish Carpentry in Athens TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:athens-tn:Can you match existing trim profiles with this service?|Do you provide design guidance before installation?|Do you serve neighborhoods outside downtown Athens?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-charleston-tn",
+      "title": "Finish Carpentry in Charleston TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Charleston TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-charleston-tn/",
+      "h1": "Finish Carpentry in Charleston TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:charleston-tn:Do you provide this service for remodels and new construction?|Can this work be phased if I have multiple rooms?|Do you serve neighborhoods outside downtown Charleston?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.227,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-ooltewah-tn",
+      "title": "Finish Carpentry in Ooltewah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Ooltewah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-ooltewah-tn/",
+      "h1": "Finish Carpentry in Ooltewah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:ooltewah-tn:Can you match existing trim profiles with this service?|How long does a typical finish carpentry project take in Ooltewah?|How much does finish carpentry cost in Ooltewah TN?|What materials do you recommend for finish carpentry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-ooltewah-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-collegedale-tn",
+      "title": "Finish Carpentry in Collegedale TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Collegedale TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-collegedale-tn/",
+      "h1": "Finish Carpentry in Collegedale TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:collegedale-tn:Do you provide this service for remodels and new construction?|How long does a typical finish carpentry project take in Collegedale?|Do you serve neighborhoods outside downtown Collegedale?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-collegedale-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.227,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-apison-tn",
+      "title": "Finish Carpentry in Apison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Apison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-apison-tn/",
+      "h1": "Finish Carpentry in Apison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:apison-tn:How do you handle final finish and detail work?|Do you serve neighborhoods outside downtown Apison?|How much does finish carpentry cost in Apison TN?|What materials do you recommend for finish carpentry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-chattanooga-tn",
+      "title": "Finish Carpentry in Chattanooga TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Chattanooga TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-chattanooga-tn/",
+      "h1": "Finish Carpentry in Chattanooga TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:chattanooga-tn:Can you match existing trim profiles with this service?|How long does a typical finish carpentry project take in Chattanooga?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-chattanooga-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-calhoun-tn",
+      "title": "Finish Carpentry in Calhoun TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Calhoun TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-calhoun-tn/",
+      "h1": "Finish Carpentry in Calhoun TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:calhoun-tn:How long does on-site installation usually take?|How much does finish carpentry cost in Calhoun TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-riceville-tn",
+      "title": "Finish Carpentry in Riceville TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Riceville TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-riceville-tn/",
+      "h1": "Finish Carpentry in Riceville TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:riceville-tn:Do you provide this service for remodels and new construction?|Can this work be phased if I have multiple rooms?|What materials do you recommend for finish carpentry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-riceville-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-benton-tn",
+      "title": "Finish Carpentry in Benton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Benton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-benton-tn/",
+      "h1": "Finish Carpentry in Benton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:benton-tn:How do you handle final finish and detail work?|Do you serve neighborhoods outside downtown Benton?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-benton-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-soddy-daisy-tn",
+      "title": "Finish Carpentry in Soddy-Daisy TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Soddy-Daisy TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-soddy-daisy-tn/",
+      "h1": "Finish Carpentry in Soddy-Daisy TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:soddy-daisy-tn:How long does on-site installation usually take?|Do you serve neighborhoods outside downtown Soddy-Daisy?|How much does finish carpentry cost in Soddy-Daisy TN?|What materials do you recommend for finish carpentry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-soddy-daisy-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-harrison-tn",
+      "title": "Finish Carpentry in Harrison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Harrison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-harrison-tn/",
+      "h1": "Finish Carpentry in Harrison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:harrison-tn:How do you handle final finish and detail work?|Do you serve neighborhoods outside downtown Harrison?|How much does finish carpentry cost in Harrison TN?|What materials do you recommend for finish carpentry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-harrison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-dayton-tn",
+      "title": "Finish Carpentry in Dayton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Dayton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-dayton-tn/",
+      "h1": "Finish Carpentry in Dayton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:dayton-tn:Do you provide this service for remodels and new construction?|Do you provide design guidance before installation?|How much does finish carpentry cost in Dayton TN?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-dayton-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.318,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-georgetown-tn",
+      "title": "Finish Carpentry in Georgetown TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Georgetown TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-georgetown-tn/",
+      "h1": "Finish Carpentry in Georgetown TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:georgetown-tn:Can you match existing trim profiles with this service?|How long does a typical finish carpentry project take in Georgetown?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-georgetown-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-decatur-tn",
+      "title": "Finish Carpentry in Decatur TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Decatur TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-decatur-tn/",
+      "h1": "Finish Carpentry in Decatur TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:decatur-tn:How do you handle final finish and detail work?|What materials do you recommend for finish carpentry in Tennessee homes?|Do you serve neighborhoods outside downtown Decatur?|How much does finish carpentry cost in Decatur TN?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-decatur-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-etowah-tn",
+      "title": "Finish Carpentry in Etowah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Etowah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-etowah-tn/",
+      "h1": "Finish Carpentry in Etowah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:etowah-tn:How long does on-site installation usually take?|How much does finish carpentry cost in Etowah TN?|Can this work be phased if I have multiple rooms?|How long does a typical finish carpentry project take in Etowah?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-etowah-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-englewood-tn",
+      "title": "Finish Carpentry in Englewood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Englewood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-englewood-tn/",
+      "h1": "Finish Carpentry in Englewood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:englewood-tn:How do you handle final finish and detail work?|Do you serve neighborhoods outside downtown Englewood?|How much does finish carpentry cost in Englewood TN?|What materials do you recommend for finish carpentry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-englewood-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-sale-creek-tn",
+      "title": "Finish Carpentry in Sale Creek TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Sale Creek TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-sale-creek-tn/",
+      "h1": "Finish Carpentry in Sale Creek TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:sale-creek-tn:How long does on-site installation usually take?|How much does finish carpentry cost in Sale Creek TN?|How long does a typical finish carpentry project take in Sale Creek?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-sale-creek-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-birchwood-tn",
+      "title": "Finish Carpentry in Birchwood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Birchwood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-birchwood-tn/",
+      "h1": "Finish Carpentry in Birchwood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:birchwood-tn:Do you provide this service for remodels and new construction?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical finish carpentry project take in Birchwood?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-birchwood-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-dunlap-tn",
+      "title": "Finish Carpentry in Dunlap TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Dunlap TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-dunlap-tn/",
+      "h1": "Finish Carpentry in Dunlap TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:dunlap-tn:How long does on-site installation usually take?|Do you serve neighborhoods outside downtown Dunlap?|How long does a typical finish carpentry project take in Dunlap?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-dunlap-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-red-bank-tn",
+      "title": "Finish Carpentry in Red Bank TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Red Bank TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-red-bank-tn/",
+      "h1": "Finish Carpentry in Red Bank TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:red-bank-tn:How long does on-site installation usually take?|Do you serve neighborhoods outside downtown Red Bank?|How long does a typical finish carpentry project take in Red Bank?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-red-bank-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-signal-mountain-tn",
+      "title": "Finish Carpentry in Signal Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Signal Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-signal-mountain-tn/",
+      "h1": "Finish Carpentry in Signal Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:signal-mountain-tn:How do you handle final finish and detail work?|Do you serve neighborhoods outside downtown Signal Mountain?|Can this work be phased if I have multiple rooms?|How long does a typical finish carpentry project take in Signal Mountain?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-signal-mountain-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-lookout-mountain-tn",
+      "title": "Finish Carpentry in Lookout Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Lookout Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-lookout-mountain-tn/",
+      "h1": "Finish Carpentry in Lookout Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:lookout-mountain-tn:Do you provide this service for remodels and new construction?|How long does a typical finish carpentry project take in Lookout Mountain?|How much does finish carpentry cost in Lookout Mountain TN?|What materials do you recommend for finish carpentry in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-lookout-mountain-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-east-ridge-tn",
+      "title": "Finish Carpentry in East Ridge TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in East Ridge TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-east-ridge-tn/",
+      "h1": "Finish Carpentry in East Ridge TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:east-ridge-tn:Do you provide this service for remodels and new construction?|Do you provide design guidance before installation?|How much does finish carpentry cost in East Ridge TN?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-east-ridge-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/finish-carpentry-hixson-tn",
+      "title": "Finish Carpentry in Hixson TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides finish carpentry in Hixson TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/finish-carpentry-hixson-tn/",
+      "h1": "Finish Carpentry in Hixson TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:finish-carpentry:hixson-tn:Do you provide this service for remodels and new construction?|How long does a typical finish carpentry project take in Hixson?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/finish-carpentry-cleveland-tn",
+        "/custom-built-ins-hixson-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-cleveland-tn",
+      "title": "Custom Libraries in Cleveland TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Cleveland TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-cleveland-tn/",
+      "h1": "Custom Libraries in Cleveland TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:cleveland-tn:Can you help plan an efficient library layout?|Can this work be phased if I have multiple rooms?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown Cleveland?",
+      "duplicateParagraphSources": [
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.217,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-athens-tn",
+      "title": "Custom Libraries in Athens TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Athens TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-athens-tn/",
+      "h1": "Custom Libraries in Athens TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:athens-tn:How is custom libraries pricing determined in Athens TN?|How much does custom libraries cost in Athens TN?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Athens?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-charleston-tn",
+      "title": "Custom Libraries in Charleston TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Charleston TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-charleston-tn/",
+      "h1": "Custom Libraries in Charleston TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:charleston-tn:How is custom libraries pricing determined in Charleston TN?|How much does custom libraries cost in Charleston TN?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Charleston?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-charleston-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-ooltewah-tn",
+      "title": "Custom Libraries in Ooltewah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Ooltewah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-ooltewah-tn/",
+      "h1": "Custom Libraries in Ooltewah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:ooltewah-tn:How is custom libraries pricing determined in Ooltewah TN?|How much does custom libraries cost in Ooltewah TN?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Ooltewah?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-ooltewah-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-collegedale-tn",
+      "title": "Custom Libraries in Collegedale TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Collegedale TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-collegedale-tn/",
+      "h1": "Custom Libraries in Collegedale TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:collegedale-tn:How is custom libraries pricing determined in Collegedale TN?|How much does custom libraries cost in Collegedale TN?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown Collegedale?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-collegedale-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-apison-tn",
+      "title": "Custom Libraries in Apison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Apison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-apison-tn/",
+      "h1": "Custom Libraries in Apison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:apison-tn:How is custom libraries pricing determined in Apison TN?|How long does a typical custom libraries project take in Apison?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-chattanooga-tn",
+      "title": "Custom Libraries in Chattanooga TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Chattanooga TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-chattanooga-tn/",
+      "h1": "Custom Libraries in Chattanooga TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:chattanooga-tn:How is custom libraries pricing determined in Chattanooga TN?|What materials do you recommend for custom libraries in Tennessee homes?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-chattanooga-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.364,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-calhoun-tn",
+      "title": "Custom Libraries in Calhoun TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Calhoun TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-calhoun-tn/",
+      "h1": "Custom Libraries in Calhoun TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:calhoun-tn:Can you help plan an efficient library layout?|How long does a typical custom libraries project take in Calhoun?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-riceville-tn",
+      "title": "Custom Libraries in Riceville TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Riceville TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-riceville-tn/",
+      "h1": "Custom Libraries in Riceville TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:riceville-tn:How is custom libraries pricing determined in Riceville TN?|Do you serve neighborhoods outside downtown Riceville?|How much does custom libraries cost in Riceville TN?|What materials do you recommend for custom libraries in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-riceville-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-benton-tn",
+      "title": "Custom Libraries in Benton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Benton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-benton-tn/",
+      "h1": "Custom Libraries in Benton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:benton-tn:How is custom libraries pricing determined in Benton TN?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Benton?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-benton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-soddy-daisy-tn",
+      "title": "Custom Libraries in Soddy-Daisy TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Soddy-Daisy TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-soddy-daisy-tn/",
+      "h1": "Custom Libraries in Soddy-Daisy TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:soddy-daisy-tn:Can you help plan an efficient library layout?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Soddy-Daisy?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-soddy-daisy-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-harrison-tn",
+      "title": "Custom Libraries in Harrison TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Harrison TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-harrison-tn/",
+      "h1": "Custom Libraries in Harrison TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:harrison-tn:Can you help plan an efficient library layout?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Harrison?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-harrison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-dayton-tn",
+      "title": "Custom Libraries in Dayton TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Dayton TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-dayton-tn/",
+      "h1": "Custom Libraries in Dayton TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:dayton-tn:How is custom libraries pricing determined in Dayton TN?|How much does custom libraries cost in Dayton TN?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown Dayton?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-dayton-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-georgetown-tn",
+      "title": "Custom Libraries in Georgetown TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Georgetown TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-georgetown-tn/",
+      "h1": "Custom Libraries in Georgetown TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:georgetown-tn:How is custom libraries pricing determined in Georgetown TN?|How much does custom libraries cost in Georgetown TN?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown Georgetown?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-georgetown-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-decatur-tn",
+      "title": "Custom Libraries in Decatur TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Decatur TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-decatur-tn/",
+      "h1": "Custom Libraries in Decatur TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:decatur-tn:Can you help plan an efficient library layout?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Decatur?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-decatur-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-etowah-tn",
+      "title": "Custom Libraries in Etowah TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Etowah TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-etowah-tn/",
+      "h1": "Custom Libraries in Etowah TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:etowah-tn:Can you help plan an efficient library layout?|Do you provide design guidance before installation?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown Etowah?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-etowah-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.261,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-englewood-tn",
+      "title": "Custom Libraries in Englewood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Englewood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-englewood-tn/",
+      "h1": "Custom Libraries in Englewood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:englewood-tn:How is custom libraries pricing determined in Englewood TN?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Englewood?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-englewood-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-sale-creek-tn",
+      "title": "Custom Libraries in Sale Creek TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Sale Creek TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-sale-creek-tn/",
+      "h1": "Custom Libraries in Sale Creek TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:sale-creek-tn:Can you help plan an efficient library layout?|How long does a typical custom libraries project take in Sale Creek?|How much does custom libraries cost in Sale Creek TN?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-sale-creek-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.273,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-birchwood-tn",
+      "title": "Custom Libraries in Birchwood TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Birchwood TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-birchwood-tn/",
+      "h1": "Custom Libraries in Birchwood TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:birchwood-tn:How is custom libraries pricing determined in Birchwood TN?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown Birchwood?|How much does custom libraries cost in Birchwood TN?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-birchwood-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-dunlap-tn",
+      "title": "Custom Libraries in Dunlap TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Dunlap TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-dunlap-tn/",
+      "h1": "Custom Libraries in Dunlap TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:dunlap-tn:Can you help plan an efficient library layout?|Can this work be phased if I have multiple rooms?|How long does a typical custom libraries project take in Dunlap?|Do you provide design guidance before installation?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-dunlap-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-red-bank-tn",
+      "title": "Custom Libraries in Red Bank TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Red Bank TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-red-bank-tn/",
+      "h1": "Custom Libraries in Red Bank TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:red-bank-tn:How is custom libraries pricing determined in Red Bank TN?|How long does a typical custom libraries project take in Red Bank?|Do you provide design guidance before installation?|Can this work be phased if I have multiple rooms?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-red-bank-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-apison-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.391,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-signal-mountain-tn",
+      "title": "Custom Libraries in Signal Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Signal Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-signal-mountain-tn/",
+      "h1": "Custom Libraries in Signal Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:signal-mountain-tn:Can you help plan an efficient library layout?|Can this work be phased if I have multiple rooms?|Do you serve neighborhoods outside downtown Signal Mountain?|How much does custom libraries cost in Signal Mountain TN?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-signal-mountain-tn",
+        "/custom-built-ins-calhoun-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-lookout-mountain-tn",
+      "title": "Custom Libraries in Lookout Mountain TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Lookout Mountain TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-lookout-mountain-tn/",
+      "h1": "Custom Libraries in Lookout Mountain TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:lookout-mountain-tn:How is custom libraries pricing determined in Lookout Mountain TN?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown Lookout Mountain?|How much does custom libraries cost in Lookout Mountain TN?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-lookout-mountain-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.304,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-east-ridge-tn",
+      "title": "Custom Libraries in East Ridge TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in East Ridge TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-east-ridge-tn/",
+      "h1": "Custom Libraries in East Ridge TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:east-ridge-tn:How is custom libraries pricing determined in East Ridge TN?|How much does custom libraries cost in East Ridge TN?|What materials do you recommend for custom libraries in Tennessee homes?|Do you serve neighborhoods outside downtown East Ridge?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-east-ridge-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
+      "issues": []
+    },
+    {
+      "route": "/custom-libraries-hixson-tn",
+      "title": "Custom Libraries in Hixson TN | Timber & Testament",
+      "description": "Timber & Testament Custom Carpentry provides custom libraries in Hixson TN with custom planning, installation details, FAQ guidance, and quote options.",
+      "canonical": "https://www.timbertestament.com/custom-libraries-hixson-tn/",
+      "h1": "Custom Libraries in Hixson TN: Local Homeowner Guide",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "seo:custom-libraries:hixson-tn:How is custom libraries pricing determined in Hixson TN?|Do you serve neighborhoods outside downtown Hixson?|How much does custom libraries cost in Hixson TN?|What materials do you recommend for custom libraries in Tennessee homes?",
+      "duplicateParagraphSources": [
+        "/custom-libraries-cleveland-tn",
+        "/custom-libraries-cleveland-tn",
+        "/custom-built-ins-hixson-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/custom-built-ins-athens-tn",
+        "/custom-built-ins-cleveland-tn",
+        "/"
+      ],
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {

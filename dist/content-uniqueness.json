@@ -1,5 +1,25 @@
 [
   {
+    "route": "/services/custom-built-ins",
+    "fingerprint": "hub-service-65fa994d",
+    "sourceSummary": "service-hub-custom-built-ins|materials:white oak,walnut,paint-grade hardwoods,furniture-grade plywood cores"
+  },
+  {
+    "route": "/services/finish-carpentry",
+    "fingerprint": "hub-service-11525ff4",
+    "sourceSummary": "service-hub-finish-carpentry|materials:paint-grade trim stock,stain-grade hardwood trim,caulk and finish products"
+  },
+  {
+    "route": "/services/floating-shelves",
+    "fingerprint": "hub-service-6bd4b791",
+    "sourceSummary": "service-hub-floating-shelves|materials:solid oak,walnut,maple,powder-coated steel support hardware"
+  },
+  {
+    "route": "/services/mantels",
+    "fingerprint": "hub-service-29452fde",
+    "sourceSummary": "service-hub-mantels|materials:alder,oak,maple,engineered beam cores"
+  },
+  {
     "route": "/services/custom-carpentry-cleveland-tn",
     "fingerprint": "u-37fa921e",
     "sourceSummary": "{\"intro\":\"Across Cleveland TN, clients call us for Custom Carpentry that feels integrated with the architecture rather than added as an afterthought.\",\"localBlurb\":\"Projects in Cleveland TN often require balancing style upgrades with practical durability for a"
@@ -1123,5 +1143,890 @@
     "route": "/services/custom-wall-paneling-dalton-ga",
     "fingerprint": "u-36d50c22",
     "sourceSummary": "{\"intro\":\"If you are planning Custom Wall Paneling in Dalton GA, the right result starts with precise layout, material choices, and finish-level installation.\",\"localBlurb\":\"Projects in Dalton GA often require balancing style upgrades with practical durability"
+  },
+  {
+    "route": "/services/cabinetry",
+    "fingerprint": "hub-service-44796551",
+    "sourceSummary": "service-hub-cabinetry|materials:maple,oak,paint-grade hardwood,soft-close hardware"
+  },
+  {
+    "route": "/services/custom-libraries",
+    "fingerprint": "hub-service-1d28b52d",
+    "sourceSummary": "service-hub-custom-libraries|materials:walnut,oak,maple,paint-grade hardwood"
+  },
+  {
+    "route": "/cleveland-tn-carpentry",
+    "fingerprint": "hub-city-438db395",
+    "sourceSummary": "city-hub-cleveland-tn|notes:Many Cleveland homeowners want built-ins that maximize wall space while matching existing trim lines. Cabinetry and library walls are common"
+  },
+  {
+    "route": "/athens-tn-carpentry",
+    "fingerprint": "hub-city-46dc4158",
+    "sourceSummary": "city-hub-athens-tn|notes:Athens remodels often combine practical cabinetry upgrades with trim refinements. Homeowners frequently request floating shelves and built-i"
+  },
+  {
+    "route": "/charleston-tn-carpentry",
+    "fingerprint": "hub-city-77cc5182",
+    "sourceSummary": "city-hub-charleston-tn|notes:Charleston projects usually prioritize practical upgrades that improve room function first. Custom carpentry is commonly used to replace tem"
+  },
+  {
+    "route": "/ooltewah-tn-carpentry",
+    "fingerprint": "hub-city-b470d34",
+    "sourceSummary": "city-hub-ooltewah-tn|notes:Ooltewah homeowners often ask for clean-lined trim and statement built-ins in open-concept spaces. Projects frequently combine finish carpen"
+  },
+  {
+    "route": "/collegedale-tn-carpentry",
+    "fingerprint": "hub-city-41083af4",
+    "sourceSummary": "city-hub-collegedale-tn|notes:Collegedale projects often focus on storage improvements and trim consistency in family homes. Clients regularly request custom libraries an"
+  },
+  {
+    "route": "/apison-tn-carpentry",
+    "fingerprint": "hub-city-bd28c8b",
+    "sourceSummary": "city-hub-apison-tn|notes:Apison homeowners typically prioritize durable custom work that matches newer interior layouts. Built-ins and cabinetry are common for impro"
+  },
+  {
+    "route": "/chattanooga-tn-carpentry",
+    "fingerprint": "hub-city-16ebbf82",
+    "sourceSummary": "city-hub-chattanooga-tn|notes:Chattanooga homes range from historic properties to modern renovations, requiring fit-specific carpentry planning. Custom libraries, trim re"
+  },
+  {
+    "route": "/calhoun-tn-carpentry",
+    "fingerprint": "hub-city-43b0818d",
+    "sourceSummary": "city-hub-calhoun-tn|notes:Calhoun projects often emphasize practical space planning and durable finishes. Homeowners commonly choose custom built-ins and cabinetry fo"
+  },
+  {
+    "route": "/riceville-tn-carpentry",
+    "fingerprint": "hub-city-9f980a8",
+    "sourceSummary": "city-hub-riceville-tn|notes:Riceville homeowners often request custom carpentry that balances durability with clean interior design. Finish carpentry and shelving upgra"
+  },
+  {
+    "route": "/benton-tn-carpentry",
+    "fingerprint": "hub-city-1bf8f5c5",
+    "sourceSummary": "city-hub-benton-tn|notes:Benton projects often account for humidity swings and high-traffic household use. Custom shelving, cabinetry, and finish carpentry are commo"
+  },
+  {
+    "route": "/soddy-daisy-tn-carpentry",
+    "fingerprint": "hub-city-1399a1",
+    "sourceSummary": "city-hub-soddy-daisy-tn|notes:Soddy-Daisy clients often prioritize resilient materials and practical storage upgrades. Mantel, trim, and built-in projects are frequently "
+  },
+  {
+    "route": "/harrison-tn-carpentry",
+    "fingerprint": "hub-city-2265215",
+    "sourceSummary": "city-hub-harrison-tn|notes:Harrison homes often benefit from storage-focused carpentry planned around open living spaces. Cabinetry and finish carpentry projects are c"
+  },
+  {
+    "route": "/dayton-tn-carpentry",
+    "fingerprint": "hub-city-151e53ea",
+    "sourceSummary": "city-hub-dayton-tn|notes:Dayton homeowners often prioritize long-lasting materials and straightforward installation plans. Custom built-ins and finish carpentry are "
+  },
+  {
+    "route": "/georgetown-tn-carpentry",
+    "fingerprint": "hub-city-68dacfe4",
+    "sourceSummary": "city-hub-georgetown-tn|notes:Georgetown projects often focus on practical room upgrades with durable finishes. Floating shelves and cabinetry are frequent requests for k"
+  },
+  {
+    "route": "/decatur-tn-carpentry",
+    "fingerprint": "hub-city-f017a71",
+    "sourceSummary": "city-hub-decatur-tn|notes:Decatur homeowners commonly request cabinetry and built-ins that improve daily organization. Custom carpentry projects often combine storage"
+  },
+  {
+    "route": "/etowah-tn-carpentry",
+    "fingerprint": "hub-city-2834a5af",
+    "sourceSummary": "city-hub-etowah-tn|notes:Etowah projects often focus on trim updates and storage improvements in established homes. Homeowners frequently request finish carpentry an"
+  },
+  {
+    "route": "/englewood-tn-carpentry",
+    "fingerprint": "hub-city-715c04dd",
+    "sourceSummary": "city-hub-englewood-tn|notes:Englewood homeowners often prioritize practical cabinetry and trim upgrades. Custom libraries and floating shelves are common in home office"
+  },
+  {
+    "route": "/sale-creek-tn-carpentry",
+    "fingerprint": "hub-city-63055f09",
+    "sourceSummary": "city-hub-sale-creek-tn|notes:Sale Creek projects typically emphasize sturdy installation and useful storage improvements. Finish carpentry and built-ins are frequent req"
+  },
+  {
+    "route": "/birchwood-tn-carpentry",
+    "fingerprint": "hub-city-dcced1c",
+    "sourceSummary": "city-hub-birchwood-tn|notes:Birchwood homeowners often request cabinetry and shelving that improve storage without overbuilding rooms. Projects commonly focus on practi"
+  },
+  {
+    "route": "/dunlap-tn-carpentry",
+    "fingerprint": "hub-city-4bd68391",
+    "sourceSummary": "city-hub-dunlap-tn|notes:Dunlap projects often blend storage upgrades with finish carpentry for cleaner room transitions. Custom mantels and built-ins are common foc"
+  },
+  {
+    "route": "/red-bank-tn-carpentry",
+    "fingerprint": "hub-city-c930acb",
+    "sourceSummary": "city-hub-red-bank-tn|notes:Red Bank homeowners often request finish carpentry and cabinetry updates during interior remodels. Projects frequently focus on efficient st"
+  },
+  {
+    "route": "/signal-mountain-tn-carpentry",
+    "fingerprint": "hub-city-203e9371",
+    "sourceSummary": "city-hub-signal-mountain-tn|notes:Signal Mountain projects often emphasize custom detailing and high-finish carpentry execution. Custom libraries, mantels, and built-ins are "
+  },
+  {
+    "route": "/lookout-mountain-tn-carpentry",
+    "fingerprint": "hub-city-5c22e9fe",
+    "sourceSummary": "city-hub-lookout-mountain-tn|notes:Lookout Mountain homes often require careful profile matching and trim continuity. Finish carpentry and custom cabinetry are frequent needs "
+  },
+  {
+    "route": "/east-ridge-tn-carpentry",
+    "fingerprint": "hub-city-2cdcf1f2",
+    "sourceSummary": "city-hub-east-ridge-tn|notes:East Ridge homeowners commonly request practical cabinetry and built-ins for better everyday storage. Floating shelves and trim updates are "
+  },
+  {
+    "route": "/hixson-tn-carpentry",
+    "fingerprint": "hub-city-4461bb32",
+    "sourceSummary": "city-hub-hixson-tn|notes:Hixson projects often center on built-ins, cabinetry, and trim upgrades for growing households. Homeowners frequently prioritize durable mat"
+  },
+  {
+    "route": "/custom-built-ins-cleveland-tn",
+    "fingerprint": "seo-321935e5",
+    "sourceSummary": "custom-built-ins-cleveland-tn|intro:Our team builds premium custom built-ins in Cleveland homes, combining practical layout pl|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be pai"
+  },
+  {
+    "route": "/custom-built-ins-athens-tn",
+    "fingerprint": "seo-3156a3e",
+    "sourceSummary": "custom-built-ins-athens-tn|intro:Homeowners for Athens-area homeowners choose Timber & Testament for handcrafted custom bui|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins pricing d"
+  },
+  {
+    "route": "/custom-built-ins-charleston-tn",
+    "fingerprint": "seo-1d9cb478",
+    "sourceSummary": "custom-built-ins-charleston-tn|intro:Homeowners in Charleston choose Timber & Testament for handcrafted custom built-ins that a|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:What is a typical timeline fo"
+  },
+  {
+    "route": "/custom-built-ins-ooltewah-tn",
+    "fingerprint": "seo-dea1662",
+    "sourceSummary": "custom-built-ins-ooltewah-tn|intro:Homeowners in Ooltewah choose Timber & Testament for handcrafted custom built-ins that are|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:What is a typical timeline for "
+  },
+  {
+    "route": "/custom-built-ins-collegedale-tn",
+    "fingerprint": "seo-3e706e6a",
+    "sourceSummary": "custom-built-ins-collegedale-tn|intro:When stock options do not fit your room, we provide custom custom built-ins in Collegedale|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:What is a typical timeline f"
+  },
+  {
+    "route": "/custom-built-ins-apison-tn",
+    "fingerprint": "seo-1f115e45",
+    "sourceSummary": "custom-built-ins-apison-tn|intro:Timber & Testament designs and installs custom custom built-ins in Apison with a focus on |explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins pricing d"
+  },
+  {
+    "route": "/custom-built-ins-chattanooga-tn",
+    "fingerprint": "seo-5c981d4c",
+    "sourceSummary": "custom-built-ins-chattanooga-tn|intro:When stock options do not fit your room, we provide custom custom built-ins in Chattanooga|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:What is a typical timeline f"
+  },
+  {
+    "route": "/custom-built-ins-calhoun-tn",
+    "fingerprint": "seo-7a284625",
+    "sourceSummary": "custom-built-ins-calhoun-tn|intro:Our team builds premium custom built-ins in Calhoun, combining practical layout planning w|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be paint"
+  },
+  {
+    "route": "/custom-built-ins-riceville-tn",
+    "fingerprint": "seo-4bb4d18e",
+    "sourceSummary": "custom-built-ins-riceville-tn|intro:When stock options do not fit your room, we provide custom custom built-ins in Riceville w|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins pricin"
+  },
+  {
+    "route": "/custom-built-ins-benton-tn",
+    "fingerprint": "seo-686315f5",
+    "sourceSummary": "custom-built-ins-benton-tn|intro:Timber & Testament designs and installs custom custom built-ins in Benton with a focus on |explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins pricing d"
+  },
+  {
+    "route": "/custom-built-ins-soddy-daisy-tn",
+    "fingerprint": "seo-7538f8fb",
+    "sourceSummary": "custom-built-ins-soddy-daisy-tn|intro:Our team builds premium custom built-ins in Soddy-Daisy, combining practical layout planni|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be p"
+  },
+  {
+    "route": "/custom-built-ins-harrison-tn",
+    "fingerprint": "seo-7710e515",
+    "sourceSummary": "custom-built-ins-harrison-tn|intro:Our team builds premium custom built-ins in Harrison, combining practical layout planning |explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be pain"
+  },
+  {
+    "route": "/custom-built-ins-dayton-tn",
+    "fingerprint": "seo-7da35a40",
+    "sourceSummary": "custom-built-ins-dayton-tn|intro:Homeowners in Dayton choose Timber & Testament for handcrafted custom built-ins that are f|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:What is a typical timeline for cu"
+  },
+  {
+    "route": "/custom-built-ins-georgetown-tn",
+    "fingerprint": "seo-5d4dac82",
+    "sourceSummary": "custom-built-ins-georgetown-tn|intro:When stock options do not fit your room, we provide custom custom built-ins in Georgetown |explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins prici"
+  },
+  {
+    "route": "/custom-built-ins-decatur-tn",
+    "fingerprint": "seo-4877965b",
+    "sourceSummary": "custom-built-ins-decatur-tn|intro:Our team builds premium custom built-ins in Decatur, combining practical layout planning w|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be paint"
+  },
+  {
+    "route": "/custom-built-ins-etowah-tn",
+    "fingerprint": "seo-2d85e8dd",
+    "sourceSummary": "custom-built-ins-etowah-tn|intro:Our team builds premium custom built-ins in Etowah, combining practical layout planning wi|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be painte"
+  },
+  {
+    "route": "/custom-built-ins-englewood-tn",
+    "fingerprint": "seo-5227b2a7",
+    "sourceSummary": "custom-built-ins-englewood-tn|intro:Timber & Testament designs and installs custom custom built-ins in Englewood with a focus |explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins pricin"
+  },
+  {
+    "route": "/custom-built-ins-sale-creek-tn",
+    "fingerprint": "seo-3e9fec80",
+    "sourceSummary": "custom-built-ins-sale-creek-tn|intro:Our team builds premium custom built-ins in Sale Creek, combining practical layout plannin|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be pa"
+  },
+  {
+    "route": "/custom-built-ins-birchwood-tn",
+    "fingerprint": "seo-4d16095a",
+    "sourceSummary": "custom-built-ins-birchwood-tn|intro:When stock options do not fit your room, we provide custom custom built-ins in Birchwood w|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:What is a typical timeline for"
+  },
+  {
+    "route": "/custom-built-ins-dunlap-tn",
+    "fingerprint": "seo-302b79a3",
+    "sourceSummary": "custom-built-ins-dunlap-tn|intro:Our team builds premium custom built-ins in Dunlap, combining practical layout planning wi|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins be painte"
+  },
+  {
+    "route": "/custom-built-ins-red-bank-tn",
+    "fingerprint": "seo-3eccd05b",
+    "sourceSummary": "custom-built-ins-red-bank-tn|intro:Timber & Testament designs and installs custom custom built-ins in Red Bank with a focus o|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins pricing"
+  },
+  {
+    "route": "/custom-built-ins-signal-mountain-tn",
+    "fingerprint": "seo-56c582e8",
+    "sourceSummary": "custom-built-ins-signal-mountain-tn|intro:Our team builds premium custom built-ins in Signal Mountain, combining practical layout pl|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:Should custom built-ins "
+  },
+  {
+    "route": "/custom-built-ins-lookout-mountain-tn",
+    "fingerprint": "seo-2938e19e",
+    "sourceSummary": "custom-built-ins-lookout-mountain-tn|intro:When stock options do not fit your room, we provide custom custom built-ins in Lookout Mou|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:What is a typical timel"
+  },
+  {
+    "route": "/custom-built-ins-east-ridge-tn",
+    "fingerprint": "seo-5c2ac38",
+    "sourceSummary": "custom-built-ins-east-ridge-tn|intro:Homeowners in East Ridge choose Timber & Testament for handcrafted custom built-ins that a|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins prici"
+  },
+  {
+    "route": "/custom-built-ins-hixson-tn",
+    "fingerprint": "seo-38db5ad8",
+    "sourceSummary": "custom-built-ins-hixson-tn|intro:When stock options do not fit your room, we provide custom custom built-ins in Hixson with|explain:Custom built-ins create durable storage and visual permanence in living rooms, offices, an|faq:How is custom built-ins pricing d"
+  },
+  {
+    "route": "/cabinetry-cleveland-tn",
+    "fingerprint": "seo-504b5d",
+    "sourceSummary": "cabinetry-cleveland-tn|intro:Our team builds premium cabinetry in Cleveland homes, combining practical layout planning |explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined i"
+  },
+  {
+    "route": "/cabinetry-athens-tn",
+    "fingerprint": "seo-30d65507",
+    "sourceSummary": "cabinetry-athens-tn|intro:Homeowners for Athens-area homeowners choose Timber & Testament for handcrafted cabinetry |explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:Can hardware and accessories be customiz"
+  },
+  {
+    "route": "/cabinetry-charleston-tn",
+    "fingerprint": "seo-14f064b9",
+    "sourceSummary": "cabinetry-charleston-tn|intro:Homeowners in Charleston choose Timber & Testament for handcrafted cabinetry that are fiel|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:Can hardware and accessories be cust"
+  },
+  {
+    "route": "/cabinetry-ooltewah-tn",
+    "fingerprint": "seo-e4fba39",
+    "sourceSummary": "cabinetry-ooltewah-tn|intro:Homeowners in Ooltewah choose Timber & Testament for handcrafted cabinetry that are field-|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:Can hardware and accessories be custom"
+  },
+  {
+    "route": "/cabinetry-collegedale-tn",
+    "fingerprint": "seo-1ff53127",
+    "sourceSummary": "cabinetry-collegedale-tn|intro:When stock options do not fit your room, we provide custom cabinetry in Collegedale with c|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:Can hardware and accessories be cus"
+  },
+  {
+    "route": "/cabinetry-apison-tn",
+    "fingerprint": "seo-19f5da69",
+    "sourceSummary": "cabinetry-apison-tn|intro:Timber & Testament designs and installs custom cabinetry in Apison with a focus on functio|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in A"
+  },
+  {
+    "route": "/cabinetry-chattanooga-tn",
+    "fingerprint": "seo-53c80c45",
+    "sourceSummary": "cabinetry-chattanooga-tn|intro:Homeowners in Chattanooga choose Timber & Testament for handcrafted cabinetry that are fie|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:Can hardware and accessories be cus"
+  },
+  {
+    "route": "/cabinetry-calhoun-tn",
+    "fingerprint": "seo-728016e5",
+    "sourceSummary": "cabinetry-calhoun-tn|intro:Our team builds premium cabinetry in Calhoun, combining practical layout planning with fin|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in "
+  },
+  {
+    "route": "/cabinetry-riceville-tn",
+    "fingerprint": "seo-39dc584f",
+    "sourceSummary": "cabinetry-riceville-tn|intro:When stock options do not fit your room, we provide custom cabinetry in Riceville with cle|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:Can hardware and accessories be custo"
+  },
+  {
+    "route": "/cabinetry-benton-tn",
+    "fingerprint": "seo-1e2a38b9",
+    "sourceSummary": "cabinetry-benton-tn|intro:Timber & Testament designs and installs custom cabinetry in Benton with a focus on functio|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in B"
+  },
+  {
+    "route": "/cabinetry-soddy-daisy-tn",
+    "fingerprint": "seo-2c6abaaf",
+    "sourceSummary": "cabinetry-soddy-daisy-tn|intro:Our team builds premium cabinetry in Soddy-Daisy, combining practical layout planning with|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined"
+  },
+  {
+    "route": "/cabinetry-harrison-tn",
+    "fingerprint": "seo-6103d6df",
+    "sourceSummary": "cabinetry-harrison-tn|intro:Our team builds premium cabinetry in Harrison, combining practical layout planning with fi|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in"
+  },
+  {
+    "route": "/cabinetry-dayton-tn",
+    "fingerprint": "seo-24d9d5ca",
+    "sourceSummary": "cabinetry-dayton-tn|intro:Homeowners in Dayton choose Timber & Testament for handcrafted cabinetry that are field-me|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in D"
+  },
+  {
+    "route": "/cabinetry-georgetown-tn",
+    "fingerprint": "seo-3b7b7a30",
+    "sourceSummary": "cabinetry-georgetown-tn|intro:When stock options do not fit your room, we provide custom cabinetry in Georgetown with cl|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined "
+  },
+  {
+    "route": "/cabinetry-decatur-tn",
+    "fingerprint": "seo-523f581",
+    "sourceSummary": "cabinetry-decatur-tn|intro:Our team builds premium cabinetry in Decatur, combining practical layout planning with fin|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in "
+  },
+  {
+    "route": "/cabinetry-etowah-tn",
+    "fingerprint": "seo-5b8103dd",
+    "sourceSummary": "cabinetry-etowah-tn|intro:Our team builds premium cabinetry in Etowah, combining practical layout planning with fini|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in E"
+  },
+  {
+    "route": "/cabinetry-englewood-tn",
+    "fingerprint": "seo-15ba4571",
+    "sourceSummary": "cabinetry-englewood-tn|intro:Timber & Testament designs and installs custom cabinetry in Englewood with a focus on func|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined i"
+  },
+  {
+    "route": "/cabinetry-sale-creek-tn",
+    "fingerprint": "seo-b37fef",
+    "sourceSummary": "cabinetry-sale-creek-tn|intro:Our team builds premium cabinetry in Sale Creek, combining practical layout planning with |explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined "
+  },
+  {
+    "route": "/cabinetry-birchwood-tn",
+    "fingerprint": "seo-2cb7baca",
+    "sourceSummary": "cabinetry-birchwood-tn|intro:When stock options do not fit your room, we provide custom cabinetry in Birchwood with cle|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined i"
+  },
+  {
+    "route": "/cabinetry-dunlap-tn",
+    "fingerprint": "seo-6a479d1d",
+    "sourceSummary": "cabinetry-dunlap-tn|intro:Our team builds premium cabinetry in Dunlap, combining practical layout planning with fini|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in D"
+  },
+  {
+    "route": "/cabinetry-red-bank-tn",
+    "fingerprint": "seo-5ab94d03",
+    "sourceSummary": "cabinetry-red-bank-tn|intro:Timber & Testament designs and installs custom cabinetry in Red Bank with a focus on funct|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined in"
+  },
+  {
+    "route": "/cabinetry-signal-mountain-tn",
+    "fingerprint": "seo-3ed76e21",
+    "sourceSummary": "cabinetry-signal-mountain-tn|intro:Our team builds premium cabinetry in Signal Mountain, combining practical layout planning |explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determ"
+  },
+  {
+    "route": "/cabinetry-lookout-mountain-tn",
+    "fingerprint": "seo-bbc2c30",
+    "sourceSummary": "cabinetry-lookout-mountain-tn|intro:When stock options do not fit your room, we provide custom cabinetry in Lookout Mountain w|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing deter"
+  },
+  {
+    "route": "/cabinetry-east-ridge-tn",
+    "fingerprint": "seo-3575df34",
+    "sourceSummary": "cabinetry-east-ridge-tn|intro:Homeowners in East Ridge choose Timber & Testament for handcrafted cabinetry that are fiel|explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:How is cabinetry pricing determined "
+  },
+  {
+    "route": "/cabinetry-hixson-tn",
+    "fingerprint": "seo-66b1f247",
+    "sourceSummary": "cabinetry-hixson-tn|intro:When stock options do not fit your room, we provide custom cabinetry in Hixson with clear |explain:Custom cabinetry improves room function with tailored dimensions, durable hardware, and la|faq:Can hardware and accessories be customiz"
+  },
+  {
+    "route": "/floating-shelves-cleveland-tn",
+    "fingerprint": "seo-23cd49cd",
+    "sourceSummary": "floating-shelves-cleveland-tn|intro:Timber & Testament designs and installs custom floating shelves in Cleveland homes with a |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricin"
+  },
+  {
+    "route": "/floating-shelves-athens-tn",
+    "fingerprint": "seo-32c1ed40",
+    "sourceSummary": "floating-shelves-athens-tn|intro:Homeowners for Athens-area homeowners choose Timber & Testament for handcrafted floating s|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing d"
+  },
+  {
+    "route": "/floating-shelves-charleston-tn",
+    "fingerprint": "seo-6250275a",
+    "sourceSummary": "floating-shelves-charleston-tn|intro:Homeowners in Charleston choose Timber & Testament for handcrafted floating shelves that a|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves prici"
+  },
+  {
+    "route": "/floating-shelves-ooltewah-tn",
+    "fingerprint": "seo-224983cc",
+    "sourceSummary": "floating-shelves-ooltewah-tn|intro:Homeowners in Ooltewah choose Timber & Testament for handcrafted floating shelves that are|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing"
+  },
+  {
+    "route": "/floating-shelves-collegedale-tn",
+    "fingerprint": "seo-49f5b944",
+    "sourceSummary": "floating-shelves-collegedale-tn|intro:Homeowners in Collegedale choose Timber & Testament for handcrafted floating shelves that |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pric"
+  },
+  {
+    "route": "/floating-shelves-apison-tn",
+    "fingerprint": "seo-109b24bd",
+    "sourceSummary": "floating-shelves-apison-tn|intro:Our team builds premium floating shelves in Apison, combining practical layout planning wi|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing d"
+  },
+  {
+    "route": "/floating-shelves-chattanooga-tn",
+    "fingerprint": "seo-2cc9f6c6",
+    "sourceSummary": "floating-shelves-chattanooga-tn|intro:Homeowners in Chattanooga choose Timber & Testament for handcrafted floating shelves that |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pric"
+  },
+  {
+    "route": "/floating-shelves-calhoun-tn",
+    "fingerprint": "seo-52fd585",
+    "sourceSummary": "floating-shelves-calhoun-tn|intro:Timber & Testament designs and installs custom floating shelves in Calhoun with a focus on|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing "
+  },
+  {
+    "route": "/floating-shelves-riceville-tn",
+    "fingerprint": "seo-7ec3ea70",
+    "sourceSummary": "floating-shelves-riceville-tn|intro:When stock options do not fit your room, we provide custom floating shelves in Riceville w|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricin"
+  },
+  {
+    "route": "/floating-shelves-benton-tn",
+    "fingerprint": "seo-38b692f3",
+    "sourceSummary": "floating-shelves-benton-tn|intro:Our team builds premium floating shelves in Benton, combining practical layout planning wi|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing d"
+  },
+  {
+    "route": "/floating-shelves-soddy-daisy-tn",
+    "fingerprint": "seo-625ee127",
+    "sourceSummary": "floating-shelves-soddy-daisy-tn|intro:Timber & Testament designs and installs custom floating shelves in Soddy-Daisy with a focu|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pric"
+  },
+  {
+    "route": "/floating-shelves-harrison-tn",
+    "fingerprint": "seo-7413333",
+    "sourceSummary": "floating-shelves-harrison-tn|intro:Timber & Testament designs and installs custom floating shelves in Harrison with a focus o|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing"
+  },
+  {
+    "route": "/floating-shelves-dayton-tn",
+    "fingerprint": "seo-3c87863e",
+    "sourceSummary": "floating-shelves-dayton-tn|intro:When stock options do not fit your room, we provide custom floating shelves in Dayton with|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing d"
+  },
+  {
+    "route": "/floating-shelves-georgetown-tn",
+    "fingerprint": "seo-85d307c",
+    "sourceSummary": "floating-shelves-georgetown-tn|intro:When stock options do not fit your room, we provide custom floating shelves in Georgetown |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves prici"
+  },
+  {
+    "route": "/floating-shelves-decatur-tn",
+    "fingerprint": "seo-62acfa97",
+    "sourceSummary": "floating-shelves-decatur-tn|intro:Timber & Testament designs and installs custom floating shelves in Decatur with a focus on|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing "
+  },
+  {
+    "route": "/floating-shelves-etowah-tn",
+    "fingerprint": "seo-75915e49",
+    "sourceSummary": "floating-shelves-etowah-tn|intro:Timber & Testament designs and installs custom floating shelves in Etowah with a focus on |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing d"
+  },
+  {
+    "route": "/floating-shelves-englewood-tn",
+    "fingerprint": "seo-1ca06ea5",
+    "sourceSummary": "floating-shelves-englewood-tn|intro:Our team builds premium floating shelves in Englewood, combining practical layout planning|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricin"
+  },
+  {
+    "route": "/floating-shelves-sale-creek-tn",
+    "fingerprint": "seo-10c9d0e1",
+    "sourceSummary": "floating-shelves-sale-creek-tn|intro:Timber & Testament designs and installs custom floating shelves in Sale Creek with a focus|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves prici"
+  },
+  {
+    "route": "/floating-shelves-birchwood-tn",
+    "fingerprint": "seo-3fca8354",
+    "sourceSummary": "floating-shelves-birchwood-tn|intro:When stock options do not fit your room, we provide custom floating shelves in Birchwood w|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricin"
+  },
+  {
+    "route": "/floating-shelves-dunlap-tn",
+    "fingerprint": "seo-36239f89",
+    "sourceSummary": "floating-shelves-dunlap-tn|intro:Timber & Testament designs and installs custom floating shelves in Dunlap with a focus on |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing d"
+  },
+  {
+    "route": "/floating-shelves-red-bank-tn",
+    "fingerprint": "seo-1305e35d",
+    "sourceSummary": "floating-shelves-red-bank-tn|intro:Our team builds premium floating shelves in Red Bank, combining practical layout planning |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing"
+  },
+  {
+    "route": "/floating-shelves-signal-mountain-tn",
+    "fingerprint": "seo-3f8f6db1",
+    "sourceSummary": "floating-shelves-signal-mountain-tn|intro:Timber & Testament designs and installs custom floating shelves in Signal Mountain with a |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves "
+  },
+  {
+    "route": "/floating-shelves-lookout-mountain-tn",
+    "fingerprint": "seo-32746936",
+    "sourceSummary": "floating-shelves-lookout-mountain-tn|intro:Homeowners in Lookout Mountain choose Timber & Testament for handcrafted floating shelves |explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves"
+  },
+  {
+    "route": "/floating-shelves-east-ridge-tn",
+    "fingerprint": "seo-5fe830c6",
+    "sourceSummary": "floating-shelves-east-ridge-tn|intro:Homeowners in East Ridge choose Timber & Testament for handcrafted floating shelves that a|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves prici"
+  },
+  {
+    "route": "/floating-shelves-hixson-tn",
+    "fingerprint": "seo-6887ddda",
+    "sourceSummary": "floating-shelves-hixson-tn|intro:Homeowners in Hixson choose Timber & Testament for handcrafted floating shelves that are f|explain:Floating shelves provide open storage and display without visual bulk, using structural mo|faq:How is floating shelves pricing d"
+  },
+  {
+    "route": "/mantels-cleveland-tn",
+    "fingerprint": "seo-5ac73bf8",
+    "sourceSummary": "mantels-cleveland-tn|intro:When stock options do not fit your room, we provide custom mantels across Cleveland neighb|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantels "
+  },
+  {
+    "route": "/mantels-athens-tn",
+    "fingerprint": "seo-71469e79",
+    "sourceSummary": "mantels-athens-tn|intro:Our team builds premium mantels throughout Athens, combining practical layout planning wit|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Athen"
+  },
+  {
+    "route": "/mantels-charleston-tn",
+    "fingerprint": "seo-78b11ae1",
+    "sourceSummary": "mantels-charleston-tn|intro:Timber & Testament designs and installs custom mantels in Charleston with a focus on funct|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in C"
+  },
+  {
+    "route": "/mantels-ooltewah-tn",
+    "fingerprint": "seo-7ae45953",
+    "sourceSummary": "mantels-ooltewah-tn|intro:Our team builds premium mantels in Ooltewah, combining practical layout planning with fini|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Ool"
+  },
+  {
+    "route": "/mantels-collegedale-tn",
+    "fingerprint": "seo-62cf90a7",
+    "sourceSummary": "mantels-collegedale-tn|intro:Timber & Testament designs and installs custom mantels in Collegedale with a focus on func|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in "
+  },
+  {
+    "route": "/mantels-apison-tn",
+    "fingerprint": "seo-7cd94b3a",
+    "sourceSummary": "mantels-apison-tn|intro:Homeowners in Apison choose Timber & Testament for handcrafted mantels that are field-meas|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantels in "
+  },
+  {
+    "route": "/mantels-chattanooga-tn",
+    "fingerprint": "seo-4d0624a3",
+    "sourceSummary": "mantels-chattanooga-tn|intro:Our team builds premium mantels in Chattanooga, combining practical layout planning with f|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in "
+  },
+  {
+    "route": "/mantels-calhoun-tn",
+    "fingerprint": "seo-67f99688",
+    "sourceSummary": "mantels-calhoun-tn|intro:Homeowners in Calhoun choose Timber & Testament for handcrafted mantels that are field-mea|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Calh"
+  },
+  {
+    "route": "/mantels-riceville-tn",
+    "fingerprint": "seo-72b9cacd",
+    "sourceSummary": "mantels-riceville-tn|intro:Timber & Testament designs and installs custom mantels in Riceville with a focus on functi|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Ri"
+  },
+  {
+    "route": "/mantels-benton-tn",
+    "fingerprint": "seo-770189a",
+    "sourceSummary": "mantels-benton-tn|intro:When stock options do not fit your room, we provide custom mantels in Benton with clear sc|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Bento"
+  },
+  {
+    "route": "/mantels-soddy-daisy-tn",
+    "fingerprint": "seo-1c7987ec",
+    "sourceSummary": "mantels-soddy-daisy-tn|intro:Homeowners in Soddy-Daisy choose Timber & Testament for handcrafted mantels that are field|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantel"
+  },
+  {
+    "route": "/mantels-harrison-tn",
+    "fingerprint": "seo-1b88ef0c",
+    "sourceSummary": "mantels-harrison-tn|intro:Homeowners in Harrison choose Timber & Testament for handcrafted mantels that are field-me|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Har"
+  },
+  {
+    "route": "/mantels-dayton-tn",
+    "fingerprint": "seo-48fc43c9",
+    "sourceSummary": "mantels-dayton-tn|intro:Timber & Testament designs and installs custom mantels in Dayton with a focus on function,|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Dayto"
+  },
+  {
+    "route": "/mantels-georgetown-tn",
+    "fingerprint": "seo-68e728bd",
+    "sourceSummary": "mantels-georgetown-tn|intro:Our team builds premium mantels in Georgetown, combining practical layout planning with fi|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in G"
+  },
+  {
+    "route": "/mantels-decatur-tn",
+    "fingerprint": "seo-44141f64",
+    "sourceSummary": "mantels-decatur-tn|intro:When stock options do not fit your room, we provide custom mantels in Decatur with clear s|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantels in"
+  },
+  {
+    "route": "/mantels-etowah-tn",
+    "fingerprint": "seo-119f8c4c",
+    "sourceSummary": "mantels-etowah-tn|intro:When stock options do not fit your room, we provide custom mantels in Etowah with clear sc|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantels in "
+  },
+  {
+    "route": "/mantels-englewood-tn",
+    "fingerprint": "seo-b1c4932",
+    "sourceSummary": "mantels-englewood-tn|intro:When stock options do not fit your room, we provide custom mantels in Englewood with clear|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantels "
+  },
+  {
+    "route": "/mantels-sale-creek-tn",
+    "fingerprint": "seo-4a4396dc",
+    "sourceSummary": "mantels-sale-creek-tn|intro:When stock options do not fit your room, we provide custom mantels in Sale Creek with clea|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantels"
+  },
+  {
+    "route": "/mantels-birchwood-tn",
+    "fingerprint": "seo-7fba0777",
+    "sourceSummary": "mantels-birchwood-tn|intro:Timber & Testament designs and installs custom mantels in Birchwood with a focus on functi|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Bi"
+  },
+  {
+    "route": "/mantels-dunlap-tn",
+    "fingerprint": "seo-15af4274",
+    "sourceSummary": "mantels-dunlap-tn|intro:Homeowners in Dunlap choose Timber & Testament for handcrafted mantels that are field-meas|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:What is a typical timeline for mantels in "
+  },
+  {
+    "route": "/mantels-red-bank-tn",
+    "fingerprint": "seo-7c4d81f0",
+    "sourceSummary": "mantels-red-bank-tn|intro:When stock options do not fit your room, we provide custom mantels in Red Bank with clear |explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Red"
+  },
+  {
+    "route": "/mantels-signal-mountain-tn",
+    "fingerprint": "seo-77af3b0c",
+    "sourceSummary": "mantels-signal-mountain-tn|intro:Homeowners in Signal Mountain choose Timber & Testament for handcrafted mantels that are f|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined"
+  },
+  {
+    "route": "/mantels-lookout-mountain-tn",
+    "fingerprint": "seo-34019283",
+    "sourceSummary": "mantels-lookout-mountain-tn|intro:Timber & Testament designs and installs custom mantels in Lookout Mountain with a focus on|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determine"
+  },
+  {
+    "route": "/mantels-east-ridge-tn",
+    "fingerprint": "seo-3f74907",
+    "sourceSummary": "mantels-east-ridge-tn|intro:Timber & Testament designs and installs custom mantels in East Ridge with a focus on funct|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in E"
+  },
+  {
+    "route": "/mantels-hixson-tn",
+    "fingerprint": "seo-47a3c153",
+    "sourceSummary": "mantels-hixson-tn|intro:Timber & Testament designs and installs custom mantels in Hixson with a focus on function,|explain:Custom mantels establish a strong focal point around fireplaces with proportion-aware desi|faq:How is mantels pricing determined in Hixso"
+  },
+  {
+    "route": "/finish-carpentry-cleveland-tn",
+    "fingerprint": "seo-553d15f9",
+    "sourceSummary": "finish-carpentry-cleveland-tn|intro:When stock options do not fit your room, we provide custom finish carpentry across Clevela|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How do you handle final finish"
+  },
+  {
+    "route": "/finish-carpentry-athens-tn",
+    "fingerprint": "seo-185a4a21",
+    "sourceSummary": "finish-carpentry-athens-tn|intro:Timber & Testament designs and installs custom finish carpentry throughout Athens with a f|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Can you match existing trim profi"
+  },
+  {
+    "route": "/finish-carpentry-charleston-tn",
+    "fingerprint": "seo-2ea4acb1",
+    "sourceSummary": "finish-carpentry-charleston-tn|intro:Our team builds premium finish carpentry in Charleston, combining practical layout plannin|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this service f"
+  },
+  {
+    "route": "/finish-carpentry-ooltewah-tn",
+    "fingerprint": "seo-182d84b7",
+    "sourceSummary": "finish-carpentry-ooltewah-tn|intro:Timber & Testament designs and installs custom finish carpentry in Ooltewah with a focus o|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Can you match existing trim pro"
+  },
+  {
+    "route": "/finish-carpentry-collegedale-tn",
+    "fingerprint": "seo-619e0f7d",
+    "sourceSummary": "finish-carpentry-collegedale-tn|intro:Our team builds premium finish carpentry in Collegedale, combining practical layout planni|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this service "
+  },
+  {
+    "route": "/finish-carpentry-apison-tn",
+    "fingerprint": "seo-10b3afb5",
+    "sourceSummary": "finish-carpentry-apison-tn|intro:Homeowners in Apison choose Timber & Testament for handcrafted finish carpentry that are f|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How do you handle final finish an"
+  },
+  {
+    "route": "/finish-carpentry-chattanooga-tn",
+    "fingerprint": "seo-1555f53f",
+    "sourceSummary": "finish-carpentry-chattanooga-tn|intro:Timber & Testament designs and installs custom finish carpentry in Chattanooga with a focu|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Can you match existing trim "
+  },
+  {
+    "route": "/finish-carpentry-calhoun-tn",
+    "fingerprint": "seo-644ea9ef",
+    "sourceSummary": "finish-carpentry-calhoun-tn|intro:Homeowners in Calhoun choose Timber & Testament for handcrafted finish carpentry that are |explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How long does on-site installati"
+  },
+  {
+    "route": "/finish-carpentry-riceville-tn",
+    "fingerprint": "seo-4a42b043",
+    "sourceSummary": "finish-carpentry-riceville-tn|intro:Our team builds premium finish carpentry in Riceville, combining practical layout planning|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this service fo"
+  },
+  {
+    "route": "/finish-carpentry-benton-tn",
+    "fingerprint": "seo-586e6455",
+    "sourceSummary": "finish-carpentry-benton-tn|intro:When stock options do not fit your room, we provide custom finish carpentry in Benton with|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How do you handle final finish an"
+  },
+  {
+    "route": "/finish-carpentry-soddy-daisy-tn",
+    "fingerprint": "seo-22b5404f",
+    "sourceSummary": "finish-carpentry-soddy-daisy-tn|intro:Homeowners in Soddy-Daisy choose Timber & Testament for handcrafted finish carpentry that |explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How long does on-site instal"
+  },
+  {
+    "route": "/finish-carpentry-harrison-tn",
+    "fingerprint": "seo-15168adf",
+    "sourceSummary": "finish-carpentry-harrison-tn|intro:Homeowners in Harrison choose Timber & Testament for handcrafted finish carpentry that are|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How do you handle final finish "
+  },
+  {
+    "route": "/finish-carpentry-dayton-tn",
+    "fingerprint": "seo-7f9fca61",
+    "sourceSummary": "finish-carpentry-dayton-tn|intro:Our team builds premium finish carpentry in Dayton, combining practical layout planning wi|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this service for r"
+  },
+  {
+    "route": "/finish-carpentry-georgetown-tn",
+    "fingerprint": "seo-13de9829",
+    "sourceSummary": "finish-carpentry-georgetown-tn|intro:Timber & Testament designs and installs custom finish carpentry in Georgetown with a focus|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Can you match existing trim p"
+  },
+  {
+    "route": "/finish-carpentry-decatur-tn",
+    "fingerprint": "seo-702a9f07",
+    "sourceSummary": "finish-carpentry-decatur-tn|intro:Homeowners in Decatur choose Timber & Testament for handcrafted finish carpentry that are |explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How do you handle final finish a"
+  },
+  {
+    "route": "/finish-carpentry-etowah-tn",
+    "fingerprint": "seo-5c6625c1",
+    "sourceSummary": "finish-carpentry-etowah-tn|intro:When stock options do not fit your room, we provide custom finish carpentry in Etowah with|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How long does on-site installatio"
+  },
+  {
+    "route": "/finish-carpentry-englewood-tn",
+    "fingerprint": "seo-656b8439",
+    "sourceSummary": "finish-carpentry-englewood-tn|intro:When stock options do not fit your room, we provide custom finish carpentry in Englewood w|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How do you handle final finish"
+  },
+  {
+    "route": "/finish-carpentry-sale-creek-tn",
+    "fingerprint": "seo-7fee27dc",
+    "sourceSummary": "finish-carpentry-sale-creek-tn|intro:Homeowners in Sale Creek choose Timber & Testament for handcrafted finish carpentry that a|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How long does on-site install"
+  },
+  {
+    "route": "/finish-carpentry-birchwood-tn",
+    "fingerprint": "seo-5a6c27c3",
+    "sourceSummary": "finish-carpentry-birchwood-tn|intro:Our team builds premium finish carpentry in Birchwood, combining practical layout planning|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this service fo"
+  },
+  {
+    "route": "/finish-carpentry-dunlap-tn",
+    "fingerprint": "seo-5a7c9cbf",
+    "sourceSummary": "finish-carpentry-dunlap-tn|intro:Homeowners in Dunlap choose Timber & Testament for handcrafted finish carpentry that are f|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How long does on-site installatio"
+  },
+  {
+    "route": "/finish-carpentry-red-bank-tn",
+    "fingerprint": "seo-480d4be6",
+    "sourceSummary": "finish-carpentry-red-bank-tn|intro:Homeowners in Red Bank choose Timber & Testament for handcrafted finish carpentry that are|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How long does on-site installat"
+  },
+  {
+    "route": "/finish-carpentry-signal-mountain-tn",
+    "fingerprint": "seo-488b7f1a",
+    "sourceSummary": "finish-carpentry-signal-mountain-tn|intro:When stock options do not fit your room, we provide custom finish carpentry in Signal Moun|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:How do you handle final "
+  },
+  {
+    "route": "/finish-carpentry-lookout-mountain-tn",
+    "fingerprint": "seo-35fbe17a",
+    "sourceSummary": "finish-carpentry-lookout-mountain-tn|intro:Our team builds premium finish carpentry in Lookout Mountain, combining practical layout p|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this ser"
+  },
+  {
+    "route": "/finish-carpentry-east-ridge-tn",
+    "fingerprint": "seo-6a24742c",
+    "sourceSummary": "finish-carpentry-east-ridge-tn|intro:Our team builds premium finish carpentry in East Ridge, combining practical layout plannin|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this service f"
+  },
+  {
+    "route": "/finish-carpentry-hixson-tn",
+    "fingerprint": "seo-5eb2fc67",
+    "sourceSummary": "finish-carpentry-hixson-tn|intro:Our team builds premium finish carpentry in Hixson, combining practical layout planning wi|explain:Finish carpentry brings cohesion to interior spaces through precise casing, base, trim tra|faq:Do you provide this service for r"
+  },
+  {
+    "route": "/custom-libraries-cleveland-tn",
+    "fingerprint": "seo-c5b8765",
+    "sourceSummary": "custom-libraries-cleveland-tn|intro:Timber & Testament designs and installs custom custom libraries in Cleveland homes with a |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficient"
+  },
+  {
+    "route": "/custom-libraries-athens-tn",
+    "fingerprint": "seo-601d54dc",
+    "sourceSummary": "custom-libraries-athens-tn|intro:When stock options do not fit your room, we provide custom custom libraries for Athens-are|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricing d"
+  },
+  {
+    "route": "/custom-libraries-charleston-tn",
+    "fingerprint": "seo-1dcf0976",
+    "sourceSummary": "custom-libraries-charleston-tn|intro:When stock options do not fit your room, we provide custom custom libraries in Charleston |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries prici"
+  },
+  {
+    "route": "/custom-libraries-ooltewah-tn",
+    "fingerprint": "seo-531215e8",
+    "sourceSummary": "custom-libraries-ooltewah-tn|intro:When stock options do not fit your room, we provide custom custom libraries in Ooltewah wi|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricing"
+  },
+  {
+    "route": "/custom-libraries-collegedale-tn",
+    "fingerprint": "seo-464a59a8",
+    "sourceSummary": "custom-libraries-collegedale-tn|intro:Homeowners in Collegedale choose Timber & Testament for handcrafted custom libraries that |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pric"
+  },
+  {
+    "route": "/custom-libraries-apison-tn",
+    "fingerprint": "seo-7dbbe2a1",
+    "sourceSummary": "custom-libraries-apison-tn|intro:Our team builds premium custom libraries in Apison, combining practical layout planning wi|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricing d"
+  },
+  {
+    "route": "/custom-libraries-chattanooga-tn",
+    "fingerprint": "seo-30755662",
+    "sourceSummary": "custom-libraries-chattanooga-tn|intro:Homeowners in Chattanooga choose Timber & Testament for handcrafted custom libraries that |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pric"
+  },
+  {
+    "route": "/custom-libraries-calhoun-tn",
+    "fingerprint": "seo-4290ec25",
+    "sourceSummary": "custom-libraries-calhoun-tn|intro:Timber & Testament designs and installs custom custom libraries in Calhoun with a focus on|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficient l"
+  },
+  {
+    "route": "/custom-libraries-riceville-tn",
+    "fingerprint": "seo-4b9b60c",
+    "sourceSummary": "custom-libraries-riceville-tn|intro:When stock options do not fit your room, we provide custom custom libraries in Riceville w|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricin"
+  },
+  {
+    "route": "/custom-libraries-benton-tn",
+    "fingerprint": "seo-346a2af1",
+    "sourceSummary": "custom-libraries-benton-tn|intro:Our team builds premium custom libraries in Benton, combining practical layout planning wi|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricing d"
+  },
+  {
+    "route": "/custom-libraries-soddy-daisy-tn",
+    "fingerprint": "seo-4be6e405",
+    "sourceSummary": "custom-libraries-soddy-daisy-tn|intro:Timber & Testament designs and installs custom custom libraries in Soddy-Daisy with a focu|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficie"
+  },
+  {
+    "route": "/custom-libraries-harrison-tn",
+    "fingerprint": "seo-43c7e3a1",
+    "sourceSummary": "custom-libraries-harrison-tn|intro:Timber & Testament designs and installs custom custom libraries in Harrison with a focus o|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficient "
+  },
+  {
+    "route": "/custom-libraries-dayton-tn",
+    "fingerprint": "seo-5657bbde",
+    "sourceSummary": "custom-libraries-dayton-tn|intro:When stock options do not fit your room, we provide custom custom libraries in Dayton with|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricing d"
+  },
+  {
+    "route": "/custom-libraries-georgetown-tn",
+    "fingerprint": "seo-3c23ed68",
+    "sourceSummary": "custom-libraries-georgetown-tn|intro:Homeowners in Georgetown choose Timber & Testament for handcrafted custom libraries that a|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries prici"
+  },
+  {
+    "route": "/custom-libraries-decatur-tn",
+    "fingerprint": "seo-7ff10fa5",
+    "sourceSummary": "custom-libraries-decatur-tn|intro:Timber & Testament designs and installs custom custom libraries in Decatur with a focus on|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficient l"
+  },
+  {
+    "route": "/custom-libraries-etowah-tn",
+    "fingerprint": "seo-16593a17",
+    "sourceSummary": "custom-libraries-etowah-tn|intro:Timber & Testament designs and installs custom custom libraries in Etowah with a focus on |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficient li"
+  },
+  {
+    "route": "/custom-libraries-englewood-tn",
+    "fingerprint": "seo-5d69c5bf",
+    "sourceSummary": "custom-libraries-englewood-tn|intro:Our team builds premium custom libraries in Englewood, combining practical layout planning|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricin"
+  },
+  {
+    "route": "/custom-libraries-sale-creek-tn",
+    "fingerprint": "seo-4f061374",
+    "sourceSummary": "custom-libraries-sale-creek-tn|intro:Timber & Testament designs and installs custom custom libraries in Sale Creek with a focus|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficien"
+  },
+  {
+    "route": "/custom-libraries-birchwood-tn",
+    "fingerprint": "seo-462b4848",
+    "sourceSummary": "custom-libraries-birchwood-tn|intro:When stock options do not fit your room, we provide custom custom libraries in Birchwood w|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricin"
+  },
+  {
+    "route": "/custom-libraries-dunlap-tn",
+    "fingerprint": "seo-740a9c97",
+    "sourceSummary": "custom-libraries-dunlap-tn|intro:Timber & Testament designs and installs custom custom libraries in Dunlap with a focus on |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an efficient li"
+  },
+  {
+    "route": "/custom-libraries-red-bank-tn",
+    "fingerprint": "seo-1dc2aebf",
+    "sourceSummary": "custom-libraries-red-bank-tn|intro:Our team builds premium custom libraries in Red Bank, combining practical layout planning |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricing"
+  },
+  {
+    "route": "/custom-libraries-signal-mountain-tn",
+    "fingerprint": "seo-7dc11118",
+    "sourceSummary": "custom-libraries-signal-mountain-tn|intro:Timber & Testament designs and installs custom custom libraries in Signal Mountain with a |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:Can you help plan an eff"
+  },
+  {
+    "route": "/custom-libraries-lookout-mountain-tn",
+    "fingerprint": "seo-4ba43b52",
+    "sourceSummary": "custom-libraries-lookout-mountain-tn|intro:Homeowners in Lookout Mountain choose Timber & Testament for handcrafted custom libraries |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries"
+  },
+  {
+    "route": "/custom-libraries-east-ridge-tn",
+    "fingerprint": "seo-1b6712e2",
+    "sourceSummary": "custom-libraries-east-ridge-tn|intro:When stock options do not fit your room, we provide custom custom libraries in East Ridge |explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries prici"
+  },
+  {
+    "route": "/custom-libraries-hixson-tn",
+    "fingerprint": "seo-2a576442",
+    "sourceSummary": "custom-libraries-hixson-tn|intro:Homeowners in Hixson choose Timber & Testament for handcrafted custom libraries that are f|explain:Custom libraries combine storage, display, and architectural structure through full-wall c|faq:How is custom libraries pricing d"
   }
 ]

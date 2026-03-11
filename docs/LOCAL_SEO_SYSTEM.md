@@ -2,277 +2,268 @@
 
 ## Overview
 
-This project is a static Node.js local SEO site generator for `Timber & Testament Custom Carpentry`.
+This project is a static Node.js SEO site generator for **Timber & Testament Custom Carpentry**.
 
-Current generated footprint:
+The generator now runs two SEO layers together:
 
-- 289 total routes (including legacy `/home` redirect page)
-- 225 `service + city` money pages
-- 15 service hubs
-- 15 city hubs
-- 6 project pages
-- 20 blog posts
+1. Legacy matrix and core pages from `src/config.js`
+2. Expanded local SEO matrix from `src/data/seoConfig.js`
 
-Build command:
+Expanded local SEO footprint:
+
+- `150` root service-city pages (`6 services x 25 cities`)
+- `25` root city hub pages
+- `6` primary service hub pages
+
+Examples:
+
+- `/custom-built-ins-cleveland-tn`
+- `/cabinetry-chattanooga-tn`
+- `/cleveland-tn-carpentry`
+- `/services/custom-built-ins`
+
+## Build Command
 
 ```bash
 npm run build
 ```
 
+Optional standalone generator run:
+
+```bash
+npm run generate:seo
+```
+
 Output directory: `dist/`
 
-## Architecture
+## Core Files
 
-### Routing rules
-
-- `/` is the canonical homepage route and contains the full home content.
-- `/home` and `/home/` are legacy aliases and permanently redirect to `/` via `vercel.json`.
-- A fallback static redirect page is also generated at `dist/home/index.html`.
-
-### Core generation flow
-
+- `src/data/seoConfig.js`
+  - expanded city + service metadata model
+  - deterministic content variation pools
+- `src/templates/serviceCityTemplate.js`
+  - root-level service-city page template (800-1200 words)
+- `src/templates/seoHubTemplates.js`
+  - city hub and service hub templates
+- `scripts/generateSeoPages.js`
+  - generates SEO entries and summary counts
 - `scripts/generate-site.js`
-  - builds all routes
-  - applies quality guardrails
-  - applies noindex/sitemap exclusions based on config
-  - renders final HTML with canonical/meta/schema
-  - generates audit reports
+  - full build pipeline, audits, sitemap, robots, reports
 
-### Templates
+## Expanded Data Model
 
-- `src/templates/layout.js`
-  - shared SEO head renderer (React Helmet equivalent in static generation)
-  - canonical/robots/OG/Twitter
-  - global schema blocks
-  - breadcrumb markup
-  - mobile sticky CTA insertion point
-- `src/templates/serviceCityPage.js`
-  - long-form money page with variation engine
-  - FAQ + Service schema
-  - conversion blocks + internal link modules
-- `src/templates/pageBuilders.js`
-  - hubs, core pages, project pages, blog pages
+### Service schema (`src/data/seoConfig.js`)
 
-### Helper modules
+Each service includes:
 
-- `src/lib/contentEngine.js`
-  - deterministic uniqueness composition per `service + city`
-  - FAQ/process pool rotation
-  - uniqueness fingerprint generation
-- `src/lib/schema.js`
-  - modular JSON-LD generators:
-    - `Carpenter` / LocalBusiness
-    - `Organization`
-    - `WebPage`
-    - `BreadcrumbList`
-    - `FAQPage`
-    - `Service`
-    - `ImageObject`
-- `src/lib/linking.js`
-  - relevance-based internal link and anchor variation logic
-- `src/lib/conversionBlocks.js`
-  - reusable quote/call/trust/review/project highlight blocks
-- `src/lib/audit.js`
-  - page quality checks
-  - SEO/meta/canonical/H1 checks
-  - internal linking graph checks
-  - lightweight performance report
-- `src/lib/seo.js`
-  - canonical builder
-  - robots policy resolution
-  - breadcrumb trail generation
+- `name`
+- `slug`
+- `shortDescription`
+- `longDescription`
+- `commonUseCases[]`
+- `roomTypes[]`
+- `benefits[]`
+- `materials[]`
+- `processNotes[]`
+- `faqSeeds[]`
+- `relatedServices[]`
+- `serviceEmphasis`
 
-## Config Structure
+### City schema (`src/data/seoConfig.js`)
 
-Primary config file: `src/config.js`
+Each city includes:
 
-### Includes
+- `tier`
+- `name`
+- `slug`
+- `state`
+- `county`
+- `nearbyCities[]`
+- `landmarks[]`
+- `localAreas[]`
+- `localNotes[]`
+- `serviceEmphasis[]`
+- optional `introPhrases[]`
 
-- `business`: identity, contact, address, map embed, social/profile URLs, tracking placeholders
-- `services[]`: richer service metadata (selling points, benefits, use-cases, FAQ/process pool keys)
-- `cities[]`: county, nearby communities, neighborhoods, landmarks, local notes, service-area wording
-- `blogTopics[]`: topic metadata + related services/cities
-- `projects[]`: summary, scope of work, before/after, materials, image sets
-- `variation`: reusable content structures
-- `faqPools` and `processPools`
-- `conversion`: CTA/review/trust block content
-- `contentRules`: thin/quality thresholds
-- `indexation`: noindex + sitemap exclusion behavior
-- `sitemap`: priorities and change frequency
-- `technicalSeo`: title/description/robots standards
+## Routing Structure
+
+### Root service-city pages
+
+Pattern:
+
+- `/{service-slug}-{city-slug}`
+
+Examples:
+
+- `/custom-built-ins-cleveland-tn`
+- `/floating-shelves-apison-tn`
+
+### Root city hubs
+
+Pattern:
+
+- `/{city-slug}-carpentry`
+
+Examples:
+
+- `/cleveland-tn-carpentry`
+- `/signal-mountain-tn-carpentry`
+
+### Primary service hubs
+
+Pattern:
+
+- `/services/{service-slug}`
+
+Examples:
+
+- `/services/custom-built-ins`
+- `/services/cabinetry`
+
+## Breadcrumb Strategy
+
+Breadcrumbs are visible and crawlable on:
+
+- service hubs
+- city hubs
+- root service-city pages
+- deeper legacy pages (via default fallback)
+
+Examples:
+
+- Service hub: `Home > Services > Custom Built-Ins`
+- City hub: `Home > Service Areas > Cleveland TN`
+- Service-city: `Home > Services > Custom Built-Ins > Cleveland TN`
+
+Each breadcrumb trail also outputs matching `BreadcrumbList` JSON-LD.
+
+## Internal Linking Lattice
+
+### Layer 1: Homepage
+
+Links to:
+
+- `/services`
+- `/cities`
+- `/projects`
+- `/blog`
+- `/contact`
+
+### Layer 2: Service hubs
+
+Links to:
+
+- all city versions of that service
+- related service hubs
+- relevant projects
+
+### Layer 3: City hubs
+
+Links to:
+
+- all services for that city
+- nearby city hubs
+- related projects
+
+### Layer 4: Service-city pages
+
+Links to:
+
+- parent service hub
+- parent city hub
+- nearby city pages for same service
+- related services in same city
+- `/projects`
+- `/contact`
+
+Anchor text variation is deterministic and data-driven to avoid repetitive exact-match anchors.
 
 ## Uniqueness Engine
 
-Service-city pages use deterministic content assembly:
+Deterministic variation uses:
 
-- intro structures
-- local relevance blurbs
-- process pool variations
-- FAQ pool rotations
-- service-level selling points/benefits/use-cases
-- city-level neighborhoods/landmarks/community mentions
-- varied internal anchor text and CTA phrasing
+- intro templates
+- service explanation templates
+- city-local paragraphs
+- process wording pools
+- FAQ variation with service seed topics
+- CTA variation
+- nearby city references
+- service/city metadata fields
 
-Each money page emits:
+Each generated page includes a uniqueness fingerprint and source summary in build outputs.
 
-- uniqueness fingerprint
-- source summary entries in `dist/content-uniqueness.json`
+## FAQ + Schema Rules
 
-## Doorway/Thin-Content Guardrails
+FAQs are rendered on:
 
-Build-time checks include:
+- service-city pages
+- city hubs
+- service hubs
 
-- min/max word count (money pages)
-- low local specificity
-- low service specificity
-- duplicate paragraph risk scoring
-- repeated FAQ set threshold
-- duplicate title/canonical/H1 group detection
-- duplicate meta description group detection
-- missing title/meta/canonical/robots/H1 detection
-- image SEO checks (missing alt, non-SEO filename, missing lazy loading, missing dimensions)
+Schema included only when FAQ content is visible:
 
-Actions are configurable:
+- `FAQPage`
+- `Service`
+- global `LocalBusiness`, `Organization`, `WebPage`, `BreadcrumbList`
 
-- auto-mark `noindex`
-- auto-exclude from sitemap
+## Technical SEO Consistency
 
-Config section: `indexation` + `contentRules`
+All generated pages include:
 
-## Technical SEO
+- unique title
+- unique meta description
+- canonical
+- robots meta
+- Open Graph tags
+- Twitter card tags
+- semantic heading structure
+- breadcrumb HTML + BreadcrumbList schema
 
-Per-page technical SEO output includes:
+Canonical domain is pinned to:
 
-- self-referencing canonical
-- unique title + meta description generation
-- robots meta support (`index,follow` or `noindex,follow`)
-- Open Graph + Twitter card tags
-- breadcrumb HTML + `BreadcrumbList` schema
-- consistent single H1
-- canonical and sitemap URL consistency pinned to `https://www.timbertestament.com`
+- `https://www.timbertestament.com`
 
-Generated crawl/index assets:
+Legacy `/home` routes redirect to `/`.
 
-- `dist/robots.txt`
+## Sitemaps + Reports
+
+Generated outputs include:
+
 - `dist/sitemap.xml`
 - `dist/sitemap.txt`
+- `dist/robots.txt`
+- `dist/seo-pages-summary.json`
+- `dist/build-summary.json`
+- `dist/seo-audit.json`
+- `dist/internal-link-audit.json`
+- `dist/page-quality-audit.json`
+- `dist/canonical-audit.json`
+- `dist/content-uniqueness.json`
 
-Sitemap logic:
+`seo-pages-summary.json` now includes:
 
-- Home: `1.0`
-- Service routes: `0.9`
-- City routes: `0.8`
-- Project routes: `0.7`
-- Blog routes: `0.6`
-- All sitemap URLs are absolute and use the production canonical domain.
+- `serviceCityPages`
+- `cityHubPages`
+- `serviceHubPages`
+- `servicesCount`
+- `citiesCount`
 
-Robots output:
+## Maintaining Cities and Services
 
-- `User-agent: *`
-- `Allow: /`
-- `Sitemap: https://www.timbertestament.com/sitemap.xml`
+### Add a city
 
-## Image rules
+1. Add city object to `src/data/seoConfig.js` with required fields.
+2. Rebuild with `npm run build`.
 
-- All generated `<img>` tags are normalized to include:
-  - `loading="lazy"`
-  - `width` and `height` attributes
-  - `decoding="async"`
-- Build audit checks report:
-  - missing `alt`
-  - non-SEO-friendly image filenames
-  - missing lazy loading
-  - missing image dimensions
+### Add a service
 
-## Internal Linking Strategy
+1. Add service object to `src/data/seoConfig.js`.
+2. Ensure `relatedServices` slugs are valid.
+3. Rebuild with `npm run build`.
 
-Implemented rules:
+The generator automatically creates:
 
-- service-city pages link to related services in same city
-- service-city pages link to same service in nearby cities
-- service-city pages link to service hub + city hub
-- city hubs link to full service set + top services
-- project pages link to matching service-city and city hubs
-- blog posts link to related money pages
-- anchor text uses deterministic variation patterns
-
-Audit output: `dist/internal-link-audit.json`
-
-## Conversion Blocks
-
-Reusable static conversion modules:
-
-- quote CTA block
-- click-to-call block
-- trust statement block
-- review snippets block
-- recent project highlights block
-- service area reassurance block
-- mobile sticky CTA (lightweight)
-
-Inserted across key templates with configurable copy.
-
-## Homepage SEO Content
-
-Homepage now includes:
-
-- primary keyword H1: `Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee`
-- hero paragraph covering custom carpentry, built-ins, cabinetry, finish carpentry, Cleveland TN, and Southeast Tennessee
-- service area text explicitly mentioning Cleveland TN, Athens TN, Charleston TN, Chattanooga TN, and Ooltewah TN
-- service spotlight cards for:
-  - Custom Built-Ins
-  - Cabinetry
-  - Floating Shelves
-  - Custom Libraries
-  - Mantels
-  - Finish Carpentry
-- process section:
-  - Consultation
-  - Design
-  - Workshop Fabrication
-  - Installation
-- visible trust/contact block (phone, email, service area)
-
-## Project Page Enhancements
-
-Project pages now include:
-
-- project summary
-- service + city association
-- materials list
-- scope of work list
-- before/after narrative
-- image captions/alt and SEO filenames
-- internal links to related money pages
-- `ImageObject` schema per image
-- conversion CTA blocks
-
-## Build Reports
-
-Generated in `dist/`:
-
-- `build-summary.json`
-- `build-audit.json`
-- `page-quality-audit.json`
-- `seo-audit.json`
-- `title-meta-h1-audit.json`
-- `canonical-audit.json`
-- `internal-link-audit.json`
-- `performance-report.json`
-- `image-manifest.json`
-- `content-uniqueness.json`
-
-`seo-audit.json` includes explicit checks for:
-
-- missing titles
-- missing meta descriptions
-- missing image alt text
-- duplicate H1 groups
-- duplicate meta description groups
-
-## Deployment Notes
-
-- Output is static HTML/CSS/JS and can be hosted on Netlify, Vercel static output, Cloudflare Pages, S3+CloudFront, or any static host.
-- Contact form currently uses `mailto:` fallback in `/contact`.
-- Replace placeholder social/profile links, tracking IDs, and phone/address data in `src/config.js` before production launch.
-- Replace placeholder image files in `dist/assets/images` (or adapt build to pull from a source image folder).
+- service-city pages for all city combinations
+- one service hub
+- city hub links and internal lattice updates

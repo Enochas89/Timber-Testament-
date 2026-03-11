@@ -7,6 +7,7 @@
     "sharp": "^0.34.4"
   },
   "scripts": {
+    "generate:seo": "node scripts/generateSeoPages.js",
     "build": "node scripts/generate-site.js"
   }
 }

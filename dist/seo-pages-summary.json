@@ -1,0 +1,13 @@
+{
+  "totalPagesGenerated": 181,
+  "serviceCityPages": 150,
+  "cityHubPages": 25,
+  "serviceHubPages": 6,
+  "servicesCount": 6,
+  "citiesCount": 25,
+  "linkLattice": {
+    "serviceHubToServiceCityLinks": 150,
+    "cityHubToServiceCityLinks": 150,
+    "serviceCityToParentHubLinks": 300
+  }
+}
