@@ -165,15 +165,25 @@ async function optimizeImagesForPerformance(imageDir) {
 function createImagePlaceholders(imageNames) {
   const imageDir = path.join(distDir, "assets", "images");
   fs.mkdirSync(imageDir, { recursive: true });
+  const preferredFallbacks = [
+    business.defaultOgImage.replace("/assets/images/", ""),
+    "custom-carpentry-cleveland-tn.jpg",
+    "custom-built-ins-cleveland-tn.jpg",
+    "floating-shelves-athens-tn.jpg"
+  ];
 
-  const tinyJpegBase64 =
-    "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBUQEBQVFhUVFRUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGi0lHyUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAAEAAQMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUDBgcBAv/EADUQAAEDAgQEAwYEBwAAAAAAAAECAwQFEQAhBhIxQVEHExQiYXGBkaGx8BUjQlJyweHx/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAdEQEBAQADAAMBAAAAAAAAAAAAAQIREiExQVEi/9oADAMBAAIRAxEAPwD3iIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiP/2Q==";
+  const fallbackName = preferredFallbacks.find((name) => fs.existsSync(path.join(imageDir, name)));
+  const fallbackBuffer = fallbackName ? fs.readFileSync(path.join(imageDir, fallbackName)) : null;
 
-  const jpeg = Buffer.from(tinyJpegBase64, "base64");
+  // 1x1 transparent PNG as final fallback if no local image is available.
+  const tinyPngBase64 = "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+lmL0AAAAASUVORK5CYII=";
+  const emergencyBuffer = Buffer.from(tinyPngBase64, "base64");
+
+  const placeholderBuffer = fallbackBuffer || emergencyBuffer;
   for (const imageName of imageNames) {
     const fullPath = path.join(imageDir, imageName);
     if (!fs.existsSync(fullPath)) {
-      fs.writeFileSync(fullPath, jpeg);
+      fs.writeFileSync(fullPath, placeholderBuffer);
     }
   }
 }
