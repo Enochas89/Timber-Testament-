@@ -1,0 +1,1158 @@
+{
+  "canonicalMap": [
+    {
+      "route": "/home",
+      "canonical": "https://www.timberandtestament.com/home/"
+    },
+    {
+      "route": "/services",
+      "canonical": "https://www.timberandtestament.com/services/"
+    },
+    {
+      "route": "/projects",
+      "canonical": "https://www.timberandtestament.com/projects/"
+    },
+    {
+      "route": "/cities",
+      "canonical": "https://www.timberandtestament.com/cities/"
+    },
+    {
+      "route": "/blog",
+      "canonical": "https://www.timberandtestament.com/blog/"
+    },
+    {
+      "route": "/about",
+      "canonical": "https://www.timberandtestament.com/about/"
+    },
+    {
+      "route": "/contact",
+      "canonical": "https://www.timberandtestament.com/contact/"
+    },
+    {
+      "route": "/services/custom-carpentry",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry/"
+    },
+    {
+      "route": "/services/custom-built-ins",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins/"
+    },
+    {
+      "route": "/services/trim-carpentry",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry/"
+    },
+    {
+      "route": "/services/finish-carpentry",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry/"
+    },
+    {
+      "route": "/services/floating-shelves",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves/"
+    },
+    {
+      "route": "/services/mantels",
+      "canonical": "https://www.timberandtestament.com/services/mantels/"
+    },
+    {
+      "route": "/services/accent-walls",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls/"
+    },
+    {
+      "route": "/services/custom-cabinets",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets/"
+    },
+    {
+      "route": "/services/woodworking",
+      "canonical": "https://www.timberandtestament.com/services/woodworking/"
+    },
+    {
+      "route": "/services/interior-wood-features",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features/"
+    },
+    {
+      "route": "/services/built-in-bookcases",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases/"
+    },
+    {
+      "route": "/services/coffered-ceilings",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings/"
+    },
+    {
+      "route": "/services/wainscoting",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting/"
+    },
+    {
+      "route": "/services/crown-molding",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding/"
+    },
+    {
+      "route": "/services/custom-wall-paneling",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling/"
+    },
+    {
+      "route": "/cities/cleveland-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/cleveland-tn-carpentry/"
+    },
+    {
+      "route": "/cities/charleston-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/charleston-tn-carpentry/"
+    },
+    {
+      "route": "/cities/athens-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/athens-tn-carpentry/"
+    },
+    {
+      "route": "/cities/ooltewah-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/ooltewah-tn-carpentry/"
+    },
+    {
+      "route": "/cities/collegedale-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/collegedale-tn-carpentry/"
+    },
+    {
+      "route": "/cities/chattanooga-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/chattanooga-tn-carpentry/"
+    },
+    {
+      "route": "/cities/dayton-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/dayton-tn-carpentry/"
+    },
+    {
+      "route": "/cities/etowah-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/etowah-tn-carpentry/"
+    },
+    {
+      "route": "/cities/sweetwater-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/sweetwater-tn-carpentry/"
+    },
+    {
+      "route": "/cities/calhoun-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/calhoun-tn-carpentry/"
+    },
+    {
+      "route": "/cities/benton-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/benton-tn-carpentry/"
+    },
+    {
+      "route": "/cities/soddy-daisy-tn-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/soddy-daisy-tn-carpentry/"
+    },
+    {
+      "route": "/cities/ringgold-ga-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/ringgold-ga-carpentry/"
+    },
+    {
+      "route": "/cities/fort-oglethorpe-ga-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/fort-oglethorpe-ga-carpentry/"
+    },
+    {
+      "route": "/cities/dalton-ga-carpentry",
+      "canonical": "https://www.timberandtestament.com/cities/dalton-ga-carpentry/"
+    },
+    {
+      "route": "/services/custom-carpentry-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-cleveland-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-charleston-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-athens-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-ooltewah-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-collegedale-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-chattanooga-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-dayton-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-etowah-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-sweetwater-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-calhoun-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-benton-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/custom-carpentry-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-ringgold-ga/"
+    },
+    {
+      "route": "/services/custom-carpentry-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/custom-carpentry-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-carpentry-dalton-ga/"
+    },
+    {
+      "route": "/services/custom-built-ins-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-cleveland-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-charleston-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-athens-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-ooltewah-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-collegedale-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-chattanooga-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-dayton-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-etowah-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-sweetwater-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-calhoun-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-benton-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/custom-built-ins-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-ringgold-ga/"
+    },
+    {
+      "route": "/services/custom-built-ins-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/custom-built-ins-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-built-ins-dalton-ga/"
+    },
+    {
+      "route": "/services/trim-carpentry-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-cleveland-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-charleston-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-athens-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-ooltewah-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-collegedale-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-chattanooga-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-dayton-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-etowah-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-sweetwater-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-calhoun-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-benton-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/trim-carpentry-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-ringgold-ga/"
+    },
+    {
+      "route": "/services/trim-carpentry-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/trim-carpentry-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/trim-carpentry-dalton-ga/"
+    },
+    {
+      "route": "/services/finish-carpentry-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-cleveland-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-charleston-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-athens-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-ooltewah-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-collegedale-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-chattanooga-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-dayton-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-etowah-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-sweetwater-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-calhoun-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-benton-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/finish-carpentry-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-ringgold-ga/"
+    },
+    {
+      "route": "/services/finish-carpentry-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/finish-carpentry-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/finish-carpentry-dalton-ga/"
+    },
+    {
+      "route": "/services/floating-shelves-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-cleveland-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-charleston-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-athens-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-ooltewah-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-collegedale-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-chattanooga-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-dayton-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-etowah-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-sweetwater-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-calhoun-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-benton-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/floating-shelves-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-ringgold-ga/"
+    },
+    {
+      "route": "/services/floating-shelves-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/floating-shelves-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/floating-shelves-dalton-ga/"
+    },
+    {
+      "route": "/services/mantels-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-cleveland-tn/"
+    },
+    {
+      "route": "/services/mantels-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-charleston-tn/"
+    },
+    {
+      "route": "/services/mantels-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-athens-tn/"
+    },
+    {
+      "route": "/services/mantels-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-ooltewah-tn/"
+    },
+    {
+      "route": "/services/mantels-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-collegedale-tn/"
+    },
+    {
+      "route": "/services/mantels-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-chattanooga-tn/"
+    },
+    {
+      "route": "/services/mantels-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-dayton-tn/"
+    },
+    {
+      "route": "/services/mantels-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-etowah-tn/"
+    },
+    {
+      "route": "/services/mantels-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-sweetwater-tn/"
+    },
+    {
+      "route": "/services/mantels-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-calhoun-tn/"
+    },
+    {
+      "route": "/services/mantels-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-benton-tn/"
+    },
+    {
+      "route": "/services/mantels-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/mantels-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/mantels-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/mantels-ringgold-ga/"
+    },
+    {
+      "route": "/services/mantels-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/mantels-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/mantels-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/mantels-dalton-ga/"
+    },
+    {
+      "route": "/services/accent-walls-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-cleveland-tn/"
+    },
+    {
+      "route": "/services/accent-walls-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-charleston-tn/"
+    },
+    {
+      "route": "/services/accent-walls-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-athens-tn/"
+    },
+    {
+      "route": "/services/accent-walls-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-ooltewah-tn/"
+    },
+    {
+      "route": "/services/accent-walls-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-collegedale-tn/"
+    },
+    {
+      "route": "/services/accent-walls-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-chattanooga-tn/"
+    },
+    {
+      "route": "/services/accent-walls-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-dayton-tn/"
+    },
+    {
+      "route": "/services/accent-walls-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-etowah-tn/"
+    },
+    {
+      "route": "/services/accent-walls-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-sweetwater-tn/"
+    },
+    {
+      "route": "/services/accent-walls-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-calhoun-tn/"
+    },
+    {
+      "route": "/services/accent-walls-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-benton-tn/"
+    },
+    {
+      "route": "/services/accent-walls-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/accent-walls-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-ringgold-ga/"
+    },
+    {
+      "route": "/services/accent-walls-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/accent-walls-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/accent-walls-dalton-ga/"
+    },
+    {
+      "route": "/services/custom-cabinets-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-cleveland-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-charleston-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-athens-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-ooltewah-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-collegedale-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-chattanooga-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-dayton-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-etowah-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-sweetwater-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-calhoun-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-benton-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/custom-cabinets-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-ringgold-ga/"
+    },
+    {
+      "route": "/services/custom-cabinets-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/custom-cabinets-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-cabinets-dalton-ga/"
+    },
+    {
+      "route": "/services/woodworking-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-cleveland-tn/"
+    },
+    {
+      "route": "/services/woodworking-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-charleston-tn/"
+    },
+    {
+      "route": "/services/woodworking-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-athens-tn/"
+    },
+    {
+      "route": "/services/woodworking-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-ooltewah-tn/"
+    },
+    {
+      "route": "/services/woodworking-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-collegedale-tn/"
+    },
+    {
+      "route": "/services/woodworking-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-chattanooga-tn/"
+    },
+    {
+      "route": "/services/woodworking-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-dayton-tn/"
+    },
+    {
+      "route": "/services/woodworking-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-etowah-tn/"
+    },
+    {
+      "route": "/services/woodworking-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-sweetwater-tn/"
+    },
+    {
+      "route": "/services/woodworking-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-calhoun-tn/"
+    },
+    {
+      "route": "/services/woodworking-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-benton-tn/"
+    },
+    {
+      "route": "/services/woodworking-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/woodworking-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-ringgold-ga/"
+    },
+    {
+      "route": "/services/woodworking-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/woodworking-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/woodworking-dalton-ga/"
+    },
+    {
+      "route": "/services/interior-wood-features-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-cleveland-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-charleston-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-athens-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-ooltewah-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-collegedale-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-chattanooga-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-dayton-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-etowah-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-sweetwater-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-calhoun-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-benton-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/interior-wood-features-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-ringgold-ga/"
+    },
+    {
+      "route": "/services/interior-wood-features-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/interior-wood-features-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/interior-wood-features-dalton-ga/"
+    },
+    {
+      "route": "/services/built-in-bookcases-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-cleveland-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-charleston-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-athens-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-ooltewah-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-collegedale-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-chattanooga-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-dayton-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-etowah-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-sweetwater-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-calhoun-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-benton-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/built-in-bookcases-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-ringgold-ga/"
+    },
+    {
+      "route": "/services/built-in-bookcases-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/built-in-bookcases-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/built-in-bookcases-dalton-ga/"
+    },
+    {
+      "route": "/services/coffered-ceilings-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-cleveland-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-charleston-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-athens-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-ooltewah-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-collegedale-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-chattanooga-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-dayton-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-etowah-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-sweetwater-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-calhoun-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-benton-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/coffered-ceilings-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-ringgold-ga/"
+    },
+    {
+      "route": "/services/coffered-ceilings-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/coffered-ceilings-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/coffered-ceilings-dalton-ga/"
+    },
+    {
+      "route": "/services/wainscoting-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-cleveland-tn/"
+    },
+    {
+      "route": "/services/wainscoting-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-charleston-tn/"
+    },
+    {
+      "route": "/services/wainscoting-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-athens-tn/"
+    },
+    {
+      "route": "/services/wainscoting-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-ooltewah-tn/"
+    },
+    {
+      "route": "/services/wainscoting-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-collegedale-tn/"
+    },
+    {
+      "route": "/services/wainscoting-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-chattanooga-tn/"
+    },
+    {
+      "route": "/services/wainscoting-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-dayton-tn/"
+    },
+    {
+      "route": "/services/wainscoting-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-etowah-tn/"
+    },
+    {
+      "route": "/services/wainscoting-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-sweetwater-tn/"
+    },
+    {
+      "route": "/services/wainscoting-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-calhoun-tn/"
+    },
+    {
+      "route": "/services/wainscoting-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-benton-tn/"
+    },
+    {
+      "route": "/services/wainscoting-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/wainscoting-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-ringgold-ga/"
+    },
+    {
+      "route": "/services/wainscoting-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/wainscoting-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/wainscoting-dalton-ga/"
+    },
+    {
+      "route": "/services/crown-molding-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-cleveland-tn/"
+    },
+    {
+      "route": "/services/crown-molding-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-charleston-tn/"
+    },
+    {
+      "route": "/services/crown-molding-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-athens-tn/"
+    },
+    {
+      "route": "/services/crown-molding-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-ooltewah-tn/"
+    },
+    {
+      "route": "/services/crown-molding-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-collegedale-tn/"
+    },
+    {
+      "route": "/services/crown-molding-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-chattanooga-tn/"
+    },
+    {
+      "route": "/services/crown-molding-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-dayton-tn/"
+    },
+    {
+      "route": "/services/crown-molding-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-etowah-tn/"
+    },
+    {
+      "route": "/services/crown-molding-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-sweetwater-tn/"
+    },
+    {
+      "route": "/services/crown-molding-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-calhoun-tn/"
+    },
+    {
+      "route": "/services/crown-molding-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-benton-tn/"
+    },
+    {
+      "route": "/services/crown-molding-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/crown-molding-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-ringgold-ga/"
+    },
+    {
+      "route": "/services/crown-molding-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/crown-molding-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/crown-molding-dalton-ga/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-cleveland-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-charleston-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-charleston-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-athens-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-athens-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-ooltewah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-ooltewah-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-collegedale-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-chattanooga-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-dayton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-dayton-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-etowah-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-etowah-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-sweetwater-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-sweetwater-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-calhoun-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-calhoun-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-benton-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-benton-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-soddy-daisy-tn",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-soddy-daisy-tn/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-ringgold-ga/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-fort-oglethorpe-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-fort-oglethorpe-ga/"
+    },
+    {
+      "route": "/services/custom-wall-paneling-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/services/custom-wall-paneling-dalton-ga/"
+    },
+    {
+      "route": "/projects/project-oak-built-ins-cleveland-tn",
+      "canonical": "https://www.timberandtestament.com/projects/project-oak-built-ins-cleveland-tn/"
+    },
+    {
+      "route": "/projects/project-floating-shelves-athens-tn",
+      "canonical": "https://www.timberandtestament.com/projects/project-floating-shelves-athens-tn/"
+    },
+    {
+      "route": "/projects/project-mantel-installation-chattanooga-tn",
+      "canonical": "https://www.timberandtestament.com/projects/project-mantel-installation-chattanooga-tn/"
+    },
+    {
+      "route": "/projects/project-wainscoting-collegedale-tn",
+      "canonical": "https://www.timberandtestament.com/projects/project-wainscoting-collegedale-tn/"
+    },
+    {
+      "route": "/projects/project-crown-molding-ringgold-ga",
+      "canonical": "https://www.timberandtestament.com/projects/project-crown-molding-ringgold-ga/"
+    },
+    {
+      "route": "/projects/project-accent-wall-dalton-ga",
+      "canonical": "https://www.timberandtestament.com/projects/project-accent-wall-dalton-ga/"
+    },
+    {
+      "route": "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
+      "canonical": "https://www.timberandtestament.com/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide/"
+    },
+    {
+      "route": "/blog/best-wood-species-for-floating-shelves-in-tennessee-homes",
+      "canonical": "https://www.timberandtestament.com/blog/best-wood-species-for-floating-shelves-in-tennessee-homes/"
+    },
+    {
+      "route": "/blog/how-custom-carpentry-increases-home-value-in-southeast-tennessee",
+      "canonical": "https://www.timberandtestament.com/blog/how-custom-carpentry-increases-home-value-in-southeast-tennessee/"
+    },
+    {
+      "route": "/blog/custom-trim-vs-prefabricated-trim-which-is-better-for-your-home",
+      "canonical": "https://www.timberandtestament.com/blog/custom-trim-vs-prefabricated-trim-which-is-better-for-your-home/"
+    },
+    {
+      "route": "/blog/how-to-plan-built-in-bookcases-around-fireplaces",
+      "canonical": "https://www.timberandtestament.com/blog/how-to-plan-built-in-bookcases-around-fireplaces/"
+    },
+    {
+      "route": "/blog/wainscoting-design-ideas-for-historic-homes-in-chattanooga",
+      "canonical": "https://www.timberandtestament.com/blog/wainscoting-design-ideas-for-historic-homes-in-chattanooga/"
+    },
+    {
+      "route": "/blog/crown-molding-profiles-that-work-in-modern-farmhouse-interiors",
+      "canonical": "https://www.timberandtestament.com/blog/crown-molding-profiles-that-work-in-modern-farmhouse-interiors/"
+    },
+    {
+      "route": "/blog/what-to-expect-during-a-finish-carpentry-installation",
+      "canonical": "https://www.timberandtestament.com/blog/what-to-expect-during-a-finish-carpentry-installation/"
+    },
+    {
+      "route": "/blog/how-to-choose-the-right-stain-color-for-custom-wood-features",
+      "canonical": "https://www.timberandtestament.com/blog/how-to-choose-the-right-stain-color-for-custom-wood-features/"
+    },
+    {
+      "route": "/blog/mistakes-to-avoid-when-hiring-a-trim-carpenter",
+      "canonical": "https://www.timberandtestament.com/blog/mistakes-to-avoid-when-hiring-a-trim-carpenter/"
+    },
+    {
+      "route": "/blog/do-accent-walls-still-add-value-a-carpenter-s-perspective",
+      "canonical": "https://www.timberandtestament.com/blog/do-accent-walls-still-add-value-a-carpenter-s-perspective/"
+    },
+    {
+      "route": "/blog/how-long-does-a-custom-mantel-installation-take",
+      "canonical": "https://www.timberandtestament.com/blog/how-long-does-a-custom-mantel-installation-take/"
+    },
+    {
+      "route": "/blog/custom-cabinet-upgrades-that-improve-everyday-storage",
+      "canonical": "https://www.timberandtestament.com/blog/custom-cabinet-upgrades-that-improve-everyday-storage/"
+    },
+    {
+      "route": "/blog/when-to-replace-vs-refine-existing-interior-woodwork",
+      "canonical": "https://www.timberandtestament.com/blog/when-to-replace-vs-refine-existing-interior-woodwork/"
+    },
+    {
+      "route": "/blog/how-humidity-in-tennessee-affects-wood-movement-indoors",
+      "canonical": "https://www.timberandtestament.com/blog/how-humidity-in-tennessee-affects-wood-movement-indoors/"
+    },
+    {
+      "route": "/blog/open-shelving-vs-closed-cabinetry-function-and-style-tradeoffs",
+      "canonical": "https://www.timberandtestament.com/blog/open-shelving-vs-closed-cabinetry-function-and-style-tradeoffs/"
+    },
+    {
+      "route": "/blog/coffered-ceilings-for-standard-height-rooms-is-it-worth-it",
+      "canonical": "https://www.timberandtestament.com/blog/coffered-ceilings-for-standard-height-rooms-is-it-worth-it/"
+    },
+    {
+      "route": "/blog/how-to-budget-for-multi-room-finish-carpentry-projects",
+      "canonical": "https://www.timberandtestament.com/blog/how-to-budget-for-multi-room-finish-carpentry-projects/"
+    },
+    {
+      "route": "/blog/top-questions-to-ask-before-starting-a-built-in-project",
+      "canonical": "https://www.timberandtestament.com/blog/top-questions-to-ask-before-starting-a-built-in-project/"
+    },
+    {
+      "route": "/blog/what-makes-a-high-end-carpentry-finish-look-professional",
+      "canonical": "https://www.timberandtestament.com/blog/what-makes-a-high-end-carpentry-finish-look-professional/"
+    }
+  ],
+  "duplicateCanonicals": [],
+  "missingCanonicals": []
+}

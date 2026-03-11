@@ -1,0 +1,13 @@
+{
+  "htmlBytes": 4604513,
+  "averageHtmlBytes": 15988,
+  "imageCount": 30,
+  "lazyImageCount": 36,
+  "lazyLoadCoverage": 120,
+  "hints": [
+    "Static pre-rendered HTML",
+    "Single stylesheet and single deferred script",
+    "Lazy-loaded project images",
+    "No runtime framework payload"
+  ]
+}
