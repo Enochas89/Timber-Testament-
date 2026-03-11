@@ -23,6 +23,9 @@ function renderHomeSectionHeader({ eyebrow, title, description }) {
 function renderHomeServiceCard({ title, description, href, bullets = [] }) {
   return `
     <article class="home-service-card reveal">
+      <div class="home-service-meta">
+        <span class="home-service-pill">Featured Service</span>
+      </div>
       <h3>${title}</h3>
       <p>${description}</p>
       <ul class="home-service-bullets">
