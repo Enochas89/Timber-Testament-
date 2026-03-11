@@ -45,6 +45,14 @@ function renderServiceCityPage({ service, city, allCities, allServices, relatedP
     "Start planning"
   ];
 
+  const recentExampleItems = relatedProjects.length
+    ? relatedProjects
+        .slice(0, 3)
+        .map((project) => `${project.service} completed in ${project.city} ${project.state}`)
+    : plan.serviceUseCases
+        .slice(0, 3)
+        .map((useCase) => `${service.name} for ${useCase} in ${cityName}`);
+
   const body = `
   <section class="hero hero-service-city">
     <p class="eyebrow">${service.name} in ${cityName}</p>
@@ -96,13 +104,7 @@ function renderServiceCityPage({ service, city, allCities, allServices, relatedP
       <h2>Recent Project Examples Related to ${service.name}</h2>
       <p>Our portfolio across ${business.primaryRegion} includes projects that match homeowner goals similar to those in ${cityName}. Each build balances aesthetics, durability, and day-to-day use.</p>
       <ul>
-        ${relatedProjects
-          .slice(0, 2)
-          .map(
-            (project) =>
-              `<li><a href="/projects/${project.slug}/">${project.title}</a></li>`
-          )
-          .join("")}
+        ${recentExampleItems.map((item) => `<li>${item}</li>`).join("")}
       </ul>
       <p>If you are comparing options, we recommend reviewing project pages first, then requesting a scoped estimate for your room dimensions and finish preferences.</p>
     </section>

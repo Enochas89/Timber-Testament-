@@ -2,6 +2,18 @@
   "orphanPages": [],
   "lowLinkPages": [
     {
+      "route": "/projects/project-wainscoting-collegedale-tn",
+      "inboundLinks": 1
+    },
+    {
+      "route": "/projects/project-crown-molding-ringgold-ga",
+      "inboundLinks": 1
+    },
+    {
+      "route": "/projects/project-accent-wall-dalton-ga",
+      "inboundLinks": 1
+    },
+    {
       "route": "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
       "inboundLinks": 1
     },
@@ -462,8 +474,8 @@
   ],
   "summary": {
     "totalOrphans": 0,
-    "totalLowLinkPages": 20,
+    "totalLowLinkPages": 23,
     "totalOverlinkedPages": 0,
-    "averageOutboundLinks": 45
+    "averageOutboundLinks": 42.6
   }
 }

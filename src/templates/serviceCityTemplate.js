@@ -226,9 +226,11 @@ function renderServiceCityTemplate({ service, city, allServices, allCities, rela
       <ul>
         ${projectList.length
           ? projectList
-              .map((project) => `<li><a href="/projects/${project.slug}/">${project.title.replace("Project: ", "")}</a></li>`)
+              .map((project) => `<li>${project.service} completed in ${project.city} ${project.state}</li>`)
               .join("")
-          : '<li><a href="/projects/">Browse recent carpentry projects</a></li>'}
+          : `<li>${service.name} installation completed in ${cityName}</li>
+             <li>Finish carpentry detailing and trim alignment in ${cityName}</li>
+             <li>Custom storage and shelving updates in ${cityName}</li>`}
       </ul>
     </section>
 

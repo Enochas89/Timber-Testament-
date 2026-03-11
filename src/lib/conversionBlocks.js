@@ -60,15 +60,23 @@ function renderServiceAreaReassurance() {
 }
 
 function renderProjectHighlights(projects = []) {
+  const genericExamples = [
+    "Custom built-ins and media wall storage installation",
+    "Finish carpentry trim upgrade and detail refinements",
+    "Floating shelf layout with concealed hardware support",
+    "Custom mantel installation with fireplace surround updates",
+    "Built-in bookcase planning with integrated cabinetry",
+    "Mudroom storage cabinetry and entry organization upgrades"
+  ];
+
   const items = projects.length
     ? projects
         .slice(0, 3)
-        .map(
-          (project) =>
-            `<li><a href="/projects/${project.slug}/">${project.title}</a> - ${project.city} ${project.state}</li>`
-        )
+        .map((project) => `<li>${project.service} project completed in ${project.city} ${project.state}</li>`)
         .join("")
-    : `<li><a href="/projects/">Browse our completed project portfolio</a> for recent built-ins, trim work, and feature carpentry.</li>`;
+    : pickVariants(genericExamples, "project-highlights-generic", 3)
+        .map((item) => `<li>${item} in Southeast Tennessee</li>`)
+        .join("");
 
   return `
     <section class="project-highlight-block conversion-block">

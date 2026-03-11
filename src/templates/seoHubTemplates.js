@@ -88,9 +88,13 @@ function renderSeoCityHub({ city, services, allCities, projects = [] }) {
 
   const projectsMarkup = relatedProjects.length
     ? `<ul>${relatedProjects
-        .map((project) => `<li><a href="/projects/${project.slug}/">${project.title.replace("Project: ", "")}</a></li>`)
+        .map((project) => `<li>${project.service} completed in ${project.city} ${project.state}</li>`)
         .join("")}</ul>`
-    : `<p><a href="/projects/">Browse recent carpentry projects</a> from Cleveland and surrounding Southeast Tennessee communities.</p>`;
+    : `<ul>
+        <li>Custom built-ins and storage wall carpentry in Southeast Tennessee</li>
+        <li>Finish trim and interior detail upgrades for remodeled homes</li>
+        <li>Floating shelf and cabinetry installations for everyday storage</li>
+      </ul>`;
 
   const introPhrase = city.introPhrases && city.introPhrases.length
     ? pickVariant(city.introPhrases, `${pageKey}-intro-phrase`)
@@ -208,9 +212,13 @@ function renderSeoServiceHub({ service, cities, services, projects = [] }) {
 
   const projectMarkup = serviceProjects.length
     ? `<ul>${serviceProjects
-        .map((project) => `<li><a href="/projects/${project.slug}/">${project.title.replace("Project: ", "")}</a></li>`)
+        .map((project) => `<li>${project.service} project completed in ${project.city} ${project.state}</li>`)
         .join("")}</ul>`
-    : `<p><a href="/projects/">Browse project examples</a> related to ${service.name.toLowerCase()} and finish carpentry upgrades.</p>`;
+    : `<ul>
+        <li>${service.name} installation with site-fit planning and clean finish work</li>
+        <li>${service.name} updates for function, storage, and architectural consistency</li>
+        <li>${service.name} scope completed across Cleveland and nearby Southeast Tennessee communities</li>
+      </ul>`;
 
   const content = `
     <section class="page-intro">
