@@ -29,6 +29,14 @@
       "canonical": "https://www.timbertestament.com/contact/"
     },
     {
+      "route": "/privacy",
+      "canonical": "https://www.timbertestament.com/privacy/"
+    },
+    {
+      "route": "/terms",
+      "canonical": "https://www.timbertestament.com/terms/"
+    },
+    {
       "route": "/services/custom-carpentry",
       "canonical": "https://www.timbertestament.com/services/custom-carpentry/"
     },

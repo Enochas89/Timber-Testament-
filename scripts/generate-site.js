@@ -25,7 +25,9 @@ const {
   renderBlogIndex,
   renderBlogPost,
   renderAboutPage,
-  renderContactPage
+  renderContactPage,
+  renderPrivacyPage,
+  renderTermsPage
 } = require("../src/templates/pageBuilders");
 const { pathToOutputPath, serviceSlug, citySlug } = require("../src/lib/utils");
 const { canonicalFor, resolveRobots, inferPageType, buildBreadcrumbs } = require("../src/lib/seo");
@@ -429,7 +431,9 @@ async function build() {
     ["/cities", renderCitiesIndex({ cities, services }), "hub"],
     ["/blog", renderBlogIndex({ blogTopics }), "hub"],
     ["/about", renderAboutPage(), "utility"],
-    ["/contact", renderContactPage({ cities }), "utility"]
+    ["/contact", renderContactPage({ cities }), "utility"],
+    ["/privacy", renderPrivacyPage(), "utility"],
+    ["/terms", renderTermsPage(), "utility"]
   ];
 
   topPages.forEach(([route, page, type]) => addPage(pageEntries, route, page, type));

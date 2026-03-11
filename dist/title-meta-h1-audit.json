@@ -3,7 +3,7 @@
     "route": "/",
     "title": "Custom Carpentry, Built-Ins & Cabinetry in Cleveland TN | Timber & Testament",
     "description": "Timber & Testament provides custom carpentry, built-ins, cabinetry, floating shelves, mantels, and finish carpentry in Cleveland TN and Southeast Tennessee.",
-    "h1": "Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee",
+    "h1": "Custom Carpentry, Built-Ins & Cabinetry in Cleveland, Tennessee.",
     "canonical": "https://www.timbertestament.com/",
     "robots": "index,follow,max-image-preview:large",
     "issues": []
@@ -59,6 +59,24 @@
     "description": "Request a custom carpentry estimate in Cleveland TN and surrounding cities.",
     "h1": "Contact Timber & Testament Custom Carpentry",
     "canonical": "https://www.timbertestament.com/contact/",
+    "robots": "index,follow,max-image-preview:large",
+    "issues": []
+  },
+  {
+    "route": "/privacy",
+    "title": "Privacy Policy | Timber & Testament Custom Carpentry",
+    "description": "Privacy policy for Timber & Testament Custom Carpentry, including website contact, lead form, and communication handling practices.",
+    "h1": "Privacy Policy",
+    "canonical": "https://www.timbertestament.com/privacy/",
+    "robots": "index,follow,max-image-preview:large",
+    "issues": []
+  },
+  {
+    "route": "/terms",
+    "title": "Terms of Use | Timber & Testament Custom Carpentry",
+    "description": "Terms of use for Timber & Testament Custom Carpentry website and service inquiry submissions.",
+    "h1": "Terms of Use",
+    "canonical": "https://www.timbertestament.com/terms/",
     "robots": "index,follow,max-image-preview:large",
     "issues": []
   },

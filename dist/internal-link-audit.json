@@ -87,7 +87,7 @@
     {
       "route": "/",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -95,14 +95,14 @@
         "Blog",
         "About",
         "Contact",
-        "View The Dark Collection",
-        "Submit Specs"
+        "Request Consultation",
+        "View Portfolio"
       ]
     },
     {
       "route": "/services",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -117,7 +117,7 @@
     {
       "route": "/projects",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -132,7 +132,7 @@
     {
       "route": "/cities",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -147,7 +147,7 @@
     {
       "route": "/blog",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -162,20 +162,22 @@
     {
       "route": "/about",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
         "Cities",
         "Blog",
         "About",
-        "Contact"
+        "Contact",
+        "Service Areas",
+        "Custom Built-Ins"
       ]
     },
     {
       "route": "/contact",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -188,9 +190,39 @@
       ]
     },
     {
+      "route": "/privacy",
+      "anchors": [
+        "T&T Timber & Testament Custom Carpentry",
+        "Home",
+        "Services",
+        "Projects",
+        "Cities",
+        "Blog",
+        "About",
+        "Contact",
+        "Service Areas",
+        "Custom Built-Ins"
+      ]
+    },
+    {
+      "route": "/terms",
+      "anchors": [
+        "T&T Timber & Testament Custom Carpentry",
+        "Home",
+        "Services",
+        "Projects",
+        "Cities",
+        "Blog",
+        "About",
+        "Contact",
+        "Service Areas",
+        "Custom Built-Ins"
+      ]
+    },
+    {
       "route": "/services/custom-carpentry",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -205,7 +237,7 @@
     {
       "route": "/services/custom-built-ins",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -220,7 +252,7 @@
     {
       "route": "/services/trim-carpentry",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -235,7 +267,7 @@
     {
       "route": "/services/finish-carpentry",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -250,7 +282,7 @@
     {
       "route": "/services/floating-shelves",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -265,7 +297,7 @@
     {
       "route": "/services/mantels",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -280,7 +312,7 @@
     {
       "route": "/services/accent-walls",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -295,7 +327,7 @@
     {
       "route": "/services/custom-cabinets",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -310,7 +342,7 @@
     {
       "route": "/services/woodworking",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -325,7 +357,7 @@
     {
       "route": "/services/interior-wood-features",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -340,7 +372,7 @@
     {
       "route": "/services/built-in-bookcases",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -355,7 +387,7 @@
     {
       "route": "/services/coffered-ceilings",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -370,7 +402,7 @@
     {
       "route": "/services/wainscoting",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -385,7 +417,7 @@
     {
       "route": "/services/crown-molding",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -400,7 +432,7 @@
     {
       "route": "/services/custom-wall-paneling",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -415,7 +447,7 @@
     {
       "route": "/cities/cleveland-tn-carpentry",
       "anchors": [
-        "Timber & Testament Custom Carpentry",
+        "T&T Timber & Testament Custom Carpentry",
         "Home",
         "Services",
         "Projects",
@@ -426,42 +458,12 @@
         "custom carpentry in Cleveland TN",
         "get custom built-ins in Cleveland TN"
       ]
-    },
-    {
-      "route": "/cities/charleston-tn-carpentry",
-      "anchors": [
-        "Timber & Testament Custom Carpentry",
-        "Home",
-        "Services",
-        "Projects",
-        "Cities",
-        "Blog",
-        "About",
-        "Contact",
-        "local custom carpentry for Charleston TN homes",
-        "Charleston TN custom built-ins specialists"
-      ]
-    },
-    {
-      "route": "/cities/athens-tn-carpentry",
-      "anchors": [
-        "Timber & Testament Custom Carpentry",
-        "Home",
-        "Services",
-        "Projects",
-        "Cities",
-        "Blog",
-        "About",
-        "Contact",
-        "get custom carpentry in Athens TN",
-        "custom built-ins in Athens TN"
-      ]
     }
   ],
   "summary": {
     "totalOrphans": 0,
     "totalLowLinkPages": 20,
     "totalOverlinkedPages": 0,
-    "averageOutboundLinks": 30
+    "averageOutboundLinks": 45
   }
 }

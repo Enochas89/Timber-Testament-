@@ -1,10 +1,10 @@
 {
-  "totalPages": 466,
-  "generatedRoutes": 466,
+  "totalPages": 468,
+  "generatedRoutes": 468,
   "pageTypes": {
     "home": 1,
     "hub": 61,
-    "utility": 2,
+    "utility": 4,
     "money": 375,
     "project": 6,
     "blog": 20
@@ -18,21 +18,23 @@
   "cityHubs": 15,
   "projectPages": 6,
   "blogPages": 20,
-  "averageWordCount": 906,
-  "wordCountMin": 250,
-  "wordCountMax": 1204,
+  "averageWordCount": 888,
+  "wordCountMin": 234,
+  "wordCountMax": 1188,
   "qualityFlaggedPages": 0,
   "excludedFromSitemap": 0,
   "noindexPages": 0,
-  "sitemapUrls": 465,
+  "sitemapUrls": 467,
   "uniquenessFingerprints": 406,
   "duplicateRiskScore": {
-    "average": 0.238,
-    "max": 0.391,
+    "average": 0.188,
+    "max": 0.348,
     "flaggedPages": 0
   },
   "missingSeoElements": 0,
-  "imageIssues": {},
+  "imageIssues": {
+    "missing_lazy_loading": 1
+  },
   "imageOptimization": {
     "enabled": true,
     "optimizedFiles": 6,

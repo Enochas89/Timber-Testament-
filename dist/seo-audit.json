@@ -5,7 +5,7 @@
       "title": "Custom Carpentry, Built-Ins & Cabinetry in Cleveland TN | Timber & Testament",
       "description": "Timber & Testament provides custom carpentry, built-ins, cabinetry, floating shelves, mantels, and finish carpentry in Cleveland TN and Southeast Tennessee.",
       "canonical": "https://www.timbertestament.com/",
-      "h1": "Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee",
+      "h1": "Custom Carpentry, Built-Ins & Cabinetry in Cleveland, Tennessee.",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [],
@@ -20,10 +20,8 @@
       "h1": "Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.027,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -34,10 +32,8 @@
       "h1": "Completed Carpentry Projects",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.077,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -48,10 +44,8 @@
       "h1": "Cities We Serve",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.026,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -62,10 +56,8 @@
       "h1": "Local Carpentry Blog",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.167,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -76,10 +68,8 @@
       "h1": "About Timber & Testament Custom Carpentry",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -90,10 +80,32 @@
       "h1": "Contact Timber & Testament Custom Carpentry",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
+      "issues": []
+    },
+    {
+      "route": "/privacy",
+      "title": "Privacy Policy | Timber & Testament Custom Carpentry",
+      "description": "Privacy policy for Timber & Testament Custom Carpentry, including website contact, lead form, and communication handling practices.",
+      "canonical": "https://www.timbertestament.com/privacy/",
+      "h1": "Privacy Policy",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "none",
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
+      "issues": []
+    },
+    {
+      "route": "/terms",
+      "title": "Terms of Use | Timber & Testament Custom Carpentry",
+      "description": "Terms of use for Timber & Testament Custom Carpentry website and service inquiry submissions.",
+      "canonical": "https://www.timbertestament.com/terms/",
+      "h1": "Terms of Use",
+      "robots": "index,follow,max-image-preview:large",
+      "faqSetKey": "none",
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -104,10 +116,8 @@
       "h1": "Custom Carpentry",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -118,10 +128,8 @@
       "h1": "Custom Built-Ins by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "service-hub:custom-built-ins:Do you offer custom built-ins across Southeast Tennessee?|How long does custom custom built-ins installation usually take?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.067,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -132,10 +140,8 @@
       "h1": "Trim Carpentry",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -146,10 +152,8 @@
       "h1": "Finish Carpentry by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "service-hub:finish-carpentry:What affects finish carpentry project pricing?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.067,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -160,10 +164,8 @@
       "h1": "Floating Shelves by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "service-hub:floating-shelves:Do you offer floating shelves across Southeast Tennessee?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.071,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -174,10 +176,8 @@
       "h1": "Mantels by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "service-hub:mantels:Can mantels be matched to existing trim and finishes?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.071,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -188,10 +188,8 @@
       "h1": "Accent Walls",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -202,10 +200,8 @@
       "h1": "Custom Cabinets",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -216,10 +212,8 @@
       "h1": "Woodworking",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -230,10 +224,8 @@
       "h1": "Interior Wood Features",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -244,10 +236,8 @@
       "h1": "Built-in Bookcases",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -258,10 +248,8 @@
       "h1": "Coffered Ceilings",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -272,10 +260,8 @@
       "h1": "Wainscoting",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -286,10 +272,8 @@
       "h1": "Crown Molding",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -300,10 +284,8 @@
       "h1": "Custom Wall Paneling",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.125,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -314,10 +296,8 @@
       "h1": "Cleveland TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -328,10 +308,8 @@
       "h1": "Charleston TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -342,10 +320,8 @@
       "h1": "Athens TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -356,10 +332,8 @@
       "h1": "Ooltewah TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -370,10 +344,8 @@
       "h1": "Collegedale TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -384,10 +356,8 @@
       "h1": "Chattanooga TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -398,10 +368,8 @@
       "h1": "Dayton TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -412,10 +380,8 @@
       "h1": "Etowah TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -426,10 +392,8 @@
       "h1": "Sweetwater TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -440,10 +404,8 @@
       "h1": "Calhoun TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -454,10 +416,8 @@
       "h1": "Benton TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -468,10 +428,8 @@
       "h1": "Soddy Daisy TN Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -482,10 +440,8 @@
       "h1": "Ringgold GA Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -496,10 +452,8 @@
       "h1": "Fort Oglethorpe GA Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -510,10 +464,8 @@
       "h1": "Dalton GA Carpentry Services",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -524,10 +476,8 @@
       "h1": "Custom Carpentry in Cleveland TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "general:general",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.036,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -540,10 +490,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.111,
+      "duplicateRiskScore": 0.074,
       "issues": []
     },
     {
@@ -558,10 +507,9 @@
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.179,
+      "duplicateRiskScore": 0.143,
       "issues": []
     },
     {
@@ -575,10 +523,9 @@
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.143,
+      "duplicateRiskScore": 0.107,
       "issues": []
     },
     {
@@ -591,10 +538,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.103,
+      "duplicateRiskScore": 0.069,
       "issues": []
     },
     {
@@ -607,10 +553,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.107,
+      "duplicateRiskScore": 0.071,
       "issues": []
     },
     {
@@ -625,10 +570,9 @@
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.172,
+      "duplicateRiskScore": 0.138,
       "issues": []
     },
     {
@@ -641,10 +585,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.103,
+      "duplicateRiskScore": 0.069,
       "issues": []
     },
     {
@@ -658,10 +601,9 @@
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.143,
+      "duplicateRiskScore": 0.107,
       "issues": []
     },
     {
@@ -674,10 +616,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.111,
+      "duplicateRiskScore": 0.074,
       "issues": []
     },
     {
@@ -690,10 +631,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.107,
+      "duplicateRiskScore": 0.071,
       "issues": []
     },
     {
@@ -706,10 +646,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.103,
+      "duplicateRiskScore": 0.069,
       "issues": []
     },
     {
@@ -722,10 +661,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.111,
+      "duplicateRiskScore": 0.074,
       "issues": []
     },
     {
@@ -738,10 +676,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.107,
+      "duplicateRiskScore": 0.071,
       "issues": []
     },
     {
@@ -754,10 +691,9 @@
       "faqSetKey": "general:general",
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.107,
+      "duplicateRiskScore": 0.071,
       "issues": []
     },
     {
@@ -771,10 +707,9 @@
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.143,
+      "duplicateRiskScore": 0.107,
       "issues": []
     },
     {
@@ -790,10 +725,9 @@
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -808,10 +742,9 @@
         "/services/custom-built-ins-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.185,
+      "duplicateRiskScore": 0.148,
       "issues": []
     },
     {
@@ -826,10 +759,9 @@
         "/services/custom-built-ins-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.172,
+      "duplicateRiskScore": 0.138,
       "issues": []
     },
     {
@@ -845,10 +777,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -864,10 +795,9 @@
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -882,10 +812,9 @@
         "/services/custom-built-ins-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.179,
+      "duplicateRiskScore": 0.143,
       "issues": []
     },
     {
@@ -901,10 +830,9 @@
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -920,10 +848,9 @@
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -938,10 +865,9 @@
         "/services/custom-built-ins-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.179,
+      "duplicateRiskScore": 0.143,
       "issues": []
     },
     {
@@ -957,10 +883,9 @@
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -976,10 +901,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -995,10 +919,9 @@
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -1013,10 +936,9 @@
         "/services/custom-built-ins-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.185,
+      "duplicateRiskScore": 0.148,
       "issues": []
     },
     {
@@ -1032,10 +954,9 @@
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -1050,10 +971,9 @@
         "/services/custom-built-ins-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.185,
+      "duplicateRiskScore": 0.148,
       "issues": []
     },
     {
@@ -1069,10 +989,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -1089,10 +1008,9 @@
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1108,10 +1026,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1128,10 +1045,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1148,10 +1064,9 @@
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1167,10 +1082,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1187,10 +1101,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1206,10 +1119,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1227,10 +1139,9 @@
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.296,
+      "duplicateRiskScore": 0.259,
       "issues": []
     },
     {
@@ -1247,10 +1158,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -1267,10 +1177,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -1287,10 +1196,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -1307,10 +1215,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -1326,10 +1233,9 @@
         "/services/trim-carpentry-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -1343,10 +1249,9 @@
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.138,
+      "duplicateRiskScore": 0.103,
       "issues": []
     },
     {
@@ -1364,10 +1269,9 @@
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -1383,10 +1287,9 @@
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1402,10 +1305,9 @@
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -1420,10 +1322,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.179,
+      "duplicateRiskScore": 0.143,
       "issues": []
     },
     {
@@ -1438,10 +1339,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.185,
+      "duplicateRiskScore": 0.148,
       "issues": []
     },
     {
@@ -1457,10 +1357,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -1479,10 +1378,9 @@
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.321,
+      "duplicateRiskScore": 0.286,
       "issues": []
     },
     {
@@ -1498,10 +1396,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -1518,10 +1415,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -1540,10 +1436,9 @@
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.333,
+      "duplicateRiskScore": 0.296,
       "issues": []
     },
     {
@@ -1559,10 +1454,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -1581,10 +1475,9 @@
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.321,
+      "duplicateRiskScore": 0.286,
       "issues": []
     },
     {
@@ -1600,10 +1493,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -1621,10 +1513,9 @@
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -1638,10 +1529,9 @@
       "duplicateParagraphSources": [
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.148,
+      "duplicateRiskScore": 0.111,
       "issues": []
     },
     {
@@ -1659,10 +1549,9 @@
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -1677,10 +1566,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.185,
+      "duplicateRiskScore": 0.148,
       "issues": []
     },
     {
@@ -1697,10 +1585,9 @@
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1718,10 +1605,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -1738,10 +1624,9 @@
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1758,10 +1643,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1778,10 +1662,9 @@
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -1798,10 +1681,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -1818,10 +1700,9 @@
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -1837,10 +1718,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1858,10 +1738,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.296,
+      "duplicateRiskScore": 0.259,
       "issues": []
     },
     {
@@ -1877,10 +1756,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -1896,10 +1774,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -1915,10 +1792,9 @@
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1934,10 +1810,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1954,10 +1829,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -1973,10 +1847,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -1992,10 +1865,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -2011,10 +1883,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -2031,10 +1902,9 @@
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -2051,10 +1921,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2071,10 +1940,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2092,10 +1960,9 @@
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -2112,10 +1979,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2133,10 +1999,9 @@
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -2153,10 +2018,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2173,10 +2037,9 @@
         "/services/mantels-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -2194,10 +2057,9 @@
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -2214,10 +2076,9 @@
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2232,10 +2093,9 @@
         "/services/finish-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.179,
+      "duplicateRiskScore": 0.143,
       "issues": []
     },
     {
@@ -2252,10 +2112,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -2271,10 +2130,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -2291,10 +2149,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -2311,10 +2168,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2330,10 +2186,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -2350,10 +2205,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -2371,10 +2225,9 @@
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -2391,10 +2244,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2411,10 +2263,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2431,10 +2282,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -2451,10 +2301,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2471,10 +2320,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -2491,10 +2339,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -2510,10 +2357,9 @@
         "/services/accent-walls-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -2528,10 +2374,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.179,
+      "duplicateRiskScore": 0.143,
       "issues": []
     },
     {
@@ -2548,10 +2393,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -2567,10 +2411,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -2586,10 +2429,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -2605,10 +2447,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -2624,10 +2465,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -2644,10 +2484,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -2664,10 +2503,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -2684,10 +2522,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -2704,10 +2541,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2725,10 +2561,9 @@
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -2746,10 +2581,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -2767,10 +2601,9 @@
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -2788,10 +2621,9 @@
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.296,
+      "duplicateRiskScore": 0.259,
       "issues": []
     },
     {
@@ -2807,10 +2639,9 @@
         "/services/custom-cabinets-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -2827,10 +2658,9 @@
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2847,10 +2677,9 @@
         "/services/woodworking-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2868,10 +2697,9 @@
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -2889,10 +2717,9 @@
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.296,
+      "duplicateRiskScore": 0.259,
       "issues": []
     },
     {
@@ -2909,10 +2736,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2930,10 +2756,9 @@
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -2950,10 +2775,9 @@
         "/services/woodworking-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -2971,10 +2795,9 @@
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -2991,10 +2814,9 @@
         "/services/woodworking-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3011,10 +2833,9 @@
         "/services/woodworking-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3033,10 +2854,9 @@
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.321,
+      "duplicateRiskScore": 0.286,
       "issues": []
     },
     {
@@ -3055,10 +2875,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.333,
+      "duplicateRiskScore": 0.296,
       "issues": []
     },
     {
@@ -3075,10 +2894,9 @@
         "/services/woodworking-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -3095,10 +2913,9 @@
         "/services/woodworking-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3117,10 +2934,9 @@
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.321,
+      "duplicateRiskScore": 0.286,
       "issues": []
     },
     {
@@ -3137,10 +2953,9 @@
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3157,10 +2972,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -3178,10 +2992,9 @@
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.296,
+      "duplicateRiskScore": 0.259,
       "issues": []
     },
     {
@@ -3198,10 +3011,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3217,10 +3029,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -3237,10 +3048,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3257,10 +3067,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -3278,10 +3087,9 @@
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -3298,10 +3106,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -3319,10 +3126,9 @@
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -3339,10 +3145,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3360,10 +3165,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -3381,10 +3185,9 @@
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -3401,10 +3204,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -3421,10 +3223,9 @@
         "/services/interior-wood-features-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3440,10 +3241,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -3461,10 +3261,9 @@
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -3481,10 +3280,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3501,10 +3299,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3521,10 +3318,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3541,10 +3337,9 @@
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3561,10 +3356,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3581,10 +3375,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3602,10 +3395,9 @@
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -3622,10 +3414,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3642,10 +3433,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -3662,10 +3452,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3682,10 +3471,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3703,10 +3491,9 @@
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -3723,10 +3510,9 @@
         "/services/built-in-bookcases-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3742,10 +3528,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -3762,10 +3547,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3782,10 +3566,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3802,10 +3585,9 @@
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3822,10 +3604,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3841,10 +3622,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -3861,10 +3641,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -3882,10 +3661,9 @@
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.296,
+      "duplicateRiskScore": 0.259,
       "issues": []
     },
     {
@@ -3902,10 +3680,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3922,10 +3699,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3942,10 +3718,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -3962,10 +3737,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -3982,10 +3756,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4002,10 +3775,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4022,10 +3794,9 @@
         "/services/coffered-ceilings-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4041,10 +3812,9 @@
         "/services/floating-shelves-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -4062,10 +3832,9 @@
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4082,10 +3851,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -4103,10 +3871,9 @@
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -4124,10 +3891,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4145,10 +3911,9 @@
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4166,10 +3931,9 @@
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4186,10 +3950,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4206,10 +3969,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -4226,10 +3988,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4246,10 +4007,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4266,10 +4026,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4286,10 +4045,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4307,10 +4065,9 @@
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4327,10 +4084,9 @@
         "/services/wainscoting-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4346,10 +4102,9 @@
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -4366,10 +4121,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4385,10 +4139,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -4404,10 +4157,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -4424,10 +4176,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4443,10 +4194,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.207,
+      "duplicateRiskScore": 0.172,
       "issues": []
     },
     {
@@ -4463,10 +4213,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4482,10 +4231,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -4503,10 +4251,9 @@
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4523,10 +4270,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4542,10 +4288,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -4563,10 +4308,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.296,
+      "duplicateRiskScore": 0.259,
       "issues": []
     },
     {
@@ -4583,10 +4327,9 @@
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -4604,10 +4347,9 @@
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4623,10 +4365,9 @@
         "/services/crown-molding-cleveland-tn",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.214,
+      "duplicateRiskScore": 0.179,
       "issues": []
     },
     {
@@ -4642,10 +4383,9 @@
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.185,
       "issues": []
     },
     {
@@ -4663,10 +4403,9 @@
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-charleston-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4683,10 +4422,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-athens-tn",
         "/services/custom-carpentry-athens-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -4704,10 +4442,9 @@
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-ooltewah-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4725,10 +4462,9 @@
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-collegedale-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.286,
+      "duplicateRiskScore": 0.25,
       "issues": []
     },
     {
@@ -4745,10 +4481,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-chattanooga-tn",
         "/services/custom-carpentry-chattanooga-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4765,10 +4500,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-dayton-tn",
         "/services/custom-carpentry-dayton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4785,10 +4519,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-etowah-tn",
         "/services/custom-carpentry-etowah-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4805,10 +4538,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-sweetwater-tn",
         "/services/custom-carpentry-sweetwater-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4825,10 +4557,9 @@
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-calhoun-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4845,10 +4576,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-benton-tn",
         "/services/custom-carpentry-benton-tn",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.25,
+      "duplicateRiskScore": 0.214,
       "issues": []
     },
     {
@@ -4866,10 +4596,9 @@
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-soddy-daisy-tn",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -4886,10 +4615,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-ringgold-ga",
         "/services/custom-carpentry-ringgold-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.241,
+      "duplicateRiskScore": 0.207,
       "issues": []
     },
     {
@@ -4906,10 +4634,9 @@
         "/services/custom-wall-paneling-cleveland-tn",
         "/services/custom-carpentry-fort-oglethorpe-ga",
         "/services/custom-carpentry-fort-oglethorpe-ga",
-        "/services/custom-carpentry-cleveland-tn",
-        "/"
+        "/services/custom-carpentry-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.259,
+      "duplicateRiskScore": 0.222,
       "issues": []
     },
     {
@@ -4927,10 +4654,9 @@
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-dalton-ga",
         "/services/custom-carpentry-cleveland-tn",
-        "/services/custom-carpentry-charleston-tn",
-        "/"
+        "/services/custom-carpentry-charleston-tn"
       ],
-      "duplicateRiskScore": 0.276,
+      "duplicateRiskScore": 0.241,
       "issues": []
     },
     {
@@ -4942,10 +4668,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "service-hub:cabinetry:Do you offer cabinetry across Southeast Tennessee?|How long does custom cabinetry installation usually take?",
       "duplicateParagraphSources": [
-        "/services/custom-built-ins",
-        "/"
+        "/services/custom-built-ins"
       ],
-      "duplicateRiskScore": 0.125,
+      "duplicateRiskScore": 0.063,
       "issues": []
     },
     {
@@ -4956,10 +4681,8 @@
       "h1": "Custom Libraries by Timber & Testament",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "service-hub:custom-libraries:Do you offer custom libraries across Southeast Tennessee?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.067,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -4970,10 +4693,8 @@
       "h1": "Custom Carpentry in Cleveland, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:cleveland-tn:Do you provide on-site estimates in Cleveland?|Do you also serve nearby communities around Cleveland?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -4984,10 +4705,8 @@
       "h1": "Custom Carpentry in Athens, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:athens-tn:What carpentry services are most requested in Athens TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.067,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -4998,10 +4717,8 @@
       "h1": "Custom Carpentry in Charleston, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:charleston-tn:Can projects in Charleston be completed in stages?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5012,10 +4729,8 @@
       "h1": "Custom Carpentry in Ooltewah, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:ooltewah-tn:What carpentry services are most requested in Ooltewah TN?|Can projects in Ooltewah be completed in stages?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5026,10 +4741,8 @@
       "h1": "Custom Carpentry in Collegedale, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:collegedale-tn:What carpentry services are most requested in Collegedale TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.067,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5040,10 +4753,8 @@
       "h1": "Custom Carpentry in Apison, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:apison-tn:Do you provide on-site estimates in Apison?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5054,10 +4765,8 @@
       "h1": "Custom Carpentry in Chattanooga, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:chattanooga-tn:Can projects in Chattanooga be completed in stages?|What carpentry services are most requested in Chattanooga TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5068,10 +4777,8 @@
       "h1": "Custom Carpentry in Calhoun, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:calhoun-tn:Do you also serve nearby communities around Calhoun?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5082,10 +4789,8 @@
       "h1": "Custom Carpentry in Riceville, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:riceville-tn:What carpentry services are most requested in Riceville TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5096,10 +4801,8 @@
       "h1": "Custom Carpentry in Benton, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:benton-tn:Do you also serve nearby communities around Benton?|Do you provide on-site estimates in Benton?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5110,10 +4813,8 @@
       "h1": "Custom Carpentry in Soddy-Daisy, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:soddy-daisy-tn:Do you also serve nearby communities around Soddy-Daisy?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5124,10 +4825,8 @@
       "h1": "Custom Carpentry in Harrison, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:harrison-tn:Do you provide on-site estimates in Harrison?|Do you also serve nearby communities around Harrison?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5138,10 +4837,8 @@
       "h1": "Custom Carpentry in Dayton, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:dayton-tn:Can projects in Dayton be completed in stages?|What carpentry services are most requested in Dayton TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5152,10 +4849,8 @@
       "h1": "Custom Carpentry in Georgetown, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:georgetown-tn:What carpentry services are most requested in Georgetown TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5166,10 +4861,8 @@
       "h1": "Custom Carpentry in Decatur, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:decatur-tn:Do you also serve nearby communities around Decatur?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5180,10 +4873,8 @@
       "h1": "Custom Carpentry in Etowah, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:etowah-tn:Do you provide on-site estimates in Etowah?|Do you also serve nearby communities around Etowah?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5194,10 +4885,8 @@
       "h1": "Custom Carpentry in Englewood, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:englewood-tn:Do you provide on-site estimates in Englewood?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5208,10 +4897,8 @@
       "h1": "Custom Carpentry in Sale Creek, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:sale-creek-tn:Do you also serve nearby communities around Sale Creek?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5222,10 +4909,8 @@
       "h1": "Custom Carpentry in Birchwood, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:birchwood-tn:What carpentry services are most requested in Birchwood TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5236,10 +4921,8 @@
       "h1": "Custom Carpentry in Dunlap, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:dunlap-tn:Do you also serve nearby communities around Dunlap?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5250,10 +4933,8 @@
       "h1": "Custom Carpentry in Red Bank, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:red-bank-tn:Do you also serve nearby communities around Red Bank?|Do you provide on-site estimates in Red Bank?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5264,10 +4945,8 @@
       "h1": "Custom Carpentry in Signal Mountain, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:signal-mountain-tn:Do you also serve nearby communities around Signal Mountain?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": [
         "meta_description_too_long"
       ]
@@ -5280,10 +4959,8 @@
       "h1": "Custom Carpentry in Lookout Mountain, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:lookout-mountain-tn:Can projects in Lookout Mountain be completed in stages?|What carpentry services are most requested in Lookout Mountain TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": [
         "meta_description_too_long"
       ]
@@ -5296,10 +4973,8 @@
       "h1": "Custom Carpentry in East Ridge, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:east-ridge-tn:Can projects in East Ridge be completed in stages?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.063,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5310,10 +4985,8 @@
       "h1": "Custom Carpentry in Hixson, TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "city-hub:hixson-tn:Can projects in Hixson be completed in stages?|What carpentry services are most requested in Hixson TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.059,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5324,10 +4997,8 @@
       "h1": "Custom Built-Ins in Cleveland TN: Local Homeowner Guide",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "seo:custom-built-ins:cleveland-tn:Should custom built-ins be painted or stained?|How long does a typical custom built-ins project take in Cleveland?|How much does custom built-ins cost in Cleveland TN?",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.045,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -5342,10 +5013,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.217,
+      "duplicateRiskScore": 0.174,
       "issues": []
     },
     {
@@ -5360,10 +5030,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.217,
+      "duplicateRiskScore": 0.174,
       "issues": []
     },
     {
@@ -5379,10 +5048,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5398,10 +5066,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5416,10 +5083,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.227,
+      "duplicateRiskScore": 0.182,
       "issues": []
     },
     {
@@ -5437,10 +5103,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -5456,10 +5121,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5475,10 +5139,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5496,10 +5159,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -5514,10 +5176,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.227,
+      "duplicateRiskScore": 0.182,
       "issues": []
     },
     {
@@ -5533,10 +5194,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5552,10 +5212,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5572,10 +5231,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -5590,10 +5248,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.227,
+      "duplicateRiskScore": 0.182,
       "issues": []
     },
     {
@@ -5609,10 +5266,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -5629,10 +5285,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -5648,10 +5303,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5668,10 +5322,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -5688,10 +5341,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -5709,10 +5361,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -5728,10 +5379,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5748,10 +5398,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -5767,10 +5416,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -5787,10 +5435,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -5807,10 +5454,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -5826,10 +5472,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -5846,10 +5491,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -5866,10 +5510,9 @@
         "/custom-built-ins-ooltewah-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -5885,10 +5528,9 @@
         "/cabinetry-cleveland-tn",
         "/custom-built-ins-collegedale-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -5906,10 +5548,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -5927,10 +5568,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -5948,10 +5588,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -5967,10 +5606,9 @@
         "/custom-built-ins-riceville-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -5987,10 +5625,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -6008,10 +5645,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -6028,10 +5664,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -6048,10 +5683,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -6069,10 +5703,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6090,10 +5723,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6111,10 +5743,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6133,10 +5764,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -6154,10 +5784,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6175,10 +5804,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6196,10 +5824,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6218,10 +5845,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -6239,10 +5865,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6260,10 +5885,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -6281,10 +5905,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6301,10 +5924,9 @@
         "/custom-built-ins-hixson-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -6319,10 +5941,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.227,
+      "duplicateRiskScore": 0.182,
       "issues": []
     },
     {
@@ -6340,10 +5961,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -6361,10 +5981,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6380,10 +5999,9 @@
         "/custom-built-ins-ooltewah-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -6399,10 +6017,9 @@
         "/custom-built-ins-collegedale-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -6421,10 +6038,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -6442,10 +6058,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -6463,10 +6078,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6483,10 +6097,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -6505,10 +6118,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -6525,10 +6137,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -6546,10 +6157,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6566,10 +6176,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -6587,10 +6196,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6608,10 +6216,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -6628,10 +6235,9 @@
         "/custom-built-ins-etowah-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -6649,10 +6255,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -6671,10 +6276,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -6692,10 +6296,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -6714,10 +6317,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -6735,10 +6337,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6756,10 +6357,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6777,10 +6377,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6797,10 +6396,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -6817,10 +6415,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -6836,10 +6433,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -6856,10 +6452,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -6877,10 +6472,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6898,10 +6492,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6919,10 +6512,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6940,10 +6532,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6961,10 +6552,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -6981,10 +6571,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -7003,10 +6592,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -7025,10 +6613,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -7045,10 +6632,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7066,10 +6652,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7086,10 +6671,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -7106,10 +6690,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -7126,10 +6709,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7147,10 +6729,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -7167,10 +6748,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -7186,10 +6766,9 @@
         "/custom-built-ins-sale-creek-tn",
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -7206,10 +6785,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -7226,10 +6804,9 @@
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7247,10 +6824,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -7268,10 +6844,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7288,10 +6863,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -7310,10 +6884,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -7331,10 +6904,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7349,10 +6921,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.217,
+      "duplicateRiskScore": 0.174,
       "issues": []
     },
     {
@@ -7368,10 +6939,9 @@
         "/finish-carpentry-cleveland-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -7386,10 +6956,9 @@
         "/finish-carpentry-cleveland-tn",
         "/custom-built-ins-charleston-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.227,
+      "duplicateRiskScore": 0.182,
       "issues": []
     },
     {
@@ -7407,10 +6976,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7425,10 +6993,9 @@
         "/finish-carpentry-cleveland-tn",
         "/custom-built-ins-collegedale-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.227,
+      "duplicateRiskScore": 0.182,
       "issues": []
     },
     {
@@ -7444,10 +7011,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -7464,10 +7030,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7485,10 +7050,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7504,10 +7068,9 @@
         "/custom-built-ins-riceville-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -7523,10 +7086,9 @@
         "/finish-carpentry-cleveland-tn",
         "/custom-built-ins-benton-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -7543,10 +7105,9 @@
         "/custom-built-ins-soddy-daisy-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7562,10 +7123,9 @@
         "/custom-built-ins-harrison-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -7582,10 +7142,9 @@
         "/custom-built-ins-dayton-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.318,
+      "duplicateRiskScore": 0.273,
       "issues": []
     },
     {
@@ -7602,10 +7161,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7621,10 +7179,9 @@
         "/custom-built-ins-decatur-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -7642,10 +7199,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7662,10 +7218,9 @@
         "/custom-built-ins-englewood-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7681,10 +7236,9 @@
         "/custom-built-ins-sale-creek-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -7701,10 +7255,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7721,10 +7274,9 @@
         "/custom-built-ins-dunlap-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7740,10 +7292,9 @@
         "/custom-built-ins-red-bank-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -7759,10 +7310,9 @@
         "/custom-built-ins-signal-mountain-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -7779,10 +7329,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7798,10 +7347,9 @@
         "/custom-built-ins-east-ridge-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -7818,10 +7366,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -7836,10 +7383,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.217,
+      "duplicateRiskScore": 0.174,
       "issues": []
     },
     {
@@ -7857,10 +7403,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7879,10 +7424,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -7900,10 +7444,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7921,10 +7464,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7942,10 +7484,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -7963,10 +7504,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.364,
+      "duplicateRiskScore": 0.318,
       "issues": []
     },
     {
@@ -7983,10 +7523,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8003,10 +7542,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8024,10 +7562,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -8044,10 +7581,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8064,10 +7600,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8084,10 +7619,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8104,10 +7638,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8125,10 +7658,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -8144,10 +7676,9 @@
         "/custom-built-ins-etowah-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.261,
+      "duplicateRiskScore": 0.217,
       "issues": []
     },
     {
@@ -8166,10 +7697,9 @@
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -8185,10 +7715,9 @@
         "/custom-built-ins-sale-creek-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.273,
+      "duplicateRiskScore": 0.227,
       "issues": []
     },
     {
@@ -8206,10 +7735,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -8226,10 +7754,9 @@
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8248,10 +7775,9 @@
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-apison-tn",
         "/custom-built-ins-calhoun-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.391,
+      "duplicateRiskScore": 0.348,
       "issues": []
     },
     {
@@ -8268,10 +7794,9 @@
         "/custom-built-ins-signal-mountain-tn",
         "/custom-built-ins-calhoun-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8288,10 +7813,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.304,
+      "duplicateRiskScore": 0.261,
       "issues": []
     },
     {
@@ -8309,10 +7833,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -8330,10 +7853,9 @@
         "/custom-built-ins-athens-tn",
         "/custom-built-ins-cleveland-tn",
         "/custom-built-ins-athens-tn",
-        "/custom-built-ins-cleveland-tn",
-        "/"
+        "/custom-built-ins-cleveland-tn"
       ],
-      "duplicateRiskScore": 0.348,
+      "duplicateRiskScore": 0.304,
       "issues": []
     },
     {
@@ -8344,10 +7866,8 @@
       "h1": "Project: White Oak Built-Ins in Cleveland TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.091,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -8358,10 +7878,8 @@
       "h1": "Project: Floating Shelves and Niche Storage in Athens TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.091,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": [
         "title_too_long"
       ]
@@ -8374,10 +7892,8 @@
       "h1": "Project: Custom Mantel Installation in Chattanooga TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.091,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": [
         "title_too_long"
       ]
@@ -8390,10 +7906,8 @@
       "h1": "Project: Dining Room Wainscoting in Collegedale TN",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.091,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -8404,10 +7918,8 @@
       "h1": "Project: Multi-Room Crown Molding in Ringgold GA",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.091,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -8418,10 +7930,8 @@
       "h1": "Project: Geometric Accent Wall in Dalton GA",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.091,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": []
     },
     {
@@ -8432,10 +7942,8 @@
       "h1": "Cost of Custom Built-Ins in Cleveland TN: 2026 Homeowner Guide",
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
-      "duplicateParagraphSources": [
-        "/"
-      ],
-      "duplicateRiskScore": 0.111,
+      "duplicateParagraphSources": [],
+      "duplicateRiskScore": 0,
       "issues": [
         "title_too_long"
       ]
@@ -8449,10 +7957,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8466,10 +7973,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8483,10 +7989,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8500,10 +8005,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": []
     },
     {
@@ -8515,10 +8019,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8532,10 +8035,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8549,10 +8051,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8566,10 +8067,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8583,10 +8083,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": []
     },
     {
@@ -8598,10 +8097,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8615,10 +8113,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": []
     },
     {
@@ -8630,10 +8127,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8647,10 +8143,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": []
     },
     {
@@ -8662,10 +8157,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8679,10 +8173,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8696,10 +8189,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8713,10 +8205,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8730,10 +8221,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8747,10 +8237,9 @@
       "robots": "index,follow,max-image-preview:large",
       "faqSetKey": "none",
       "duplicateParagraphSources": [
-        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
-        "/"
+        "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide"
       ],
-      "duplicateRiskScore": 0.222,
+      "duplicateRiskScore": 0.111,
       "issues": [
         "title_too_long"
       ]
@@ -8776,8 +8265,16 @@
     "duplicateH1Groups": [],
     "duplicateMetaDescriptionGroups": []
   },
-  "imageIssues": [],
-  "imageIssueCounts": {},
+  "imageIssues": [
+    {
+      "route": "/",
+      "issue": "missing_lazy_loading",
+      "snippet": "<img\n              src=\"/assets/images/custom-built-ins-cleveland-tn.jpg\"\n              alt=\"Custom built-in library cabinetry for a residential interior in Cleveland Tennessee\"\n              loading=\"eager\"\n              fetchpriority=\"high\"\n              width=\"1600\"\n              height=\"980\"\n              decoding=\"sync\"\n              class=\"home-hero-media\"\n             srcset=\"/assets/images/custom-built-ins-cleveland-tn-480w.webp 480w, /assets/images/custom-built-ins-cleveland-tn-768w.webp 768w, /assets/images/custom-built-ins-cleveland-tn-1200w.webp 1200w\" sizes=\"(max-width: 768px) 100vw, 1200px\">"
+    }
+  ],
+  "imageIssueCounts": {
+    "missing_lazy_loading": 1
+  },
   "pagesMarkedNoindex": [],
   "pagesExcludedFromSitemap": []
 }

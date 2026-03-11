@@ -11,6 +11,37 @@ const {
 const { cityHubServiceLinks, buildAnchor } = require("../lib/linking");
 const { imageObjectSchema, serviceSchema } = require("../lib/schema");
 
+function renderHomeSectionHeader({ eyebrow, title, description }) {
+  return `
+    <header class="home-section-header reveal">
+      ${eyebrow ? `<p class="home-section-eyebrow">${eyebrow}</p>` : ""}
+      <h2>${title}</h2>
+      ${description ? `<p>${description}</p>` : ""}
+    </header>`;
+}
+
+function renderHomeServiceCard({ title, description, href, bullets = [] }) {
+  return `
+    <article class="home-service-card reveal">
+      <h3>${title}</h3>
+      <p>${description}</p>
+      <ul class="home-service-bullets">
+        ${bullets.slice(0, 3).map((item) => `<li>${item}</li>`).join("")}
+      </ul>
+      <a class="home-inline-link" href="${href}">Explore ${title}</a>
+    </article>`;
+}
+
+function renderHomeTestimonialCard({ quote, author }) {
+  return `
+    <article class="home-testimonial-card reveal">
+      <blockquote>
+        <p>"${quote}"</p>
+      </blockquote>
+      <p class="home-testimonial-author">${author}</p>
+    </article>`;
+}
+
 function renderHomePage({ services, cities, projects }) {
   const byServiceName = (name) => services.find((service) => service.name === name);
   const byCityName = (name) => cities.find((city) => city.name === name);
@@ -19,111 +50,133 @@ function renderHomePage({ services, cities, projects }) {
   const chattanooga = byCityName("Chattanooga") || cities[2] || cities[0];
   const ooltewah = byCityName("Ooltewah") || cities[3] || cities[0];
 
-  const darkCollectionLinks = [
+  const featuredMoneyLinks = [
     { service: byServiceName("Custom Built-Ins"), city: cleveland },
+    { service: byServiceName("Custom Cabinets"), city: cleveland },
     { service: byServiceName("Floating Shelves"), city: athens },
     { service: byServiceName("Mantels"), city: chattanooga },
-    { service: byServiceName("Trim Carpentry"), city: ooltewah },
-    { service: byServiceName("Crown Molding"), city: chattanooga },
-    { service: byServiceName("Custom Cabinets"), city: cleveland }
+    { service: byServiceName("Finish Carpentry"), city: ooltewah }
   ]
     .filter((item) => item.service && item.city)
     .map((item) => ({
-      href: `/services/${serviceSlug(item.service.name)}-${citySlug(item.city)}/`,
+      href: `/${serviceSlug(item.service.name)}-${citySlug(item.city)}/`,
       label: `${item.service.name} in ${cityLabel(item.city)}`
     }));
 
-  const homepageServiceShowcase = [
+  const serviceCards = [
     {
       lookup: "Custom Built-Ins",
       heading: "Custom Built-Ins",
+      href: "/services/custom-built-ins/",
       description:
-        "Custom built-ins in Cleveland TN designed for living rooms, media walls, and integrated storage that matches your home."
+        "Custom built-ins for living rooms, media walls, and storage zones designed around your exact room dimensions in Cleveland TN homes.",
+      bullets: ["library walls", "media cabinetry", "mudroom storage"]
     },
     {
       lookup: "Custom Cabinets",
       heading: "Cabinetry",
+      href: "/services/cabinetry/",
       description:
-        "Built-to-fit cabinetry for mudroom storage, home offices, and utility spaces across Cleveland TN and Southeast Tennessee."
+        "Built-to-fit cabinetry for mudrooms, home offices, and utility spaces with durable hardware and finish-grade installation.",
+      bullets: ["home office cabinets", "laundry storage", "entry organization"]
     },
     {
       lookup: "Floating Shelves",
       heading: "Floating Shelves",
+      href: "/services/floating-shelves/",
       description:
-        "Floating shelves with hidden supports for kitchens and living areas, installed by a local finish carpentry team."
+        "Floating shelves with concealed support systems that keep kitchens and living rooms open while adding practical everyday storage.",
+      bullets: ["kitchen shelving", "coffee bar shelves", "display niches"]
     },
     {
       lookup: "Built-in Bookcases",
       heading: "Custom Libraries",
+      href: "/services/custom-libraries/",
       description:
-        "Custom libraries and built-in bookcases with proportioned shelving, trim detailing, and tailored layout planning."
+        "Custom libraries and built-in bookcases with balanced proportions, integrated cabinetry, and tailored layout planning.",
+      bullets: ["study walls", "home library systems", "display cabinetry"]
     },
     {
       lookup: "Mantels",
       heading: "Mantels",
+      href: "/services/mantels/",
       description:
-        "Fireplace mantel design and installation with custom profiles, clean reveals, and finish-ready detailing."
+        "Custom mantel design and installation that creates a strong focal point while matching surrounding trim and architecture.",
+      bullets: ["beam mantels", "fireplace updates", "feature wall focal points"]
     },
     {
       lookup: "Finish Carpentry",
       heading: "Finish Carpentry",
+      href: "/services/finish-carpentry/",
       description:
-        "Finish carpentry for trim transitions, casing, crown, and final-stage interior woodwork in Cleveland TN homes."
+        "Finish carpentry for trim transitions, casing, and final-stage interior detailing that gives remodels a polished, complete look.",
+      bullets: ["trim transitions", "profile matching", "paint-ready finish work"]
     }
   ];
 
-  const serviceTiles = homepageServiceShowcase
-    .map((entry, idx) => {
+  const servicesMarkup = serviceCards
+    .map((entry) => {
       const service = byServiceName(entry.lookup);
       if (!service) {
         return "";
       }
-      const points = (service.sellingPoints || service.commonUseCases || [])
-        .slice(0, 2)
-        .map((point) => `<li>${point}</li>`)
-        .join("");
-
-      return `
-      <article class="home-service-card reveal" style="transition-delay: ${idx * 80}ms;">
-        <div class="home-service-head">
-          <p class="home-service-kicker">${service.category}</p>
-          <span class="home-service-index">${String(idx + 1).padStart(2, "0")}</span>
-        </div>
-        <h3>${entry.heading}</h3>
-        <p>${entry.description}</p>
-        <ul class="home-service-points">${points}</ul>
-        <a class="home-service-link" href="/services/${serviceSlug(service.name)}/">
-          <span>View ${entry.heading} pages</span>
-          <span aria-hidden="true">-&gt;</span>
-        </a>
-      </article>`;
+      return renderHomeServiceCard({
+        title: entry.heading,
+        description: entry.description,
+        href: entry.href,
+        bullets: entry.bullets
+      });
     })
     .filter(Boolean)
     .join("");
 
-  const archiveCards = projects
+  const portfolioCards = projects
     .slice(0, 3)
     .map(
-      (project, idx) => `
-      <article class="home-archive-card reveal" style="transition-delay: ${idx * 120}ms;">
-        <a href="/projects/${project.slug}/" class="home-archive-image-wrap">
+      (project) => `
+      <article class="home-portfolio-card reveal">
+        <a href="/projects/${project.slug}/" class="home-portfolio-image-wrap">
           <img
             src="/assets/images/${project.images[0]}"
-            alt="${project.service} project in ${project.city} ${project.state}"
+            alt="${project.service} project completed in ${project.city} ${project.state}"
             loading="lazy"
             width="900"
             height="1100"
             decoding="async"
           >
         </a>
-        <div class="home-archive-copy">
+        <div class="home-portfolio-copy">
           <h3><a href="/projects/${project.slug}/">${project.title.replace("Project: ", "")}</a></h3>
-          <p class="home-archive-id">ID: #DRK-88${20 + idx} / ${project.city.toUpperCase()}, ${project.state}</p>
+          <p>${project.summary}</p>
+          <a class="home-inline-link" href="/projects/${project.slug}/">View project details</a>
         </div>
       </article>`
     )
     .join("");
   const heroImage = `/assets/images/${projects[0] ? projects[0].images[0] : "custom-built-ins-cleveland-tn.jpg"}`;
+
+  const testimonials = [
+    {
+      quote:
+        "Timber & Testament built a custom walnut library wall and integrated cabinetry in our Cleveland TN home. The finish carpentry quality was exceptional.",
+      author: "Homeowner in Cleveland TN"
+    },
+    {
+      quote:
+        "Our floating shelves and mudroom cabinetry in Athens TN were planned clearly from consultation through installation. The process felt organized and professional.",
+      author: "Homeowner in Athens TN"
+    },
+    {
+      quote:
+        "They rebuilt our fireplace wall with a custom mantel and trim package in Chattanooga TN. The final fit and detailing completely elevated the room.",
+      author: "Homeowner in Chattanooga TN"
+    },
+    {
+      quote:
+        "We hired them for finish carpentry and custom built-ins in Ooltewah TN, and the project stayed clean, on schedule, and exactly on spec.",
+      author: "Homeowner in Ooltewah TN"
+    }
+  ];
 
   return {
     h1: "Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee",
@@ -137,154 +190,155 @@ function renderHomePage({ services, cities, projects }) {
       service: "Custom Carpentry"
     },
     content: `
-      <div class="home-main">
-        <section class="home-status-bar">
-          <div>
-            <span>STATUS: STAINING DARK WALNUT LATTICE [02/03]</span>
-            <span class="home-status-sub">Custom Carpentry in Cleveland, TN</span>
-          </div>
-        </section>
-
+      <div class="home-main home-premium">
         <section class="home-hero reveal active">
+          <div class="home-hero-media-wrap">
+            <img
+              src="${heroImage}"
+              alt="Custom built-in library cabinetry for a residential interior in Cleveland Tennessee"
+              loading="eager"
+              fetchpriority="high"
+              width="1600"
+              height="980"
+              decoding="sync"
+              class="home-hero-media"
+            >
+          </div>
           <div class="home-hero-inner">
-            <p class="home-chip">MASTER ARCHIVE SERIES</p>
-            <h1>Custom Carpentry, Built-Ins & Cabinetry in Cleveland Tennessee</h1>
+            <p class="home-chip">Bespoke Craft Built For Generations</p>
+            <h1>Custom Carpentry, Built-Ins & Cabinetry<br>in Cleveland, Tennessee.</h1>
             <p class="home-hero-copy">
-              ${business.name} delivers custom carpentry, built-ins, cabinetry, floating shelves, custom libraries, mantels, and finish carpentry for homeowners in Cleveland TN and throughout Southeast Tennessee.
+              ${business.name} delivers custom carpentry, custom built-ins, cabinetry, floating shelves, custom libraries, mantels, and finish carpentry for homeowners in Cleveland TN and surrounding Southeast Tennessee communities.
             </p>
             <div class="home-hero-actions">
-              <a href="/projects/">View The Dark Collection</a>
-              <a href="/contact/">Submit Specs</a>
+              <a href="/contact/" class="cta-button">Request Consultation</a>
+              <a href="/projects/" class="secondary-button">View Portfolio</a>
             </div>
+            <ul class="home-hero-links">
+              <li><a href="/services/">Browse Services</a></li>
+              <li><a href="/cities/">Cities We Serve</a></li>
+              <li><a href="/blog/">Project Planning Blog</a></li>
+            </ul>
           </div>
         </section>
 
-        <section class="home-intro reveal">
-          <h2>Fine Interior Woodwork, Built For Presence</h2>
-          <p>
-            Timber & Testament Custom Carpentry designs and builds custom libraries, built-in shelving, cabinetry, fireplace surrounds, mantels, accent walls, and finish carpentry features tailored to each home.
-            We serve Cleveland, Tennessee, along with nearby communities throughout Southeast Tennessee.
+        <section class="home-services" id="services">
+          ${renderHomeSectionHeader({
+            eyebrow: "Service Summary",
+            title: "Custom Carpentry Services for Cleveland TN Homes",
+            description:
+              "Explore our core service hubs with detailed process, material, and city-level pages for local homeowners."
+          })}
+          <div class="home-services-grid">
+            ${servicesMarkup}
+          </div>
+          <p class="home-section-links">
+            Direct links: <a href="/services/custom-built-ins/">Custom Built-Ins</a> | <a href="/services/cabinetry/">Cabinetry</a> | <a href="/services/floating-shelves/">Floating Shelves</a> | <a href="/services/custom-libraries/">Custom Libraries</a> | <a href="/services/mantels/">Mantels</a> | <a href="/services/finish-carpentry/">Finish Carpentry</a>
           </p>
-          <p>
-            Planning a dark walnut library wall, a custom entertainment unit, floating shelves, or detailed interior trim work?
-            Explore our city-level money pages below for pricing context, process details, and local project examples.
-          </p>
-          <p>
-            Looking for project planning tips? Visit our <a href="/blog/">carpentry blog</a> for cost, material, and installation guidance.
-          </p>
-          <ul class="home-money-links">
-            ${darkCollectionLinks.map((item) => `<li><a href="${item.href}">${item.label}</a></li>`).join("")}
-          </ul>
         </section>
 
-        <section class="home-specialties reveal">
-          <div class="home-split">
-            <div class="home-split-image">
-              <img
-                src="${heroImage}"
-                alt="Custom dark walnut library cabinetry with integrated lattice storage in Cleveland Tennessee"
-                loading="lazy"
-                width="1200"
-                height="900"
-                decoding="async"
-              >
-            </div>
-            <div class="home-split-copy">
-              <p class="home-spec">SPEC 01 / INSERTS</p>
-              <h3>Diamond Lattice Wine Systems</h3>
-              <p>Hand-cut lattices in deep-stained walnut for floor-to-ceiling libraries, bars, and custom cabinetry installs.</p>
-              <div class="home-stat-grid">
-                <article><strong>Precision</strong><span>Dado-locked joints for long-term structural integrity.</span></article>
-                <article><strong>Finish</strong><span>Multi-stage dark oil hand-rubbed for a satin glow.</span></article>
-              </div>
-            </div>
-          </div>
-
-          <div class="home-split home-split-reverse">
-            <div class="home-split-image">
-              <img
-                src="/assets/images/${projects[2] ? projects[2].images[0] : "mantel-installation-chattanooga-tn.jpg"}"
-                alt="Custom rolling library ladder with dark metal track and fine wood shelving"
-                loading="lazy"
-                width="1200"
-                height="900"
-                decoding="async"
-              >
-            </div>
-            <div class="home-split-copy">
-              <p class="home-spec">SPEC 02 / ACCESS</p>
-              <h3>Rolling Library Ladder Tracks</h3>
-              <p>Custom-forged dark steel or brass rail systems designed for grand-scale libraries and built-in wall units.</p>
-              <div class="home-ladder-rail"></div>
-              <div class="home-metric-row">
-                <article><strong>0.0\" Tol.</strong><span>Zero-Squeak Glide</span></article>
-                <article><strong>14ft</strong><span>Max Vertical Span</span></article>
-              </div>
-            </div>
+        <section class="home-brand">
+          ${renderHomeSectionHeader({
+            eyebrow: "Brand Philosophy",
+            title: "Workshop-Built Details, Installed With Finish-Level Precision",
+            description:
+              "We combine measured planning, premium materials, and clean installation standards so every project feels integrated with the architecture of your home."
+          })}
+          <div class="home-brand-grid">
+            <article class="home-brand-card reveal">
+              <h3>Custom Carpentry Approach</h3>
+              <p>Every project starts with layout verification and practical planning to reduce surprises during fabrication and installation.</p>
+            </article>
+            <article class="home-brand-card reveal">
+              <h3>Premium Material Guidance</h3>
+              <p>We help homeowners choose durable hardwoods, paint-grade options, and finish systems aligned with real daily use.</p>
+            </article>
+            <article class="home-brand-card reveal">
+              <h3>Clean Installation Standards</h3>
+              <p>Our finish carpentry process prioritizes tight reveals, clean job sites, and final walkthrough accountability.</p>
+            </article>
           </div>
         </section>
 
-        <section class="home-services reveal">
-          <h2>Core Services</h2>
-          <p>
-            We provide custom built-ins, cabinetry, floating shelves, custom libraries, mantels, and finish carpentry for homeowners in Cleveland TN and nearby Southeast Tennessee communities.
-          </p>
-          <div class="home-services-grid">${serviceTiles}</div>
-        </section>
-
-        <section class="home-process reveal">
-          <h2>Our Build Process</h2>
-          <p>Every project follows a structured process to keep quality, schedule, and communication clear.</p>
+        <section class="home-process">
+          ${renderHomeSectionHeader({
+            eyebrow: "Process",
+            title: "From Consultation to Installation",
+            description: "A clear four-step process keeps schedule, scope, and quality aligned."
+          })}
           <ol class="home-process-list">
-            <li><strong>Consultation:</strong> We review your goals, dimensions, and preferred style on-site.</li>
-            <li><strong>Design:</strong> Layouts and material choices are finalized around function, proportions, and finish level.</li>
-            <li><strong>Workshop Fabrication:</strong> Core components are fabricated for precise fit and cleaner installation.</li>
-            <li><strong>Installation:</strong> Our finish carpentry team installs, details, and completes final walkthrough checks.</li>
+            <li><h3>Consultation</h3><p>We review your goals, measurements, and room conditions on-site.</p></li>
+            <li><h3>Design</h3><p>Layouts, materials, and profile details are finalized around function and finish.</p></li>
+            <li><h3>Workshop Fabrication</h3><p>Core components are built for precision fit before arriving on-site.</p></li>
+            <li><h3>Installation</h3><p>Final install includes alignment checks, detailing, and walkthrough closeout.</p></li>
           </ol>
         </section>
 
-        <section class="home-archive reveal">
-          <div class="home-archive-head">
-            <div>
-              <h2>The Dark Archive</h2>
-              <p>Selected commissions across Southeast Tennessee</p>
-            </div>
-            <span>Scribed & Hand-Finished</span>
+        <section class="home-portfolio" id="portfolio">
+          ${renderHomeSectionHeader({
+            eyebrow: "Portfolio",
+            title: "Recent Custom Carpentry Projects",
+            description: "Browse recent projects to compare layout ideas, material direction, and finish quality."
+          })}
+          <div class="home-portfolio-grid">${portfolioCards}</div>
+          <p class="home-section-links">Featured local pages: ${featuredMoneyLinks.map((item) => `<a href="${item.href}">${item.label}</a>`).join(" | ")}</p>
+          <p class="home-section-links"><a href="/projects/">See all completed projects</a></p>
+        </section>
+
+        <section class="home-area" id="areas">
+          ${renderHomeSectionHeader({
+            eyebrow: "Service Area",
+            title: "Serving Cleveland, Tennessee and Surrounding Communities",
+            description:
+              `${business.name} provides custom carpentry, built-ins, cabinetry, and finish carpentry across Cleveland TN, Athens TN, Charleston TN, Chattanooga TN, Ooltewah TN, and nearby Southeast Tennessee communities.`
+          })}
+          <div class="home-area-links">
+            <a href="/cleveland-tn-carpentry/">Cleveland TN</a>
+            <a href="/athens-tn-carpentry/">Athens TN</a>
+            <a href="/charleston-tn-carpentry/">Charleston TN</a>
+            <a href="/chattanooga-tn-carpentry/">Chattanooga TN</a>
+            <a href="/ooltewah-tn-carpentry/">Ooltewah TN</a>
           </div>
-          <div class="home-archive-grid">${archiveCards}</div>
+          <p class="home-section-links"><a href="/cities/">View all city hub pages</a> and <a href="/services/">all services</a>.</p>
         </section>
 
-        <section class="home-area reveal">
-          <h2>Serving Cleveland, TN & Nearby Communities</h2>
-          <p>
-            ${business.name} serves homeowners in Cleveland TN, Athens TN, Charleston TN, Chattanooga TN, Ooltewah TN, and surrounding Southeast Tennessee communities.
-            If you are planning custom built-ins, cabinetry, shelving, a library wall, or finish carpentry work, we can help shape the design and build scope.
-          </p>
-          <p><a href="/cities/">Browse all city service pages</a> and <a href="/services/">all carpentry services</a>.</p>
-        </section>
-
-        <section class="home-contact-signals reveal">
-          <h2>Talk With Timber & Testament</h2>
-          <p><strong>Phone:</strong> <a href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a></p>
-          <p><strong>Email:</strong> <a href="mailto:${business.email}">${business.email}</a></p>
-          <p><strong>Service Area:</strong> Cleveland TN and surrounding Southeast Tennessee communities.</p>
-        </section>
-
-        <section class="home-commission reveal">
-          <h2>Begin Your Commission</h2>
-          <p>Every build begins with technical scope. Share your room dimensions, preferred wood species, and priority features.</p>
-          <div class="home-commission-actions">
-            <a href="/contact/" class="cta-button">Submit Spec Inquiry</a>
-            <a href="tel:${business.phone.replace(/[^+\d]/g, "")}" class="secondary-button">Call ${business.phone}</a>
+        <section class="home-testimonials" id="testimonials">
+          ${renderHomeSectionHeader({
+            eyebrow: "Testimonials",
+            title: "What Local Homeowners Say",
+            description: "Recent feedback from homeowners who hired Timber & Testament for custom carpentry projects."
+          })}
+          <div class="home-testimonials-grid">
+            ${testimonials.map((item) => renderHomeTestimonialCard(item)).join("")}
           </div>
-          <p class="small-note">For direct city pages, start with ${darkCollectionLinks.slice(0, 2).map((item) => `<a href="${item.href}">${item.label}</a>`).join(" and ")}.</p>
+        </section>
+
+        <section class="home-contact-signals" id="contact">
+          ${renderHomeSectionHeader({
+            eyebrow: "Contact",
+            title: "Start Your Carpentry Consultation",
+            description:
+              "Share your scope, room dimensions, and service goals to get a practical estimate and timeline."
+          })}
+          <div class="home-contact-grid">
+            <article class="home-contact-card reveal">
+              <h3>Call</h3>
+              <p><a href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a></p>
+            </article>
+            <article class="home-contact-card reveal">
+              <h3>Email</h3>
+              <p><a href="mailto:${business.email}">${business.email}</a></p>
+            </article>
+            <article class="home-contact-card reveal">
+              <h3>Quick Links</h3>
+              <p><a href="/contact/">Request Quote</a> | <a href="/projects/">Projects</a> | <a href="/blog/">Blog</a></p>
+            </article>
+          </div>
         </section>
 
         ${renderTrustBlock({ key: "home-main" })}
-        ${renderReviewSnippet({ key: "home-main" })}
         ${renderClickToCall({ cityName: "Cleveland TN" })}
         ${renderQuoteCta({ key: "home-main", serviceName: "custom carpentry", cityName: "Cleveland TN" })}
-        ${renderServiceAreaReassurance()}
       </div>
     `
   };
@@ -711,6 +765,74 @@ function renderContactPage({ cities }) {
   };
 }
 
+function renderPrivacyPage() {
+  return {
+    h1: "Privacy Policy",
+    title: `Privacy Policy | ${business.name}`,
+    description: `Privacy policy for ${business.name}, including website contact, lead form, and communication handling practices.`,
+    localTokens: {
+      city: "Cleveland",
+      service: "Custom Carpentry"
+    },
+    content: `
+      <section class="page-intro">
+        <h1>Privacy Policy</h1>
+        <p>This page explains how ${business.name} collects, uses, and protects contact information submitted through this website.</p>
+      </section>
+      <section>
+        <h2>Information We Collect</h2>
+        <p>We collect the details you provide in quote requests, including name, email, phone number, city, and project scope.</p>
+      </section>
+      <section>
+        <h2>How Information Is Used</h2>
+        <p>Submitted information is used to respond to inquiries, provide estimates, schedule consultations, and communicate about requested services.</p>
+      </section>
+      <section>
+        <h2>Data Sharing</h2>
+        <p>We do not sell personal information. We only share information with service providers needed to operate this website or deliver requested services.</p>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <p>Questions about this policy can be sent to <a href="mailto:${business.email}">${business.email}</a> or by calling <a href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a>.</p>
+      </section>
+    `
+  };
+}
+
+function renderTermsPage() {
+  return {
+    h1: "Terms of Use",
+    title: `Terms of Use | ${business.name}`,
+    description: `Terms of use for ${business.name} website and service inquiry submissions.`,
+    localTokens: {
+      city: "Cleveland",
+      service: "Custom Carpentry"
+    },
+    content: `
+      <section class="page-intro">
+        <h1>Terms of Use</h1>
+        <p>By using this website, you agree to these terms for browsing content and submitting service inquiries to ${business.name}.</p>
+      </section>
+      <section>
+        <h2>Website Content</h2>
+        <p>Project descriptions, service pages, and pricing guidance are provided for informational purposes and may change as project scope changes.</p>
+      </section>
+      <section>
+        <h2>Estimates and Scope</h2>
+        <p>Any timeline or cost details provided through this website are preliminary until confirmed in a final written scope.</p>
+      </section>
+      <section>
+        <h2>Third-Party Platforms</h2>
+        <p>Links to external websites, including map and review platforms, are provided for convenience and are governed by their own policies.</p>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <p>For questions regarding these terms, contact <a href="mailto:${business.email}">${business.email}</a> or call <a href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a>.</p>
+      </section>
+    `
+  };
+}
+
 module.exports = {
   renderHomePage,
   renderServicesIndex,
@@ -722,5 +844,7 @@ module.exports = {
   renderBlogIndex,
   renderBlogPost,
   renderAboutPage,
-  renderContactPage
+  renderContactPage,
+  renderPrivacyPage,
+  renderTermsPage
 };

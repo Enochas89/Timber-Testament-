@@ -77,18 +77,23 @@ function renderHead({
 function renderNav() {
   return `
     <header class="site-header">
-      <a class="brand" href="/">${business.name}</a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav id="site-nav" class="site-nav" aria-label="Primary">
-        <a href="/">Home</a>
-        <a href="/services/">Services</a>
-        <a href="/projects/">Projects</a>
-        <a href="/cities/">Cities</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about/">About</a>
-        <a href="/contact/">Contact</a>
-      </nav>
-      <a class="phone-pill" href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a>
+      <div class="site-header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark">T&T</span>
+          <span class="brand-text">${business.name}</span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="/">Home</a>
+          <a href="/services/">Services</a>
+          <a href="/projects/">Projects</a>
+          <a href="/cities/">Cities</a>
+          <a href="/blog/">Blog</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+        <a class="phone-pill" href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a>
+      </div>
     </header>
   `;
 }
@@ -114,18 +119,41 @@ function renderBreadcrumbs(breadcrumbs = []) {
 function renderFooter() {
   return `
     <footer class="site-footer">
-      <div>
+      <div class="footer-brand">
         <h2>${business.name}</h2>
-        <p>Custom finish carpentry and woodworking across ${business.primaryRegion}.</p>
+        <p>Bespoke custom carpentry, built-ins, cabinetry, and finish carpentry across Cleveland and surrounding Southeast Tennessee communities.</p>
       </div>
-      <div>
-        <h3>Service Area</h3>
-        <p>${business.serviceArea.join(" | ")}</p>
+      <div class="footer-links">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services/">Services</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/cities/">Service Areas</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
       </div>
-      <div>
+      <div class="footer-links">
+        <h3>Popular Services</h3>
+        <ul>
+          <li><a href="/services/custom-built-ins/">Custom Built-Ins</a></li>
+          <li><a href="/services/cabinetry/">Cabinetry</a></li>
+          <li><a href="/services/floating-shelves/">Floating Shelves</a></li>
+          <li><a href="/services/custom-libraries/">Custom Libraries</a></li>
+          <li><a href="/services/mantels/">Mantels</a></li>
+          <li><a href="/services/finish-carpentry/">Finish Carpentry</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
         <h3>Contact</h3>
         <p><a href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a></p>
         <p><a href="mailto:${business.email}">${business.email}</a></p>
+        <p><a href="/contact/">Request Consultation</a></p>
+      </div>
+      <div class="footer-legal">
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
       </div>
       <p class="copyright">&copy; ${new Date().getFullYear()} ${business.name}. All rights reserved.</p>
     </footer>
