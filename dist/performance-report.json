@@ -1,11 +1,11 @@
 {
-  "htmlBytes": 8151352,
-  "averageHtmlBytes": 17455,
+  "htmlBytes": 8158602,
+  "averageHtmlBytes": 17470,
   "imageCount": 30,
-  "htmlImageCount": 34,
-  "lazyImageCount": 33,
-  "dimensionedImageCount": 34,
-  "lazyLoadCoverage": 97,
+  "htmlImageCount": 49,
+  "lazyImageCount": 48,
+  "dimensionedImageCount": 49,
+  "lazyLoadCoverage": 98,
   "dimensionCoverage": 100,
   "largestImageBytes": 3650834,
   "compressionWarnings": [

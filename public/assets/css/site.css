@@ -215,6 +215,37 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.city-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.city-card-image {
+  display: block;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+}
+
+.city-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  transition: transform 0.5s ease;
+}
+
+.city-card:hover .city-card-image img {
+  transform: scale(1.04);
+}
+
+.city-card-content {
+  padding: 1rem;
+}
+
+.city-card-content h2 {
+  margin-top: 0;
+}
+
 .gallery-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }

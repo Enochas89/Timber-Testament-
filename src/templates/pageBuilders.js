@@ -42,6 +42,29 @@ function renderHomeTestimonialCard({ quote, author }) {
     </article>`;
 }
 
+const cityTileImageBySlug = {
+  "athens-tn": "/assets/images/cities/athens-tn.jpg",
+  "benton-tn": "/assets/images/cities/benton-tn.jpeg",
+  "calhoun-tn": "/assets/images/cities/calhoun-tn.jpg",
+  "charleston-tn": "/assets/images/cities/charleston-tn.jpg",
+  "chattanooga-tn": "/assets/images/cities/chattanooga-tn.jpeg",
+  "cleveland-tn": "/assets/images/cities/cleveland-tn.jpeg",
+  "collegedale-tn": "/assets/images/cities/collegedale-tn.jpg",
+  "dalton-ga": "/assets/images/cities/dalton-ga.jpg",
+  "dayton-tn": "/assets/images/cities/dayton-tn.jpg",
+  "etowah-tn": "/assets/images/cities/etowah-tn.jpg",
+  "fort-oglethorpe-ga": "/assets/images/cities/fort-oglethorpe-ga.avif",
+  "ooltewah-tn": "/assets/images/cities/ooltewah-tn.webp",
+  "ringgold-ga": "/assets/images/cities/ringgold-ga.jpg",
+  "soddy-daisy-tn": "/assets/images/cities/soddy-daisy-tn.jpg",
+  "sweetwater-tn": "/assets/images/cities/sweetwater-tn.jpg"
+};
+
+function getCityTileImage(city) {
+  const slug = citySlug(city);
+  return cityTileImageBySlug[slug] || business.defaultOgImage;
+}
+
 function renderHomePage({ services, cities, projects }) {
   const byServiceName = (name) => services.find((service) => service.name === name);
   const byCityName = (name) => cities.find((city) => city.name === name);
@@ -420,11 +443,26 @@ function renderCitiesIndex({ cities, services }) {
   const cityCards = cities
     .map((city) => {
       const service = services[0];
+      const cityName = cityLabel(city);
+      const cityRoute = `/cities/${citySlug(city)}-carpentry/`;
+      const imageSrc = getCityTileImage(city);
       return `
-        <article class="card">
-          <h2><a href="/cities/${citySlug(city)}-carpentry/">${cityLabel(city)} Carpentry</a></h2>
-          <p>${city.county}. ${city.localNotes}</p>
-          <p><a href="/services/${serviceSlug(service.name)}-${citySlug(city)}/">Example: ${service.name} in ${cityLabel(city)}</a></p>
+        <article class="card city-card">
+          <a class="city-card-image" href="${cityRoute}">
+            <img
+              src="${imageSrc}"
+              alt="Neighborhood view in ${cityName} where Timber & Testament provides custom carpentry services"
+              loading="lazy"
+              width="640"
+              height="360"
+              decoding="async"
+            >
+          </a>
+          <div class="city-card-content">
+            <h2><a href="${cityRoute}">${cityName} Carpentry</a></h2>
+            <p>${city.county}. ${city.localNotes}</p>
+            <p><a href="/services/${serviceSlug(service.name)}-${citySlug(city)}/">Example: ${service.name} in ${cityName}</a></p>
+          </div>
         </article>`;
     })
     .join("");
