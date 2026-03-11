@@ -112,13 +112,17 @@ Blocks:
 
 Core routes:
 
-- `/home`
+- `/`
 - `/services`
 - `/projects`
 - `/cities`
 - `/blog`
 - `/about`
 - `/contact`
+
+Legacy route behavior:
+
+- `/home` and `/home/` permanently redirect to `/`
 
 Templates:
 

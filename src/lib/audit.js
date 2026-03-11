@@ -1,3 +1,5 @@
+const fs = require("fs");
+const path = require("path");
 const { contentRules, audits, technicalSeo } = require("../config");
 const {
   stripTags,
@@ -88,6 +90,7 @@ function createPageQualityAudit({ page }) {
 
 function createSeoAudits(pages) {
   const titleMap = new Map();
+  const descriptionMap = new Map();
   const canonicalMap = new Map();
   const h1Map = new Map();
   const faqSetMap = new Map();
@@ -105,6 +108,7 @@ function createSeoAudits(pages) {
     const faqKey = page.faqSetKey || "none";
 
     titleMap.set(title, [...(titleMap.get(title) || []), page.route]);
+    descriptionMap.set(description, [...(descriptionMap.get(description) || []), page.route]);
     canonicalMap.set(canonical, [...(canonicalMap.get(canonical) || []), page.route]);
     h1Map.set(h1, [...(h1Map.get(h1) || []), page.route]);
     faqSetMap.set(faqKey, (faqSetMap.get(faqKey) || 0) + 1);
@@ -164,6 +168,10 @@ function createSeoAudits(pages) {
     .filter(([key, routes]) => key && routes.length > audits.maxTitleDupes)
     .map(([title, routes]) => ({ title, routes }));
 
+  const duplicateMetaDescriptions = [...descriptionMap.entries()]
+    .filter(([key, routes]) => key && routes.length > audits.maxTitleDupes)
+    .map(([description, routes]) => ({ description, routes }));
+
   const duplicateCanonicals = [...canonicalMap.entries()]
     .filter(([key, routes]) => key && routes.length > audits.maxCanonicalDupes)
     .map(([canonical, routes]) => ({ canonical, routes }));
@@ -175,13 +183,15 @@ function createSeoAudits(pages) {
   return {
     pageAudits,
     duplicateTitles,
+    duplicateMetaDescriptions,
     duplicateCanonicals,
     duplicateH1s,
     repeatedFaqSets,
     summary: {
-      pagesWithMissingMeta: pageAudits.filter((page) => page.issues.length > 0).length,
+      pagesWithMissingMeta: pageAudits.filter((page) => page.issues.some((issue) => issue.startsWith("missing_"))).length,
       pagesWithHighDuplicateRisk: pageAudits.filter((page) => page.duplicateRiskScore > audits.maxDuplicateRiskScore).length,
       duplicateTitleGroups: duplicateTitles.length,
+      duplicateMetaDescriptionGroups: duplicateMetaDescriptions.length,
       duplicateCanonicalGroups: duplicateCanonicals.length,
       repeatedFaqSetGroups: repeatedFaqSets.length
     }
@@ -216,11 +226,11 @@ function createInternalLinkAudit(pages) {
   }
 
   const orphanPages = [...inbound.entries()]
-    .filter(([route, count]) => route !== "/home" && route !== "/" && count === 0)
+    .filter(([route, count]) => route !== "/" && count === 0)
     .map(([route]) => route);
 
   const lowLinkPages = [...inbound.entries()]
-    .filter(([route, count]) => route !== "/home" && route !== "/" && count < contentRules.lowLinkThreshold)
+    .filter(([route, count]) => route !== "/" && count < contentRules.lowLinkThreshold)
     .map(([route, count]) => ({ route, inboundLinks: count }));
 
   const overlinkedPages = [...outbound.entries()]
@@ -249,25 +259,61 @@ function createInternalLinkAudit(pages) {
   };
 }
 
-function createPerformanceReport(pages, imageManifest) {
+function createPerformanceReport(pages, imageManifest, distDir = "") {
   const htmlBytes = pages.reduce((sum, page) => sum + Buffer.byteLength(page.html, "utf8"), 0);
   const imageCount = imageManifest.length;
-  const lazyImageCount = pages.reduce((sum, page) => {
-    const matches = page.html.match(/loading="lazy"/g);
+  const htmlImageCount = pages.reduce((sum, page) => {
+    const matches = page.html.match(/<img[^>]*>/gim);
     return sum + (matches ? matches.length : 0);
   }, 0);
+  const lazyImageCount = pages.reduce((sum, page) => {
+    const matches = page.html.match(/<img[^>]*loading="lazy"[^>]*>/gim);
+    return sum + (matches ? matches.length : 0);
+  }, 0);
+  const dimensionedImageCount = pages.reduce((sum, page) => {
+    const matches = page.html.match(/<img[^>]*width="[^"]+"[^>]*height="[^"]*"[^>]*>/gim) || [];
+    return sum + matches.length;
+  }, 0);
+
+  let largestImageBytes = 0;
+  const compressionWarnings = [];
+  const imageDir = distDir ? path.join(distDir, "assets", "images") : "";
+
+  if (imageDir && fs.existsSync(imageDir)) {
+    const entries = fs.readdirSync(imageDir, { withFileTypes: true }).filter((entry) => entry.isFile());
+    entries.forEach((entry) => {
+      const filePath = path.join(imageDir, entry.name);
+      const size = fs.statSync(filePath).size;
+      if (size > largestImageBytes) {
+        largestImageBytes = size;
+      }
+      if (size > 300 * 1024) {
+        compressionWarnings.push({
+          filename: entry.name,
+          bytes: size,
+          kilobytes: Math.round((size / 1024) * 10) / 10
+        });
+      }
+    });
+  }
 
   return {
     htmlBytes,
     averageHtmlBytes: Math.round(htmlBytes / Math.max(1, pages.length)),
     imageCount,
+    htmlImageCount,
     lazyImageCount,
-    lazyLoadCoverage: imageCount ? Math.round((lazyImageCount / imageCount) * 100) : 0,
+    dimensionedImageCount,
+    lazyLoadCoverage: htmlImageCount ? Math.round((lazyImageCount / htmlImageCount) * 100) : 0,
+    dimensionCoverage: htmlImageCount ? Math.round((dimensionedImageCount / htmlImageCount) * 100) : 0,
+    largestImageBytes,
+    compressionWarnings,
     hints: [
       "Static pre-rendered HTML",
       "Single stylesheet and single deferred script",
       "Lazy-loaded project images",
-      "No runtime framework payload"
+      "No runtime framework payload",
+      "Image compression warnings reported for assets larger than 300KB"
     ]
   };
 }
@@ -279,3 +325,4 @@ module.exports = {
   createInternalLinkAudit,
   createPerformanceReport
 };
+

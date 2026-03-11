@@ -59,7 +59,7 @@ function renderHomePage({ services, cities, projects }) {
         <ul class="home-service-points">${points}</ul>
         <a class="home-service-link" href="/services/${serviceSlug(service.name)}/">
           <span>View ${service.name} pages</span>
-          <span aria-hidden="true">↗</span>
+          <span aria-hidden="true">-&gt;</span>
         </a>
       </article>`;
     })
@@ -87,12 +87,15 @@ function renderHomePage({ services, cities, projects }) {
       </article>`
     )
     .join("");
+  const heroImage = `/assets/images/${projects[0] ? projects[0].images[0] : "custom-built-ins-cleveland-tn.jpg"}`;
 
   return {
     h1: "Custom Carpentry in Cleveland TN and Southeast Tennessee",
     title: `${business.name} | Cleveland TN Custom Carpentry`,
     description:
       "Custom carpentry, built-ins, trim work, and interior wood features in Cleveland TN and surrounding Southeast Tennessee cities.",
+    ogImage: heroImage,
+    preloadImages: [heroImage],
     localTokens: {
       city: "Cleveland",
       service: "Custom Carpentry"
@@ -139,7 +142,7 @@ function renderHomePage({ services, cities, projects }) {
           <div class="home-split">
             <div class="home-split-image">
               <img
-                src="/assets/images/${projects[0] ? projects[0].images[0] : "custom-built-ins-cleveland-tn.jpg"}"
+                src="${heroImage}"
                 alt="Custom dark walnut library cabinetry with integrated lattice storage in Cleveland Tennessee"
                 loading="lazy"
                 width="1200"

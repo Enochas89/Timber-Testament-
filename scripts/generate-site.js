@@ -9,7 +9,8 @@ const {
   projects,
   contentRules,
   indexation,
-  sitemap
+  sitemap,
+  technicalSeo
 } = require("../src/config");
 const { renderLayout } = require("../src/templates/layout");
 const { renderServiceCityPage } = require("../src/templates/serviceCityPage");
@@ -38,6 +39,13 @@ const { renderStickyMobileCta } = require("../src/lib/conversionBlocks");
 
 const distDir = path.resolve("dist");
 const publicDir = path.resolve("public");
+
+function truncateValue(input, maxLength) {
+  if (!input || input.length <= maxLength) {
+    return input || "";
+  }
+  return `${input.slice(0, maxLength - 3).trim()}...`;
+}
 
 function ensureDir(targetPath) {
   fs.mkdirSync(path.dirname(targetPath), { recursive: true });
@@ -110,14 +118,20 @@ function routePriority(route, pageType) {
   if (Object.prototype.hasOwnProperty.call(sitemap.priorities, route)) {
     return sitemap.priorities[route];
   }
-  if (pageType === "money") {
-    return 0.85;
+  if (route.startsWith("/services/")) {
+    return 0.9;
+  }
+  if (route.startsWith("/cities/")) {
+    return 0.8;
   }
   if (pageType === "project") {
-    return 0.75;
+    return 0.7;
   }
   if (pageType === "blog") {
-    return 0.65;
+    return 0.6;
+  }
+  if (pageType === "home") {
+    return 1.0;
   }
   return sitemap.defaultPriority;
 }
@@ -157,17 +171,93 @@ function buildSitemap(pages) {
   return sitemapPages;
 }
 
-function findMissingImageAlt(pages) {
+function hasAttribute(tag, attrName) {
+  return new RegExp(`\\b${attrName}\\s*=\\s*["'][^"']*["']`, "i").test(tag);
+}
+
+function getAttributeValue(tag, attrName) {
+  const match = tag.match(new RegExp(`\\b${attrName}\\s*=\\s*["']([^"']*)["']`, "i"));
+  return match ? match[1].trim() : "";
+}
+
+function isSeoFriendlyImageFilename(filename) {
+  return /^[a-z0-9]+(?:-[a-z0-9]+)*\.(?:jpg|jpeg|png|webp|avif|gif)$/.test(filename);
+}
+
+function normalizeImageTags(html) {
+  return html.replace(/<img\b[^>]*>/gim, (tag) => {
+    const attrsToAdd = [];
+    if (!hasAttribute(tag, "loading")) {
+      attrsToAdd.push('loading="lazy"');
+    }
+    if (!hasAttribute(tag, "decoding")) {
+      attrsToAdd.push('decoding="async"');
+    }
+    if (!hasAttribute(tag, "width")) {
+      attrsToAdd.push('width="1200"');
+    }
+    if (!hasAttribute(tag, "height")) {
+      attrsToAdd.push('height="800"');
+    }
+    if (!attrsToAdd.length) {
+      return tag;
+    }
+    return tag.replace(/>$/, ` ${attrsToAdd.join(" ")}>`);
+  });
+}
+
+function findImageIssues(pages) {
   const issues = [];
   pages.forEach((page) => {
     const matches = page.html.match(/<img[^>]*>/gim) || [];
     matches.forEach((imgTag) => {
-      if (!/alt="[^"]*"/i.test(imgTag)) {
+      const src = getAttributeValue(imgTag, "src");
+      const alt = getAttributeValue(imgTag, "alt");
+      const loading = getAttributeValue(imgTag, "loading");
+      const hasWidth = hasAttribute(imgTag, "width");
+      const hasHeight = hasAttribute(imgTag, "height");
+
+      if (!alt) {
         issues.push({ route: page.route, issue: "missing_image_alt", snippet: imgTag });
+      }
+
+      if (loading.toLowerCase() !== "lazy") {
+        issues.push({ route: page.route, issue: "missing_lazy_loading", snippet: imgTag });
+      }
+
+      if (!hasWidth || !hasHeight) {
+        issues.push({ route: page.route, issue: "missing_image_dimensions", snippet: imgTag });
+      }
+
+      if (src && !src.startsWith("data:")) {
+        const filename = path.basename(src.split("?")[0]);
+        if (filename && !isSeoFriendlyImageFilename(filename)) {
+          issues.push({
+            route: page.route,
+            issue: "non_seo_friendly_image_filename",
+            filename
+          });
+        }
       }
     });
   });
   return issues;
+}
+
+function renderRedirectHtml(destinationRoute, canonicalUrl) {
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,follow">
+  <meta http-equiv="refresh" content="0; url=${destinationRoute}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting to <a href="${destinationRoute}">${destinationRoute}</a>.</p>
+</body>
+</html>`;
 }
 
 function createCanonicalAudit(seoAudit) {
@@ -183,21 +273,24 @@ function renderPageEntry(pageEntry) {
   pageEntry.breadcrumbs = breadcrumbs;
   pageEntry.canonical = canonicalFor(pageEntry.route);
   pageEntry.pageType = pageEntry.type || inferPageType(pageEntry.route);
+  const normalizedTitle = truncateValue(pageEntry.page.title, technicalSeo.titleMaxLength);
+  const normalizedDescription = truncateValue(pageEntry.page.description, technicalSeo.descriptionMaxLength);
 
   const html = renderLayout({
     route: pageEntry.route,
-    title: pageEntry.page.title,
-    description: pageEntry.page.description,
+    title: normalizedTitle,
+    description: normalizedDescription,
     canonical: pageEntry.canonical,
     content: pageEntry.page.content,
     extraSchema: pageEntry.page.extraSchema || [],
     robots: resolveRobots(pageEntry.noindex),
     ogImage: pageEntry.page.ogImage,
     breadcrumbs,
-    stickyMobileCta: renderStickyMobileCta()
+    stickyMobileCta: renderStickyMobileCta(),
+    preloadImages: pageEntry.page.preloadImages || []
   });
 
-  pageEntry.html = html;
+  pageEntry.html = normalizeImageTags(html);
   pageEntry.textContent = pageEntry.page.content.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
   pageEntry.type = pageEntry.pageType;
 }
@@ -226,7 +319,7 @@ function build() {
   const pageEntries = [];
 
   const topPages = [
-    ["/home", renderHomePage({ services, cities, projects }), "home"],
+    ["/", renderHomePage({ services, cities, projects }), "home"],
     ["/services", renderServicesIndex({ services, cities }), "hub"],
     ["/projects", renderProjectsIndex({ projects }), "hub"],
     ["/cities", renderCitiesIndex({ cities, services }), "hub"],
@@ -302,17 +395,15 @@ function build() {
     writeFile(entry.route, entry.html);
   });
 
-  const rootRedirect = `<!doctype html><html><head><meta name="robots" content="noindex,follow"><meta http-equiv="refresh" content="0; url=/home/"><link rel="canonical" href="${canonicalFor(
-    "/home"
-  )}"></head><body><a href="/home/">Continue to home page</a></body></html>`;
-  fs.writeFileSync(path.join(distDir, "index.html"), rootRedirect, "utf8");
+  const legacyHomeRedirect = renderRedirectHtml("/", canonicalFor("/"));
+  writeFile("/home", legacyHomeRedirect);
 
   const sitemapPages = buildSitemap(pageEntries);
 
   const seoAudit = createSeoAudits(pageEntries);
   const internalLinkAudit = createInternalLinkAudit(pageEntries);
   const canonicalAudit = createCanonicalAudit(seoAudit);
-  const missingImageAltIssues = findMissingImageAlt(pageEntries);
+  const imageIssues = findImageIssues(pageEntries);
 
   const imageManifest = projects.flatMap((project) =>
     project.images.map((filename, idx) => ({
@@ -327,14 +418,32 @@ function build() {
   imageManifest.forEach((image) => allImageNames.add(image.filename));
   createImagePlaceholders(allImageNames);
 
-  const performanceReport = createPerformanceReport(pageEntries, imageManifest);
+  const performanceReport = createPerformanceReport(pageEntries, imageManifest, distDir);
 
   const qualityWarnings = qualityAudit.filter((item) => item.issues.length > 0);
   const excludedFromSitemap = pageEntries.filter((page) => page.excludeFromSitemap).map((page) => page.route);
   const noindexPages = pageEntries.filter((page) => page.noindex).map((page) => page.route);
+  const pageTypeCounts = pageEntries.reduce((acc, page) => {
+    acc[page.type] = (acc[page.type] || 0) + 1;
+    return acc;
+  }, {});
+  const imageIssueCounts = imageIssues.reduce((acc, issue) => {
+    acc[issue.issue] = (acc[issue.issue] || 0) + 1;
+    return acc;
+  }, {});
+  const duplicateRiskAverage =
+    Math.round(
+      (seoAudit.pageAudits.reduce((sum, page) => sum + page.duplicateRiskScore, 0) /
+        Math.max(1, seoAudit.pageAudits.length)) *
+        1000
+    ) / 1000;
+  const duplicateRiskMax = Math.max(...seoAudit.pageAudits.map((page) => page.duplicateRiskScore));
+  const missingSeoElements = seoAudit.pageAudits.reduce((sum, page) => sum + page.issues.length, 0);
 
   const buildSummary = {
+    totalPages: pageEntries.length + 1,
     generatedRoutes: pageEntries.length + 1,
+    pageTypes: pageTypeCounts,
     serviceCityPages: services.length * cities.length,
     serviceHubs: services.length,
     cityHubs: cities.length,
@@ -350,7 +459,14 @@ function build() {
     excludedFromSitemap: excludedFromSitemap.length,
     noindexPages: noindexPages.length,
     sitemapUrls: sitemapPages.length,
-    uniquenessFingerprints: pageEntries.filter((page) => page.uniquenessFingerprint).length
+    uniquenessFingerprints: pageEntries.filter((page) => page.uniquenessFingerprint).length,
+    duplicateRiskScore: {
+      average: duplicateRiskAverage,
+      max: duplicateRiskMax,
+      flaggedPages: seoAudit.pageAudits.filter((page) => page.duplicateRiskScore > 0.65).length
+    },
+    missingSeoElements,
+    imageIssues: imageIssueCounts
   };
 
   const pageQualityReport = {
@@ -366,7 +482,8 @@ function build() {
 
   const seoAuditReport = {
     ...seoAudit,
-    missingImageAltIssues,
+    imageIssues,
+    imageIssueCounts,
     pagesMarkedNoindex: noindexPages,
     pagesExcludedFromSitemap: excludedFromSitemap
   };
@@ -383,6 +500,15 @@ function build() {
 
   const buildAuditReport = {
     summary: buildSummary,
+    missingMetaRoutes: seoAudit.pageAudits
+      .filter((page) => page.issues.includes("missing_meta_description"))
+      .map((page) => page.route),
+    missingTitleRoutes: seoAudit.pageAudits
+      .filter((page) => page.issues.includes("missing_title"))
+      .map((page) => page.route),
+    missingH1Routes: seoAudit.pageAudits
+      .filter((page) => page.issues.includes("missing_h1"))
+      .map((page) => page.route),
     duplicateRiskPages: seoAudit.pageAudits
       .filter((page) => page.duplicateRiskScore > 0.5)
       .map((page) => ({ route: page.route, duplicateRiskScore: page.duplicateRiskScore })),
@@ -393,6 +519,8 @@ function build() {
       .filter((page) => page.issues.includes("low_service_specificity"))
       .map((page) => page.route),
     repeatedFaqSetWarnings: seoAudit.repeatedFaqSets,
+    duplicateMetaDescriptionWarnings: seoAudit.duplicateMetaDescriptions,
+    missingImageAltWarnings: imageIssues.filter((issue) => issue.issue === "missing_image_alt"),
     repeatedTemplateWarnings: seoAudit.pageAudits
       .filter((page) => page.duplicateRiskScore > 0.65)
       .map((page) => page.route)
@@ -422,3 +550,4 @@ function build() {
 }
 
 build();
+

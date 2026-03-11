@@ -6,7 +6,7 @@ const business = {
   category: "Carpenter",
   phone: "865.200.1604",
   email: "hello@timberandtestament.com",
-  website: "https://www.timberandtestament.com",
+  website: "https://www.timbertestament.com",
   streetAddress: "1250 Inman Street East",
   addressLocality: "Cleveland",
   addressRegion: "TN",
@@ -636,15 +636,15 @@ const processPools = {
 };
 
 const sitemap = {
-  includeRootRedirect: true,
+  includeRootRedirect: false,
   defaultPriority: 0.7,
   priorities: {
-    "/home": 1.0,
+    "/": 1.0,
     "/services": 0.9,
-    "/cities": 0.9,
+    "/cities": 0.8,
     "/contact": 0.9,
-    "/projects": 0.8,
-    "/blog": 0.8
+    "/projects": 0.7,
+    "/blog": 0.6
   },
   changeFreqByType: {
     home: "weekly",

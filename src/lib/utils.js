@@ -110,7 +110,7 @@ function truncate(input, maxLength) {
   if (!input || input.length <= maxLength) {
     return input;
   }
-  return `${input.slice(0, maxLength - 1).trim()}…`;
+  return `${input.slice(0, maxLength - 3).trim()}...`;
 }
 
 function uniq(array) {

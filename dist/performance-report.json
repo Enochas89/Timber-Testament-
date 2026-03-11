@@ -1,13 +1,55 @@
 {
-  "htmlBytes": 4598000,
-  "averageHtmlBytes": 15965,
+  "htmlBytes": 4564799,
+  "averageHtmlBytes": 15850,
   "imageCount": 30,
-  "lazyImageCount": 36,
-  "lazyLoadCoverage": 120,
+  "htmlImageCount": 35,
+  "lazyImageCount": 35,
+  "dimensionedImageCount": 35,
+  "lazyLoadCoverage": 100,
+  "dimensionCoverage": 100,
+  "largestImageBytes": 6520259,
+  "compressionWarnings": [
+    {
+      "filename": "accent-wall-dalton-ga.jpg",
+      "bytes": 2120826,
+      "kilobytes": 2071.1
+    },
+    {
+      "filename": "crown-molding-ringgold-ga.jpg",
+      "bytes": 1025659,
+      "kilobytes": 1001.6
+    },
+    {
+      "filename": "custom-built-ins-cleveland-tn.jpg",
+      "bytes": 1410113,
+      "kilobytes": 1377.1
+    },
+    {
+      "filename": "custom-carpentry-cleveland-tn.jpg",
+      "bytes": 832169,
+      "kilobytes": 812.7
+    },
+    {
+      "filename": "floating-shelves-athens-tn.jpg",
+      "bytes": 6520259,
+      "kilobytes": 6367.4
+    },
+    {
+      "filename": "mantel-installation-chattanooga-tn.jpg",
+      "bytes": 2721068,
+      "kilobytes": 2657.3
+    },
+    {
+      "filename": "wainscoting-collegedale-tn.jpg",
+      "bytes": 858016,
+      "kilobytes": 837.9
+    }
+  ],
   "hints": [
     "Static pre-rendered HTML",
     "Single stylesheet and single deferred script",
     "Lazy-loaded project images",
-    "No runtime framework payload"
+    "No runtime framework payload",
+    "Image compression warnings reported for assets larger than 300KB"
   ]
 }

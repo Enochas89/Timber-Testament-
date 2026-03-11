@@ -20,9 +20,9 @@
   "flaggedPages": [],
   "allPages": [
     {
-      "route": "/home",
+      "route": "/",
       "pageType": "home",
-      "wordCount": 842,
+      "wordCount": 840,
       "localMentions": 15,
       "serviceMentions": 7,
       "paragraphCount": 40,
@@ -264,7 +264,7 @@
     {
       "route": "/cities/cleveland-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 388,
+      "wordCount": 386,
       "localMentions": 28,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -275,7 +275,7 @@
     {
       "route": "/cities/charleston-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 404,
+      "wordCount": 402,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -286,7 +286,7 @@
     {
       "route": "/cities/athens-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 378,
+      "wordCount": 376,
       "localMentions": 28,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -297,7 +297,7 @@
     {
       "route": "/cities/ooltewah-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 393,
+      "wordCount": 391,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -308,7 +308,7 @@
     {
       "route": "/cities/collegedale-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 369,
+      "wordCount": 367,
       "localMentions": 28,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -319,7 +319,7 @@
     {
       "route": "/cities/chattanooga-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 383,
+      "wordCount": 381,
       "localMentions": 28,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -330,7 +330,7 @@
     {
       "route": "/cities/dayton-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 394,
+      "wordCount": 392,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -341,7 +341,7 @@
     {
       "route": "/cities/etowah-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 410,
+      "wordCount": 408,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -352,7 +352,7 @@
     {
       "route": "/cities/sweetwater-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 398,
+      "wordCount": 396,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -363,7 +363,7 @@
     {
       "route": "/cities/calhoun-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 400,
+      "wordCount": 398,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -374,7 +374,7 @@
     {
       "route": "/cities/benton-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 406,
+      "wordCount": 404,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -385,7 +385,7 @@
     {
       "route": "/cities/soddy-daisy-tn-carpentry",
       "pageType": "hub",
-      "wordCount": 428,
+      "wordCount": 426,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -396,7 +396,7 @@
     {
       "route": "/cities/ringgold-ga-carpentry",
       "pageType": "hub",
-      "wordCount": 393,
+      "wordCount": 391,
       "localMentions": 28,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -407,7 +407,7 @@
     {
       "route": "/cities/fort-oglethorpe-ga-carpentry",
       "pageType": "hub",
-      "wordCount": 438,
+      "wordCount": 434,
       "localMentions": 26,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -418,7 +418,7 @@
     {
       "route": "/cities/dalton-ga-carpentry",
       "pageType": "hub",
-      "wordCount": 382,
+      "wordCount": 380,
       "localMentions": 28,
       "serviceMentions": 5,
       "paragraphCount": 9,
@@ -429,7 +429,7 @@
     {
       "route": "/services/custom-carpentry-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1053,
+      "wordCount": 1051,
       "localMentions": 33,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -440,7 +440,7 @@
     {
       "route": "/services/custom-carpentry-charleston-tn",
       "pageType": "money",
-      "wordCount": 1103,
+      "wordCount": 1101,
       "localMentions": 29,
       "serviceMentions": 30,
       "paragraphCount": 27,
@@ -451,7 +451,7 @@
     {
       "route": "/services/custom-carpentry-athens-tn",
       "pageType": "money",
-      "wordCount": 1097,
+      "wordCount": 1095,
       "localMentions": 33,
       "serviceMentions": 30,
       "paragraphCount": 28,
@@ -462,7 +462,7 @@
     {
       "route": "/services/custom-carpentry-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1120,
+      "wordCount": 1118,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -473,7 +473,7 @@
     {
       "route": "/services/custom-carpentry-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1086,
+      "wordCount": 1084,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -484,7 +484,7 @@
     {
       "route": "/services/custom-carpentry-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1064,
+      "wordCount": 1062,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -495,7 +495,7 @@
     {
       "route": "/services/custom-carpentry-dayton-tn",
       "pageType": "money",
-      "wordCount": 1159,
+      "wordCount": 1157,
       "localMentions": 30,
       "serviceMentions": 30,
       "paragraphCount": 29,
@@ -506,7 +506,7 @@
     {
       "route": "/services/custom-carpentry-etowah-tn",
       "pageType": "money",
-      "wordCount": 1166,
+      "wordCount": 1164,
       "localMentions": 29,
       "serviceMentions": 28,
       "paragraphCount": 29,
@@ -517,7 +517,7 @@
     {
       "route": "/services/custom-carpentry-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1140,
+      "wordCount": 1138,
       "localMentions": 30,
       "serviceMentions": 29,
       "paragraphCount": 28,
@@ -528,7 +528,7 @@
     {
       "route": "/services/custom-carpentry-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1084,
+      "wordCount": 1082,
       "localMentions": 30,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -539,7 +539,7 @@
     {
       "route": "/services/custom-carpentry-benton-tn",
       "pageType": "money",
-      "wordCount": 1125,
+      "wordCount": 1123,
       "localMentions": 29,
       "serviceMentions": 28,
       "paragraphCount": 28,
@@ -550,7 +550,7 @@
     {
       "route": "/services/custom-carpentry-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1150,
+      "wordCount": 1148,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 29,
@@ -561,7 +561,7 @@
     {
       "route": "/services/custom-carpentry-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1060,
+      "wordCount": 1058,
       "localMentions": 33,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -572,7 +572,7 @@
     {
       "route": "/services/custom-carpentry-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1160,
+      "wordCount": 1155,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -583,7 +583,7 @@
     {
       "route": "/services/custom-carpentry-dalton-ga",
       "pageType": "money",
-      "wordCount": 1095,
+      "wordCount": 1093,
       "localMentions": 32,
       "serviceMentions": 28,
       "paragraphCount": 28,
@@ -594,7 +594,7 @@
     {
       "route": "/services/custom-built-ins-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1057,
+      "wordCount": 1055,
       "localMentions": 34,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -605,7 +605,7 @@
     {
       "route": "/services/custom-built-ins-charleston-tn",
       "pageType": "money",
-      "wordCount": 1036,
+      "wordCount": 1034,
       "localMentions": 31,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -616,7 +616,7 @@
     {
       "route": "/services/custom-built-ins-athens-tn",
       "pageType": "money",
-      "wordCount": 1042,
+      "wordCount": 1040,
       "localMentions": 33,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -627,7 +627,7 @@
     {
       "route": "/services/custom-built-ins-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1099,
+      "wordCount": 1097,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -638,7 +638,7 @@
     {
       "route": "/services/custom-built-ins-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1059,
+      "wordCount": 1057,
       "localMentions": 32,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -649,7 +649,7 @@
     {
       "route": "/services/custom-built-ins-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1074,
+      "wordCount": 1072,
       "localMentions": 32,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -660,7 +660,7 @@
     {
       "route": "/services/custom-built-ins-dayton-tn",
       "pageType": "money",
-      "wordCount": 1062,
+      "wordCount": 1060,
       "localMentions": 29,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -671,7 +671,7 @@
     {
       "route": "/services/custom-built-ins-etowah-tn",
       "pageType": "money",
-      "wordCount": 1049,
+      "wordCount": 1047,
       "localMentions": 31,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -682,7 +682,7 @@
     {
       "route": "/services/custom-built-ins-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1111,
+      "wordCount": 1109,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -693,7 +693,7 @@
     {
       "route": "/services/custom-built-ins-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1058,
+      "wordCount": 1056,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -704,7 +704,7 @@
     {
       "route": "/services/custom-built-ins-benton-tn",
       "pageType": "money",
-      "wordCount": 1103,
+      "wordCount": 1101,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -715,7 +715,7 @@
     {
       "route": "/services/custom-built-ins-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1161,
+      "wordCount": 1159,
       "localMentions": 29,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -726,7 +726,7 @@
     {
       "route": "/services/custom-built-ins-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1029,
+      "wordCount": 1027,
       "localMentions": 35,
       "serviceMentions": 25,
       "paragraphCount": 27,
@@ -737,7 +737,7 @@
     {
       "route": "/services/custom-built-ins-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1070,
+      "wordCount": 1065,
       "localMentions": 29,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -748,7 +748,7 @@
     {
       "route": "/services/custom-built-ins-dalton-ga",
       "pageType": "money",
-      "wordCount": 1042,
+      "wordCount": 1040,
       "localMentions": 33,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -759,7 +759,7 @@
     {
       "route": "/services/trim-carpentry-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1001,
+      "wordCount": 999,
       "localMentions": 34,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -770,7 +770,7 @@
     {
       "route": "/services/trim-carpentry-charleston-tn",
       "pageType": "money",
-      "wordCount": 1065,
+      "wordCount": 1063,
       "localMentions": 31,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -792,7 +792,7 @@
     {
       "route": "/services/trim-carpentry-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1099,
+      "wordCount": 1097,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -803,7 +803,7 @@
     {
       "route": "/services/trim-carpentry-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1083,
+      "wordCount": 1081,
       "localMentions": 32,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -814,7 +814,7 @@
     {
       "route": "/services/trim-carpentry-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1106,
+      "wordCount": 1104,
       "localMentions": 32,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -847,7 +847,7 @@
     {
       "route": "/services/trim-carpentry-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1115,
+      "wordCount": 1113,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -858,7 +858,7 @@
     {
       "route": "/services/trim-carpentry-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1069,
+      "wordCount": 1067,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -880,7 +880,7 @@
     {
       "route": "/services/trim-carpentry-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1175,
+      "wordCount": 1173,
       "localMentions": 29,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -891,7 +891,7 @@
     {
       "route": "/services/trim-carpentry-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1032,
+      "wordCount": 1030,
       "localMentions": 34,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -902,7 +902,7 @@
     {
       "route": "/services/trim-carpentry-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1140,
+      "wordCount": 1136,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -924,7 +924,7 @@
     {
       "route": "/services/finish-carpentry-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1152,
+      "wordCount": 1150,
       "localMentions": 35,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -935,7 +935,7 @@
     {
       "route": "/services/finish-carpentry-charleston-tn",
       "pageType": "money",
-      "wordCount": 1153,
+      "wordCount": 1151,
       "localMentions": 29,
       "serviceMentions": 25,
       "paragraphCount": 29,
@@ -946,7 +946,7 @@
     {
       "route": "/services/finish-carpentry-athens-tn",
       "pageType": "money",
-      "wordCount": 1115,
+      "wordCount": 1113,
       "localMentions": 33,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -957,7 +957,7 @@
     {
       "route": "/services/finish-carpentry-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1132,
+      "wordCount": 1130,
       "localMentions": 30,
       "serviceMentions": 25,
       "paragraphCount": 29,
@@ -968,7 +968,7 @@
     {
       "route": "/services/finish-carpentry-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1068,
+      "wordCount": 1066,
       "localMentions": 32,
       "serviceMentions": 25,
       "paragraphCount": 28,
@@ -979,7 +979,7 @@
     {
       "route": "/services/finish-carpentry-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1026,
+      "wordCount": 1024,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -990,7 +990,7 @@
     {
       "route": "/services/finish-carpentry-dayton-tn",
       "pageType": "money",
-      "wordCount": 1070,
+      "wordCount": 1068,
       "localMentions": 30,
       "serviceMentions": 27,
       "paragraphCount": 27,
@@ -1001,7 +1001,7 @@
     {
       "route": "/services/finish-carpentry-etowah-tn",
       "pageType": "money",
-      "wordCount": 1139,
+      "wordCount": 1137,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -1012,7 +1012,7 @@
     {
       "route": "/services/finish-carpentry-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1046,
+      "wordCount": 1044,
       "localMentions": 30,
       "serviceMentions": 27,
       "paragraphCount": 27,
@@ -1023,7 +1023,7 @@
     {
       "route": "/services/finish-carpentry-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1067,
+      "wordCount": 1065,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -1034,7 +1034,7 @@
     {
       "route": "/services/finish-carpentry-benton-tn",
       "pageType": "money",
-      "wordCount": 1098,
+      "wordCount": 1096,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -1045,7 +1045,7 @@
     {
       "route": "/services/finish-carpentry-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1179,
+      "wordCount": 1177,
       "localMentions": 29,
       "serviceMentions": 25,
       "paragraphCount": 29,
@@ -1056,7 +1056,7 @@
     {
       "route": "/services/finish-carpentry-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1068,
+      "wordCount": 1066,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -1067,7 +1067,7 @@
     {
       "route": "/services/finish-carpentry-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1105,
+      "wordCount": 1100,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -1078,7 +1078,7 @@
     {
       "route": "/services/finish-carpentry-dalton-ga",
       "pageType": "money",
-      "wordCount": 1123,
+      "wordCount": 1121,
       "localMentions": 33,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -1089,7 +1089,7 @@
     {
       "route": "/services/floating-shelves-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1068,
+      "wordCount": 1066,
       "localMentions": 33,
       "serviceMentions": 27,
       "paragraphCount": 27,
@@ -1100,7 +1100,7 @@
     {
       "route": "/services/floating-shelves-charleston-tn",
       "pageType": "money",
-      "wordCount": 1048,
+      "wordCount": 1046,
       "localMentions": 31,
       "serviceMentions": 29,
       "paragraphCount": 28,
@@ -1111,7 +1111,7 @@
     {
       "route": "/services/floating-shelves-athens-tn",
       "pageType": "money",
-      "wordCount": 1057,
+      "wordCount": 1055,
       "localMentions": 33,
       "serviceMentions": 27,
       "paragraphCount": 27,
@@ -1122,7 +1122,7 @@
     {
       "route": "/services/floating-shelves-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1077,
+      "wordCount": 1075,
       "localMentions": 30,
       "serviceMentions": 29,
       "paragraphCount": 28,
@@ -1133,7 +1133,7 @@
     {
       "route": "/services/floating-shelves-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1123,
+      "wordCount": 1121,
       "localMentions": 32,
       "serviceMentions": 30,
       "paragraphCount": 29,
@@ -1144,7 +1144,7 @@
     {
       "route": "/services/floating-shelves-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1072,
+      "wordCount": 1070,
       "localMentions": 32,
       "serviceMentions": 29,
       "paragraphCount": 28,
@@ -1155,7 +1155,7 @@
     {
       "route": "/services/floating-shelves-dayton-tn",
       "pageType": "money",
-      "wordCount": 1050,
+      "wordCount": 1048,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -1166,7 +1166,7 @@
     {
       "route": "/services/floating-shelves-etowah-tn",
       "pageType": "money",
-      "wordCount": 1048,
+      "wordCount": 1046,
       "localMentions": 31,
       "serviceMentions": 29,
       "paragraphCount": 28,
@@ -1177,7 +1177,7 @@
     {
       "route": "/services/floating-shelves-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1064,
+      "wordCount": 1062,
       "localMentions": 30,
       "serviceMentions": 28,
       "paragraphCount": 27,
@@ -1188,7 +1188,7 @@
     {
       "route": "/services/floating-shelves-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1091,
+      "wordCount": 1089,
       "localMentions": 30,
       "serviceMentions": 28,
       "paragraphCount": 29,
@@ -1199,7 +1199,7 @@
     {
       "route": "/services/floating-shelves-benton-tn",
       "pageType": "money",
-      "wordCount": 1039,
+      "wordCount": 1037,
       "localMentions": 30,
       "serviceMentions": 29,
       "paragraphCount": 28,
@@ -1210,7 +1210,7 @@
     {
       "route": "/services/floating-shelves-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1078,
+      "wordCount": 1076,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 27,
@@ -1221,7 +1221,7 @@
     {
       "route": "/services/floating-shelves-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1101,
+      "wordCount": 1099,
       "localMentions": 34,
       "serviceMentions": 28,
       "paragraphCount": 29,
@@ -1232,7 +1232,7 @@
     {
       "route": "/services/floating-shelves-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1072,
+      "wordCount": 1067,
       "localMentions": 29,
       "serviceMentions": 28,
       "paragraphCount": 27,
@@ -1243,7 +1243,7 @@
     {
       "route": "/services/floating-shelves-dalton-ga",
       "pageType": "money",
-      "wordCount": 1082,
+      "wordCount": 1080,
       "localMentions": 34,
       "serviceMentions": 28,
       "paragraphCount": 28,
@@ -1397,7 +1397,7 @@
     {
       "route": "/services/mantels-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1074,
+      "wordCount": 1072,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 29,
@@ -1419,7 +1419,7 @@
     {
       "route": "/services/accent-walls-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1114,
+      "wordCount": 1112,
       "localMentions": 35,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1430,7 +1430,7 @@
     {
       "route": "/services/accent-walls-charleston-tn",
       "pageType": "money",
-      "wordCount": 1060,
+      "wordCount": 1058,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 29,
@@ -1463,7 +1463,7 @@
     {
       "route": "/services/accent-walls-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1044,
+      "wordCount": 1042,
       "localMentions": 32,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1474,7 +1474,7 @@
     {
       "route": "/services/accent-walls-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1033,
+      "wordCount": 1031,
       "localMentions": 32,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -1507,7 +1507,7 @@
     {
       "route": "/services/accent-walls-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1030,
+      "wordCount": 1028,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1540,7 +1540,7 @@
     {
       "route": "/services/accent-walls-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1094,
+      "wordCount": 1092,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -1562,7 +1562,7 @@
     {
       "route": "/services/accent-walls-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1067,
+      "wordCount": 1065,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -1584,7 +1584,7 @@
     {
       "route": "/services/custom-cabinets-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1040,
+      "wordCount": 1038,
       "localMentions": 35,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -1595,7 +1595,7 @@
     {
       "route": "/services/custom-cabinets-charleston-tn",
       "pageType": "money",
-      "wordCount": 1124,
+      "wordCount": 1122,
       "localMentions": 31,
       "serviceMentions": 27,
       "paragraphCount": 29,
@@ -1606,7 +1606,7 @@
     {
       "route": "/services/custom-cabinets-athens-tn",
       "pageType": "money",
-      "wordCount": 1041,
+      "wordCount": 1039,
       "localMentions": 34,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -1617,7 +1617,7 @@
     {
       "route": "/services/custom-cabinets-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1111,
+      "wordCount": 1109,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1628,7 +1628,7 @@
     {
       "route": "/services/custom-cabinets-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1047,
+      "wordCount": 1045,
       "localMentions": 32,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1639,7 +1639,7 @@
     {
       "route": "/services/custom-cabinets-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1054,
+      "wordCount": 1052,
       "localMentions": 32,
       "serviceMentions": 25,
       "paragraphCount": 28,
@@ -1650,7 +1650,7 @@
     {
       "route": "/services/custom-cabinets-dayton-tn",
       "pageType": "money",
-      "wordCount": 1154,
+      "wordCount": 1152,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 29,
@@ -1661,7 +1661,7 @@
     {
       "route": "/services/custom-cabinets-etowah-tn",
       "pageType": "money",
-      "wordCount": 1043,
+      "wordCount": 1041,
       "localMentions": 31,
       "serviceMentions": 27,
       "paragraphCount": 27,
@@ -1672,7 +1672,7 @@
     {
       "route": "/services/custom-cabinets-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1078,
+      "wordCount": 1076,
       "localMentions": 30,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -1683,7 +1683,7 @@
     {
       "route": "/services/custom-cabinets-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1069,
+      "wordCount": 1067,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1694,7 +1694,7 @@
     {
       "route": "/services/custom-cabinets-benton-tn",
       "pageType": "money",
-      "wordCount": 1103,
+      "wordCount": 1101,
       "localMentions": 30,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -1705,7 +1705,7 @@
     {
       "route": "/services/custom-cabinets-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1187,
+      "wordCount": 1185,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 29,
@@ -1716,7 +1716,7 @@
     {
       "route": "/services/custom-cabinets-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1039,
+      "wordCount": 1037,
       "localMentions": 35,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -1727,7 +1727,7 @@
     {
       "route": "/services/custom-cabinets-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1062,
+      "wordCount": 1058,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -1738,7 +1738,7 @@
     {
       "route": "/services/custom-cabinets-dalton-ga",
       "pageType": "money",
-      "wordCount": 1066,
+      "wordCount": 1064,
       "localMentions": 34,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -1760,7 +1760,7 @@
     {
       "route": "/services/woodworking-charleston-tn",
       "pageType": "money",
-      "wordCount": 1066,
+      "wordCount": 1064,
       "localMentions": 31,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1793,7 +1793,7 @@
     {
       "route": "/services/woodworking-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1073,
+      "wordCount": 1071,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -1804,7 +1804,7 @@
     {
       "route": "/services/woodworking-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1110,
+      "wordCount": 1108,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -1837,7 +1837,7 @@
     {
       "route": "/services/woodworking-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1021,
+      "wordCount": 1019,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -1870,7 +1870,7 @@
     {
       "route": "/services/woodworking-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1108,
+      "wordCount": 1106,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -1892,7 +1892,7 @@
     {
       "route": "/services/woodworking-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1078,
+      "wordCount": 1076,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 27,
@@ -1914,7 +1914,7 @@
     {
       "route": "/services/interior-wood-features-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1042,
+      "wordCount": 1037,
       "localMentions": 33,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -1925,7 +1925,7 @@
     {
       "route": "/services/interior-wood-features-charleston-tn",
       "pageType": "money",
-      "wordCount": 1158,
+      "wordCount": 1153,
       "localMentions": 31,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -1936,7 +1936,7 @@
     {
       "route": "/services/interior-wood-features-athens-tn",
       "pageType": "money",
-      "wordCount": 1080,
+      "wordCount": 1076,
       "localMentions": 33,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -1947,7 +1947,7 @@
     {
       "route": "/services/interior-wood-features-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1080,
+      "wordCount": 1076,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -1958,7 +1958,7 @@
     {
       "route": "/services/interior-wood-features-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1120,
+      "wordCount": 1115,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -1969,7 +1969,7 @@
     {
       "route": "/services/interior-wood-features-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1120,
+      "wordCount": 1115,
       "localMentions": 32,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -1980,7 +1980,7 @@
     {
       "route": "/services/interior-wood-features-dayton-tn",
       "pageType": "money",
-      "wordCount": 1120,
+      "wordCount": 1116,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 29,
@@ -1991,7 +1991,7 @@
     {
       "route": "/services/interior-wood-features-etowah-tn",
       "pageType": "money",
-      "wordCount": 1112,
+      "wordCount": 1108,
       "localMentions": 31,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2002,7 +2002,7 @@
     {
       "route": "/services/interior-wood-features-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1144,
+      "wordCount": 1139,
       "localMentions": 30,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -2013,7 +2013,7 @@
     {
       "route": "/services/interior-wood-features-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1128,
+      "wordCount": 1124,
       "localMentions": 30,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2024,7 +2024,7 @@
     {
       "route": "/services/interior-wood-features-benton-tn",
       "pageType": "money",
-      "wordCount": 1089,
+      "wordCount": 1085,
       "localMentions": 30,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2035,7 +2035,7 @@
     {
       "route": "/services/interior-wood-features-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1137,
+      "wordCount": 1132,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2046,7 +2046,7 @@
     {
       "route": "/services/interior-wood-features-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1112,
+      "wordCount": 1108,
       "localMentions": 35,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -2057,7 +2057,7 @@
     {
       "route": "/services/interior-wood-features-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1159,
+      "wordCount": 1154,
       "localMentions": 29,
       "serviceMentions": 25,
       "paragraphCount": 29,
@@ -2068,7 +2068,7 @@
     {
       "route": "/services/interior-wood-features-dalton-ga",
       "pageType": "money",
-      "wordCount": 1077,
+      "wordCount": 1073,
       "localMentions": 34,
       "serviceMentions": 25,
       "paragraphCount": 28,
@@ -2079,7 +2079,7 @@
     {
       "route": "/services/built-in-bookcases-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1061,
+      "wordCount": 1059,
       "localMentions": 34,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2090,7 +2090,7 @@
     {
       "route": "/services/built-in-bookcases-charleston-tn",
       "pageType": "money",
-      "wordCount": 1149,
+      "wordCount": 1145,
       "localMentions": 31,
       "serviceMentions": 24,
       "paragraphCount": 29,
@@ -2101,7 +2101,7 @@
     {
       "route": "/services/built-in-bookcases-athens-tn",
       "pageType": "money",
-      "wordCount": 1021,
+      "wordCount": 1019,
       "localMentions": 32,
       "serviceMentions": 25,
       "paragraphCount": 28,
@@ -2112,7 +2112,7 @@
     {
       "route": "/services/built-in-bookcases-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1125,
+      "wordCount": 1123,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2123,7 +2123,7 @@
     {
       "route": "/services/built-in-bookcases-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1030,
+      "wordCount": 1026,
       "localMentions": 32,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -2134,7 +2134,7 @@
     {
       "route": "/services/built-in-bookcases-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1037,
+      "wordCount": 1033,
       "localMentions": 32,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2145,7 +2145,7 @@
     {
       "route": "/services/built-in-bookcases-dayton-tn",
       "pageType": "money",
-      "wordCount": 1089,
+      "wordCount": 1087,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2156,7 +2156,7 @@
     {
       "route": "/services/built-in-bookcases-etowah-tn",
       "pageType": "money",
-      "wordCount": 1089,
+      "wordCount": 1087,
       "localMentions": 31,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2167,7 +2167,7 @@
     {
       "route": "/services/built-in-bookcases-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1077,
+      "wordCount": 1073,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2178,7 +2178,7 @@
     {
       "route": "/services/built-in-bookcases-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1102,
+      "wordCount": 1100,
       "localMentions": 30,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -2189,7 +2189,7 @@
     {
       "route": "/services/built-in-bookcases-benton-tn",
       "pageType": "money",
-      "wordCount": 1102,
+      "wordCount": 1100,
       "localMentions": 30,
       "serviceMentions": 26,
       "paragraphCount": 29,
@@ -2200,7 +2200,7 @@
     {
       "route": "/services/built-in-bookcases-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1174,
+      "wordCount": 1170,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2211,7 +2211,7 @@
     {
       "route": "/services/built-in-bookcases-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1032,
+      "wordCount": 1030,
       "localMentions": 35,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -2222,7 +2222,7 @@
     {
       "route": "/services/built-in-bookcases-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1102,
+      "wordCount": 1097,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2233,7 +2233,7 @@
     {
       "route": "/services/built-in-bookcases-dalton-ga",
       "pageType": "money",
-      "wordCount": 1081,
+      "wordCount": 1079,
       "localMentions": 35,
       "serviceMentions": 25,
       "paragraphCount": 28,
@@ -2244,7 +2244,7 @@
     {
       "route": "/services/coffered-ceilings-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1040,
+      "wordCount": 1038,
       "localMentions": 33,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -2255,7 +2255,7 @@
     {
       "route": "/services/coffered-ceilings-charleston-tn",
       "pageType": "money",
-      "wordCount": 1082,
+      "wordCount": 1080,
       "localMentions": 31,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -2266,7 +2266,7 @@
     {
       "route": "/services/coffered-ceilings-athens-tn",
       "pageType": "money",
-      "wordCount": 1069,
+      "wordCount": 1067,
       "localMentions": 33,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2277,7 +2277,7 @@
     {
       "route": "/services/coffered-ceilings-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1059,
+      "wordCount": 1057,
       "localMentions": 30,
       "serviceMentions": 25,
       "paragraphCount": 28,
@@ -2288,7 +2288,7 @@
     {
       "route": "/services/coffered-ceilings-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1035,
+      "wordCount": 1031,
       "localMentions": 32,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2299,7 +2299,7 @@
     {
       "route": "/services/coffered-ceilings-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1037,
+      "wordCount": 1033,
       "localMentions": 32,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2310,7 +2310,7 @@
     {
       "route": "/services/coffered-ceilings-dayton-tn",
       "pageType": "money",
-      "wordCount": 1090,
+      "wordCount": 1088,
       "localMentions": 29,
       "serviceMentions": 25,
       "paragraphCount": 28,
@@ -2321,7 +2321,7 @@
     {
       "route": "/services/coffered-ceilings-etowah-tn",
       "pageType": "money",
-      "wordCount": 1039,
+      "wordCount": 1037,
       "localMentions": 31,
       "serviceMentions": 26,
       "paragraphCount": 27,
@@ -2332,7 +2332,7 @@
     {
       "route": "/services/coffered-ceilings-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1033,
+      "wordCount": 1031,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -2343,7 +2343,7 @@
     {
       "route": "/services/coffered-ceilings-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1049,
+      "wordCount": 1047,
       "localMentions": 30,
       "serviceMentions": 24,
       "paragraphCount": 27,
@@ -2354,7 +2354,7 @@
     {
       "route": "/services/coffered-ceilings-benton-tn",
       "pageType": "money",
-      "wordCount": 1015,
+      "wordCount": 1013,
       "localMentions": 30,
       "serviceMentions": 25,
       "paragraphCount": 27,
@@ -2365,7 +2365,7 @@
     {
       "route": "/services/coffered-ceilings-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1122,
+      "wordCount": 1118,
       "localMentions": 29,
       "serviceMentions": 27,
       "paragraphCount": 29,
@@ -2376,7 +2376,7 @@
     {
       "route": "/services/coffered-ceilings-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1027,
+      "wordCount": 1025,
       "localMentions": 34,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2387,7 +2387,7 @@
     {
       "route": "/services/coffered-ceilings-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1059,
+      "wordCount": 1054,
       "localMentions": 29,
       "serviceMentions": 25,
       "paragraphCount": 27,
@@ -2398,7 +2398,7 @@
     {
       "route": "/services/coffered-ceilings-dalton-ga",
       "pageType": "money",
-      "wordCount": 1006,
+      "wordCount": 1004,
       "localMentions": 34,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2420,7 +2420,7 @@
     {
       "route": "/services/wainscoting-charleston-tn",
       "pageType": "money",
-      "wordCount": 1006,
+      "wordCount": 1004,
       "localMentions": 31,
       "serviceMentions": 28,
       "paragraphCount": 28,
@@ -2453,7 +2453,7 @@
     {
       "route": "/services/wainscoting-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1012,
+      "wordCount": 1010,
       "localMentions": 32,
       "serviceMentions": 28,
       "paragraphCount": 28,
@@ -2464,7 +2464,7 @@
     {
       "route": "/services/wainscoting-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1027,
+      "wordCount": 1025,
       "localMentions": 32,
       "serviceMentions": 28,
       "paragraphCount": 28,
@@ -2497,7 +2497,7 @@
     {
       "route": "/services/wainscoting-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1068,
+      "wordCount": 1066,
       "localMentions": 30,
       "serviceMentions": 28,
       "paragraphCount": 29,
@@ -2530,7 +2530,7 @@
     {
       "route": "/services/wainscoting-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1018,
+      "wordCount": 1016,
       "localMentions": 29,
       "serviceMentions": 26,
       "paragraphCount": 28,
@@ -2552,7 +2552,7 @@
     {
       "route": "/services/wainscoting-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1036,
+      "wordCount": 1034,
       "localMentions": 29,
       "serviceMentions": 30,
       "paragraphCount": 28,
@@ -2574,7 +2574,7 @@
     {
       "route": "/services/crown-molding-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1104,
+      "wordCount": 1102,
       "localMentions": 34,
       "serviceMentions": 27,
       "paragraphCount": 29,
@@ -2585,7 +2585,7 @@
     {
       "route": "/services/crown-molding-charleston-tn",
       "pageType": "money",
-      "wordCount": 1092,
+      "wordCount": 1090,
       "localMentions": 29,
       "serviceMentions": 30,
       "paragraphCount": 28,
@@ -2607,7 +2607,7 @@
     {
       "route": "/services/crown-molding-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1100,
+      "wordCount": 1098,
       "localMentions": 30,
       "serviceMentions": 30,
       "paragraphCount": 29,
@@ -2618,7 +2618,7 @@
     {
       "route": "/services/crown-molding-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1095,
+      "wordCount": 1093,
       "localMentions": 32,
       "serviceMentions": 27,
       "paragraphCount": 28,
@@ -2629,7 +2629,7 @@
     {
       "route": "/services/crown-molding-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1095,
+      "wordCount": 1093,
       "localMentions": 32,
       "serviceMentions": 27,
       "paragraphCount": 29,
@@ -2662,7 +2662,7 @@
     {
       "route": "/services/crown-molding-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1096,
+      "wordCount": 1094,
       "localMentions": 30,
       "serviceMentions": 29,
       "paragraphCount": 28,
@@ -2695,7 +2695,7 @@
     {
       "route": "/services/crown-molding-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1086,
+      "wordCount": 1084,
       "localMentions": 29,
       "serviceMentions": 28,
       "paragraphCount": 27,
@@ -2706,7 +2706,7 @@
     {
       "route": "/services/crown-molding-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1106,
+      "wordCount": 1104,
       "localMentions": 33,
       "serviceMentions": 30,
       "paragraphCount": 29,
@@ -2717,7 +2717,7 @@
     {
       "route": "/services/crown-molding-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1114,
+      "wordCount": 1110,
       "localMentions": 29,
       "serviceMentions": 28,
       "paragraphCount": 28,
@@ -2739,7 +2739,7 @@
     {
       "route": "/services/custom-wall-paneling-cleveland-tn",
       "pageType": "money",
-      "wordCount": 1099,
+      "wordCount": 1095,
       "localMentions": 33,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -2750,7 +2750,7 @@
     {
       "route": "/services/custom-wall-paneling-charleston-tn",
       "pageType": "money",
-      "wordCount": 1110,
+      "wordCount": 1106,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2761,7 +2761,7 @@
     {
       "route": "/services/custom-wall-paneling-athens-tn",
       "pageType": "money",
-      "wordCount": 1096,
+      "wordCount": 1094,
       "localMentions": 33,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -2772,7 +2772,7 @@
     {
       "route": "/services/custom-wall-paneling-ooltewah-tn",
       "pageType": "money",
-      "wordCount": 1118,
+      "wordCount": 1114,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 28,
@@ -2783,7 +2783,7 @@
     {
       "route": "/services/custom-wall-paneling-collegedale-tn",
       "pageType": "money",
-      "wordCount": 1064,
+      "wordCount": 1059,
       "localMentions": 32,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -2794,7 +2794,7 @@
     {
       "route": "/services/custom-wall-paneling-chattanooga-tn",
       "pageType": "money",
-      "wordCount": 1034,
+      "wordCount": 1029,
       "localMentions": 32,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -2805,7 +2805,7 @@
     {
       "route": "/services/custom-wall-paneling-dayton-tn",
       "pageType": "money",
-      "wordCount": 1130,
+      "wordCount": 1128,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -2816,7 +2816,7 @@
     {
       "route": "/services/custom-wall-paneling-etowah-tn",
       "pageType": "money",
-      "wordCount": 1144,
+      "wordCount": 1142,
       "localMentions": 29,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -2827,7 +2827,7 @@
     {
       "route": "/services/custom-wall-paneling-sweetwater-tn",
       "pageType": "money",
-      "wordCount": 1069,
+      "wordCount": 1065,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -2838,7 +2838,7 @@
     {
       "route": "/services/custom-wall-paneling-calhoun-tn",
       "pageType": "money",
-      "wordCount": 1144,
+      "wordCount": 1142,
       "localMentions": 30,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -2849,7 +2849,7 @@
     {
       "route": "/services/custom-wall-paneling-benton-tn",
       "pageType": "money",
-      "wordCount": 1138,
+      "wordCount": 1136,
       "localMentions": 29,
       "serviceMentions": 23,
       "paragraphCount": 28,
@@ -2860,7 +2860,7 @@
     {
       "route": "/services/custom-wall-paneling-soddy-daisy-tn",
       "pageType": "money",
-      "wordCount": 1194,
+      "wordCount": 1189,
       "localMentions": 29,
       "serviceMentions": 24,
       "paragraphCount": 29,
@@ -2871,7 +2871,7 @@
     {
       "route": "/services/custom-wall-paneling-ringgold-ga",
       "pageType": "money",
-      "wordCount": 1102,
+      "wordCount": 1098,
       "localMentions": 33,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -2882,7 +2882,7 @@
     {
       "route": "/services/custom-wall-paneling-fort-oglethorpe-ga",
       "pageType": "money",
-      "wordCount": 1126,
+      "wordCount": 1121,
       "localMentions": 29,
       "serviceMentions": 23,
       "paragraphCount": 27,
@@ -2893,7 +2893,7 @@
     {
       "route": "/services/custom-wall-paneling-dalton-ga",
       "pageType": "money",
-      "wordCount": 1106,
+      "wordCount": 1104,
       "localMentions": 33,
       "serviceMentions": 23,
       "paragraphCount": 29,
@@ -2904,7 +2904,7 @@
     {
       "route": "/projects/project-oak-built-ins-cleveland-tn",
       "pageType": "project",
-      "wordCount": 464,
+      "wordCount": 460,
       "localMentions": 11,
       "serviceMentions": 9,
       "paragraphCount": 11,
@@ -2915,7 +2915,7 @@
     {
       "route": "/projects/project-floating-shelves-athens-tn",
       "pageType": "project",
-      "wordCount": 460,
+      "wordCount": 448,
       "localMentions": 11,
       "serviceMentions": 12,
       "paragraphCount": 11,
@@ -2926,7 +2926,7 @@
     {
       "route": "/projects/project-mantel-installation-chattanooga-tn",
       "pageType": "project",
-      "wordCount": 437,
+      "wordCount": 429,
       "localMentions": 11,
       "serviceMentions": 9,
       "paragraphCount": 11,
@@ -2937,7 +2937,7 @@
     {
       "route": "/projects/project-wainscoting-collegedale-tn",
       "pageType": "project",
-      "wordCount": 442,
+      "wordCount": 434,
       "localMentions": 11,
       "serviceMentions": 10,
       "paragraphCount": 11,
@@ -2948,7 +2948,7 @@
     {
       "route": "/projects/project-crown-molding-ringgold-ga",
       "pageType": "project",
-      "wordCount": 450,
+      "wordCount": 442,
       "localMentions": 11,
       "serviceMentions": 12,
       "paragraphCount": 11,
@@ -2959,7 +2959,7 @@
     {
       "route": "/projects/project-accent-wall-dalton-ga",
       "pageType": "project",
-      "wordCount": 459,
+      "wordCount": 455,
       "localMentions": 11,
       "serviceMentions": 9,
       "paragraphCount": 11,
@@ -2970,7 +2970,7 @@
     {
       "route": "/blog/cost-of-custom-built-ins-in-cleveland-tn-2026-homeowner-guide",
       "pageType": "blog",
-      "wordCount": 295,
+      "wordCount": 281,
       "localMentions": 4,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -2981,7 +2981,7 @@
     {
       "route": "/blog/best-wood-species-for-floating-shelves-in-tennessee-homes",
       "pageType": "blog",
-      "wordCount": 287,
+      "wordCount": 275,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -2992,7 +2992,7 @@
     {
       "route": "/blog/how-custom-carpentry-increases-home-value-in-southeast-tennessee",
       "pageType": "blog",
-      "wordCount": 288,
+      "wordCount": 276,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3003,7 +3003,7 @@
     {
       "route": "/blog/custom-trim-vs-prefabricated-trim-which-is-better-for-your-home",
       "pageType": "blog",
-      "wordCount": 301,
+      "wordCount": 287,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3014,7 +3014,7 @@
     {
       "route": "/blog/how-to-plan-built-in-bookcases-around-fireplaces",
       "pageType": "blog",
-      "wordCount": 275,
+      "wordCount": 267,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3025,7 +3025,7 @@
     {
       "route": "/blog/wainscoting-design-ideas-for-historic-homes-in-chattanooga",
       "pageType": "blog",
-      "wordCount": 281,
+      "wordCount": 269,
       "localMentions": 4,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3036,7 +3036,7 @@
     {
       "route": "/blog/crown-molding-profiles-that-work-in-modern-farmhouse-interiors",
       "pageType": "blog",
-      "wordCount": 287,
+      "wordCount": 275,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3047,7 +3047,7 @@
     {
       "route": "/blog/what-to-expect-during-a-finish-carpentry-installation",
       "pageType": "blog",
-      "wordCount": 281,
+      "wordCount": 273,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3058,7 +3058,7 @@
     {
       "route": "/blog/how-to-choose-the-right-stain-color-for-custom-wood-features",
       "pageType": "blog",
-      "wordCount": 299,
+      "wordCount": 287,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3069,7 +3069,7 @@
     {
       "route": "/blog/mistakes-to-avoid-when-hiring-a-trim-carpenter",
       "pageType": "blog",
-      "wordCount": 281,
+      "wordCount": 275,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3080,7 +3080,7 @@
     {
       "route": "/blog/do-accent-walls-still-add-value-a-carpenter-s-perspective",
       "pageType": "blog",
-      "wordCount": 290,
+      "wordCount": 278,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3091,7 +3091,7 @@
     {
       "route": "/blog/how-long-does-a-custom-mantel-installation-take",
       "pageType": "blog",
-      "wordCount": 281,
+      "wordCount": 273,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3102,7 +3102,7 @@
     {
       "route": "/blog/custom-cabinet-upgrades-that-improve-everyday-storage",
       "pageType": "blog",
-      "wordCount": 276,
+      "wordCount": 268,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3113,7 +3113,7 @@
     {
       "route": "/blog/when-to-replace-vs-refine-existing-interior-woodwork",
       "pageType": "blog",
-      "wordCount": 284,
+      "wordCount": 276,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3124,7 +3124,7 @@
     {
       "route": "/blog/how-humidity-in-tennessee-affects-wood-movement-indoors",
       "pageType": "blog",
-      "wordCount": 281,
+      "wordCount": 271,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3135,7 +3135,7 @@
     {
       "route": "/blog/open-shelving-vs-closed-cabinetry-function-and-style-tradeoffs",
       "pageType": "blog",
-      "wordCount": 287,
+      "wordCount": 275,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3146,7 +3146,7 @@
     {
       "route": "/blog/coffered-ceilings-for-standard-height-rooms-is-it-worth-it",
       "pageType": "blog",
-      "wordCount": 287,
+      "wordCount": 273,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3157,7 +3157,7 @@
     {
       "route": "/blog/how-to-budget-for-multi-room-finish-carpentry-projects",
       "pageType": "blog",
-      "wordCount": 281,
+      "wordCount": 271,
       "localMentions": 3,
       "serviceMentions": 3,
       "paragraphCount": 9,
@@ -3168,7 +3168,7 @@
     {
       "route": "/blog/top-questions-to-ask-before-starting-a-built-in-project",
       "pageType": "blog",
-      "wordCount": 288,
+      "wordCount": 278,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,
@@ -3179,7 +3179,7 @@
     {
       "route": "/blog/what-makes-a-high-end-carpentry-finish-look-professional",
       "pageType": "blog",
-      "wordCount": 284,
+      "wordCount": 272,
       "localMentions": 3,
       "serviceMentions": 2,
       "paragraphCount": 9,

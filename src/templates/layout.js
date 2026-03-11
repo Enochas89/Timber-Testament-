@@ -15,10 +15,15 @@ function renderHead({
   ogImage,
   robots,
   breadcrumbs = [],
-  extraSchema = []
+  extraSchema = [],
+  preloadImages = []
 }) {
   const computedRobots = robots || resolveRobots(false);
   const normalizedOgImage = ogImage && ogImage.startsWith("http") ? ogImage : `${business.website}${ogImage || business.defaultOgImage}`;
+  const preloadLinks = preloadImages
+    .filter(Boolean)
+    .map((image) => `<link rel="preload" as="image" href="${image}">`)
+    .join("\n");
 
   const schemaBlocks = [
     localBusinessSchema(),
@@ -56,6 +61,7 @@ function renderHead({
     ${tracking}
     <link rel="dns-prefetch" href="//www.google.com">
     <link rel="preconnect" href="https://www.google.com" crossorigin>
+    ${preloadLinks}
     <link rel="preload" href="/assets/css/site.css" as="style">
     <link rel="stylesheet" href="/assets/css/site.css">
     <script defer src="/assets/js/site.js"></script>
@@ -66,10 +72,10 @@ function renderHead({
 function renderNav() {
   return `
     <header class="site-header">
-      <a class="brand" href="/home/">${business.name}</a>
+      <a class="brand" href="/">${business.name}</a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="site-nav" aria-label="Primary">
-        <a href="/home/">Home</a>
+        <a href="/">Home</a>
         <a href="/services/">Services</a>
         <a href="/projects/">Projects</a>
         <a href="/cities/">Cities</a>
@@ -116,7 +122,7 @@ function renderFooter() {
         <p><a href="tel:${business.phone.replace(/[^+\d]/g, "")}">${business.phone}</a></p>
         <p><a href="mailto:${business.email}">${business.email}</a></p>
       </div>
-      <p class="copyright">© ${new Date().getFullYear()} ${business.name}. All rights reserved.</p>
+      <p class="copyright">&copy; ${new Date().getFullYear()} ${business.name}. All rights reserved.</p>
     </footer>
   `;
 }
@@ -131,12 +137,13 @@ function renderLayout({
   robots,
   ogImage,
   breadcrumbs = [],
-  stickyMobileCta = ""
+  stickyMobileCta = "",
+  preloadImages = []
 }) {
   return `<!doctype html>
 <html lang="en">
   <head>
-    ${renderHead({ route, title, description, canonical, extraSchema, robots, ogImage, breadcrumbs })}
+    ${renderHead({ route, title, description, canonical, extraSchema, robots, ogImage, breadcrumbs, preloadImages })}
   </head>
   <body>
     ${renderNav()}
@@ -150,3 +157,4 @@ function renderLayout({
 module.exports = {
   renderLayout
 };
+

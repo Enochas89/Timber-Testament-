@@ -1,23 +1,44 @@
 {
   "summary": {
+    "totalPages": 289,
     "generatedRoutes": 289,
+    "pageTypes": {
+      "home": 1,
+      "hub": 34,
+      "utility": 2,
+      "money": 225,
+      "project": 6,
+      "blog": 20
+    },
     "serviceCityPages": 225,
     "serviceHubs": 15,
     "cityHubs": 15,
     "projectPages": 6,
     "blogPages": 20,
-    "averageWordCount": 919,
+    "averageWordCount": 916,
     "wordCountMin": 247,
-    "wordCountMax": 1194,
+    "wordCountMax": 1189,
     "qualityFlaggedPages": 0,
     "excludedFromSitemap": 0,
     "noindexPages": 0,
     "sitemapUrls": 288,
-    "uniquenessFingerprints": 225
+    "uniquenessFingerprints": 225,
+    "duplicateRiskScore": {
+      "average": 0.216,
+      "max": 0.333,
+      "flaggedPages": 0
+    },
+    "missingSeoElements": 0,
+    "imageIssues": {}
   },
+  "missingMetaRoutes": [],
+  "missingTitleRoutes": [],
+  "missingH1Routes": [],
   "duplicateRiskPages": [],
   "lowLocalizationWarnings": [],
   "lowServiceSpecificityWarnings": [],
   "repeatedFaqSetWarnings": [],
+  "duplicateMetaDescriptionWarnings": [],
+  "missingImageAltWarnings": [],
   "repeatedTemplateWarnings": []
 }

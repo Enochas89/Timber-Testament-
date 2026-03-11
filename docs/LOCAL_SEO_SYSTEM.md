@@ -6,7 +6,7 @@ This project is a static Node.js local SEO site generator for `Timber & Testamen
 
 Current generated footprint:
 
-- 289 total routes (including root redirect)
+- 289 total routes (including legacy `/home` redirect page)
 - 225 `service + city` money pages
 - 15 service hubs
 - 15 city hubs
@@ -22,6 +22,12 @@ npm run build
 Output directory: `dist/`
 
 ## Architecture
+
+### Routing rules
+
+- `/` is the canonical homepage route and contains the full home content.
+- `/home` and `/home/` are legacy aliases and permanently redirect to `/` via `vercel.json`.
+- A fallback static redirect page is also generated at `dist/home/index.html`.
 
 ### Core generation flow
 
@@ -122,7 +128,9 @@ Build-time checks include:
 - duplicate paragraph risk scoring
 - repeated FAQ set threshold
 - duplicate title/canonical/H1 group detection
+- duplicate meta description group detection
 - missing title/meta/canonical/robots/H1 detection
+- image SEO checks (missing alt, non-SEO filename, missing lazy loading, missing dimensions)
 
 Actions are configurable:
 
@@ -141,12 +149,40 @@ Per-page technical SEO output includes:
 - Open Graph + Twitter card tags
 - breadcrumb HTML + `BreadcrumbList` schema
 - consistent single H1
+- canonical and sitemap URL consistency pinned to `https://www.timbertestament.com`
 
 Generated crawl/index assets:
 
 - `dist/robots.txt`
 - `dist/sitemap.xml`
 - `dist/sitemap.txt`
+
+Sitemap logic:
+
+- Home: `1.0`
+- Service routes: `0.9`
+- City routes: `0.8`
+- Project routes: `0.7`
+- Blog routes: `0.6`
+- All sitemap URLs are absolute and use the production canonical domain.
+
+Robots output:
+
+- `User-agent: *`
+- `Allow: /`
+- `Sitemap: https://www.timbertestament.com/sitemap.xml`
+
+## Image rules
+
+- All generated `<img>` tags are normalized to include:
+  - `loading="lazy"`
+  - `width` and `height` attributes
+  - `decoding="async"`
+- Build audit checks report:
+  - missing `alt`
+  - non-SEO-friendly image filenames
+  - missing lazy loading
+  - missing image dimensions
 
 ## Internal Linking Strategy
 

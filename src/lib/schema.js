@@ -59,7 +59,7 @@ function webPageSchema({ route, title, description, breadcrumbs = [] }) {
     isPartOf: {
       "@id": `${business.website}/#organization`
     },
-    breadcrumb: breadcrumbs.length
+    breadcrumb: breadcrumbs.length > 1
       ? {
           "@id": `${canonicalFor(route)}#breadcrumb`
         }

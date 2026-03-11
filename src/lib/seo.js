@@ -23,7 +23,7 @@ function resolveRobots(isNoindex) {
 }
 
 function inferPageType(route) {
-  if (route === "/home") {
+  if (route === "/" || route === "/home") {
     return "home";
   }
   if (route.startsWith("/services/") && route.split("/").length === 3 && route.split("-").length > 3) {
@@ -42,10 +42,10 @@ function inferPageType(route) {
 }
 
 function buildBreadcrumbs(route, pageTitle) {
-  const crumbs = [{ name: "Home", url: "/home" }];
+  const crumbs = [{ name: "Home", url: "/" }];
 
   const chunks = route.split("/").filter(Boolean);
-  if (chunks.length === 0 || route === "/home") {
+  if (chunks.length === 0 || route === "/home" || route === "/") {
     return crumbs;
   }
 
