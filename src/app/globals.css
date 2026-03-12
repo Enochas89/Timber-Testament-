@@ -84,7 +84,7 @@ p {
 .services-collage-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-template-rows: repeat(2, 190px);
+  grid-template-rows: repeat(2, 165px);
 }
 
 .services-collage-tile {
@@ -126,6 +126,93 @@ p {
   color: rgba(255, 255, 255, 0.93);
   margin-bottom: 0;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+.services-overview {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1rem;
+}
+
+.services-overview-main .list {
+  margin-bottom: 0;
+}
+
+.service-compact-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-top: 0.75rem;
+}
+
+.service-compact-details {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 0.8rem 0.9rem;
+}
+
+.service-compact-details > summary {
+  cursor: pointer;
+  font-weight: 800;
+  color: var(--ink);
+  list-style: none;
+}
+
+.service-compact-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.service-compact-link {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.8rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.service-compact-link span:last-child {
+  color: var(--accent-dark);
+  font-size: 0.82rem;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.services-proof {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 1rem;
+}
+
+.services-quote-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.services-quote-item {
+  margin: 0;
+  padding: 0.8rem 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: color-mix(in srgb, var(--surface) 82%, #f7f2e7);
+}
+
+.services-quote-item blockquote {
+  margin: 0 0 0.4rem;
+  color: var(--ink);
+}
+
+.services-quote-item figcaption {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.92rem;
 }
 
 .site-header {
@@ -289,7 +376,7 @@ p {
 
 .home-checklist li {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr;
   gap: 0.8rem;
   padding: 0.9rem 1rem;
   border-bottom: 1px solid var(--line);
@@ -303,12 +390,6 @@ p {
   margin: 0;
 }
 
-.home-checklist-index {
-  color: var(--accent-dark);
-  font-weight: 900;
-  font-family: var(--font-heading), Georgia, serif;
-}
-
 .service-flow {
   display: grid;
   gap: 0.75rem;
@@ -316,7 +397,7 @@ p {
 
 .service-flow-item {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr auto;
   align-items: center;
   gap: 0.9rem;
   border: 1px solid var(--line);
@@ -324,13 +405,6 @@ p {
   background: var(--surface);
   box-shadow: var(--shadow);
   padding: 0.8rem 1rem;
-}
-
-.service-flow-index {
-  color: var(--accent-dark);
-  font-family: var(--font-heading), Georgia, serif;
-  font-weight: 900;
-  font-size: 1.1rem;
 }
 
 .service-flow-copy h3 {
@@ -573,7 +647,9 @@ p {
 
   .home-split,
   .project-showcase,
-  .testimonial-stack {
+  .testimonial-stack,
+  .services-overview,
+  .services-proof {
     grid-template-columns: 1fr;
   }
 
@@ -582,8 +658,8 @@ p {
     gap: 0.45rem;
   }
 
-  .service-flow-index {
-    font-size: 1rem;
+  .service-compact-list {
+    grid-template-columns: 1fr;
   }
 
   .services-collage-grid {

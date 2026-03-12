@@ -23,6 +23,10 @@ const collageImages = [
   "/images/backgrounds/background-6.jpg",
 ];
 
+const featuredServices = services.slice(0, 4);
+const additionalServices = services.slice(4);
+const featuredTestimonials = testimonials.slice(0, 3);
+
 export default function ServicesPage() {
   return (
     <div className="page">
@@ -50,39 +54,75 @@ export default function ServicesPage() {
             </p>
           </div>
         </section>
-        <div className="card-grid">
-          {services.map((service) => (
-            <article className="card" key={service.slug}>
-              <h2>{service.name}</h2>
-              <p>{service.shortDescription}</p>
-              <Link href={`/services/${service.slug}`}>Open {service.name} page</Link>
-            </article>
-          ))}
-        </div>
 
-        <section className="section">
-          <div className="section-head">
-            <h2>Why Clients Trust Our Work</h2>
-            <p>Every project is built for clean results and long-term daily use.</p>
-          </div>
-          <div className="card-grid">
-            {whyChooseUs.map((reason) => (
-              <article className="card" key={reason}>
-                <p className="testimonial-quote">{reason}</p>
-              </article>
-            ))}
-          </div>
-        </section>
+        <section className="section services-overview">
+          <article className="card services-overview-main">
+            <h2>Custom Carpentry Built Around Your Home</h2>
+            <p>
+              Every project is designed for your layout, your style, and your
+              daily use. We focus on quality materials, clean install details,
+              and a finished look that feels original to the home.
+            </p>
+            <ul className="list">
+              {whyChooseUs.map((reason) => (
+                <li key={reason}>{reason}</li>
+              ))}
+            </ul>
+            <div className="hero-actions">
+              <Link className="btn" href="/contact">
+                Request an Estimate
+              </Link>
+              <Link className="btn-outline" href="/projects">
+                See Recent Projects
+              </Link>
+            </div>
+          </article>
 
-        <section className="section cols-2">
-          <article className="card">
-            <h2>Our Process</h2>
+          <aside className="card services-overview-aside">
+            <h2>What to Expect</h2>
+            <p>
+              Send photos, share your goals, and we will map out a clear scope,
+              timeline, and next steps during your estimate.
+            </p>
             <ul className="list">
               {processSteps.map((step) => (
                 <li key={step}>{step}</li>
               ))}
             </ul>
-          </article>
+          </aside>
+        </section>
+
+        <section className="section">
+          <div className="section-head">
+            <h2>Most Requested Services</h2>
+            <p>Start here if you are planning a new custom carpentry project.</p>
+          </div>
+          <div className="card-grid">
+            {featuredServices.map((service) => (
+              <article className="card" key={service.slug}>
+                <h3>{service.name}</h3>
+                <p>{service.shortDescription}</p>
+                <Link href={`/services/${service.slug}`}>Explore service</Link>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section">
+          <details className="service-compact-details">
+            <summary>View all carpentry services</summary>
+            <div className="service-compact-list">
+              {additionalServices.map((service) => (
+                <Link className="service-compact-link" href={`/services/${service.slug}`} key={service.slug}>
+                  <span>{service.name}</span>
+                  <span aria-hidden="true">View</span>
+                </Link>
+              ))}
+            </div>
+          </details>
+        </section>
+
+        <section className="section services-proof">
           <article className="card">
             <h2>Workmanship Promise</h2>
             <p>
@@ -94,23 +134,17 @@ export default function ServicesPage() {
               results built to last.
             </p>
           </article>
-        </section>
-
-        <section className="section">
-          <div className="section-head">
-            <h2>Client Feedback</h2>
-          </div>
-          <div className="card-grid">
-            {testimonials.map((item) => (
-              <article className="card" key={`services-${item.author}-${item.quote.slice(0, 24)}`}>
-                <p className="testimonial-quote">&ldquo;{item.quote}&rdquo;</p>
-                <p className="testimonial-meta">
-                  {item.author}
-                  {item.location ? ` - ${item.location}` : ""}
-                </p>
-              </article>
-            ))}
-          </div>
+          <article className="card">
+            <h2>What Homeowners Say</h2>
+            <div className="services-quote-list">
+              {featuredTestimonials.map((item) => (
+                <figure className="services-quote-item" key={`services-${item.author}-${item.quote.slice(0, 24)}`}>
+                  <blockquote>&ldquo;{item.quote}&rdquo;</blockquote>
+                  <figcaption>{item.author}</figcaption>
+                </figure>
+              ))}
+            </div>
+          </article>
         </section>
       </div>
     </div>

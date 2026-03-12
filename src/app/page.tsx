@@ -91,9 +91,8 @@ export default function Home() {
             </div>
           </article>
           <ol className="home-checklist">
-            {whyChooseUs.map((reason, index) => (
+            {whyChooseUs.map((reason) => (
               <li key={reason}>
-                <span className="home-checklist-index">{String(index + 1).padStart(2, "0")}</span>
                 <p>{reason}</p>
               </li>
             ))}
@@ -108,9 +107,8 @@ export default function Home() {
             <p>Choose the service that best matches your project goals.</p>
           </div>
           <div className="service-flow">
-            {services.map((service, index) => (
+            {services.map((service) => (
               <article className="service-flow-item" key={service.slug}>
-                <span className="service-flow-index">{String(index + 1).padStart(2, "0")}</span>
                 <div className="service-flow-copy">
                   <h3>{service.name}</h3>
                   <p>{service.shortDescription}</p>
