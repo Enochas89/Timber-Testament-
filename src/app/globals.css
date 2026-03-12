@@ -652,6 +652,23 @@ p {
   background: #efeee9;
 }
 
+.service-detail-image-frame {
+  position: relative;
+  width: 100%;
+  min-height: clamp(220px, 42vw, 560px);
+  margin: 0 0 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #e9e3d7;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.service-detail-image {
+  object-fit: contain;
+  object-position: center;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   background: #f8f4eb;
