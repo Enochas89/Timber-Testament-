@@ -36,8 +36,13 @@ export default function ContactPage() {
             <p>
               <strong>Phone:</strong>{" "}
               <a href={`tel:${business.primaryPhoneRaw}`}>{business.primaryPhoneDisplay}</a>
-              <br />
-              <strong>Email:</strong> <a href={`mailto:${business.email}`}>{business.email}</a>
+              {business.email ? (
+                <>
+                  <br />
+                  <strong>Email:</strong>{" "}
+                  <a href={`mailto:${business.email}`}>{business.email}</a>
+                </>
+              ) : null}
             </p>
             <p>
               <strong>Service Areas:</strong> {business.serviceArea.join(", ")}

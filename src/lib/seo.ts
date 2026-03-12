@@ -66,10 +66,12 @@ export function localBusinessSchema() {
     "@type": "LocalBusiness",
     name: business.name,
     legalName: business.legalName,
-    image: absoluteUrl("/images/project-placeholder.svg"),
+    image: absoluteUrl(
+      "/images/projects/custom-living-room-media-wall-cleveland-tn.jpeg",
+    ),
     url: baseUrl,
     telephone: business.primaryPhoneRaw,
-    email: business.email,
+    ...(business.email ? { email: business.email } : {}),
     address: {
       "@type": "PostalAddress",
       streetAddress: business.address.street,

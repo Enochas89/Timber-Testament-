@@ -24,8 +24,9 @@ export const projects: Project[] = [
     timeline: "Timeline set during estimate",
     outcome:
       "Created a polished built-in media wall that improved both function and appearance in the main living area.",
-    imagePath: "/images/project-placeholder.svg",
-    isPlaceholder: true,
+    imagePath:
+      "/images/projects/custom-living-room-media-wall-cleveland-tn.jpeg",
+    isPlaceholder: false,
   },
   {
     slug: "floating-shelves-kitchen-dining-charleston-tn",
@@ -49,8 +50,9 @@ export const projects: Project[] = [
     timeline: "Timeline set during estimate",
     outcome:
       "Delivered a clean floating shelf set that added character, storage, and custom appeal.",
-    imagePath: "/images/project-placeholder.svg",
-    isPlaceholder: true,
+    imagePath:
+      "/images/projects/floating-shelves-kitchen-dining-charleston-tn.jpg",
+    isPlaceholder: false,
   },
   {
     slug: "custom-fireplace-mantel-athens-tn",
@@ -74,8 +76,8 @@ export const projects: Project[] = [
     timeline: "Timeline set during estimate",
     outcome:
       "The fireplace became a stronger design feature and gave the room a more finished custom look.",
-    imagePath: "/images/project-placeholder.svg",
-    isPlaceholder: true,
+    imagePath: "/images/projects/custom-fireplace-mantel-athens-tn.webp",
+    isPlaceholder: false,
   },
   {
     slug: "custom-built-in-cabinet-storage-ooltewah-tn",
@@ -100,8 +102,9 @@ export const projects: Project[] = [
     timeline: "Timeline set during estimate",
     outcome:
       "The completed cabinet installation added storage, improved function, and looked original to the home.",
-    imagePath: "/images/project-placeholder.svg",
-    isPlaceholder: true,
+    imagePath:
+      "/images/projects/custom-built-in-cabinet-storage-ooltewah-tn.jpg",
+    isPlaceholder: false,
   },
   {
     slug: "custom-wood-furniture-piece-chattanooga-tn",
@@ -125,8 +128,9 @@ export const projects: Project[] = [
     timeline: "Timeline set during estimate",
     outcome:
       "Delivered a functional custom furniture piece with handcrafted character and long-term usability.",
-    imagePath: "/images/project-placeholder.svg",
-    isPlaceholder: true,
+    imagePath:
+      "/images/projects/custom-wood-furniture-piece-chattanooga-tn.jpg",
+    isPlaceholder: false,
   },
   {
     slug: "accent-wall-finish-carpentry-collegedale-tn",
@@ -151,7 +155,8 @@ export const projects: Project[] = [
     timeline: "Timeline set during estimate",
     outcome:
       "The room gained a more custom finished appearance with a standout feature wall.",
-    imagePath: "/images/project-placeholder.svg",
-    isPlaceholder: true,
+    imagePath:
+      "/images/projects/accent-wall-finish-carpentry-collegedale-tn.jpg",
+    isPlaceholder: false,
   },
 ];

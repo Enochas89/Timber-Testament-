@@ -11,8 +11,12 @@ export function Footer() {
           <p>{business.tagline}</p>
           <p>
             <a href={`tel:${business.primaryPhoneRaw}`}>{business.primaryPhoneDisplay}</a>
-            <br />
-            <a href={`mailto:${business.email}`}>{business.email}</a>
+            {business.email ? (
+              <>
+                <br />
+                <a href={`mailto:${business.email}`}>{business.email}</a>
+              </>
+            ) : null}
           </p>
         </div>
         <div>

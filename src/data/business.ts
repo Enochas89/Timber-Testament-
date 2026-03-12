@@ -1,9 +1,9 @@
 export const business = {
   name: "Timber & Testament Custom Carpentry",
   legalName: "Timber & Testament Custom Carpentry",
-  primaryPhoneDisplay: "(423) 555-0123",
-  primaryPhoneRaw: "+14235550123",
-  email: "hello@timbertestament.com",
+  primaryPhoneDisplay: "(865) 200-1604",
+  primaryPhoneRaw: "+18652001604",
+  email: "",
   address: {
     street: "Update Street Address",
     city: "Cleveland",
