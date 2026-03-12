@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { getLocalServiceContent } from "@/data/localServiceContent";
 import { services } from "@/data/services";
 import {
   getAllServiceCityCombos,
@@ -62,6 +63,10 @@ export default async function LocalServicePage({ params }: LocalServicePageProps
   }
 
   const localProjects = getProjectsByCityAndService(city.slug, service.slug);
+  const localContent = getLocalServiceContent(city.slug, service.slug);
+  const combinedFaqs = localContent
+    ? [...localContent.localFaqs, ...service.faqs]
+    : service.faqs;
 
   const breadcrumbItems = [
     { name: "Home", path: "/" },
@@ -74,7 +79,7 @@ export default async function LocalServicePage({ params }: LocalServicePageProps
     <div className="page">
       <div className="shell">
         <JsonLd data={serviceSchema(service.slug, city.slug)} />
-        <JsonLd data={faqSchema(service.faqs)} />
+        <JsonLd data={faqSchema(combinedFaqs)} />
         <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
 
         <Breadcrumbs
@@ -114,10 +119,24 @@ export default async function LocalServicePage({ params }: LocalServicePageProps
           </article>
         </div>
 
+        {localContent ? (
+          <section className="section">
+            <div className="card">
+              <h2>Local Project Focus in {city.name}</h2>
+              <p>{localContent.localIntro}</p>
+              <ul className="list">
+                {localContent.localHighlights.map((highlight) => (
+                  <li key={highlight}>{highlight}</li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        ) : null}
+
         <section className="section">
           <h2>{service.name} FAQs for {city.name}</h2>
           <div className="card-grid">
-            {service.faqs.map((faq) => (
+            {combinedFaqs.map((faq) => (
               <article className="card" key={faq.question}>
                 <h3>{faq.question}</h3>
                 <p>{faq.answer}</p>
@@ -141,7 +160,8 @@ export default async function LocalServicePage({ params }: LocalServicePageProps
           ) : (
             <article className="card">
               <p>
-                Add real photos and scope details in `content-intake/projects` to replace this placeholder and strengthen local trust.
+                More project examples for this service in {city.name} are
+                being added. Contact us for recent work in your area.
               </p>
             </article>
           )}
