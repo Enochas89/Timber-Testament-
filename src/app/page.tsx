@@ -142,7 +142,8 @@ export default function Home() {
           <div className="section-head">
             <h2>Featured Projects</h2>
             <p>
-              These are starter placeholders. Replace with your real photo sets and project writeups from the intake folder.
+              See recent project examples with real photos, scope details, and
+              finished results.
             </p>
           </div>
           <div className="card-grid">

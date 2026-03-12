@@ -133,6 +133,84 @@ export const projects: Project[] = [
     isPlaceholder: false,
   },
   {
+    slug: "custom-mudroom-storage-athens-tn",
+    title: "Custom Mudroom Storage Wall",
+    citySlug: "athens-tn",
+    serviceSlug: "built-ins",
+    summary:
+      "Designed and installed a custom built-in mudroom storage wall to improve daily organization and entryway function.",
+    scope: [
+      "Measured wall dimensions and mapped storage zones",
+      "Built custom cubbies, hooks, and upper storage sections",
+      "Installed built-in units for a wall-to-wall fit",
+      "Completed trim details and finish prep",
+      "Final alignment check and touch-up detailing",
+    ],
+    materials: [
+      "Cabinet-grade plywood",
+      "Solid wood face trim",
+      "Heavy-duty hooks and mounting hardware",
+      "Paint-grade finish materials",
+    ],
+    timeline: "Timeline set during estimate",
+    outcome:
+      "The finished built-in wall added practical drop-zone storage and gave the mudroom a cleaner, more organized layout.",
+    imagePath: "/images/projects/custom-mudroom-storage-athens-tn.jpg",
+    isPlaceholder: false,
+  },
+  {
+    slug: "interior-trim-upgrade-cleveland-tn",
+    title: "Interior Trim Upgrade",
+    citySlug: "cleveland-tn",
+    serviceSlug: "trim-work",
+    summary:
+      "Upgraded interior trim details to sharpen room transitions and create a cleaner, more finished look throughout key spaces.",
+    scope: [
+      "Reviewed existing trim conditions and profile matching needs",
+      "Installed updated casing and trim sections",
+      "Adjusted reveals and transitions for consistent lines",
+      "Filled, caulked, and prepped surfaces for paint",
+      "Completed final fit and quality walkthrough",
+    ],
+    materials: [
+      "Trim-grade lumber",
+      "Fasteners and construction adhesive",
+      "Caulk and filler materials",
+      "Paint-ready finishing supplies",
+    ],
+    timeline: "Timeline set during estimate",
+    outcome:
+      "The trim upgrade improved overall finish quality and gave the interior a more cohesive, custom appearance.",
+    imagePath: "/images/projects/interior-trim-upgrade-cleveland-tn.jpg",
+    isPlaceholder: false,
+  },
+  {
+    slug: "custom-pergola-shade-structure-chattanooga-tn",
+    title: "Custom Pergola Shade Structure",
+    citySlug: "chattanooga-tn",
+    serviceSlug: "custom-carpentry",
+    summary:
+      "Built a custom outdoor pergola-style shade structure to add usable outdoor living space and architectural character.",
+    scope: [
+      "Measured site and planned pergola footprint",
+      "Fabricated structural posts, beams, and rafters",
+      "Installed and secured framing members",
+      "Sanded exposed wood surfaces and completed finish prep",
+      "Final inspection for alignment and structural consistency",
+    ],
+    materials: [
+      "Exterior-rated dimensional lumber",
+      "Structural connectors and anchors",
+      "Exterior fasteners",
+      "Protective outdoor finish materials",
+    ],
+    timeline: "Timeline set during estimate",
+    outcome:
+      "The completed pergola created a defined outdoor gathering area with durable construction and a clean custom look.",
+    imagePath: "/images/projects/custom-pergola-shade-structure-chattanooga-tn.jpeg",
+    isPlaceholder: false,
+  },
+  {
     slug: "accent-wall-finish-carpentry-collegedale-tn",
     title: "Custom Accent Wall and Finish Carpentry Upgrade",
     citySlug: "collegedale-tn",
