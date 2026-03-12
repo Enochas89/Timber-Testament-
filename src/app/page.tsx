@@ -10,7 +10,7 @@ import { buildPageMetadata, localBusinessSchema } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title:
-    "Custom Carpentry in Cleveland, Chattanooga, Athens, Dalton, Collegedale, Ooltewah, Apison, and Charleston",
+    "Custom Carpentry in Athens, Cleveland, Chattanooga, Dalton, Collegedale, Ooltewah, Apison, and Charleston",
   description:
     "Custom built-ins, media walls, cabinets, trim work, mantels, and finish carpentry for homes in Southeast Tennessee and Dalton, Georgia.",
   path: "/",

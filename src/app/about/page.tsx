@@ -7,7 +7,7 @@ import { buildPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildPageMetadata({
   title: "About Our Custom Carpentry Company",
   description:
-    "Learn how Timber & Testament approaches design, fabrication, and finish carpentry projects across the Cleveland region.",
+    "Learn how Timber & Testament approaches design, fabrication, and finish carpentry projects across the Athens region.",
   path: "/about",
 });
 

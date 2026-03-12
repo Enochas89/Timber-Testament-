@@ -9,7 +9,7 @@ export const cities: City[] = [
       "Custom carpentry and built-ins for Cleveland homeowners seeking high-quality, handcrafted interior upgrades.",
     neighborhoods: ["Downtown Cleveland", "Candies Creek", "South Lee Highway"],
     intro:
-      "Timber & Testament is based around the Cleveland market and provides custom cabinets, media walls, mantels, trim work, and finish carpentry designed for long-term function and visual impact.",
+      "Timber & Testament provides custom cabinets, media walls, mantels, trim work, and finish carpentry in Cleveland with a focus on long-term function and visual impact.",
   },
   {
     slug: "chattanooga-tn",

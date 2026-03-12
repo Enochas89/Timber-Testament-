@@ -10,7 +10,7 @@ const contactFormEndpoint =
 export const metadata: Metadata = buildPageMetadata({
   title: "Contact and Request an Estimate",
   description:
-    "Request a carpentry estimate for built-ins, media walls, cabinets, trim work, and mantels in Cleveland and nearby areas.",
+    "Request a carpentry estimate for built-ins, media walls, cabinets, trim work, and mantels in Athens and nearby areas.",
   path: "/contact",
 });
 

@@ -34,7 +34,7 @@ Our work is centered on craftsmanship, thoughtful design, and attention to detai
 - Clients who value craftsmanship and custom design over off-the-shelf options
 
 ## Service Area
-Local and surrounding service areas in and around Cleveland, Tennessee.
+Local and surrounding service areas in and around Athens, Tennessee.
 
 ## What Makes the Business Different
 - Custom-built work tailored to the space

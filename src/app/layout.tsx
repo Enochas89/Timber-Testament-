@@ -23,7 +23,7 @@ const bodyFont = Source_Sans_3({
 export const metadata: Metadata = {
   metadataBase: new URL(business.websiteUrl),
   title: {
-    default: `${business.name} | Custom Carpentry in Cleveland Region`,
+    default: `${business.name} | Custom Carpentry in Athens Region`,
     template: `%s | ${business.name}`,
   },
   description: business.tagline,
