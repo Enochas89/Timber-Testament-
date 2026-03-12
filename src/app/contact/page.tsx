@@ -47,9 +47,6 @@ export default function ContactPage() {
             <p>
               <strong>Service Areas:</strong> {business.serviceArea.join(", ")}
             </p>
-            <p className="muted-note">
-              Set `NEXT_PUBLIC_CONTACT_FORM_ENDPOINT` to your Formspree or CRM form endpoint.
-            </p>
           </article>
 
           <article className="card">
