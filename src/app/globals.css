@@ -201,6 +201,7 @@ p {
   min-height: 116px;
   display: grid;
   place-items: center;
+  overflow: hidden;
   background:
     repeating-linear-gradient(
       -35deg,
@@ -213,7 +214,13 @@ p {
   clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
 }
 
+.service-selection-media-image {
+  object-fit: cover;
+}
+
 .service-selection-media span {
+  position: relative;
+  z-index: 1;
   display: inline-block;
   padding: 0.3rem 0.5rem;
   border-radius: 999px;
