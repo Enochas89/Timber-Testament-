@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div className="stat">
               <strong>{services.length}</strong>
-              Core services with intent-focused SEO pages.
+              Core services built around real homeowner needs.
             </div>
             <div className="stat">
               <strong>Fast</strong>
@@ -85,7 +85,7 @@ export default function Home() {
         <div className="shell">
           <div className="section-head">
             <h2>Areas We Serve</h2>
-            <p>City pages are optimized for local search intent and conversion.</p>
+            <p>Find your city to view local services, project examples, and what to expect.</p>
           </div>
           <div className="card-grid">
             {cities.map((city) => (

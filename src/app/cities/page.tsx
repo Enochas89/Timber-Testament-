@@ -19,8 +19,8 @@ export default function CitiesPage() {
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Service Areas" }]} />
         <h1 className="page-title">Service Areas</h1>
         <p className="page-subtitle">
-          These local landing pages are built for city-level SEO intent and link
-          directly to service-specific pages.
+          Explore your city page to see available services, nearby project
+          examples, and clear next steps for getting an estimate.
         </p>
         <div className="card-grid">
           {cities.map((city) => (

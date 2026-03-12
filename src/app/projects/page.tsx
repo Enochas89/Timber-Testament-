@@ -22,8 +22,8 @@ export default function ProjectsPage() {
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Projects" }]} />
         <h1 className="page-title">Project Portfolio</h1>
         <p className="page-subtitle">
-          Replace starter content with your real photos and scope notes to build
-          strong local proof for SEO and conversions.
+          Browse recent projects to see workmanship, material choices, and
+          finished results across different spaces.
         </p>
 
         <div className="card-grid">

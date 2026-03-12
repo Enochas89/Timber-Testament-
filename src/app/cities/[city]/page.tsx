@@ -106,7 +106,8 @@ export default async function CityPage({ params }: CityPageProps) {
           ) : (
             <article className="card">
               <p>
-                Add real projects for {city.name} from `content-intake/projects` to strengthen local proof and ranking potential.
+                More project examples for {city.name} are being added. Contact
+                us for recent work in your area.
               </p>
             </article>
           )}
