@@ -81,27 +81,27 @@ export const projects: Project[] = [
   },
   {
     slug: "custom-built-in-cabinet-storage-ooltewah-tn",
-    title: "Custom Built-In Cabinet Storage",
+    title: "Built-In Closet Organization System",
     citySlug: "ooltewah-tn",
     serviceSlug: "custom-cabinets",
     summary:
-      "Created custom cabinet storage to improve organization and maximize usable wall space.",
+      "Built a custom closet organization system with a white finish and adjustable shelving to maximize usable storage.",
     scope: [
-      "Measured and planned cabinet layout",
-      "Built custom cabinet components",
-      "Installed units to fit the room precisely",
-      "Added trim and finish details",
-      "Prepared for painted or stained final appearance",
+      "Measured closet dimensions and planned organization layout",
+      "Built custom storage sections for the closet space",
+      "Installed adjustable shelf tracks and shelf components",
+      "Applied white finish for a clean built-in appearance",
+      "Completed final fit, alignment, and hardware adjustments",
     ],
     materials: [
       "Cabinet-grade plywood",
       "Solid wood trim and faces",
-      "Hardware as required",
-      "Paint or stain finish materials",
+      "Adjustable shelf hardware and supports",
+      "White paint finish materials",
     ],
     timeline: "Timeline set during estimate",
     outcome:
-      "The completed cabinet installation added storage, improved function, and looked original to the home.",
+      "The completed built-in closet system delivered cleaner organization, flexible shelf spacing, and a finished white built-in look.",
     imagePath:
       "/images/projects/custom-built-in-cabinet-storage-ooltewah-tn.jpg",
     isPlaceholder: false,

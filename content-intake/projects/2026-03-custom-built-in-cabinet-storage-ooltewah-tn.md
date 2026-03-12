@@ -1,6 +1,6 @@
 # Project 4
 ## Project Title
-Custom Built-In Cabinet Storage
+Built-In Closet Organization System
 
 ## Service Type
 Custom Cabinets
@@ -9,29 +9,29 @@ Custom Cabinets
 Ooltewah, TN
 
 ## Summary
-Created custom cabinet storage to improve organization and maximize usable wall space in a living area or home office.
+Built a custom closet organization system with a white finish and adjustable shelving to maximize usable storage.
 
 ## Scope of Work
-- Measured and planned cabinet layout
-- Built custom cabinet components
-- Installed units to fit the room precisely
-- Added trim and finish details
-- Prepared for painted or stained final appearance
+- Measured closet dimensions and planned organization layout
+- Built custom storage sections for the closet space
+- Installed adjustable shelf tracks and shelf components
+- Applied white finish for a clean built-in appearance
+- Completed final fit, alignment, and hardware adjustments
 
 ## Customer Goal
 The client wanted better storage without using generic off-the-shelf cabinetry.
 
 ## Key Features
-- Space-specific cabinet design
-- Increased storage
-- Clean built-in appearance
-- Custom finish-ready construction
+- Space-specific closet design
+- Adjustable shelf configuration
+- White built-in finish
+- Increased organized storage
 
 ## Materials
 - Cabinet-grade plywood
 - Solid wood trim/faces
-- Hardware as required
-- Paint or stain finish materials
+- Adjustable shelf hardware and supports
+- White paint finish materials
 
 ## Outcome
-The completed cabinet installation added storage, improved function, and looked original to the home.
+The completed built-in closet system delivered cleaner organization, flexible shelf spacing, and a finished white built-in look.
