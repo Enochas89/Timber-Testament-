@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="Project placeholder image">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ece8df"/>
+      <stop offset="100%" stop-color="#d7cbbb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <g fill="#7f3611" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="340" font-size="56" font-weight="700">Project Photo Placeholder</text>
+    <text x="600" y="396" font-size="28">Replace with job photos from content-intake/photos</text>
+  </g>
+</svg>
