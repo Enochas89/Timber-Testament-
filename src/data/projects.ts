@@ -2,30 +2,30 @@ import { Project } from "@/lib/types";
 
 export const projects: Project[] = [
   {
-    slug: "custom-living-room-media-wall-cleveland-tn",
-    title: "Custom Framing Media Wall Project",
+    slug: "custom-framing-3500-sqft-house-cleveland-tn",
+    title: "Custom Framing Project - 3,500 Sq Ft House",
     citySlug: "cleveland-tn",
-    serviceSlug: "media-walls",
+    serviceSlug: "custom-framing",
     summary:
-      "Completed a custom framing project for a built-in media wall to improve organization and visual balance.",
+      "Completed custom framing for a full 3,500 square foot residential house in Cleveland, Tennessee.",
     scope: [
-      "Completed custom framing layout for the media wall feature",
-      "Installed mounted TV backing/support structure",
-      "Added lower cabinet or shelf storage",
-      "Trimmed and finished surrounding details",
-      "Prepared surfaces for paint or stain finish",
+      "Laid out and framed primary wall systems for the full house plan",
+      "Framed load-bearing and non-load-bearing interior sections",
+      "Framed window and door openings to plan specifications",
+      "Completed structural alignment checks and framing corrections",
+      "Prepared the build for next-phase rough-in and finishing trades",
     ],
     materials: [
-      "Paint-grade wood products",
-      "Trim materials",
-      "Shelving/cabinet components",
-      "Mounting support materials",
+      "Dimensional framing lumber",
+      "Engineered wood members as specified",
+      "Structural fasteners and connectors",
+      "Framing hardware and anchors",
     ],
     timeline: "Timeline set during estimate",
     outcome:
-      "Created a polished built-in media wall that improved both function and appearance in the main living area.",
+      "Completed a structurally sound 3,500 sq ft framing package that kept the project ready for downstream trades and finishing work.",
     imagePath:
-      "/images/projects/custom-living-room-media-wall-cleveland-tn.jpeg",
+      "/images/projects/custom-framing-3500-sqft-house-cleveland-tn.jpeg",
     isPlaceholder: false,
   },
   {

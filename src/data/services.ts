@@ -26,6 +26,30 @@ export const services: Service[] = [
     ],
   },
   {
+    slug: "custom-framing",
+    name: "Custom Framing",
+    shortDescription:
+      "Structural and layout framing for new residential builds and large custom home projects.",
+    hero: "We provide detail-driven house framing with clean layout execution, structural consistency, and build-ready precision.",
+    benefits: [
+      "Accurate wall, opening, and layout framing",
+      "Consistent structure across large floor plans",
+      "Built to support downstream trades efficiently",
+    ],
+    faqs: [
+      {
+        question: "Do you frame full custom homes?",
+        answer:
+          "Yes. We handle full-house framing scopes with planning and execution tailored to the build design.",
+      },
+      {
+        question: "Can you frame large square-footage homes?",
+        answer:
+          "Yes. We frame larger homes with structured layout sequencing to maintain quality and timeline control.",
+      },
+    ],
+  },
+  {
     slug: "built-ins",
     name: "Built-Ins",
     shortDescription:
