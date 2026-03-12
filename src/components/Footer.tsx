@@ -47,7 +47,7 @@ export function Footer() {
       </div>
       <div className="shell footer-meta">
         <small>
-          {new Date().getFullYear()} {business.name}. All rights reserved.
+          2025 {business.name}. All rights reserved.
         </small>
       </div>
     </footer>
