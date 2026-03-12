@@ -2,64 +2,84 @@ import { City } from "@/lib/types";
 
 export const cities: City[] = [
   {
+    slug: "cleveland-tn",
+    name: "Cleveland",
+    state: "TN",
+    summary:
+      "Custom carpentry and built-ins for Cleveland homeowners seeking high-quality, handcrafted interior upgrades.",
+    neighborhoods: ["Downtown Cleveland", "Candies Creek", "South Lee Highway"],
+    intro:
+      "Timber & Testament is based around the Cleveland market and provides custom cabinets, media walls, mantels, trim work, and finish carpentry designed for long-term function and visual impact.",
+  },
+  {
     slug: "chattanooga-tn",
     name: "Chattanooga",
     state: "TN",
     summary:
-      "Custom carpentry for historic and modern homes across Chattanooga neighborhoods.",
-    neighborhoods: ["North Shore", "St. Elmo", "Hixson", "East Brainerd"],
+      "Custom woodwork, built-ins, and finish carpentry for Chattanooga homes and remodels.",
+    neighborhoods: ["North Shore", "St. Elmo", "East Brainerd", "Hixson"],
     intro:
-      "We provide detail-driven finish carpentry in Chattanooga, including built-ins, custom trim, mantels, and wall paneling for remodeling and new construction projects.",
+      "From media walls and built-in storage to trim upgrades and mantels, we deliver custom carpentry in Chattanooga with craftsmanship and clean finish quality.",
   },
   {
     slug: "athens-tn",
     name: "Athens",
     state: "TN",
     summary:
-      "Built-ins, trim, and wood features tailored to Athens homes and renovations.",
-    neighborhoods: ["Downtown Athens", "Niota outskirts", "Englewood corridor"],
+      "Handcrafted interior carpentry solutions for Athens homeowners.",
+    neighborhoods: ["Downtown Athens", "Niota corridor", "Englewood side"],
     intro:
-      "Homeowners in Athens choose us for practical custom carpentry that improves storage, elevates finish quality, and fits the style of the home.",
+      "We help Athens clients add practical storage and custom character through built-ins, floating shelves, mantels, and finish trim upgrades.",
   },
   {
     slug: "dalton-ga",
     name: "Dalton",
     state: "GA",
     summary:
-      "Custom carpentry and finish woodwork for Dalton interior upgrades.",
+      "Custom carpentry and feature wall work for Dalton interior projects.",
     neighborhoods: ["Downtown Dalton", "Rocky Face", "Tunnel Hill area"],
     intro:
-      "In Dalton, we build and install custom interior woodwork with a focus on fit, proportion, and long-term durability.",
+      "Dalton homeowners trust us for detail-driven carpentry that improves both function and overall design continuity.",
   },
   {
     slug: "collegedale-tn",
     name: "Collegedale",
     state: "TN",
     summary:
-      "Architectural trim and custom built-ins for Collegedale homes.",
-    neighborhoods: ["Collegedale core", "Apison border", "Ooltewah edge"],
+      "Built-ins, accent walls, and finish carpentry crafted for Collegedale homes.",
+    neighborhoods: ["Apison border", "Collegedale core", "Ooltewah edge"],
     intro:
-      "We help Collegedale homeowners add function and style with cleanly installed built-ins, mantels, trim, and paneling.",
+      "We install custom cabinetry, trim, and wall features in Collegedale with an emphasis on fit, finish, and room-specific design.",
   },
   {
     slug: "ooltewah-tn",
     name: "Ooltewah",
     state: "TN",
     summary:
-      "Finish carpentry and custom wood features for Ooltewah interiors.",
+      "Custom cabinets, shelving, and trim work for Ooltewah homeowners.",
     neighborhoods: ["Cambridge Square", "Snow Hill", "Ooltewah Georgetown"],
     intro:
-      "From statement walls to practical storage, our Ooltewah carpentry projects are designed around how you live in the space.",
+      "Our Ooltewah projects are built around usable storage, clean details, and custom features that feel original to the home.",
   },
   {
     slug: "apison-tn",
     name: "Apison",
     state: "TN",
     summary:
-      "Custom carpentry services for Apison renovations and new homes.",
+      "Finish carpentry and custom woodwork for Apison renovations and homes.",
     neighborhoods: ["Apison Pike", "East Brainerd fringe", "Collegedale approach"],
     intro:
-      "Apison clients rely on us for precise carpentry execution, from trim packages to custom shelving and built-in cabinetry.",
+      "Apison clients rely on us for handcrafted wood features, from mantels and media walls to trim upgrades and built-ins.",
+  },
+  {
+    slug: "charleston-tn",
+    name: "Charleston",
+    state: "TN",
+    summary:
+      "Custom floating shelves and interior wood features for Charleston homes.",
+    neighborhoods: ["Hiwassee area", "Central Charleston", "Rural Bradley County"],
+    intro:
+      "In Charleston, we deliver custom shelf systems, finish carpentry details, and built wood features that add warmth and function.",
   },
 ];
 

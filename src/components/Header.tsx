@@ -12,8 +12,8 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="shell header-inner">
-        <Link href="/" className="brand" aria-label="Timber Testament home">
-          Timber Testament
+        <Link href="/" className="brand" aria-label="Timber and Testament home">
+          Timber &amp; Testament
         </Link>
         <nav aria-label="Primary">
           <ul className="nav-list">

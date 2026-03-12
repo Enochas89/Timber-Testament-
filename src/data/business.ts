@@ -1,29 +1,36 @@
 export const business = {
-  name: "Timber Testament Custom Carpentry",
-  legalName: "Timber Testament Custom Carpentry LLC",
+  name: "Timber & Testament Custom Carpentry",
+  legalName: "Timber & Testament Custom Carpentry",
   primaryPhoneDisplay: "(423) 555-0123",
   primaryPhoneRaw: "+14235550123",
   email: "hello@timbertestament.com",
   address: {
     street: "Update Street Address",
-    city: "Chattanooga",
+    city: "Cleveland",
     region: "TN",
-    postalCode: "37402",
+    postalCode: "37311",
     country: "US",
   },
   geo: {
-    latitude: 35.0456,
-    longitude: -85.3097,
+    latitude: 35.1595,
+    longitude: -84.8766,
   },
   serviceArea: [
+    "Cleveland, TN",
     "Chattanooga, TN",
     "Athens, TN",
     "Dalton, GA",
     "Collegedale, TN",
     "Ooltewah, TN",
     "Apison, TN",
+    "Charleston, TN",
   ],
-  tagline: "Custom carpentry, built-ins, trim, and finish work for homes across Southeast Tennessee and Northwest Georgia.",
+  tagline:
+    "Custom carpentry built with craftsmanship, character, and care.",
+  shortDescription:
+    "Custom woodwork and finish carpentry for homeowners who want functional, high-quality features built specifically for their space.",
+  fullDescription:
+    "Timber & Testament Custom Carpentry provides handcrafted built-ins, media walls, custom cabinets, mantels, floating shelves, furniture, and finish carpentry upgrades designed to fit each home naturally.",
   websiteUrl:
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com",
   googleBusinessProfileUrl:

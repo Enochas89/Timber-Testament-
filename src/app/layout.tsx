@@ -23,7 +23,7 @@ const bodyFont = Source_Sans_3({
 export const metadata: Metadata = {
   metadataBase: new URL(business.websiteUrl),
   title: {
-    default: `${business.name} | Custom Carpentry in Chattanooga Region`,
+    default: `${business.name} | Custom Carpentry in Cleveland Region`,
     template: `%s | ${business.name}`,
   },
   description: business.tagline,
@@ -31,13 +31,18 @@ export const metadata: Metadata = {
   keywords: [
     "custom carpentry",
     "built-ins",
-    "trim carpentry",
+    "trim work",
+    "media walls",
+    "custom cabinets",
+    "custom furniture",
     "Chattanooga carpenter",
+    "Cleveland TN carpenter",
     "Athens TN carpenter",
     "Dalton GA carpenter",
     "Collegedale carpentry",
     "Ooltewah carpentry",
     "Apison carpentry",
+    "Charleston TN carpentry",
   ],
   openGraph: {
     type: "website",

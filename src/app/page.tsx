@@ -9,9 +9,10 @@ import { services } from "@/data/services";
 import { buildPageMetadata, localBusinessSchema } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Custom Carpentry in Chattanooga, Athens, Dalton, Collegedale, Ooltewah, and Apison",
+  title:
+    "Custom Carpentry in Cleveland, Chattanooga, Athens, Dalton, Collegedale, Ooltewah, Apison, and Charleston",
   description:
-    "Custom built-ins, trim carpentry, mantels, floating shelves, and finish woodwork for homes across Southeast Tennessee and Dalton, Georgia.",
+    "Custom built-ins, media walls, cabinets, trim work, mantels, and finish carpentry for homes in Southeast Tennessee and Dalton, Georgia.",
   path: "/",
 });
 

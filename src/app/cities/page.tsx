@@ -8,7 +8,7 @@ import { buildPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildPageMetadata({
   title: "Service Areas",
   description:
-    "City-specific carpentry pages for Chattanooga, Athens, Dalton, Collegedale, Ooltewah, and Apison.",
+    "City-specific carpentry pages for Cleveland, Chattanooga, Athens, Dalton, Collegedale, Ooltewah, Apison, and Charleston.",
   path: "/cities",
 });
 

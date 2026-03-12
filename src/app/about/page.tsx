@@ -1,12 +1,13 @@
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { business } from "@/data/business";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "About Our Custom Carpentry Company",
   description:
-    "Learn how Timber Testament approaches design, fabrication, and finish carpentry projects across the Chattanooga region.",
+    "Learn how Timber & Testament approaches design, fabrication, and finish carpentry projects across the Cleveland region.",
   path: "/about",
 });
 
@@ -20,7 +21,7 @@ export default function AboutPage() {
             { label: "About" },
           ]}
         />
-        <h1 className="page-title">About Timber Testament</h1>
+        <h1 className="page-title">About Timber &amp; Testament</h1>
         <p className="page-subtitle">
           We specialize in interior custom carpentry, balancing design quality,
           practical storage, and precise installation details that hold up over
@@ -48,8 +49,7 @@ export default function AboutPage() {
           <article className="card">
             <h2>Service Region</h2>
             <p>
-              Core coverage includes Chattanooga, Athens, Dalton,
-              Collegedale, Ooltewah, and Apison.
+              Core coverage includes {business.serviceArea.join(", ")}.
             </p>
           </article>
         </div>

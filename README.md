@@ -1,13 +1,15 @@
-# Timber Testament Website
+# Timber & Testament Website
 
 SEO-first website scaffold for a custom carpentry company, optimized for local search in:
 
+- Cleveland, TN
 - Chattanooga, TN
 - Athens, TN
 - Dalton, GA
 - Collegedale, TN
 - Ooltewah, TN
 - Apison, TN
+- Charleston, TN
 
 ## Stack
 
