@@ -6,6 +6,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { services } from "@/data/services";
 import { processSteps, testimonials, whyChooseUs } from "@/data/trust";
 import { buildPageMetadata } from "@/lib/seo";
+import { Service } from "@/lib/types";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Carpentry Services",
@@ -26,6 +27,23 @@ const collageImages = [
 const featuredServices = services.slice(0, 4);
 const additionalServices = services.slice(4);
 const featuredTestimonials = testimonials.slice(0, 3);
+
+function ServiceSelectionRow({ service }: { service: Service }) {
+  return (
+    <article className="service-selection-card">
+      <div className="service-selection-copy">
+        <h3>{service.name}</h3>
+        <p>{service.shortDescription}</p>
+        <Link className="service-selection-link" href={`/services/${service.slug}`}>
+          Explore
+        </Link>
+      </div>
+      <div className="service-selection-media" aria-hidden="true">
+        <span>Photo Placeholder</span>
+      </div>
+    </article>
+  );
+}
 
 export default function ServicesPage() {
   return (
@@ -97,13 +115,9 @@ export default function ServicesPage() {
             <h2>Most Requested Services</h2>
             <p>Start here if you are planning a new custom carpentry project.</p>
           </div>
-          <div className="card-grid">
+          <div className="service-selection-list">
             {featuredServices.map((service) => (
-              <article className="card" key={service.slug}>
-                <h3>{service.name}</h3>
-                <p>{service.shortDescription}</p>
-                <Link href={`/services/${service.slug}`}>Explore service</Link>
-              </article>
+              <ServiceSelectionRow key={service.slug} service={service} />
             ))}
           </div>
         </section>
@@ -113,10 +127,7 @@ export default function ServicesPage() {
             <summary>View all carpentry services</summary>
             <div className="service-compact-list">
               {additionalServices.map((service) => (
-                <Link className="service-compact-link" href={`/services/${service.slug}`} key={service.slug}>
-                  <span>{service.name}</span>
-                  <span aria-hidden="true">View</span>
-                </Link>
+                <ServiceSelectionRow key={service.slug} service={service} />
               ))}
             </div>
           </details>

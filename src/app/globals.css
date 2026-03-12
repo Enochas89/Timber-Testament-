@@ -140,9 +140,41 @@ p {
 
 .service-compact-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.7rem;
   margin-top: 0.75rem;
+}
+
+.service-selection-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.service-selection-card {
+  display: grid;
+  grid-template-columns: 1fr clamp(200px, 24vw, 280px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.service-selection-copy {
+  padding: 0.95rem 1rem;
+}
+
+.service-selection-copy h3 {
+  margin-bottom: 0.35rem;
+}
+
+.service-selection-copy p {
+  margin-bottom: 0.5rem;
+}
+
+.service-selection-link {
+  color: var(--accent-dark);
+  font-weight: 800;
 }
 
 .service-compact-details {
@@ -164,24 +196,33 @@ p {
   display: none;
 }
 
-.service-compact-link {
+.service-selection-media {
+  position: relative;
+  min-height: 116px;
   display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 0.7rem;
-  padding: 0.8rem 0.95rem;
-  border: 1px solid var(--line);
-  border-radius: 11px;
-  background: var(--surface);
-  box-shadow: var(--shadow);
-  text-decoration: none;
-  font-weight: 700;
+  place-items: center;
+  background:
+    repeating-linear-gradient(
+      -35deg,
+      rgba(173, 79, 29, 0.24),
+      rgba(173, 79, 29, 0.24) 10px,
+      rgba(127, 54, 17, 0.19) 10px,
+      rgba(127, 54, 17, 0.19) 20px
+    ),
+    linear-gradient(140deg, #f2ece3, #e5ddd0);
+  clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%);
 }
 
-.service-compact-link span:last-child {
-  color: var(--accent-dark);
-  font-size: 0.82rem;
-  letter-spacing: 0.8px;
+.service-selection-media span {
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--line) 80%, #fff);
+  background: color-mix(in srgb, white 80%, transparent);
+  color: #5d4b3a;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
   text-transform: uppercase;
 }
 
@@ -656,6 +697,16 @@ p {
   .service-flow-item {
     grid-template-columns: 1fr;
     gap: 0.45rem;
+  }
+
+  .service-selection-card {
+    grid-template-columns: 1fr;
+  }
+
+  .service-selection-media {
+    clip-path: none;
+    border-top: 1px solid var(--line);
+    min-height: 92px;
   }
 
   .service-compact-list {
