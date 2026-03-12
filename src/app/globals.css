@@ -72,6 +72,62 @@ p {
   margin-bottom: 2rem;
 }
 
+.services-collage {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+.services-collage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, 190px);
+}
+
+.services-collage-tile {
+  position: relative;
+  margin: 0;
+}
+
+.services-collage-image {
+  object-fit: cover;
+}
+
+.services-collage-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(25, 30, 29, 0.15);
+}
+
+.services-collage-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(1rem, 3vw, 2rem);
+  background: linear-gradient(
+    180deg,
+    rgba(15, 18, 18, 0.08) 25%,
+    rgba(15, 18, 18, 0.72) 100%
+  );
+}
+
+.services-collage-overlay .page-title {
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+}
+
+.services-collage-subtitle {
+  color: rgba(255, 255, 255, 0.93);
+  margin-bottom: 0;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -368,5 +424,10 @@ p {
 
   .site-header {
     position: static;
+  }
+
+  .services-collage-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(3, 150px);
   }
 }
