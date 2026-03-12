@@ -18,6 +18,17 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function Home() {
+  const featuredProject = projects[0];
+  const secondaryProjects = projects.slice(1, 6);
+  const visibleTestimonials = testimonials.slice(0, 6);
+
+  const cityNameBySlug = new Map(
+    cities.map((city) => [city.slug, `${city.name}, ${city.state}`]),
+  );
+  const serviceNameBySlug = new Map(
+    services.map((service) => [service.slug, service.name]),
+  );
+
   return (
     <>
       <JsonLd data={localBusinessSchema()} />
@@ -48,7 +59,7 @@ export default function Home() {
             </div>
             <div className="stat">
               <strong>{cities.length}</strong>
-              Primary service areas with dedicated city pages.
+              Service areas across Southeast Tennessee and nearby Georgia.
             </div>
             <div className="stat">
               <strong>{services.length}</strong>
@@ -63,35 +74,48 @@ export default function Home() {
       </section>
 
       <section className="section">
-        <div className="shell">
-          <div className="section-head">
+        <div className="shell home-split">
+          <article className="card">
             <h2>Why Homeowners Choose Us</h2>
-            <p>Built around craftsmanship, reliability, and practical function.</p>
-          </div>
-          <div className="card-grid">
-            {whyChooseUs.map((reason) => (
-              <article className="card" key={reason}>
-                <p className="testimonial-quote">{reason}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="shell">
-          <div className="section-head">
-            <h2>Services</h2>
             <p>
-              Start with your project type, then drill into your city page for local examples and FAQs.
+              Our projects are built for long-term function, clean finish
+              quality, and a final result that feels right for the home.
             </p>
+            <div className="hero-actions">
+              <Link className="btn" href="/contact">
+                Start a Quote
+              </Link>
+              <Link className="btn-outline" href="/projects">
+                View Recent Projects
+              </Link>
+            </div>
+          </article>
+          <ol className="home-checklist">
+            {whyChooseUs.map((reason, index) => (
+              <li key={reason}>
+                <span className="home-checklist-index">{String(index + 1).padStart(2, "0")}</span>
+                <p>{reason}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-head">
+            <h2>Services at a Glance</h2>
+            <p>Choose the service that best matches your project goals.</p>
           </div>
-          <div className="card-grid">
-            {services.map((service) => (
-              <article key={service.slug} className="card">
-                <span className="badge">{service.name}</span>
-                <p>{service.shortDescription}</p>
-                <Link href={`/services/${service.slug}`}>View service page</Link>
+          <div className="service-flow">
+            {services.map((service, index) => (
+              <article className="service-flow-item" key={service.slug}>
+                <span className="service-flow-index">{String(index + 1).padStart(2, "0")}</span>
+                <div className="service-flow-copy">
+                  <h3>{service.name}</h3>
+                  <p>{service.shortDescription}</p>
+                </div>
+                <Link href={`/services/${service.slug}`}>Explore</Link>
               </article>
             ))}
           </div>
@@ -101,12 +125,12 @@ export default function Home() {
       <section className="section">
         <div className="shell">
           <div className="section-head">
-            <h2>What Clients Say</h2>
-            <p>Real homeowner feedback from projects across our service area.</p>
+            <h2>Client Results</h2>
+            <p>Feedback from homeowners across recent projects.</p>
           </div>
-          <div className="card-grid">
-            {testimonials.map((item) => (
-              <article className="card" key={`${item.author}-${item.quote.slice(0, 24)}`}>
+          <div className="testimonial-stack">
+            {visibleTestimonials.map((item) => (
+              <article className="testimonial-panel" key={`${item.author}-${item.quote.slice(0, 24)}`}>
                 <p className="testimonial-quote">&ldquo;{item.quote}&rdquo;</p>
                 <p className="testimonial-meta">
                   {item.author}
@@ -121,19 +145,31 @@ export default function Home() {
       <section className="section">
         <div className="shell">
           <div className="section-head">
-            <h2>Areas We Serve</h2>
-            <p>Find your city to view local services, project examples, and what to expect.</p>
+            <h2>Project Spotlight</h2>
+            <p>Recent examples of craftsmanship, scope, and finished quality.</p>
           </div>
-          <div className="card-grid">
-            {cities.map((city) => (
-              <article key={city.slug} className="card">
-                <h3>
-                  {city.name}, {city.state}
-                </h3>
-                <p>{city.summary}</p>
-                <Link href={`/cities/${city.slug}`}>Explore {city.name} page</Link>
+          <div className="project-showcase">
+            {featuredProject ? (
+              <article className="card project-feature">
+                <h3>{featuredProject.title}</h3>
+                <p className="muted-note">
+                  {serviceNameBySlug.get(featuredProject.serviceSlug)} in {cityNameBySlug.get(featuredProject.citySlug)}
+                </p>
+                <p>{featuredProject.summary}</p>
+                <Link href={`/projects/${featuredProject.slug}`}>Read full case study</Link>
               </article>
-            ))}
+            ) : null}
+            <div className="project-list">
+              {secondaryProjects.map((project) => (
+                <article className="card project-list-item" key={project.slug}>
+                  <h3>{project.title}</h3>
+                  <p className="muted-note">
+                    {serviceNameBySlug.get(project.serviceSlug)} in {cityNameBySlug.get(project.citySlug)}
+                  </p>
+                  <Link href={`/projects/${project.slug}`}>View project</Link>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -141,19 +177,14 @@ export default function Home() {
       <section className="section">
         <div className="shell">
           <div className="section-head">
-            <h2>Featured Projects</h2>
-            <p>
-              See recent project examples with real photos, scope details, and
-              finished results.
-            </p>
+            <h2>Areas We Serve</h2>
+            <p>Pick your city to see local services and project examples.</p>
           </div>
-          <div className="card-grid">
-            {projects.map((project) => (
-              <article className="card" key={project.slug}>
-                <h3>{project.title}</h3>
-                <p>{project.summary}</p>
-                <Link href={`/projects/${project.slug}`}>Read project details</Link>
-              </article>
+          <div className="area-chip-wrap">
+            {cities.map((city) => (
+              <Link className="area-chip" key={city.slug} href={`/cities/${city.slug}`}>
+                {city.name}, {city.state}
+              </Link>
             ))}
           </div>
         </div>
@@ -171,8 +202,8 @@ export default function Home() {
               <Link className="btn" href="/contact">
                 Start a Quote
               </Link>
-              <Link className="btn-outline" href="/projects">
-                See Project Examples
+              <Link className="btn-outline" href="/services">
+                Explore Services
               </Link>
             </div>
           </div>
