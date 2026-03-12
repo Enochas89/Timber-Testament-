@@ -9,6 +9,6 @@ export const serviceSelectionImages: Record<string, string> = {
   "finish-carpentry": "/images/services/finish-carpentry.jpeg",
   "trim-work": "/images/services/trim-work.jpg",
   "custom-furniture": "/images/services/custom-furniture.jpg",
-  "accent-walls": "/images/services/accent-walls.jpeg",
+  "accent-walls": "/images/services/accent-walls.webp",
   "wood-feature-installations": "/images/services/wood-feature-installations.jpg",
 };
