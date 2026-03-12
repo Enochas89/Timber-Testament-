@@ -106,10 +106,11 @@ export default function Home() {
           </div>
           <div className="card-grid">
             {testimonials.map((item) => (
-              <article className="card" key={`${item.author}-${item.location}`}>
+              <article className="card" key={`${item.author}-${item.quote.slice(0, 24)}`}>
                 <p className="testimonial-quote">&ldquo;{item.quote}&rdquo;</p>
                 <p className="testimonial-meta">
-                  {item.author} - {item.location}
+                  {item.author}
+                  {item.location ? ` - ${item.location}` : ""}
                 </p>
               </article>
             ))}

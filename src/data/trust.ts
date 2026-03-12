@@ -1,3 +1,9 @@
+export type Testimonial = {
+  quote: string;
+  author: string;
+  location?: string;
+};
+
 export const whyChooseUs = [
   "Detail-focused carpentry that looks original to your home.",
   "Clear communication from first call to final walkthrough.",
@@ -5,24 +11,21 @@ export const whyChooseUs = [
   "Clean, respectful work areas and dependable scheduling.",
 ];
 
-export const testimonials = [
+export const testimonials: Testimonial[] = [
   {
     quote:
-      "The finished work looked like it was always part of the house. Clean lines, solid craftsmanship, and great communication.",
-    author: "Homeowner",
-    location: "Athens, TN",
+      "The quality of the work exceeded our expectations. Every detail was carefully thought out, and the finished piece looks like it was always meant to be part of our home. True craftsmanship.",
+    author: "Michael R.",
   },
   {
     quote:
-      "Our project was organized from start to finish. The quality and attention to detail were exactly what we hoped for.",
-    author: "Homeowner",
-    location: "Cleveland, TN",
+      "From the first consultation to the final installation, the process was smooth and professional. The project was completed on time, and the results completely transformed our space.",
+    author: "Sarah L.",
   },
   {
     quote:
-      "They delivered the custom look we wanted and kept the process straightforward. We would absolutely hire them again.",
-    author: "Homeowner",
-    location: "Chattanooga, TN",
+      "It's rare to find someone who takes this much pride in their work. The custom carpentry added beauty, function, and value to our home. We couldn't be happier with the results.",
+    author: "David P.",
   },
 ];
 
