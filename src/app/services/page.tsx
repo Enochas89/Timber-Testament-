@@ -50,23 +50,25 @@ function ServiceSelectionRow({ service }: { service: Service }) {
       <div className="service-selection-copy">
         <h3>{service.name}</h3>
         <p>{service.shortDescription}</p>
-        <Link className="service-selection-link" href={`/services/${service.slug}`}>
-          Explore
-        </Link>
       </div>
-      <div className="service-selection-media" aria-hidden="true">
+      <Link
+        className="service-selection-media"
+        href={`/services/${service.slug}`}
+        aria-label={`Explore ${service.name}`}
+      >
         {imageSrc ? (
           <Image
             src={imageSrc}
             alt=""
             fill
             className="service-selection-media-image"
-            sizes="(max-width: 880px) 100vw, 280px"
+            sizes="(max-width: 880px) 100vw, 340px"
           />
         ) : (
-          <span>Photo Placeholder</span>
+          <span className="service-selection-media-placeholder">Photo Placeholder</span>
         )}
-      </div>
+        <span className="service-selection-media-overlay">Explore</span>
+      </Link>
     </article>
   );
 }
