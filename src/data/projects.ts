@@ -44,7 +44,7 @@ export const projects: Project[] = [
     ],
     materials: [
       "Solid wood or hardwood-faced material",
-      "Concealed shelf brackets",
+      "Solid black steel shelf brackets",
       "Stain or clear finish",
     ],
     timeline: "Timeline set during estimate",

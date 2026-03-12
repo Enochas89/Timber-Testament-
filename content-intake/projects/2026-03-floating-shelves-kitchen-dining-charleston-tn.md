@@ -29,7 +29,7 @@ The client wanted practical storage with a clean, modern look that still felt wa
 
 ## Materials
 - Solid wood or hardwood-faced material
-- Concealed shelf brackets
+- Solid black steel shelf brackets
 - Stain or clear finish
 
 ## Outcome
