@@ -87,3 +87,14 @@ npm run dev
 2. Replace placeholder projects with real case studies and photos.
 3. Add Google Business Profile URL and active review process.
 4. Publish 2 localized blog posts per month and internally link to service/city pages.
+
+## GA4 and Search Console Setup
+
+1. In Vercel, set:
+   - `NEXT_PUBLIC_SITE_URL` to your final domain (for example `https://yourdomain.com`)
+   - `NEXT_PUBLIC_GA_MEASUREMENT_ID` to your GA4 ID (`G-XXXXXXXXXX`)
+   - `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` to your Search Console token
+2. Redeploy.
+3. In Google Search Console, verify your site and submit:
+   - `https://yourdomain.com/sitemap.xml`
+4. Ensure Vercel deployment protection is disabled for production so Google can access `robots.txt` and `sitemap.xml`.

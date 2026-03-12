@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Merriweather, Source_Sans_3 } from "next/font/google";
+import { Suspense } from "react";
 
 import { Analytics } from "@/components/Analytics";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { PageViewTracker } from "@/components/PageViewTracker";
 import { business } from "@/data/business";
 
 import "./globals.css";
@@ -73,6 +75,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${headingFont.variable} ${bodyFont.variable}`}>
         <Analytics />
+        <Suspense fallback={null}>
+          <PageViewTracker />
+        </Suspense>
         <Header />
         <main>{children}</main>
         <Footer />
