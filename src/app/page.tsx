@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 
@@ -5,6 +6,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { business } from "@/data/business";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
+import { serviceSelectionImages } from "@/data/service-images";
 import { services } from "@/data/services";
 import { testimonials, whyChooseUs } from "@/data/trust";
 import { buildPageMetadata, localBusinessSchema } from "@/lib/seo";
@@ -108,12 +110,29 @@ export default function Home() {
           </div>
           <div className="service-flow">
             {services.map((service) => (
-              <article className="service-flow-item" key={service.slug}>
-                <div className="service-flow-copy">
+              <article className="service-selection-card" key={service.slug}>
+                <div className="service-selection-copy">
                   <h3>{service.name}</h3>
                   <p>{service.shortDescription}</p>
                 </div>
-                <Link href={`/services/${service.slug}`}>Explore</Link>
+                <Link
+                  className="service-selection-media"
+                  href={`/services/${service.slug}`}
+                  aria-label={`Explore ${service.name}`}
+                >
+                  {serviceSelectionImages[service.slug] ? (
+                    <Image
+                      src={serviceSelectionImages[service.slug]}
+                      alt=""
+                      fill
+                      className="service-selection-media-image"
+                      sizes="(max-width: 880px) 100vw, 340px"
+                    />
+                  ) : (
+                    <span className="service-selection-media-placeholder">Photo Placeholder</span>
+                  )}
+                  <span className="service-selection-media-overlay">Explore</span>
+                </Link>
               </article>
             ))}
           </div>
