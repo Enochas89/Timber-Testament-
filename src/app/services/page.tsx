@@ -4,6 +4,7 @@ import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { services } from "@/data/services";
+import { processSteps, testimonials, whyChooseUs } from "@/data/trust";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -58,6 +59,58 @@ export default function ServicesPage() {
             </article>
           ))}
         </div>
+
+        <section className="section">
+          <div className="section-head">
+            <h2>Why Clients Trust Our Work</h2>
+            <p>Every project is built for clean results and long-term daily use.</p>
+          </div>
+          <div className="card-grid">
+            {whyChooseUs.map((reason) => (
+              <article className="card" key={reason}>
+                <p className="testimonial-quote">{reason}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section cols-2">
+          <article className="card">
+            <h2>Our Process</h2>
+            <ul className="list">
+              {processSteps.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ul>
+          </article>
+          <article className="card">
+            <h2>Workmanship Promise</h2>
+            <p>
+              We stand behind our craftsmanship. If a workmanship issue appears,
+              we return to address it and make it right.
+            </p>
+            <p>
+              You get clear communication, dependable execution, and final
+              results built to last.
+            </p>
+          </article>
+        </section>
+
+        <section className="section">
+          <div className="section-head">
+            <h2>Client Feedback</h2>
+          </div>
+          <div className="card-grid">
+            {testimonials.map((item) => (
+              <article className="card" key={`services-${item.author}-${item.location}`}>
+                <p className="testimonial-quote">&ldquo;{item.quote}&rdquo;</p>
+                <p className="testimonial-meta">
+                  {item.author} - {item.location}
+                </p>
+              </article>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import { business } from "@/data/business";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
 import { services } from "@/data/services";
+import { testimonials, whyChooseUs } from "@/data/trust";
 import { buildPageMetadata, localBusinessSchema } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -64,6 +65,22 @@ export default function Home() {
       <section className="section">
         <div className="shell">
           <div className="section-head">
+            <h2>Why Homeowners Choose Us</h2>
+            <p>Built around craftsmanship, reliability, and practical function.</p>
+          </div>
+          <div className="card-grid">
+            {whyChooseUs.map((reason) => (
+              <article className="card" key={reason}>
+                <p className="testimonial-quote">{reason}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-head">
             <h2>Services</h2>
             <p>
               Start with your project type, then drill into your city page for local examples and FAQs.
@@ -75,6 +92,25 @@ export default function Home() {
                 <span className="badge">{service.name}</span>
                 <p>{service.shortDescription}</p>
                 <Link href={`/services/${service.slug}`}>View service page</Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-head">
+            <h2>What Clients Say</h2>
+            <p>Real homeowner feedback from projects across our service area.</p>
+          </div>
+          <div className="card-grid">
+            {testimonials.map((item) => (
+              <article className="card" key={`${item.author}-${item.location}`}>
+                <p className="testimonial-quote">&ldquo;{item.quote}&rdquo;</p>
+                <p className="testimonial-meta">
+                  {item.author} - {item.location}
+                </p>
               </article>
             ))}
           </div>

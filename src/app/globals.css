@@ -411,6 +411,19 @@ p {
   color: var(--muted);
 }
 
+.testimonial-quote {
+  font-size: 1.04rem;
+  color: var(--ink);
+  margin-bottom: 0.6rem;
+}
+
+.testimonial-meta {
+  font-size: 0.92rem;
+  color: var(--muted);
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
 @media (max-width: 880px) {
   .header-inner {
     flex-wrap: wrap;
