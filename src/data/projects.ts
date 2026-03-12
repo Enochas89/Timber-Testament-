@@ -3,13 +3,13 @@ import { Project } from "@/lib/types";
 export const projects: Project[] = [
   {
     slug: "custom-living-room-media-wall-cleveland-tn",
-    title: "Custom Living Room Media Wall",
+    title: "Custom Framing Media Wall Project",
     citySlug: "cleveland-tn",
     serviceSlug: "media-walls",
     summary:
-      "Designed and built a custom media wall to create a clean focal point while improving organization and visual balance.",
+      "Completed a custom framing project for a built-in media wall to improve organization and visual balance.",
     scope: [
-      "Framed and finished the media wall layout",
+      "Completed custom framing layout for the media wall feature",
       "Installed mounted TV backing/support structure",
       "Added lower cabinet or shelf storage",
       "Trimmed and finished surrounding details",
