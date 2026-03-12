@@ -32,7 +32,7 @@ export const business = {
   fullDescription:
     "Timber & Testament Custom Carpentry provides handcrafted built-ins, media walls, custom cabinets, mantels, floating shelves, furniture, and finish carpentry upgrades designed to fit each home naturally.",
   websiteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.timbertestament.com",
   googleBusinessProfileUrl:
     "https://business.google.com/",
   yearsExperience: 12,
