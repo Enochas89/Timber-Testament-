@@ -23,7 +23,7 @@ export default function Home() {
 
       <section className="hero">
         <div className="shell hero-grid">
-          <div className="hero-copy">
+          <div className="hero-copy hero-copy-tile">
             <p className="eyebrow">Custom Carpentry Company</p>
             <h1>Built-ins, Trim, and Finish Carpentry That Looks Original to Your Home</h1>
             <p>
