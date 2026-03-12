@@ -44,8 +44,8 @@ export default function ServicesPage() {
           <div className="services-collage-overlay">
             <h1 className="page-title">Carpentry Services</h1>
             <p className="page-subtitle services-collage-subtitle">
-              Each service page is optimized for organic search intent and links to
-              city-level landing pages for stronger local relevance.
+              Precision carpentry built to transform your space with custom
+              craftsmanship, lasting quality, and real everyday function.
             </p>
           </div>
         </section>
