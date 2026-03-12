@@ -3,6 +3,7 @@ import { Merriweather, Source_Sans_3 } from "next/font/google";
 import { Suspense } from "react";
 
 import { Analytics } from "@/components/Analytics";
+import { ConversionTracker } from "@/components/ConversionTracker";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { PageViewTracker } from "@/components/PageViewTracker";
@@ -75,6 +76,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${headingFont.variable} ${bodyFont.variable}`}>
         <Analytics />
+        <ConversionTracker />
         <Suspense fallback={null}>
           <PageViewTracker />
         </Suspense>

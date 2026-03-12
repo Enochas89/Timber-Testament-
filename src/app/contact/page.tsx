@@ -51,7 +51,12 @@ export default function ContactPage() {
 
           <article className="card">
             <h2>Project Intake Form</h2>
-            <form className="lead-form" method="post" action={contactFormEndpoint}>
+            <form
+              className="lead-form"
+              method="post"
+              action={contactFormEndpoint}
+              data-track-form="contact_estimate_request"
+            >
               <div>
                 <label htmlFor="name">Name</label>
                 <input id="name" name="name" required />
