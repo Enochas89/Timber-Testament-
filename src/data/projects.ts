@@ -108,26 +108,26 @@ export const projects: Project[] = [
   },
   {
     slug: "custom-wood-furniture-piece-chattanooga-tn",
-    title: "Custom Wood Furniture Piece",
+    title: "Custom Outdoor Shower Build",
     citySlug: "chattanooga-tn",
-    serviceSlug: "custom-furniture",
+    serviceSlug: "custom-carpentry",
     summary:
-      "Built a one-of-a-kind furniture piece designed for the client's space, style, and everyday use.",
+      "Custom build for an outdoor shower, using sanded and finished cedar wood.",
     scope: [
-      "Discussed dimensions and intended function",
-      "Designed and fabricated the piece",
-      "Assembled, sanded, and finished all surfaces",
-      "Delivered or installed final product",
-      "Completed detail touch-ups",
+      "Measured the outdoor shower area and confirmed layout",
+      "Built the custom cedar shower structure",
+      "Sanded all visible cedar surfaces for a clean finish",
+      "Applied protective finish for outdoor durability",
+      "Completed final alignment and detail touch-ups",
     ],
     materials: [
-      "Hardwood or furniture-grade materials",
-      "Joinery and fasteners",
-      "Stain, seal, or paint finish",
+      "Cedar wood",
+      "Exterior-grade fasteners",
+      "Protective exterior finish",
     ],
     timeline: "Timeline set during estimate",
     outcome:
-      "Delivered a functional custom furniture piece with handcrafted character and long-term usability.",
+      "Delivered a custom outdoor shower with a clean cedar finish and durable construction for long-term use.",
     imagePath:
       "/images/projects/custom-wood-furniture-piece-chattanooga-tn.jpg",
     isPlaceholder: false,

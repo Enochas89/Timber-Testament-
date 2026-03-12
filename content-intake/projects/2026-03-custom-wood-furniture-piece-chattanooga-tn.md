@@ -1,36 +1,36 @@
 # Project 5
 ## Project Title
-Custom Wood Furniture Piece
+Custom Outdoor Shower Build
 
 ## Service Type
-Custom Furniture
+Custom Carpentry
 
 ## Location
 Chattanooga, TN
 
 ## Summary
-Built a custom furniture piece designed specifically for the client's space, style, and everyday use.
+Custom build for an outdoor shower, using sanded and finished cedar wood.
 
 ## Scope of Work
-- Discussed dimensions and intended function
-- Designed and fabricated the piece
-- Assembled, sanded, and finished all surfaces
-- Delivered or installed final product
-- Completed detail touch-ups
+- Measured the outdoor shower area and confirmed layout
+- Built the custom cedar shower structure
+- Sanded all visible cedar surfaces for a clean finish
+- Applied protective finish for outdoor durability
+- Completed final alignment and detail touch-ups
 
 ## Customer Goal
-The homeowner wanted a one-of-a-kind piece that fit their space better than store-bought furniture.
+The homeowner wanted a custom outdoor shower that was durable, functional, and matched the home's style.
 
 ## Key Features
-- Custom dimensions
-- Handmade craftsmanship
-- Durable construction
-- Matched to room style
+- Custom cedar build
+- Sanded smooth finish
+- Outdoor-ready durability
+- Space-specific design
 
 ## Materials
-- Hardwood or selected furniture-grade materials
-- Joinery and fasteners
-- Stain, seal, or paint finish
+- Cedar wood
+- Exterior-grade fasteners
+- Protective exterior finish
 
 ## Outcome
-Delivered a functional, custom furniture piece with a handcrafted look and long-term usability.
+Delivered a custom outdoor shower with a clean cedar finish and durable construction for long-term use.
