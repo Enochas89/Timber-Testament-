@@ -592,6 +592,17 @@ p {
   color: #e4f0e7;
 }
 
+.cta-band .btn-outline {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.62);
+  color: #ffffff;
+}
+
+.cta-band .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.82);
+}
+
 .breadcrumbs {
   margin-bottom: 1rem;
 }
