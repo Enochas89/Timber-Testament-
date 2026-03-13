@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
+import { GA_MEASUREMENT_ID } from "@/lib/analytics";
 
 declare global {
   interface Window {
@@ -9,7 +10,7 @@ declare global {
   }
 }
 
-const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const gaId = GA_MEASUREMENT_ID;
 
 export function PageViewTracker() {
   const pathname = usePathname();

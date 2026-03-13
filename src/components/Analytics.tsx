@@ -1,6 +1,7 @@
 import Script from "next/script";
+import { GA_MEASUREMENT_ID } from "@/lib/analytics";
 
-const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const gaId = GA_MEASUREMENT_ID;
 
 export function Analytics() {
   if (!gaId) {

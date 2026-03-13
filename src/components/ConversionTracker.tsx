@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { GA_MEASUREMENT_ID } from "@/lib/analytics";
 
 declare global {
   interface Window {
@@ -8,7 +9,7 @@ declare global {
   }
 }
 
-const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const gaId = GA_MEASUREMENT_ID;
 
 function trackEvent(eventName: string, params: Record<string, unknown>) {
   if (!gaId || !window.gtag) {
