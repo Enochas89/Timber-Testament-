@@ -1,8 +1,20 @@
 export const serviceImageSets: Record<string, string[]> = {
   "custom-carpentry": ["/images/services/custom-carpentry.jpg"],
-  "custom-framing": ["/images/services/custom-framing.jpeg"],
-  "built-ins": ["/images/services/built-ins.jpg"],
-  "custom-cabinets": ["/images/services/custom-cabinets.jpg"],
+  "custom-framing": [
+    "/images/services/custom-framing-3.jpg",
+    "/images/services/custom-framing-2.webp",
+    "/images/services/custom-framing-4.jpg",
+    "/images/services/custom-framing.jpeg",
+  ],
+  "built-ins": [
+    "/images/services/built-ins.jpg",
+    "/images/services/built-ins-2.webp",
+    "/images/services/built-ins-3.webp",
+  ],
+  "custom-cabinets": [
+    "/images/services/custom-cabinets.jpg",
+    "/images/services/custom-cabinets-2.webp",
+  ],
   "floating-shelves": [
     "/images/services/floating-shelves.jpg",
     "/images/services/floating-shelves-2.jpg",
@@ -12,7 +24,10 @@ export const serviceImageSets: Record<string, string[]> = {
   "finish-carpentry": ["/images/services/finish-carpentry.jpeg"],
   "trim-work": ["/images/services/trim-work.jpg"],
   "custom-furniture": ["/images/services/custom-furniture.jpg"],
-  "accent-walls": ["/images/services/accent-walls.webp"],
+  "accent-walls": [
+    "/images/services/accent-walls.webp",
+    "/images/services/accent-walls-2.webp",
+  ],
   "wood-feature-installations": ["/images/services/wood-feature-installations.jpeg"],
 };
 
