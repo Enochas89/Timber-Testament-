@@ -85,23 +85,23 @@ export const projects: Project[] = [
     citySlug: "ooltewah-tn",
     serviceSlug: "custom-cabinets",
     summary:
-      "Built a custom closet organization system with a white finish and adjustable shelving to maximize usable storage.",
+      "Built a custom closet organization system with a white finish and fixed shelving to maximize usable storage.",
     scope: [
       "Measured closet dimensions and planned organization layout",
       "Built custom storage sections for the closet space",
-      "Installed adjustable shelf tracks and shelf components",
+      "Installed fixed built-in shelf sections and storage components",
       "Applied white finish for a clean built-in appearance",
       "Completed final fit, alignment, and hardware adjustments",
     ],
     materials: [
       "Cabinet-grade plywood",
       "Solid wood trim and faces",
-      "Adjustable shelf hardware and supports",
+      "Fixed shelf supports and installation hardware",
       "White paint finish materials",
     ],
     timeline: "Timeline set during estimate",
     outcome:
-      "The completed built-in closet system delivered cleaner organization, flexible shelf spacing, and a finished white built-in look.",
+      "The completed built-in closet system delivered cleaner organization and a finished white built-in look.",
     imagePath:
       "/images/projects/custom-built-in-cabinet-storage-ooltewah-tn.jpg",
     isPlaceholder: false,
