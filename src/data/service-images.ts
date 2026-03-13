@@ -1,5 +1,12 @@
 export const serviceImageSets: Record<string, string[]> = {
-  "custom-carpentry": ["/images/services/custom-carpentry.jpg"],
+  "custom-carpentry": [
+    "/images/services/custom-carpentry-1.jpg",
+    "/images/services/custom-carpentry-background-5.jpg",
+    "/images/services/custom-carpentry-background-4.jpg",
+    "/images/services/custom-carpentry-bunks.jpg",
+    "/images/services/custom-carpentry-finish-carpentry.jpg",
+    "/images/services/custom-carpentry-bench.jpg",
+  ],
   "custom-framing": [
     "/images/services/custom-framing-3.jpg",
     "/images/services/custom-framing-2.webp",
