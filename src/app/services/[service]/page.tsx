@@ -1,12 +1,12 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { ServiceHeroCarousel } from "@/components/ServiceHeroCarousel";
 import { cities } from "@/data/cities";
-import { serviceSelectionImages } from "@/data/service-images";
+import { serviceImageSets } from "@/data/service-images";
 import { services } from "@/data/services";
 import { getServiceBySlug } from "@/lib/content";
 import {
@@ -50,7 +50,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
     notFound();
   }
 
-  const serviceImagePath = serviceSelectionImages[service.slug] ?? "/images/project-placeholder.svg";
+  const serviceImages = serviceImageSets[service.slug] ?? ["/images/project-placeholder.svg"];
 
   const breadcrumbItems = [
     { name: "Home", path: "/" },
@@ -75,16 +75,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
         <h1 className="page-title">{service.name}</h1>
         <p className="page-subtitle">{service.hero}</p>
-        <figure className="service-detail-image-frame">
-          <Image
-            src={serviceImagePath}
-            alt={`${service.name} project example`}
-            fill
-            className="service-detail-image"
-            sizes="(max-width: 880px) 92vw, 1120px"
-            priority
-          />
-        </figure>
+        <ServiceHeroCarousel images={serviceImages} serviceName={service.name} />
 
         <div className="cols-2">
           <article className="card">
