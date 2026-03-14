@@ -10,15 +10,18 @@ export const serviceImageSets: Record<string, string[]> = {
   "custom-framing": [
     "/images/services/custom-framing-2.webp",
     "/images/services/custom-framing-4.jpg",
+    "/images/services/custom-framing-monday-3.jpg",
   ],
   "built-ins": [
     "/images/services/built-ins.jpg",
     "/images/services/built-ins-2.webp",
+    "/images/services/built-ins-3.webp",
   ],
   "custom-cabinets": [
     "/images/services/custom-cabinets.jpg",
     "/images/services/custom-cabinets-2.webp",
     "/images/services/custom-cabinets-3.webp",
+    "/images/services/custom-cabinets-4.webp",
   ],
   "floating-shelves": [
     "/images/services/floating-shelves.jpg",
@@ -28,15 +31,20 @@ export const serviceImageSets: Record<string, string[]> = {
   mantels: ["/images/services/mantels.webp"],
   "finish-carpentry": ["/images/services/finish-carpentry.jpeg"],
   "trim-work": ["/images/services/trim-work.jpg"],
-  "custom-furniture": ["/images/services/custom-furniture.jpg"],
+  "custom-furniture": [
+    "/images/services/custom-furniture.jpg",
+    "/images/services/custom-furniture-2.webp",
+  ],
   "accent-walls": [
     "/images/services/accent-walls.webp",
     "/images/services/accent-walls-2.webp",
+    "/images/services/accent-walls-3.webp",
   ],
   "wood-feature-installations": [
     "/images/services/wood-feature-installations-accent-wall-finish2.webp",
     "/images/services/wood-feature-installations-bech.webp",
     "/images/services/wood-feature-installations-stacked-wood.webp",
+    "/images/services/wood-feature-installations-wine-rack.webp",
     "/images/services/wood-feature-installations.jpeg",
   ],
 };
