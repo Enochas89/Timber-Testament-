@@ -33,7 +33,12 @@ export const serviceImageSets: Record<string, string[]> = {
     "/images/services/accent-walls.webp",
     "/images/services/accent-walls-2.webp",
   ],
-  "wood-feature-installations": ["/images/services/wood-feature-installations.jpeg"],
+  "wood-feature-installations": [
+    "/images/services/wood-feature-installations-accent-wall-finish2.webp",
+    "/images/services/wood-feature-installations-bech.webp",
+    "/images/services/wood-feature-installations-stacked-wood.webp",
+    "/images/services/wood-feature-installations.jpeg",
+  ],
 };
 
 export const serviceSelectionImages: Record<string, string> = Object.fromEntries(
