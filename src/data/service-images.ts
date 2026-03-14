@@ -8,7 +8,6 @@ export const serviceImageSets: Record<string, string[]> = {
     "/images/services/custom-carpentry-bench.jpg",
   ],
   "custom-framing": [
-    "/images/services/custom-framing-3.jpg",
     "/images/services/custom-framing-2.webp",
     "/images/services/custom-framing-4.jpg",
   ],
