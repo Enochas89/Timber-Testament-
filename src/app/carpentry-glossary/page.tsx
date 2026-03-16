@@ -2,8 +2,10 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { FoundersInsight } from "@/components/FoundersInsight";
 import { JsonLd } from "@/components/JsonLd";
 import { carpentryGlossary, carpentryGlossaryTerms } from "@/data/carpentryGlossary";
+import { glossaryInsightOrder } from "@/data/foundersInsights";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -35,22 +37,35 @@ export default function CarpentryGlossaryPage() {
 
         <h1 className="page-title">Carpentry Glossary</h1>
         <p className="page-subtitle">
-          This glossary covers common words homeowners use when planning custom
-          carpentry, trim, built-ins, cabinetry, framing, and wood feature projects.
+          Founder-led definitions and terminology used in real residential projects across
+          Southeast Tennessee.
         </p>
 
-        <div className="card-grid">
-          {carpentryGlossary.map((category) => (
-            <article className="card" key={category.slug}>
-              <h2>{category.title}</h2>
-              <ul className="list">
-                {category.terms.map((term) => (
-                  <li key={term}>{term}</li>
-                ))}
-              </ul>
-            </article>
+        <section className="section">
+          {glossaryInsightOrder.map((insight) => (
+            <FoundersInsight key={insight.key} title={insight.title} paragraph={insight.paragraph}>
+              Local project context: <Link href="/cities/athens-tn">Athens</Link>,{" "}
+              <Link href="/cities/cleveland-tn">Cleveland</Link>, and{" "}
+              <Link href="/cities/chattanooga-tn">Chattanooga</Link>.
+            </FoundersInsight>
           ))}
-        </div>
+        </section>
+
+        <section className="section">
+          <h2>Glossary Terms by Category</h2>
+          <div className="card-grid">
+            {carpentryGlossary.map((category) => (
+              <article className="card" key={category.slug}>
+                <h3>{category.title}</h3>
+                <ul className="list">
+                  {category.terms.map((term) => (
+                    <li key={term}>{term}</li>
+                  ))}
+                </ul>
+              </article>
+            ))}
+          </div>
+        </section>
 
         <section className="section">
           <div className="cta-band">

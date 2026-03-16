@@ -155,6 +155,26 @@ export default function ServicesPage() {
           </details>
         </section>
 
+        <section className="section">
+          <article className="card">
+            <h2>Founder Insight Service Pages</h2>
+            <ul className="list">
+              <li>
+                <Link href="/services/finish-carpentry">Finish Carpentry founder insight</Link>
+              </li>
+              <li>
+                <Link href="/services/trim">Trim Carpentry founder insight</Link>
+              </li>
+              <li>
+                <Link href="/services/custom-woodworking">Custom Woodworking founder insight</Link>
+              </li>
+              <li>
+                <Link href="/log-slabs">Log Slab custom woodwork insight</Link>
+              </li>
+            </ul>
+          </article>
+        </section>
+
         <section className="section services-proof">
           <article className="card">
             <h2>Workmanship Promise</h2>

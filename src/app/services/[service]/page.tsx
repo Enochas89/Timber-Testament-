@@ -3,9 +3,11 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { FoundersInsight } from "@/components/FoundersInsight";
 import { JsonLd } from "@/components/JsonLd";
 import { ServiceHeroCarousel } from "@/components/ServiceHeroCarousel";
 import { cities } from "@/data/cities";
+import { foundersInsights } from "@/data/foundersInsights";
 import { serviceImageSets } from "@/data/service-images";
 import { services } from "@/data/services";
 import { getServiceBySlug } from "@/lib/content";
@@ -57,11 +59,21 @@ export default async function ServicePage({ params }: ServicePageProps) {
     { name: "Services", path: "/services" },
     { name: service.name, path: `/services/${service.slug}` },
   ];
+  const serviceInsight =
+    service.slug === "finish-carpentry"
+      ? foundersInsights["finish-carpentry"]
+      : service.slug === "custom-carpentry"
+        ? foundersInsights["custom-carpentry"]
+        : null;
 
   return (
     <div className="page">
       <div className="shell">
-        <JsonLd data={serviceSchema(service.slug)} />
+        <JsonLd
+          data={serviceSchema(service.slug, undefined, {
+            descriptionOverride: serviceInsight?.schemaSummary,
+          })}
+        />
         <JsonLd data={faqSchema(service.faqs)} />
         <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
 
@@ -75,6 +87,14 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
         <h1 className="page-title">{service.name}</h1>
         <p className="page-subtitle">{service.hero}</p>
+        {serviceInsight ? (
+          <FoundersInsight title={serviceInsight.title} paragraph={serviceInsight.paragraph}>
+            Work examples and planning guidance are available for{" "}
+            <Link href="/cities/athens-tn">Athens</Link>,{" "}
+            <Link href="/cities/cleveland-tn">Cleveland</Link>, and{" "}
+            <Link href="/cities/chattanooga-tn">Chattanooga</Link>.
+          </FoundersInsight>
+        ) : null}
         <ServiceHeroCarousel images={serviceImages} serviceName={service.name} />
 
         <div className="cols-2">

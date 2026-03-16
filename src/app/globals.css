@@ -812,6 +812,35 @@ p {
   color: var(--muted);
 }
 
+.founders-insight h2 {
+  margin-bottom: 0.6rem;
+}
+
+.founders-insight blockquote {
+  margin: 0;
+  border-left: 4px solid var(--accent);
+  padding: 0.9rem 1rem;
+  background: color-mix(in srgb, var(--surface) 86%, #f0e7da);
+  border-radius: 10px;
+}
+
+.founders-insight blockquote p {
+  margin-bottom: 0.75rem;
+  color: var(--ink);
+}
+
+.founders-insight blockquote p:last-of-type {
+  margin-bottom: 0.6rem;
+}
+
+.founders-insight cite {
+  display: block;
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
 .testimonial-quote {
   font-size: 1.04rem;
   color: var(--ink);

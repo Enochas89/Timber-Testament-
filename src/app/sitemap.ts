@@ -16,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/cities",
     "/projects",
     "/carpentry-glossary",
+    "/services/trim",
+    "/services/custom-woodworking",
+    "/log-slabs",
   ].map(
     (path) => ({
       url: absoluteUrl(path),

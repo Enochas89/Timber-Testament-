@@ -108,7 +108,17 @@ export function localBusinessSchema() {
   };
 }
 
-export function serviceSchema(serviceSlug: string, citySlug?: string) {
+type ServiceSchemaOptions = {
+  descriptionOverride?: string;
+  pathOverride?: string;
+  serviceNameOverride?: string;
+};
+
+export function serviceSchema(
+  serviceSlug: string,
+  citySlug?: string,
+  options?: ServiceSchemaOptions,
+) {
   const service = services.find((item) => item.slug === serviceSlug);
   const city = citySlug ? cities.find((item) => item.slug === citySlug) : undefined;
 
@@ -117,22 +127,25 @@ export function serviceSchema(serviceSlug: string, citySlug?: string) {
   }
 
   const areaName = city ? `${city.name}, ${city.state}` : undefined;
-  const path = city
-    ? `/cities/${city.slug}/${service.slug}`
-    : `/services/${service.slug}`;
+  const path = options?.pathOverride
+    ? options.pathOverride
+    : city
+      ? `/cities/${city.slug}/${service.slug}`
+      : `/services/${service.slug}`;
+  const serviceName = options?.serviceNameOverride ?? service.name;
 
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: city ? `${service.name} in ${city.name}, ${city.state}` : service.name,
+    name: city ? `${serviceName} in ${city.name}, ${city.state}` : serviceName,
     provider: {
       "@type": "LocalBusiness",
       name: business.name,
       telephone: business.primaryPhoneRaw,
       url: baseUrl,
     },
-    description: service.shortDescription,
-    serviceType: service.name,
+    description: options?.descriptionOverride ?? service.shortDescription,
+    serviceType: serviceName,
     url: absoluteUrl(path),
     areaServed: areaName
       ? {
