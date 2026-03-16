@@ -54,6 +54,24 @@ export function Footer() {
               <Link href="/projects">Projects</Link>
             </li>
             <li>
+              <Link href="/carpentry-glossary">Carpentry Glossary</Link>
+            </li>
+            <li>
+              <Link href="/cities/athens-tn/custom-furniture">
+                Custom furniture carpentry in Athens, TN
+              </Link>
+            </li>
+            <li>
+              <Link href="/cities/cleveland-tn/built-ins">
+                Built-in carpentry in Cleveland, TN
+              </Link>
+            </li>
+            <li>
+              <Link href="/cities/chattanooga-tn/finish-carpentry">
+                Finish carpentry in Chattanooga, TN
+              </Link>
+            </li>
+            <li>
               <Link href="/contact">Contact</Link>
             </li>
           </ul>

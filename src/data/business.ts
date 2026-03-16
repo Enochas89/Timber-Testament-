@@ -25,6 +25,11 @@ export const business = {
     "Apison, TN",
     "Charleston, TN",
   ],
+  serviceCounties: [
+    "McMinn County, TN",
+    "Bradley County, TN",
+    "Hamilton County, TN",
+  ],
   tagline:
     "Custom carpentry built with craftsmanship, character, and care.",
   shortDescription:

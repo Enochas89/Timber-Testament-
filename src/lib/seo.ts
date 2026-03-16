@@ -18,7 +18,7 @@ export function absoluteUrl(path = "") {
 }
 
 export function pageTitle(title: string) {
-  return `${title} | ${business.name}`;
+  return title;
 }
 
 type PageMetadataInput = {
@@ -35,6 +35,7 @@ export function buildPageMetadata({
   noIndex,
 }: PageMetadataInput): Metadata {
   const canonical = absoluteUrl(path);
+  const socialTitle = `${title} | ${business.name}`;
 
   return {
     title: pageTitle(title),
@@ -43,7 +44,7 @@ export function buildPageMetadata({
       canonical,
     },
     openGraph: {
-      title: pageTitle(title),
+      title: socialTitle,
       description,
       url: canonical,
       siteName: business.name,
@@ -51,7 +52,7 @@ export function buildPageMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: pageTitle(title),
+      title: socialTitle,
       description,
     },
     robots: noIndex
@@ -71,6 +72,8 @@ export function localBusinessSchema() {
     ),
     url: baseUrl,
     telephone: business.primaryPhoneRaw,
+    description: business.fullDescription,
+    priceRange: "$$",
     ...(business.email ? { email: business.email } : {}),
     address: {
       "@type": "PostalAddress",
@@ -85,10 +88,16 @@ export function localBusinessSchema() {
       latitude: business.geo.latitude,
       longitude: business.geo.longitude,
     },
-    areaServed: business.serviceArea.map((place) => ({
-      "@type": "City",
-      name: place,
-    })),
+    areaServed: [
+      ...(business.serviceCounties ?? []).map((county) => ({
+        "@type": "AdministrativeArea",
+        name: county,
+      })),
+      ...business.serviceArea.map((place) => ({
+        "@type": "City",
+        name: place,
+      })),
+    ],
     makesOffer: services.map((service) => ({
       "@type": "Offer",
       itemOffered: {

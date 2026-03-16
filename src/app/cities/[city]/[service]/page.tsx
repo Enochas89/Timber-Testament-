@@ -47,7 +47,7 @@ export async function generateMetadata({
 
   return buildPageMetadata({
     title: `${service.name} in ${city.name}, ${city.state}`,
-    description: `${service.shortDescription} Serving homeowners in ${city.name}, ${city.state}.`,
+    description: `Custom-built ${service.name.toLowerCase()} in ${city.name}, ${city.state} by licensed and insured master carpenters. Precision woodworking built for lasting daily use.`,
     path: `/cities/${city.slug}/${service.slug}`,
   });
 }

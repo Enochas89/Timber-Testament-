@@ -6,8 +6,10 @@ import { Analytics } from "@/components/Analytics";
 import { ConversionTracker } from "@/components/ConversionTracker";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { JsonLd } from "@/components/JsonLd";
 import { PageViewTracker } from "@/components/PageViewTracker";
 import { business } from "@/data/business";
+import { localBusinessSchema } from "@/lib/seo";
 
 import "./globals.css";
 
@@ -23,13 +25,17 @@ const bodyFont = Source_Sans_3({
   weight: ["400", "500", "600", "700"],
 });
 
+const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+const bingVerification = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
+
 export const metadata: Metadata = {
   metadataBase: new URL(business.websiteUrl),
   title: {
-    default: `${business.name} | Custom Carpentry in Athens Region`,
-    template: `%s | ${business.name}`,
+    default: `Custom Carpentry in Athens, TN | Timber & Testament`,
+    template: `%s | Timber & Testament`,
   },
-  description: business.tagline,
+  description:
+    "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
   applicationName: business.name,
   keywords: [
     "custom carpentry",
@@ -51,19 +57,25 @@ export const metadata: Metadata = {
     type: "website",
     siteName: business.name,
     url: business.websiteUrl,
-    title: business.name,
-    description: business.tagline,
+    title: "Custom Carpentry in Athens, TN | Timber & Testament",
+    description:
+      "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
   },
   twitter: {
     card: "summary_large_image",
-    title: business.name,
-    description: business.tagline,
+    title: "Custom Carpentry in Athens, TN | Timber & Testament",
+    description:
+      "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
-    other: {
-      "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION ?? "",
-    },
+    ...(googleVerification ? { google: googleVerification } : {}),
+    ...(bingVerification
+      ? {
+          other: {
+            "msvalidate.01": bingVerification,
+          },
+        }
+      : {}),
   },
 };
 
@@ -75,6 +87,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${headingFont.variable} ${bodyFont.variable}`}>
+        <JsonLd data={localBusinessSchema()} />
         <Analytics />
         <ConversionTracker />
         <Suspense fallback={null}>

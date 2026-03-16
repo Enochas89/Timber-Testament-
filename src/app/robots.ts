@@ -3,12 +3,13 @@ import type { MetadataRoute } from "next";
 import { business } from "@/data/business";
 
 export default function robots(): MetadataRoute.Robots {
+  const siteUrl = business.websiteUrl.replace(/\/$/, "");
+
   return {
     rules: {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: `${business.websiteUrl.replace(/\/$/, "")}/sitemap.xml`,
-    host: business.websiteUrl,
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }

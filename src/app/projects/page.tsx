@@ -3,22 +3,29 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
 import { services } from "@/data/services";
-import { buildPageMetadata } from "@/lib/seo";
+import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Project Portfolio",
   description:
-    "See recent carpentry project examples for built-ins, trim, shelving, mantels, and custom interior woodwork.",
+    "Review custom-built project case studies by licensed and insured master carpenters across Athens, Cleveland, and Chattanooga for trim, cabinetry, and built-ins.",
   path: "/projects",
 });
 
 export default function ProjectsPage() {
+  const breadcrumbItems = [
+    { name: "Home", path: "/" },
+    { name: "Projects", path: "/projects" },
+  ];
+
   return (
     <div className="page">
       <div className="shell">
+        <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Projects" }]} />
         <h1 className="page-title">Project Portfolio</h1>
         <p className="page-subtitle">
@@ -35,7 +42,7 @@ export default function ProjectsPage() {
               <article className="card" key={project.slug}>
                 <Image
                   src={project.imagePath}
-                  alt={project.title}
+                  alt={`${project.title} custom-built carpentry installation in ${city?.name ?? "Southeast Tennessee"}`}
                   width={800}
                   height={500}
                   className="project-image"

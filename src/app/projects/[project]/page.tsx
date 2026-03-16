@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 
   return buildPageMetadata({
     title: project.title,
-    description: project.summary,
+    description: `${project.title} case study from licensed and insured master carpenters, featuring custom-built woodworking, finish detailing, and durable residential craftsmanship.`,
     path: `/projects/${project.slug}`,
   });
 }
@@ -72,7 +72,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
         <Image
           src={project.imagePath}
-          alt={project.title}
+          alt={`${project.title} custom-built carpentry result in ${city?.name ?? "Southeast Tennessee"}, ${city?.state ?? "TN"}`}
           width={1200}
           height={750}
           className="project-image"

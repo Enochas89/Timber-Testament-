@@ -3,16 +3,17 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
 import { serviceSelectionImages } from "@/data/service-images";
 import { services } from "@/data/services";
 import { processSteps, testimonials, whyChooseUs } from "@/data/trust";
-import { buildPageMetadata } from "@/lib/seo";
+import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 import { Service } from "@/lib/types";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Carpentry Services",
   description:
-    "Explore custom carpentry services including built-ins, trim, mantels, floating shelves, and wall paneling.",
+    "Explore custom-built carpentry services from licensed and insured master craftsmen, including built-ins, cabinetry, trim carpentry, media walls, and woodworking.",
   path: "/services",
 });
 
@@ -46,7 +47,7 @@ function ServiceSelectionRow({ service }: { service: Service }) {
         {imageSrc ? (
           <Image
             src={imageSrc}
-            alt=""
+            alt={`${service.name} custom-built carpentry project installed in Southeast Tennessee`}
             fill
             className="service-selection-media-image"
             sizes="(max-width: 880px) 100vw, 340px"
@@ -61,9 +62,15 @@ function ServiceSelectionRow({ service }: { service: Service }) {
 }
 
 export default function ServicesPage() {
+  const breadcrumbItems = [
+    { name: "Home", path: "/" },
+    { name: "Services", path: "/services" },
+  ];
+
   return (
     <div className="page">
       <div className="shell">
+        <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Services" }]} />
         <section className="services-collage" aria-label="Timber and Testament project collage">
           <div className="services-collage-grid">
@@ -71,7 +78,7 @@ export default function ServicesPage() {
               <figure className="services-collage-tile" key={src}>
                 <Image
                   src={src}
-                  alt={`Custom carpentry project background ${index + 1}`}
+                  alt={`Custom-built master carpentry detail ${index + 1} from a licensed and insured residential project`}
                   fill
                   className="services-collage-image"
                   sizes="(max-width: 880px) 50vw, 33vw"

@@ -40,7 +40,7 @@ export function ServiceHeroCarousel({ images, serviceName }: ServiceHeroCarousel
             <figure className="service-hero-carousel-slide" key={`${src}-${index}`}>
               <Image
                 src={src}
-                alt={`${serviceName} photo ${index + 1}`}
+                alt={`${serviceName} custom-built installation example ${index + 1} by a licensed and insured master carpenter`}
                 fill
                 className="service-hero-carousel-image"
                 sizes="(max-width: 880px) 92vw, 1120px"

@@ -1,20 +1,27 @@
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
 import { business } from "@/data/business";
-import { buildPageMetadata } from "@/lib/seo";
+import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "About Our Custom Carpentry Company",
   description:
-    "Learn how Timber & Testament approaches design, fabrication, and finish carpentry projects across the Athens region.",
+    "Meet licensed and insured master carpenters creating custom-built trim, cabinetry, and interior woodwork for homes across Athens, Cleveland, and Chattanooga.",
   path: "/about",
 });
 
 export default function AboutPage() {
+  const breadcrumbItems = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+  ];
+
   return (
     <div className="page">
       <div className="shell">
+        <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },

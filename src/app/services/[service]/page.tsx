@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
 
   return buildPageMetadata({
     title: `${service.name} Services`,
-    description: service.shortDescription,
+    description: `${service.name} by licensed and insured master carpenters. Custom-built residential woodworking, precision trim, and durable installations in Southeast Tennessee.`,
     path: `/services/${service.slug}`,
   });
 }

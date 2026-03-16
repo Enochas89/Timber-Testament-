@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { JsonLd } from "@/components/JsonLd";
 import { business } from "@/data/business";
-import { buildPageMetadata } from "@/lib/seo";
+import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 const contactFormEndpoint =
   process.env.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT ?? "https://formspree.io/f/your-form-id";
@@ -10,14 +11,20 @@ const contactFormEndpoint =
 export const metadata: Metadata = buildPageMetadata({
   title: "Contact and Request an Estimate",
   description:
-    "Request a carpentry estimate for built-ins, media walls, cabinets, trim work, and mantels in Athens and nearby areas.",
+    "Request a quote for custom-built carpentry from licensed and insured master craftsmen serving Athens, Cleveland, and Chattanooga with trim, cabinetry, and built-ins.",
   path: "/contact",
 });
 
 export default function ContactPage() {
+  const breadcrumbItems = [
+    { name: "Home", path: "/" },
+    { name: "Contact", path: "/contact" },
+  ];
+
   return (
     <div className="page">
       <div className="shell">
+        <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
         <Breadcrumbs
           items={[
             { label: "Home", href: "/" },

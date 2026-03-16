@@ -2,20 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 
-import { JsonLd } from "@/components/JsonLd";
 import { business } from "@/data/business";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
 import { serviceSelectionImages } from "@/data/service-images";
 import { services } from "@/data/services";
 import { testimonials, whyChooseUs } from "@/data/trust";
-import { buildPageMetadata, localBusinessSchema } from "@/lib/seo";
+import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title:
     "Custom Carpentry in Athens, Cleveland, Chattanooga, Dalton, Collegedale, Ooltewah, Apison, and Charleston",
   description:
-    "Custom built-ins, media walls, cabinets, trim work, mantels, and finish carpentry for homes in Southeast Tennessee and Dalton, Georgia.",
+    "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
   path: "/",
 });
 
@@ -33,8 +32,6 @@ export default function Home() {
 
   return (
     <>
-      <JsonLd data={localBusinessSchema()} />
-
       <section className="hero">
         <div className="shell hero-grid">
           <div className="hero-copy hero-copy-tile">
@@ -123,7 +120,7 @@ export default function Home() {
                   {serviceSelectionImages[service.slug] ? (
                     <Image
                       src={serviceSelectionImages[service.slug]}
-                      alt=""
+                      alt={`${service.name} custom-built woodworking installation in Southeast Tennessee`}
                       fill
                       className="service-selection-media-image"
                       sizes="(max-width: 880px) 100vw, 340px"
@@ -136,6 +133,10 @@ export default function Home() {
               </article>
             ))}
           </div>
+          <p className="muted-note">
+            Looking for specific trade terms? Browse the{" "}
+            <Link href="/carpentry-glossary">full carpentry glossary</Link>.
+          </p>
         </div>
       </section>
 

@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
 
   return buildPageMetadata({
     title: `Custom Carpentry in ${city.name}, ${city.state}`,
-    description: city.summary,
+    description: `Custom-built carpentry in ${city.name}, ${city.state} by licensed and insured master craftsmen. Built-ins, trim, cabinetry, and interior woodwork tailored to your home.`,
     path: `/cities/${city.slug}`,
   });
 }
@@ -90,6 +90,18 @@ export default async function CityPage({ params }: CityPageProps) {
             </ul>
           </article>
         </div>
+
+        <section className="section">
+          {city.slug === "athens-tn" ? (
+            <article className="card">
+              <h2>Featured Athens Service Path</h2>
+              <p>
+                Looking for furniture that fits your room exactly? Start with our
+                <Link href="/cities/athens-tn/custom-furniture"> custom furniture service page for Athens, TN homeowners</Link>.
+              </p>
+            </article>
+          ) : null}
+        </section>
 
         <section className="section">
           <h2>Project Examples Near {city.name}</h2>
