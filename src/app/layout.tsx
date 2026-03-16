@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Merriweather, Source_Sans_3 } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import { Suspense } from "react";
 
 import { Analytics } from "@/components/Analytics";
@@ -13,16 +13,16 @@ import { localBusinessSchema } from "@/lib/seo";
 
 import "./globals.css";
 
-const headingFont = Merriweather({
+const headingFont = Playfair_Display({
   variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["700", "900"],
+  weight: ["400", "600"],
 });
 
-const bodyFont = Source_Sans_3({
+const bodyFont = Inter({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "600"],
 });
 
 const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
@@ -86,7 +86,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${headingFont.variable} ${bodyFont.variable}`}>
+      <body className={`${headingFont.variable} ${bodyFont.variable} bg-blueprint-grid`}>
         <JsonLd data={localBusinessSchema()} />
         <Analytics />
         <ConversionTracker />

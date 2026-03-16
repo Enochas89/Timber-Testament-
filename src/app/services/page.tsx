@@ -133,6 +133,29 @@ export default function ServicesPage() {
         </section>
 
         <section className="section">
+          <div className="authority-grid">
+            <article className="authority-block">
+              <p className="authority-label">Senior Estimator</p>
+              <h3>Scope Built to Tradesman Specification</h3>
+              <p>
+                Our Senior Estimator develops line-item scopes using a Tradesman
+                Specification workflow: field measurements, material-grade notes,
+                install sequencing, and tolerance controls before fabrication begins.
+              </p>
+            </article>
+            <article className="authority-block">
+              <p className="authority-label">Project Management</p>
+              <h3>Execution Controls from Layout to Closeout</h3>
+              <p>
+                Project Management tracks milestone quality checks, change-order
+                impacts, and dependency handoffs so framing, finish carpentry, and
+                final punch-list work stay aligned to the original Tradesman Specification.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section className="section">
           <div className="section-head">
             <h2>Most Requested Services</h2>
             <p>Start here if you are planning a new custom carpentry project.</p>
