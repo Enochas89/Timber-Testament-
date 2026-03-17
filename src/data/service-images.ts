@@ -15,7 +15,7 @@ export const serviceImageSets: Record<string, string[]> = {
   "built-ins": [
     "/images/services/built-ins.jpg",
     "/images/services/built-ins-2.webp",
-    "/images/services/built-ins-3.webp",
+    "/images/projects/custom-built-in-cabinet-storage-ooltewah-tn.jpg",
   ],
   "custom-cabinets": [
     "/images/services/custom-cabinets.jpg",

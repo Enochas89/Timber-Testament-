@@ -8,6 +8,8 @@ type ServiceHeroCarouselProps = {
   serviceName: string;
 };
 
+const AUTO_ROTATE_MS = 7000;
+
 export function ServiceHeroCarousel({ images, serviceName }: ServiceHeroCarouselProps) {
   const validImages = images.length > 0 ? images : ["/images/project-placeholder.svg"];
   const [activeIndex, setActiveIndex] = useState(0);
@@ -19,7 +21,7 @@ export function ServiceHeroCarousel({ images, serviceName }: ServiceHeroCarousel
 
     const timer = window.setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % validImages.length);
-    }, 4200);
+    }, AUTO_ROTATE_MS);
 
     return () => window.clearInterval(timer);
   }, [validImages.length]);
