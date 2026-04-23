@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { business } from "@/data/business";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
+import { cityLandingPages, corridorLandingPages } from "@/data/seoLandingPages";
 import { serviceSelectionImages } from "@/data/service-images";
 import { services } from "@/data/services";
 import { testimonials, whyChooseUs } from "@/data/trust";
@@ -12,9 +13,9 @@ import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title:
-    "Custom Carpentry in Athens, Cleveland, Chattanooga, Dalton, Collegedale, Ooltewah, Apison, and Charleston",
+    "Family-Owned Home Services from Chattanooga to Knoxville",
   description:
-    "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
+    "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services from Chattanooga to Knoxville.",
   path: "/",
 });
 
@@ -35,8 +36,8 @@ export default function Home() {
       <section className="hero">
         <div className="shell hero-grid">
           <div className="hero-copy hero-copy-tile">
-            <p className="eyebrow">Custom Carpentry Company</p>
-            <h1>Built-ins, Trim, and Finish Carpentry That Looks Original to Your Home</h1>
+            <p className="eyebrow">Local Family-Owned Home Services</p>
+            <h1>Handyman, Concrete, Windows, Doors, and Carpentry from Chattanooga to Knoxville</h1>
             <p>
               {business.tagline} We focus on clean installation details, durable
               materials, and practical design for daily use.
@@ -203,6 +204,48 @@ export default function Home() {
               <Link className="area-chip" key={city.slug} href={`/cities/${city.slug}`}>
                 {city.name}, {city.state}
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-head">
+            <h2>Chattanooga To Knoxville Landing Pages</h2>
+            <p>
+              Explore service-specific landing pages built for local intent
+              searches across East Tennessee.
+            </p>
+          </div>
+          <div className="card-grid">
+            {corridorLandingPages.map((page) => (
+              <article className="card" key={page.slug}>
+                <h3>{page.h1}</h3>
+                <p>{page.description}</p>
+                <Link href={page.path}>View landing page</Link>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-head">
+            <h2>City + Service Landing Pages</h2>
+            <p>
+              Dedicated Chattanooga and Knoxville landing pages for handyman,
+              concrete, windows, and doors.
+            </p>
+          </div>
+          <div className="card-grid">
+            {cityLandingPages.map((page) => (
+              <article className="card" key={page.slug}>
+                <h3>{page.h1}</h3>
+                <p>{page.description}</p>
+                <Link href={page.path}>View local page</Link>
+              </article>
             ))}
           </div>
         </div>

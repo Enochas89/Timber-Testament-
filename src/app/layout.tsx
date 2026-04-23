@@ -31,14 +31,18 @@ const bingVerification = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
 export const metadata: Metadata = {
   metadataBase: new URL(business.websiteUrl),
   title: {
-    default: `Custom Carpentry in Athens, TN | Timber & Testament`,
+    default: `Home Services from Chattanooga to Knoxville | Timber & Testament`,
     template: `%s | Timber & Testament`,
   },
   description:
-    "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
+    "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services across East Tennessee.",
   applicationName: business.name,
   keywords: [
     "custom carpentry",
+    "handyman services",
+    "concrete services",
+    "window installation",
+    "door installation",
     "built-ins",
     "trim work",
     "media walls",
@@ -46,26 +50,25 @@ export const metadata: Metadata = {
     "custom furniture",
     "Chattanooga carpenter",
     "Cleveland TN carpenter",
-    "Athens TN carpenter",
-    "Dalton GA carpenter",
-    "Collegedale carpentry",
-    "Ooltewah carpentry",
-    "Apison carpentry",
-    "Charleston TN carpentry",
+    "Chattanooga handyman",
+    "Knoxville handyman",
+    "Chattanooga concrete contractor",
+    "Knoxville window installation",
+    "Knoxville door installation",
   ],
   openGraph: {
     type: "website",
     siteName: business.name,
     url: business.websiteUrl,
-    title: "Custom Carpentry in Athens, TN | Timber & Testament",
+    title: "Home Services from Chattanooga to Knoxville | Timber & Testament",
     description:
-      "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
+      "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services across East Tennessee.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Custom Carpentry in Athens, TN | Timber & Testament",
+    title: "Home Services from Chattanooga to Knoxville | Timber & Testament",
     description:
-      "Custom-built master carpentry by licensed and insured professionals serving Athens, Cleveland, and Chattanooga with built-ins, trim, cabinetry, and woodwork.",
+      "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services across East Tennessee.",
   },
   verification: {
     ...(googleVerification ? { google: googleVerification } : {}),

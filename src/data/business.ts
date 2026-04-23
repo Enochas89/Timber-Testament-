@@ -1,9 +1,9 @@
 export const business = {
-  name: "Timber & Testament Custom Carpentry",
-  legalName: "Timber & Testament Custom Carpentry",
+  name: "Timber & Testament",
+  legalName: "Timber & Testament",
   primaryPhoneDisplay: "(865) 200-1604",
   primaryPhoneRaw: "+18652001604",
-  email: "",
+  email: "timberandtestamentllc@gmail.com",
   address: {
     street: "Update Street Address",
     city: "Athens",
@@ -16,26 +16,27 @@ export const business = {
     longitude: -84.5924,
   },
   serviceArea: [
-    "Athens, TN",
-    "Cleveland, TN",
     "Chattanooga, TN",
-    "Dalton, GA",
-    "Collegedale, TN",
-    "Ooltewah, TN",
-    "Apison, TN",
-    "Charleston, TN",
+    "Cleveland, TN",
+    "Athens, TN",
+    "Sweetwater, TN",
+    "Lenoir City, TN",
+    "Farragut, TN",
+    "Knoxville, TN",
   ],
   serviceCounties: [
-    "McMinn County, TN",
-    "Bradley County, TN",
     "Hamilton County, TN",
+    "Bradley County, TN",
+    "McMinn County, TN",
+    "Loudon County, TN",
+    "Knox County, TN",
   ],
   tagline:
-    "Custom carpentry built with craftsmanship, character, and care.",
+    "Family-owned home services built with craftsmanship, character, and care.",
   shortDescription:
-    "Custom woodwork and finish carpentry for homeowners who want functional, high-quality features built specifically for their space.",
+    "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services for East Tennessee homeowners.",
   fullDescription:
-    "Timber & Testament Custom Carpentry provides handcrafted built-ins, media walls, custom cabinets, mantels, floating shelves, furniture, and finish carpentry upgrades designed to fit each home naturally.",
+    "Timber & Testament provides handyman services, concrete work, window installation, door installation, and custom carpentry upgrades for homeowners across the Chattanooga-to-Knoxville corridor.",
   websiteUrl:
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.timbertestament.com",
   googleBusinessProfileUrl:

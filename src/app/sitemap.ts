@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { cities } from "@/data/cities";
+import { seoLandingPages } from "@/data/seoLandingPages";
 import { projects } from "@/data/projects";
 import { services } from "@/data/services";
 import { absoluteUrl } from "@/lib/seo";
@@ -19,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/services/trim",
     "/services/custom-woodworking",
     "/log-slabs",
+    "/local-citation-partnership-kit",
   ].map(
     (path) => ({
       url: absoluteUrl(path),
@@ -58,5 +60,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...servicePages, ...cityPages, ...localServicePages, ...projectPages];
+  const seoLandingPageEntries = seoLandingPages.map((page) => ({
+    url: absoluteUrl(page.path),
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: page.slug.includes("-to-knoxville") ? 0.9 : 0.85,
+  }));
+
+  return [
+    ...staticPages,
+    ...servicePages,
+    ...cityPages,
+    ...localServicePages,
+    ...projectPages,
+    ...seoLandingPageEntries,
+  ];
 }

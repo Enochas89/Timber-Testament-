@@ -57,18 +57,28 @@ export function Footer() {
               <Link href="/carpentry-glossary">Carpentry Glossary</Link>
             </li>
             <li>
-              <Link href="/cities/athens-tn/custom-furniture">
-                Custom furniture carpentry in Athens, TN
+              <Link href="/handyman-services-chattanooga-to-knoxville">
+                Handyman services from Chattanooga to Knoxville
               </Link>
             </li>
             <li>
-              <Link href="/cities/cleveland-tn/built-ins">
-                Built-in carpentry in Cleveland, TN
+              <Link href="/concrete-services-chattanooga-to-knoxville">
+                Concrete services from Chattanooga to Knoxville
               </Link>
             </li>
             <li>
-              <Link href="/cities/chattanooga-tn/finish-carpentry">
-                Finish carpentry in Chattanooga, TN
+              <Link href="/window-installation-knoxville-tn">
+                Window installation in Knoxville, TN
+              </Link>
+            </li>
+            <li>
+              <Link href="/door-installation-chattanooga-tn">
+                Door installation in Chattanooga, TN
+              </Link>
+            </li>
+            <li>
+              <Link href="/local-citation-partnership-kit">
+                Local citation and partner outreach kit
               </Link>
             </li>
             <li>
