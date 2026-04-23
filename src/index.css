@@ -1,0 +1,30 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: #f4efe6;
+    --bg-deep: #e6dccf;
+    --ink: #0f172a;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+    background:
+      radial-gradient(circle at 10% 12%, rgba(245, 158, 11, 0.15), transparent 35%),
+      radial-gradient(circle at 80% 25%, rgba(251, 146, 60, 0.12), transparent 40%),
+      linear-gradient(180deg, var(--bg-base) 0%, var(--bg-deep) 100%);
+    color: var(--ink);
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
