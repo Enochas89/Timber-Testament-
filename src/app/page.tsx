@@ -73,6 +73,39 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section home-video-section" aria-label="Timber and Testament craftsmanship video">
+        <div className="shell">
+          <div className="home-video-band">
+            <video
+              className="home-video"
+              src="/videos/timber.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              aria-label="Timber and Testament craftsmanship and project work video"
+            />
+            <div className="home-video-copy">
+              <p className="eyebrow">Craftsmanship In Motion</p>
+              <h2>See the detail before the estimate.</h2>
+              <p>
+                A closer look at the materials, cuts, fit, and finish work that
+                shape each Timber &amp; Testament project.
+              </p>
+              <div className="hero-actions">
+                <Link className="btn" href="/contact">
+                  Request an Estimate
+                </Link>
+                <Link className="btn-outline" href="/projects">
+                  View Projects
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section">
         <div className="shell home-split">
           <article className="card">

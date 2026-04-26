@@ -89,7 +89,7 @@ export function Footer() {
       </div>
       <div className="shell footer-meta">
         <small>
-          2025 {business.name}. All rights reserved.
+          2026 {business.name}. All rights reserved.
         </small>
       </div>
     </footer>
