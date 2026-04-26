@@ -329,19 +329,20 @@ main {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+  align-content: stretch;
 }
 
 .stat {
   display: flex;
-  min-height: 150px;
+  min-height: 0;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   border: 1px solid rgba(222, 210, 189, 0.82);
   border-radius: var(--radius);
   background:
-    linear-gradient(180deg, rgba(255, 250, 241, 0.94), rgba(255, 255, 255, 0.78));
+    linear-gradient(145deg, rgba(255, 250, 241, 0.96), rgba(255, 255, 255, 0.84));
   color: var(--muted);
-  padding: 1.1rem;
+  padding: clamp(1rem, 2vw, 1.35rem);
   box-shadow: var(--soft-shadow);
 }
 
@@ -349,7 +350,7 @@ main {
   display: block;
   color: var(--forest);
   font-family: var(--font-heading), Georgia, serif;
-  font-size: clamp(1.9rem, 3.5vw, 3rem);
+  font-size: clamp(2rem, 3.8vw, 3.35rem);
   line-height: 1;
   margin-bottom: 0.45rem;
 }
