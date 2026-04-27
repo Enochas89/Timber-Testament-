@@ -86,22 +86,6 @@ export default function Home() {
               preload="metadata"
               aria-label="Timber and Testament craftsmanship and project work video"
             />
-            <div className="home-video-copy">
-              <p className="eyebrow">Craftsmanship In Motion</p>
-              <h2>See the detail before the estimate.</h2>
-              <p>
-                A closer look at the materials, cuts, fit, and finish work that
-                shape each Timber &amp; Testament project.
-              </p>
-              <div className="hero-actions">
-                <Link className="btn" href="/contact">
-                  Request an Estimate
-                </Link>
-                <Link className="btn-outline" href="/projects">
-                  View Projects
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </section>
