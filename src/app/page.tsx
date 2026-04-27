@@ -5,7 +5,6 @@ import { Metadata } from "next";
 import { business } from "@/data/business";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
-import { cityLandingPages, corridorLandingPages } from "@/data/seoLandingPages";
 import { serviceSelectionImages } from "@/data/service-images";
 import { services } from "@/data/services";
 import { testimonials, whyChooseUs } from "@/data/trust";
@@ -22,6 +21,7 @@ export const metadata: Metadata = buildPageMetadata({
 export default function Home() {
   const featuredProject = projects[0];
   const secondaryProjects = projects.slice(1, 6);
+  const featuredServices = services.slice(0, 6);
   const visibleTestimonials = testimonials.slice(0, 6);
 
   const cityNameBySlug = new Map(
@@ -121,10 +121,10 @@ export default function Home() {
         <div className="shell">
           <div className="section-head">
             <h2>Services at a Glance</h2>
-            <p>Choose the service that best matches your project goals.</p>
+            <p>Start with the main project type. We can narrow the exact scope during the estimate.</p>
           </div>
           <div className="service-flow">
-            {services.map((service) => (
+            {featuredServices.map((service) => (
               <article className="service-selection-card" key={service.slug}>
                 <div className="service-selection-copy">
                   <h3>{service.name}</h3>
@@ -151,10 +151,11 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <p className="muted-note">
-            Looking for specific trade terms? Browse the{" "}
-            <Link href="/carpentry-glossary">full carpentry glossary</Link>.
-          </p>
+          <div className="hero-actions">
+            <Link className="btn-outline" href="/services">
+              View All Services
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -235,48 +236,6 @@ export default function Home() {
                 sizes="(max-width: 920px) 100vw, 520px"
               />
             </figure>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="shell">
-          <div className="section-head">
-            <h2>Chattanooga To Knoxville Landing Pages</h2>
-            <p>
-              Explore service-specific landing pages built for local intent
-              searches across East Tennessee.
-            </p>
-          </div>
-          <div className="card-grid">
-            {corridorLandingPages.map((page) => (
-              <article className="card" key={page.slug}>
-                <h3>{page.h1}</h3>
-                <p>{page.description}</p>
-                <Link href={page.path}>View landing page</Link>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="shell">
-          <div className="section-head">
-            <h2>City + Service Landing Pages</h2>
-            <p>
-              Dedicated Chattanooga and Knoxville landing pages for handyman,
-              concrete, windows, and doors.
-            </p>
-          </div>
-          <div className="card-grid">
-            {cityLandingPages.map((page) => (
-              <article className="card" key={page.slug}>
-                <h3>{page.h1}</h3>
-                <p>{page.description}</p>
-                <Link href={page.path}>View local page</Link>
-              </article>
-            ))}
           </div>
         </div>
       </section>
