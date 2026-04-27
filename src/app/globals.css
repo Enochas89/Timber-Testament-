@@ -728,6 +728,28 @@ main {
   gap: 0.65rem;
 }
 
+.service-area-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(320px, 1.12fr);
+  align-items: center;
+  gap: clamp(1.25rem, 4vw, 3rem);
+}
+
+.service-area-map {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(222, 210, 189, 0.9);
+  border-radius: calc(var(--radius) + 8px);
+  background: rgba(255, 250, 241, 0.78);
+  box-shadow: var(--shadow);
+}
+
+.service-area-map img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .area-chip {
   display: inline-flex;
   align-items: center;
@@ -1030,6 +1052,7 @@ main {
   .hero-grid,
   .home-split,
   .project-showcase,
+  .service-area-feature,
   .testimonial-stack,
   .services-overview,
   .services-proof,

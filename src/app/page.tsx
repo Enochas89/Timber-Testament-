@@ -212,16 +212,29 @@ export default function Home() {
 
       <section className="section">
         <div className="shell">
-          <div className="section-head">
-            <h2>Areas We Serve</h2>
-            <p>Pick your city to see local services and project examples.</p>
-          </div>
-          <div className="area-chip-wrap">
-            {cities.map((city) => (
-              <Link className="area-chip" key={city.slug} href={`/cities/${city.slug}`}>
-                {city.name}, {city.state}
-              </Link>
-            ))}
+          <div className="service-area-feature">
+            <div>
+              <div className="section-head">
+                <h2>Areas We Serve</h2>
+                <p>Pick your city to see local services and project examples.</p>
+              </div>
+              <div className="area-chip-wrap">
+                {cities.map((city) => (
+                  <Link className="area-chip" key={city.slug} href={`/cities/${city.slug}`}>
+                    {city.name}, {city.state}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <figure className="service-area-map">
+              <Image
+                src="/images/service_locations.png"
+                alt="Timber and Testament service locations across Southeast Tennessee"
+                width={900}
+                height={700}
+                sizes="(max-width: 920px) 100vw, 520px"
+              />
+            </figure>
           </div>
         </div>
       </section>
