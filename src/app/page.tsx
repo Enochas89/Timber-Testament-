@@ -6,16 +6,18 @@ import { business } from "@/data/business";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
 import { serviceSelectionImages } from "@/data/service-images";
+import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
 import { testimonials, whyChooseUs } from "@/data/trust";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title:
-    "Family-Owned Home Services from Chattanooga to Knoxville",
+    "Home Repair, Handyman, and Carpentry Services from Chattanooga to Knoxville",
   description:
-    "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services from Chattanooga to Knoxville.",
+    "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, trim work, and property maintenance from Chattanooga to Knoxville.",
   path: "/",
+  keywords: repairSeoKeywords,
 });
 
 export default function Home() {
@@ -37,10 +39,11 @@ export default function Home() {
         <div className="shell hero-grid">
           <div className="hero-copy hero-copy-tile">
             <p className="eyebrow">Local Family-Owned Home Services</p>
-            <h1>Handyman, Concrete, Windows, Doors, and Carpentry from Chattanooga to Knoxville</h1>
+            <h1>Home Repair, Handyman, Doors, Drywall, Cabinets, and Carpentry from Chattanooga to Knoxville</h1>
             <p>
-              {business.tagline} We focus on clean installation details, durable
-              materials, and practical design for daily use.
+              {business.tagline} We handle small job contractor scopes, general
+              repair services, home maintenance services, Repairs & installs,
+              and practical upgrades for daily use.
             </p>
             <div className="hero-actions">
               <Link className="btn" href="/contact">
@@ -67,7 +70,7 @@ export default function Home() {
             </div>
             <div className="stat">
               <strong>Fast</strong>
-              Quote response workflow built for local homeowners.
+              Quote response workflow for quick home repairs and urgent punch lists.
             </div>
           </div>
         </div>
@@ -95,8 +98,9 @@ export default function Home() {
           <article className="card">
             <h2>Why Homeowners Choose Us</h2>
             <p>
-              Our projects are built for long-term function, clean finish
-              quality, and a final result that feels right for the home.
+              Our home repair and improvement services are built for long-term
+              function, clean finish quality, and a final result that feels
+              right for the home.
             </p>
             <div className="hero-actions">
               <Link className="btn" href="/contact">
@@ -121,7 +125,13 @@ export default function Home() {
         <div className="shell">
           <div className="section-head">
             <h2>Services at a Glance</h2>
-            <p>Start with the main project type. We can narrow the exact scope during the estimate.</p>
+            <p>
+              Start with the main project type. We can narrow drywall repair,
+              door repair, trim work, cabinet installation, TV mounting, ceiling
+              fan installation, deck repair, fence repair, faucet repair, sink
+              repair, toilet repair, minor renovations, and home upgrades during
+              the estimate.
+            </p>
           </div>
           <div className="service-flow">
             {featuredServices.map((service) => (
@@ -155,6 +165,48 @@ export default function Home() {
             <Link className="btn-outline" href="/services">
               View All Services
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-head">
+            <h2>Repair and Maintenance Work</h2>
+            <p>
+              Homeowners, landlords, and real estate agents call us for home
+              repair services, rental property repairs, landlord maintenance
+              services, real estate repair services, and punch list repairs
+              across Cleveland, Chattanooga, Athens, and nearby East Tennessee.
+            </p>
+          </div>
+          <div className="card-grid">
+            <article className="card">
+              <h3>Common Repair Requests</h3>
+              <p>
+                Drywall repair, door repair, door installation, trim work,
+                finish carpentry, cabinet installation, TV mounting, ceiling fan
+                installation, faucet / sink repair, toilet repair, deck repair,
+                fence repair, and door repair / door installation requests.
+              </p>
+            </article>
+            <article className="card">
+              <h3>Small Projects and Upgrades</h3>
+              <p>
+                Small remodeling projects, minor renovations, home improvement
+                services, home upgrades, quick home repairs, emergency home
+                repair requests, and same day handyman scheduling when
+                availability allows.
+              </p>
+            </article>
+            <article className="card">
+              <h3>Local Search Areas</h3>
+              <p>
+                Handyman in Cleveland TN, home repair Chattanooga TN, drywall
+                repair near me, cabinet installer Athens TN, handyman near me,
+                and home service professional support across our service area.
+              </p>
+            </article>
           </div>
         </div>
       </section>

@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { business } from "@/data/business";
+import { repairSeoKeywords } from "@/data/seoKeywords";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 const contactFormEndpoint =
@@ -11,8 +12,9 @@ const contactFormEndpoint =
 export const metadata: Metadata = buildPageMetadata({
   title: "Contact and Request an Estimate",
   description:
-    "Request a quote for custom-built carpentry from licensed and insured master craftsmen serving Athens, Cleveland, and Chattanooga with trim, cabinetry, and built-ins.",
+    "Request a quote for home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, trim, and built-ins.",
   path: "/contact",
+  keywords: repairSeoKeywords,
 });
 
 export default function ContactPage() {
@@ -33,8 +35,8 @@ export default function ContactPage() {
         />
         <h1 className="page-title">Request an Estimate</h1>
         <p className="page-subtitle">
-          Tell us your project goals, location, and target timeline. Include
-          photos and rough dimensions to speed up quoting.
+          Tell us your repair list, project location, and target timeline.
+          Include photos and rough dimensions to speed up quoting.
         </p>
 
         <div className="cols-2">
@@ -89,7 +91,12 @@ export default function ContactPage() {
               </div>
               <div>
                 <label htmlFor="service">Service Needed</label>
-                <input id="service" name="service" placeholder="Built-ins, trim, mantel, etc." required />
+                <input
+                  id="service"
+                  name="service"
+                  placeholder="Drywall repair, door repair, cabinet installation, handyman work, etc."
+                  required
+                />
               </div>
               <div>
                 <label htmlFor="message">Project Details</label>

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { cities } from "@/data/cities";
+import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
 import { getCityBySlug, getProjectsByCity } from "@/lib/content";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
@@ -29,9 +30,16 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
   }
 
   return buildPageMetadata({
-    title: `Custom Carpentry in ${city.name}, ${city.state}`,
-    description: `Custom-built carpentry in ${city.name}, ${city.state} by licensed and insured master craftsmen. Built-ins, trim, cabinetry, and interior woodwork tailored to your home.`,
+    title: `Home Repair and Handyman Services in ${city.name}, ${city.state}`,
+    description: `Home repair, handyman work, drywall repair, door repair, cabinet installation, property maintenance, trim, and carpentry in ${city.name}, ${city.state}.`,
     path: `/cities/${city.slug}`,
+    keywords: [
+      ...repairSeoKeywords,
+      `home repair ${city.name} ${city.state}`,
+      `handyman ${city.name} ${city.state}`,
+      `drywall repair ${city.name} ${city.state}`,
+      `cabinet installation ${city.name} ${city.state}`,
+    ],
   });
 }
 
@@ -64,8 +72,12 @@ export default async function CityPage({ params }: CityPageProps) {
           ]}
         />
 
-        <h1 className="page-title">Custom Carpentry in {city.name}, {city.state}</h1>
-        <p className="page-subtitle">{city.intro}</p>
+        <h1 className="page-title">Home Repair and Handyman Services in {city.name}, {city.state}</h1>
+        <p className="page-subtitle">
+          {city.intro} We also support home repair services, handyman punch
+          lists, drywall repair, door repair, cabinet installation, property
+          maintenance, and small home upgrades.
+        </p>
 
         <div className="cols-2">
           <article className="card">

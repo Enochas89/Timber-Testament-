@@ -4,13 +4,15 @@ import { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { cities } from "@/data/cities";
+import { repairSeoKeywords } from "@/data/seoKeywords";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Service Areas",
+  title: "Home Repair and Handyman Service Areas",
   description:
-    "Browse custom-built carpentry service areas with licensed and insured master craftsmen serving Athens, Cleveland, Chattanooga, and nearby Southeast Tennessee cities.",
+    "Browse home repair, handyman, drywall repair, door repair, cabinet installation, property maintenance, and carpentry service areas across Southeast Tennessee.",
   path: "/cities",
+  keywords: repairSeoKeywords,
 });
 
 export default function CitiesPage() {
@@ -24,10 +26,11 @@ export default function CitiesPage() {
       <div className="shell">
         <JsonLd data={breadcrumbSchema(breadcrumbItems)} />
         <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Service Areas" }]} />
-        <h1 className="page-title">Service Areas</h1>
+        <h1 className="page-title">Home Repair and Handyman Service Areas</h1>
         <p className="page-subtitle">
-          Explore your city page to see available services, nearby project
-          examples, and clear next steps for getting an estimate.
+          Explore your city page to see available repair services, handyman
+          work, nearby project examples, and clear next steps for getting an
+          estimate.
         </p>
         <div className="card-grid">
           {cities.map((city) => (

@@ -5,16 +5,18 @@ import { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { serviceSelectionImages } from "@/data/service-images";
+import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
 import { processSteps, testimonials, whyChooseUs } from "@/data/trust";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 import { Service } from "@/lib/types";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Carpentry Services",
+  title: "Home Repair, Handyman, and Carpentry Services",
   description:
-    "Explore custom-built carpentry services from licensed and insured master craftsmen, including built-ins, cabinetry, trim carpentry, media walls, and woodworking.",
+    "Explore home repair services, handyman work, drywall repair, door repair, cabinet installation, trim work, finish carpentry, built-ins, and woodworking.",
   path: "/services",
+  keywords: repairSeoKeywords,
 });
 
 const collageImages = [
@@ -87,21 +89,22 @@ export default function ServicesPage() {
             ))}
           </div>
           <div className="services-collage-overlay">
-            <h1 className="page-title">Carpentry Services</h1>
+            <h1 className="page-title">Home Repair, Handyman, and Carpentry Services</h1>
             <p className="page-subtitle services-collage-subtitle">
-              Precision carpentry built to transform your space with custom
-              craftsmanship, lasting quality, and real everyday function.
+              General repair services, home maintenance services, and precision
+              carpentry built with lasting quality and real everyday function.
             </p>
           </div>
         </section>
 
         <section className="section services-overview">
           <article className="card services-overview-main">
-            <h2>Custom Carpentry Built Around Your Home</h2>
+            <h2>Home Services Built Around Your Repair List</h2>
             <p>
-              Every project is designed for your layout, your style, and your
-              daily use. We focus on quality materials, clean install details,
-              and a finished look that feels original to the home.
+              Every repair, install, and carpentry project is scoped for your
+              layout, your timeline, and your daily use. We focus on quality
+              materials, clean install details, and a finished look that feels
+              original to the home.
             </p>
             <ul className="list">
               {whyChooseUs.map((reason) => (

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { getLocalServiceContent } from "@/data/localServiceContent";
+import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
 import {
   getAllServiceCityCombos,
@@ -47,8 +48,13 @@ export async function generateMetadata({
 
   return buildPageMetadata({
     title: `${service.name} in ${city.name}, ${city.state}`,
-    description: `Custom-built ${service.name.toLowerCase()} in ${city.name}, ${city.state} by licensed and insured master carpenters. Precision woodworking built for lasting daily use.`,
+    description: `${service.name} in ${city.name}, ${city.state} with home repair, handyman, installation, maintenance, and finish-quality support from Timber & Testament.`,
     path: `/cities/${city.slug}/${service.slug}`,
+    keywords: [
+      ...repairSeoKeywords,
+      `${service.name.toLowerCase()} ${city.name.toLowerCase()} ${city.state.toLowerCase()}`,
+      `${city.name.toLowerCase()} ${service.name.toLowerCase()} contractor`,
+    ],
   });
 }
 

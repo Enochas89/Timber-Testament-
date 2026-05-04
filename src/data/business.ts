@@ -34,9 +34,9 @@ export const business = {
   tagline:
     "Family-owned home services built with craftsmanship, character, and care.",
   shortDescription:
-    "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services for East Tennessee homeowners.",
+    "Family-owned handyman, home repair, home maintenance, door installation, drywall repair, cabinet installation, and custom carpentry services for East Tennessee homeowners.",
   fullDescription:
-    "Timber & Testament provides handyman services, concrete work, window installation, door installation, and custom carpentry upgrades for homeowners across the Chattanooga-to-Knoxville corridor.",
+    "Timber & Testament provides handyman services, general repair services, home maintenance services, drywall repair, door repair and installation, cabinet installation, trim work, finish carpentry, concrete work, window installation, and custom carpentry upgrades for homeowners, landlords, and real estate repair lists across the Chattanooga-to-Knoxville corridor.",
   websiteUrl:
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.timbertestament.com",
   googleBusinessProfileUrl:

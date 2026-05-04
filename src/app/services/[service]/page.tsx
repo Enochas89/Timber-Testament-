@@ -9,6 +9,7 @@ import { ServiceHeroCarousel } from "@/components/ServiceHeroCarousel";
 import { cities } from "@/data/cities";
 import { foundersInsights } from "@/data/foundersInsights";
 import { serviceImageSets } from "@/data/service-images";
+import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
 import { getServiceBySlug } from "@/lib/content";
 import {
@@ -39,8 +40,13 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
 
   return buildPageMetadata({
     title: `${service.name} Services`,
-    description: `${service.name} by licensed and insured master carpenters. Custom-built residential woodworking, precision trim, and durable installations in Southeast Tennessee.`,
+    description: `${service.name} services with home repair, handyman, installation, maintenance, finish carpentry, and durable residential work in Southeast Tennessee.`,
     path: `/services/${service.slug}`,
+    keywords: [
+      ...repairSeoKeywords,
+      `${service.name.toLowerCase()} near me`,
+      `${service.name.toLowerCase()} Southeast Tennessee`,
+    ],
   });
 }
 

@@ -2,6 +2,41 @@ import Link from "next/link";
 
 import { business } from "@/data/business";
 
+const prioritySeoLinks = [
+  {
+    href: "/home-repair-services-chattanooga-to-knoxville",
+    label: "Home repair services Chattanooga to Knoxville",
+  },
+  {
+    href: "/home-repair-services-chattanooga-tn",
+    label: "Home repair Chattanooga TN",
+  },
+  {
+    href: "/handyman-services-cleveland-tn",
+    label: "Handyman in Cleveland TN",
+  },
+  {
+    href: "/drywall-repair-cleveland-tn",
+    label: "Drywall repair near me in Cleveland TN",
+  },
+  {
+    href: "/cabinet-installation-athens-tn",
+    label: "Cabinet installer Athens TN",
+  },
+  {
+    href: "/door-repair-installation-chattanooga-to-knoxville",
+    label: "Door repair and door installation",
+  },
+  {
+    href: "/property-maintenance-chattanooga-to-knoxville",
+    label: "Property maintenance and rental repairs",
+  },
+  {
+    href: "/repairs-and-installs-chattanooga-to-knoxville",
+    label: "Repairs and installs",
+  },
+];
+
 const footerCollageImages = [
   "/images/backgrounds/background-1.jpg",
   "/images/backgrounds/background-2.jpg",
@@ -56,26 +91,11 @@ export function Footer() {
             <li>
               <Link href="/carpentry-glossary">Carpentry Glossary</Link>
             </li>
-            <li>
-              <Link href="/handyman-services-chattanooga-to-knoxville">
-                Handyman services from Chattanooga to Knoxville
-              </Link>
-            </li>
-            <li>
-              <Link href="/concrete-services-chattanooga-to-knoxville">
-                Concrete services from Chattanooga to Knoxville
-              </Link>
-            </li>
-            <li>
-              <Link href="/window-installation-knoxville-tn">
-                Window installation in Knoxville, TN
-              </Link>
-            </li>
-            <li>
-              <Link href="/door-installation-chattanooga-tn">
-                Door installation in Chattanooga, TN
-              </Link>
-            </li>
+            {prioritySeoLinks.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href}>{item.label}</Link>
+              </li>
+            ))}
             <li>
               <Link href="/local-citation-partnership-kit">
                 Local citation and partner outreach kit

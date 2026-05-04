@@ -48,7 +48,9 @@ const corridorCities = [
 ];
 
 const targetCities: TargetCity[] = [
+  { slug: "cleveland-tn", name: "Cleveland", state: "TN" },
   { slug: "chattanooga-tn", name: "Chattanooga", state: "TN" },
+  { slug: "athens-tn", name: "Athens", state: "TN" },
   { slug: "knoxville-tn", name: "Knoxville", state: "TN" },
 ];
 
@@ -58,9 +60,9 @@ const serviceTemplates: ServiceTemplate[] = [
     serviceName: "Handyman Services",
     serviceLabel: "Handyman",
     corridorDescription:
-      "Family-owned handyman services for repair lists, fixture swaps, trim touchups, and practical upgrades from Chattanooga to Knoxville.",
+      "Family-owned handyman services for repair lists, same day handyman requests, fixture swaps, trim touchups, and practical upgrades from Chattanooga to Knoxville.",
     cityDescription:
-      "Local family-owned handyman service for repair lists, punch-list work, and practical upgrades.",
+      "Local family-owned handyman service for repair lists, punch-list work, same day handyman needs, and practical upgrades.",
     corridorHighlights: [
       "Interior and exterior repair support",
       "Rental turnover and punch-list completion",
@@ -83,6 +85,204 @@ const serviceTemplates: ServiceTemplate[] = [
         question: "Do you serve both homeowners and rental properties?",
         answer:
           "Yes. We regularly support homeowners, rental turnovers, and property managers across the service corridor.",
+      },
+    ],
+  },
+  {
+    slugBase: "home-repair-services",
+    serviceName: "Home Repair Services",
+    serviceLabel: "Home Repair",
+    corridorDescription:
+      "General repair services, home maintenance services, small job contractor support, and quick home repairs from Chattanooga to Knoxville.",
+    cityDescription:
+      "Home repair services for drywall, doors, trim, fixtures, punch-list repairs, and practical maintenance needs.",
+    corridorHighlights: [
+      "General repair services for small projects",
+      "Drywall repair, door repair, and trim touchups",
+      "Repairs and installs for homeowner punch lists",
+      "Quick home repairs and urgent scheduling when available",
+    ],
+    cityHighlights: [
+      "Small job contractor scopes",
+      "Drywall, door, and trim repair",
+      "Fixture repair and installation tasks",
+      "Punch-list repairs for homes and rentals",
+    ],
+    faqTemplate: [
+      {
+        question: "What types of home repair services do you handle?",
+        answer:
+          "We handle general repair services such as drywall repair, door repair, trim work, fixture installs, punch-list repairs, and small home maintenance tasks.",
+      },
+      {
+        question: "Can you help with quick or emergency home repair needs?",
+        answer:
+          "Yes. We can review urgent repair requests and schedule quick home repairs when our calendar and the project scope allow.",
+      },
+    ],
+  },
+  {
+    slugBase: "drywall-repair",
+    serviceName: "Drywall Repair",
+    serviceLabel: "Drywall Repair",
+    corridorDescription:
+      "Drywall repair, patching, touchups, and finish-ready wall repairs for homeowners from Chattanooga to Knoxville.",
+    cityDescription:
+      "Drywall repair near me service for patches, damaged areas, finish touchups, and repair lists.",
+    corridorHighlights: [
+      "Small drywall patch and repair scopes",
+      "Wall damage repair before painting",
+      "Punch-list drywall touchups",
+      "Repair coordination with trim and finish work",
+    ],
+    cityHighlights: [
+      "Drywall repair near me support",
+      "Patch, sand, and finish-ready repair",
+      "Wall repair for rentals and listings",
+      "Bundled repair list completion",
+    ],
+    faqTemplate: [
+      {
+        question: "Do you handle small drywall repair jobs?",
+        answer:
+          "Yes. We take small drywall repair scopes and can bundle them with trim, door, cabinet, and other home repair work.",
+      },
+      {
+        question: "Can drywall repair be part of a punch-list project?",
+        answer:
+          "Yes. Drywall repair is often included with punch-list repairs for homeowners, landlords, and real estate prep.",
+      },
+    ],
+  },
+  {
+    slugBase: "cabinet-installation",
+    serviceName: "Cabinet Installation",
+    serviceLabel: "Cabinet Installer",
+    corridorDescription:
+      "Cabinet installation and cabinet repair support for kitchens, built-ins, storage upgrades, and small remodeling projects from Chattanooga to Knoxville.",
+    cityDescription:
+      "Cabinet installer support for cabinet installation, storage upgrades, and small remodeling projects.",
+    corridorHighlights: [
+      "Cabinet installation and fit adjustments",
+      "Built-in and storage upgrade support",
+      "Trim-ready finish carpentry details",
+      "Small remodeling project coordination",
+    ],
+    cityHighlights: [
+      "Cabinet installer for home upgrades",
+      "Kitchen, laundry, and storage cabinet installs",
+      "Cabinet fit and finish adjustments",
+      "Minor renovations with clean finish work",
+    ],
+    faqTemplate: [
+      {
+        question: "Do you install cabinets for small remodeling projects?",
+        answer:
+          "Yes. We install cabinets for storage upgrades, built-ins, laundry rooms, kitchens, and other minor renovation scopes.",
+      },
+      {
+        question: "Can you help with cabinet installation in Athens, TN?",
+        answer:
+          "Yes. Athens is one of our core service areas for cabinet installation, built-ins, trim work, and home upgrades.",
+      },
+    ],
+  },
+  {
+    slugBase: "door-repair-installation",
+    serviceName: "Door Repair and Installation",
+    serviceLabel: "Door Repair",
+    corridorDescription:
+      "Door repair, door installation, hardware adjustments, trim work, and finish carpentry support from Chattanooga to Knoxville.",
+    cityDescription:
+      "Door repair and door installation for interior, exterior, and punch-list home repair needs.",
+    corridorHighlights: [
+      "Door repair and replacement",
+      "Interior door installation",
+      "Hardware alignment and fit correction",
+      "Trim work and finish carpentry touchups",
+    ],
+    cityHighlights: [
+      "Door repair for sticking or damaged doors",
+      "Door installation and hardware setup",
+      "Trim repair around door openings",
+      "Punch-list door adjustments",
+    ],
+    faqTemplate: [
+      {
+        question: "Do you handle door repair and door installation?",
+        answer:
+          "Yes. We repair and install interior and exterior doors, adjust hardware, and complete related trim work when needed.",
+      },
+      {
+        question: "Can door repair be bundled with other home repairs?",
+        answer:
+          "Yes. Door repair is commonly bundled with drywall repair, trim work, cabinet installation, and punch-list repairs.",
+      },
+    ],
+  },
+  {
+    slugBase: "property-maintenance",
+    serviceName: "Property Maintenance",
+    serviceLabel: "Property Maintenance",
+    corridorDescription:
+      "Property maintenance, rental property repairs, landlord maintenance services, and real estate repair services from Chattanooga to Knoxville.",
+    cityDescription:
+      "Property maintenance and rental property repairs for landlords, real estate prep, and repair punch lists.",
+    corridorHighlights: [
+      "Rental property repairs and turnovers",
+      "Landlord maintenance services",
+      "Real estate repair services before listing",
+      "Punch list repairs for move-in readiness",
+    ],
+    cityHighlights: [
+      "Rental property repair support",
+      "Landlord maintenance services",
+      "Real estate punch-list repairs",
+      "Repair technician support for small scopes",
+    ],
+    faqTemplate: [
+      {
+        question: "Do you handle rental property repairs?",
+        answer:
+          "Yes. We support landlords and property managers with rental property repairs, turnover punch lists, and maintenance tasks.",
+      },
+      {
+        question: "Can you help with real estate repair services before a sale?",
+        answer:
+          "Yes. We complete real estate repair services and punch-list repairs to help homes show better and close cleaner.",
+      },
+    ],
+  },
+  {
+    slugBase: "repairs-and-installs",
+    serviceName: "Repairs and Installs",
+    serviceLabel: "Repairs and Installs",
+    corridorDescription:
+      "Repairs and installs for TV mounting, ceiling fan installation, faucet and sink repair, toilet repair, decks, fences, drywall, doors, and trim from Chattanooga to Knoxville.",
+    cityDescription:
+      "Repairs and installs for TV mounting, ceiling fan installation, faucet and sink repair, toilet repair, drywall, doors, decks, and fences.",
+    corridorHighlights: [
+      "TV mounting and fixture installation",
+      "Ceiling fan installation requests",
+      "Faucet, sink, and toilet repair support",
+      "Deck repair and fence repair scopes",
+    ],
+    cityHighlights: [
+      "TV mounting and home installs",
+      "Ceiling fan installation scheduling",
+      "Faucet, sink, and toilet repair requests",
+      "Deck repair and fence repair estimates",
+    ],
+    faqTemplate: [
+      {
+        question: "What repair and installation jobs can you quote?",
+        answer:
+          "We can quote TV mounting, ceiling fan installation, drywall repair, door repair, trim work, cabinet installation, faucet and sink repair, toilet repair, deck repair, and fence repair.",
+      },
+      {
+        question: "Do you take small repair and install projects?",
+        answer:
+          "Yes. We regularly handle small jobs, quick repairs, minor renovations, home upgrades, and bundled repair lists.",
       },
     ],
   },
@@ -187,6 +387,72 @@ const serviceTemplates: ServiceTemplate[] = [
   },
 ];
 
+function extraKeywordTargets(slugBase: string, cityName?: string) {
+  const city = cityName ? cityName.toLowerCase() : undefined;
+
+  const targetsBySlug: Record<string, string[]> = {
+    "handyman-services": [
+      "handyman near me",
+      city === "cleveland" ? "handyman in cleveland tn" : "handyman near me",
+      "handyman in Cleveland TN",
+      "same day handyman",
+      "small job contractor",
+    ],
+    "home-repair-services": [
+      "home repair services",
+      city === "chattanooga" ? "home repair chattanooga tn" : "home repair services",
+      "home repair Chattanooga TN",
+      "general repair services",
+      "home maintenance services",
+      "home repair specialist",
+      "quick home repairs",
+      "emergency home repair",
+    ],
+    "drywall-repair": ["drywall repair", "drywall repair near me", "home repair specialist"],
+    "cabinet-installation": [
+      "cabinet installation",
+      city === "athens" ? "cabinet installer athens tn" : "cabinet installer near me",
+      "cabinet installer Athens TN",
+      "home upgrades",
+    ],
+    "door-repair-installation": [
+      "door repair / door installation",
+      "door repair",
+      "door installation",
+      "trim work",
+      "finish carpentry",
+    ],
+    "property-maintenance": [
+      "property maintenance",
+      "maintenance technician",
+      "repair technician",
+      "home service professional",
+      "rental property repairs",
+      "landlord maintenance services",
+      "real estate repair services",
+      "punch list repairs",
+    ],
+    "repairs-and-installs": [
+      "Repairs & installs",
+      "repairs and installs",
+      "TV mounting",
+      "tv mounting",
+      "ceiling fan installation",
+      "faucet / sink repair",
+      "faucet repair",
+      "sink repair",
+      "toilet repair",
+      "deck repair",
+      "fence repair",
+      "home improvement services",
+      "small remodeling projects",
+      "minor renovations",
+    ],
+  };
+
+  return targetsBySlug[slugBase] ?? [];
+}
+
 export const corridorLandingPages: SeoLandingPage[] = serviceTemplates.map((template) => {
   const slug = `${template.slugBase}-chattanooga-to-knoxville`;
   const relatedSlugs = serviceTemplates
@@ -208,6 +474,7 @@ export const corridorLandingPages: SeoLandingPage[] = serviceTemplates.map((temp
       `${template.slugBase.replace(/-/g, " ")} chattanooga tn`,
       `${template.slugBase.replace(/-/g, " ")} knoxville tn`,
       `east tennessee ${template.serviceLabel.toLowerCase()} service`,
+      ...extraKeywordTargets(template.slugBase),
     ],
     relatedSlugs,
     faqs: template.faqTemplate,
@@ -238,6 +505,7 @@ export const cityLandingPages: SeoLandingPage[] = targetCities.flatMap((city) =>
         `${template.slugBase.replace(/-/g, " ")} ${city.name.toLowerCase()} tn`,
         `${template.serviceLabel.toLowerCase()} contractor ${city.name.toLowerCase()} tn`,
         `${city.name.toLowerCase()} ${template.serviceLabel.toLowerCase()} quote`,
+        ...extraKeywordTargets(template.slugBase, city.name),
       ],
       relatedSlugs: [corridorSlug, ...relatedServiceSlugs],
       corridorSlug,

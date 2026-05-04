@@ -25,6 +25,7 @@ type PageMetadataInput = {
   title: string;
   description: string;
   path: string;
+  keywords?: string[];
   noIndex?: boolean;
 };
 
@@ -32,6 +33,7 @@ export function buildPageMetadata({
   title,
   description,
   path,
+  keywords,
   noIndex,
 }: PageMetadataInput): Metadata {
   const canonical = absoluteUrl(path);
@@ -40,6 +42,7 @@ export function buildPageMetadata({
   return {
     title: pageTitle(title),
     description,
+    ...(keywords?.length ? { keywords } : {}),
     alternates: {
       canonical,
     },
@@ -62,9 +65,15 @@ export function buildPageMetadata({
 }
 
 export function localBusinessSchema() {
+  const hasStreetAddress =
+    business.address.street && business.address.street !== "Update Street Address";
+  const hasGoogleBusinessProfile =
+    business.googleBusinessProfileUrl &&
+    business.googleBusinessProfileUrl !== "https://business.google.com/";
+
   return {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
     name: business.name,
     legalName: business.legalName,
     image: absoluteUrl(
@@ -75,14 +84,25 @@ export function localBusinessSchema() {
     description: business.fullDescription,
     priceRange: "$$",
     ...(business.email ? { email: business.email } : {}),
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: business.address.street,
-      addressLocality: business.address.city,
-      addressRegion: business.address.region,
-      postalCode: business.address.postalCode,
-      addressCountry: business.address.country,
-    },
+    ...(hasGoogleBusinessProfile
+      ? { sameAs: [business.googleBusinessProfileUrl] }
+      : {}),
+    address: hasStreetAddress
+      ? {
+          "@type": "PostalAddress",
+          streetAddress: business.address.street,
+          addressLocality: business.address.city,
+          addressRegion: business.address.region,
+          postalCode: business.address.postalCode,
+          addressCountry: business.address.country,
+        }
+      : {
+          "@type": "PostalAddress",
+          addressLocality: business.address.city,
+          addressRegion: business.address.region,
+          postalCode: business.address.postalCode,
+          addressCountry: business.address.country,
+        },
     geo: {
       "@type": "GeoCoordinates",
       latitude: business.geo.latitude,
@@ -105,6 +125,19 @@ export function localBusinessSchema() {
         name: service.name,
       },
     })),
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: `${business.name} home repair and carpentry services`,
+      itemListElement: services.map((service) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: service.name,
+          description: service.shortDescription,
+          url: absoluteUrl(`/services/${service.slug}`),
+        },
+      })),
+    },
   };
 }
 

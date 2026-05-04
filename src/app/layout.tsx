@@ -9,6 +9,7 @@ import { Header } from "@/components/Header";
 import { JsonLd } from "@/components/JsonLd";
 import { PageViewTracker } from "@/components/PageViewTracker";
 import { business } from "@/data/business";
+import { allSeoKeywords } from "@/data/seoKeywords";
 import { localBusinessSchema } from "@/lib/seo";
 
 import "./globals.css";
@@ -35,40 +36,22 @@ export const metadata: Metadata = {
     template: `%s | Timber & Testament`,
   },
   description:
-    "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services across East Tennessee.",
+    "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, and custom carpentry across East Tennessee.",
   applicationName: business.name,
-  keywords: [
-    "custom carpentry",
-    "handyman services",
-    "concrete services",
-    "window installation",
-    "door installation",
-    "built-ins",
-    "trim work",
-    "media walls",
-    "custom cabinets",
-    "custom furniture",
-    "Chattanooga carpenter",
-    "Cleveland TN carpenter",
-    "Chattanooga handyman",
-    "Knoxville handyman",
-    "Chattanooga concrete contractor",
-    "Knoxville window installation",
-    "Knoxville door installation",
-  ],
+  keywords: allSeoKeywords,
   openGraph: {
     type: "website",
     siteName: business.name,
     url: business.websiteUrl,
     title: "Home Services from Chattanooga to Knoxville | Timber & Testament",
-    description:
-      "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services across East Tennessee.",
+  description:
+      "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, and custom carpentry across East Tennessee.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Home Services from Chattanooga to Knoxville | Timber & Testament",
-    description:
-      "Family-owned handyman, concrete, window installation, door installation, and custom carpentry services across East Tennessee.",
+  description:
+      "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, and custom carpentry across East Tennessee.",
   },
   verification: {
     ...(googleVerification ? { google: googleVerification } : {}),
