@@ -105,14 +105,15 @@ export default async function SeoLandingPage({ params }: LandingPageProps) {
 
           <article className="card">
             <h2>Service Area Focus</h2>
+            <p>
+              We focus this page on the local area below so homeowners can
+              quickly confirm service availability before requesting a quote.
+            </p>
             <ul className="list">
               {page.areaServed.map((area) => (
                 <li key={area}>{area}</li>
               ))}
             </ul>
-            <p className="muted-note">
-              Primary keyword targets: {page.keywordTargets.join(", ")}
-            </p>
           </article>
         </div>
 
@@ -132,8 +133,13 @@ export default async function SeoLandingPage({ params }: LandingPageProps) {
           <h2>Request A Quote</h2>
           <div className="cta-band">
             <p>
-              Call <a href={`tel:${business.primaryPhoneRaw}`}>{business.primaryPhoneDisplay}</a> or email{" "}
-              <a href={`mailto:${business.email}`}>{business.email}</a> with your project details.
+              Call <a href={`tel:${business.primaryPhoneRaw}`}>{business.primaryPhoneDisplay}</a>
+              {business.email ? (
+                <>
+                  {" "}or email <a href={`mailto:${business.email}`}>{business.email}</a>
+                </>
+              ) : null}{" "}
+              with your project details.
             </p>
             <div className="hero-actions">
               <Link className="btn" href="/contact">

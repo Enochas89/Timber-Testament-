@@ -40,9 +40,8 @@ export default function Home() {
             <p className="eyebrow">Local Family-Owned Home Services</p>
             <h1>Home Repair, Handyman, Doors, Drywall, Cabinets, and Carpentry from Chattanooga to Knoxville</h1>
             <p>
-              {business.tagline} We handle small job contractor scopes, general
-              repair services, home maintenance services, Repairs & installs,
-              and practical upgrades for daily use.
+              {business.tagline} We handle repair lists, home maintenance,
+              installs, and practical upgrades for daily use.
             </p>
             <div className="hero-actions">
               <Link className="btn" href="/contact">
@@ -148,7 +147,8 @@ export default function Home() {
                     <Image
                       src={serviceSelectionImages[service.slug]}
                       alt={`${service.name} custom-built woodworking installation in Southeast Tennessee`}
-                      fill
+                      width={680}
+                      height={380}
                       className="service-selection-media-image"
                       sizes="(max-width: 880px) 100vw, 340px"
                     />
@@ -173,37 +173,34 @@ export default function Home() {
           <div className="section-head">
             <h2>Repair and Maintenance Work</h2>
             <p>
-              Homeowners, landlords, and real estate agents call us for home
-              repair services, rental property repairs, landlord maintenance
-              services, real estate repair services, and punch list repairs
-              across Cleveland, Chattanooga, Athens, and nearby East Tennessee.
+              Homeowners, landlords, and real estate agents call us for clear
+              repair scopes, punch-list work, and practical maintenance across
+              Cleveland, Chattanooga, Athens, and nearby East Tennessee.
             </p>
           </div>
           <div className="card-grid">
             <article className="card">
               <h3>Common Repair Requests</h3>
               <p>
-                Drywall repair, door repair, door installation, trim work,
-                finish carpentry, cabinet installation, TV mounting, ceiling fan
-                installation, faucet / sink repair, toilet repair, deck repair,
-                fence repair, and door repair / door installation requests.
+                Drywall patches, door repair, trim work, cabinet installation,
+                TV mounting, ceiling fan installation, faucet or sink repair,
+                toilet repair, deck repair, and fence repair.
               </p>
             </article>
             <article className="card">
               <h3>Small Projects and Upgrades</h3>
               <p>
-                Small remodeling projects, minor renovations, home improvement
-                services, home upgrades, quick home repairs, emergency home
-                repair requests, and same day handyman scheduling when
+                Small remodeling projects, minor renovations, home upgrades,
+                quick repairs, and same-day handyman scheduling when
                 availability allows.
               </p>
             </article>
             <article className="card">
               <h3>Local Search Areas</h3>
               <p>
-                Handyman in Cleveland TN, home repair Chattanooga TN, drywall
-                repair near me, cabinet installer Athens TN, handyman near me,
-                and home service professional support across our service area.
+                Local help for handyman requests, home repair, drywall repair,
+                cabinet installation, and other home service needs across our
+                service area.
               </p>
             </article>
           </div>

@@ -50,7 +50,8 @@ function ServiceSelectionRow({ service }: { service: Service }) {
           <Image
             src={imageSrc}
             alt={`${service.name} custom-built carpentry project installed in Southeast Tennessee`}
-            fill
+            width={680}
+            height={380}
             className="service-selection-media-image"
             sizes="(max-width: 880px) 100vw, 340px"
           />
@@ -81,7 +82,8 @@ export default function ServicesPage() {
                 <Image
                   src={src}
                   alt={`Custom-built master carpentry detail ${index + 1} from a licensed and insured residential project`}
-                  fill
+                  width={640}
+                  height={380}
                   className="services-collage-image"
                   sizes="(max-width: 880px) 50vw, 33vw"
                 />

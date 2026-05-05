@@ -43,7 +43,8 @@ export function ServiceHeroCarousel({ images, serviceName }: ServiceHeroCarousel
               <Image
                 src={src}
                 alt={`${serviceName} custom-built installation example ${index + 1} by a licensed and insured master carpenter`}
-                fill
+                width={1400}
+                height={820}
                 className="service-hero-carousel-image"
                 sizes="(max-width: 880px) 92vw, 1120px"
                 priority={index === 0}
