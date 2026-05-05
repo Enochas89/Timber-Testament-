@@ -10,7 +10,7 @@ import { breadcrumbSchema, buildPageMetadata, serviceSchema } from "@/lib/seo";
 const woodworkingInsight = foundersInsights.woodworking;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Custom Woodworking in Athens, Cleveland, and Chattanooga, TN",
+  title: "Custom Woodworking TN",
   description:
     "Founder-led custom woodworking with 14 years of residential experience, focused on structural planning, material behavior, and handcrafted finish execution.",
   path: "/services/custom-woodworking",

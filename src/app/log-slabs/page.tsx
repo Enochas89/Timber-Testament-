@@ -10,7 +10,7 @@ import { breadcrumbSchema, buildPageMetadata, serviceSchema } from "@/lib/seo";
 const customWoodworkInsight = foundersInsights["custom-woodwork"];
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Log Slab Custom Woodwork in Southeast Tennessee",
+  title: "Log Slab Woodwork TN",
   description:
     "Custom woodwork and log slab fabrication guided by 14 years of founder experience, built for architectural fit, durability, and handcrafted finish quality.",
   path: "/log-slabs",

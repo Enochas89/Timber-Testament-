@@ -10,7 +10,7 @@ import { breadcrumbSchema, buildPageMetadata, serviceSchema } from "@/lib/seo";
 const trimInsight = foundersInsights["trim-carpentry"];
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Trim Carpentry in Athens, Cleveland, and Chattanooga, TN",
+  title: "Trim Carpentry TN",
   description:
     "Founder-led trim carpentry with 14 years of experience delivering clean lines, profile matching, and durable finish quality for homes in Southeast Tennessee.",
   path: "/services/trim",

@@ -7,7 +7,7 @@ import { repairSeoKeywords } from "@/data/seoKeywords";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 const contactFormEndpoint =
-  process.env.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT ?? "https://formspree.io/f/your-form-id";
+  process.env.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT;
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Contact and Request an Estimate",
@@ -63,7 +63,7 @@ export default function ContactPage() {
             <form
               className="lead-form"
               method="post"
-              action={contactFormEndpoint}
+              action={contactFormEndpoint ?? undefined}
               data-track-form="contact_estimate_request"
             >
               <div>

@@ -12,10 +12,9 @@ import { testimonials, whyChooseUs } from "@/data/trust";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title:
-    "Home Repair, Handyman, and Carpentry Services from Chattanooga to Knoxville",
+  title: "Home Repair & Handyman TN",
   description:
-    "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, trim work, and property maintenance from Chattanooga to Knoxville.",
+    "Family-owned home repair, handyman, drywall, door, cabinet, trim, carpentry, and property maintenance from Chattanooga to Knoxville.",
   path: "/",
   keywords: repairSeoKeywords,
 });

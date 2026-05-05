@@ -20,6 +20,21 @@ import {
   serviceSchema,
 } from "@/lib/seo";
 
+const localTitleServiceNames: Record<string, string> = {
+  "custom-carpentry": "Custom Carpentry",
+  "custom-framing": "Framing",
+  "built-ins": "Built-Ins",
+  "custom-cabinets": "Cabinets",
+  "floating-shelves": "Floating Shelves",
+  "media-walls": "Media Walls",
+  mantels: "Mantels",
+  "finish-carpentry": "Finish Carpentry",
+  "accent-walls": "Accent Walls",
+  "trim-work": "Trim Work",
+  "custom-furniture": "Furniture",
+  "wood-feature-installations": "Wood Features",
+};
+
 export function generateStaticParams() {
   return getAllServiceCityCombos().map((combo) => ({
     city: combo.citySlug,
@@ -46,9 +61,11 @@ export async function generateMetadata({
     };
   }
 
+  const titleServiceName = localTitleServiceNames[service.slug] ?? service.name;
+
   return buildPageMetadata({
-    title: `${service.name} in ${city.name}, ${city.state}`,
-    description: `${service.name} in ${city.name}, ${city.state} with home repair, handyman, installation, maintenance, and finish-quality support from Timber & Testament.`,
+    title: `${titleServiceName} ${city.name} ${city.state}`,
+    description: `${titleServiceName} in ${city.name}, ${city.state} with home repair, handyman, installation, maintenance, and finish carpentry support.`,
     path: `/cities/${city.slug}/${service.slug}`,
     keywords: [
       ...repairSeoKeywords,
@@ -138,6 +155,25 @@ export default async function LocalServicePage({ params }: LocalServicePageProps
             </div>
           </section>
         ) : null}
+
+        <section className="section">
+          <div className="card">
+            <h2>Planning {service.name} for {city.name} Homes</h2>
+            <p>
+              Every {service.name.toLowerCase()} project starts with the room,
+              the surrounding finishes, and how the feature needs to work day
+              to day. We measure wall conditions, nearby trim lines, storage
+              needs, mounting requirements, and finish expectations before
+              recommending a build path.
+            </p>
+            <p>
+              For {city.name} homeowners, that means the finished work is not
+              just sized to fit. It is planned to feel natural with the home,
+              hold up to regular use, and support the way the room is actually
+              used.
+            </p>
+          </div>
+        </section>
 
         <section className="section">
           <h2>{service.name} FAQs for {city.name}</h2>

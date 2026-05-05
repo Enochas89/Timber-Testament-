@@ -39,8 +39,8 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   }
 
   return buildPageMetadata({
-    title: `${service.name} Services`,
-    description: `${service.name} services with home repair, handyman, installation, maintenance, finish carpentry, and durable residential work in Southeast Tennessee.`,
+    title: service.name,
+    description: `${service.name} services for home repair, installation, maintenance, finish carpentry, and durable residential work in Southeast Tennessee.`,
     path: `/services/${service.slug}`,
     keywords: [
       ...repairSeoKeywords,

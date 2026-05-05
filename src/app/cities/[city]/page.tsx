@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
   }
 
   return buildPageMetadata({
-    title: `Home Repair and Handyman Services in ${city.name}, ${city.state}`,
-    description: `Home repair, handyman work, drywall repair, door repair, cabinet installation, property maintenance, trim, and carpentry in ${city.name}, ${city.state}.`,
+    title: `Home Repair ${city.name} ${city.state}`,
+    description: `Home repair, handyman, drywall, doors, cabinets, trim, carpentry, and property maintenance in ${city.name}, ${city.state}.`,
     path: `/cities/${city.slug}`,
     keywords: [
       ...repairSeoKeywords,
@@ -102,6 +102,23 @@ export default async function CityPage({ params }: CityPageProps) {
             </ul>
           </article>
         </div>
+
+        <section className="section">
+          <article className="card">
+            <h2>Custom Carpentry Built for {city.name} Homes</h2>
+            <p>
+              We plan each project around the home layout, existing finishes,
+              and how the space needs to function after installation. That can
+              include built-in storage, cabinet details, mantel updates, trim
+              repairs, floating shelves, media walls, and other handcrafted
+              wood features.
+            </p>
+            <p>
+              The goal is clean fit, durable construction, and a finished look
+              that feels intentional instead of added on later.
+            </p>
+          </article>
+        </section>
 
         <section className="section">
           {city.slug === "athens-tn" ? (
