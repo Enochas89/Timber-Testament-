@@ -149,7 +149,7 @@ export const services: Service[] = [
     slug: "mantels",
     name: "Fireplace Mantels",
     shortDescription:
-      "Custom mantel builds that upgrade fireplace presence and room balance.",
+      "A well-built mantel can completely change the weight and character of a room. We design and build custom surrounds sized to your fireplace and ceiling height, whether you're after a clean modern shelf, a traditional full-surround with columns and pilasters, or something in between. Every detail - profile, depth, finish, and proportion - is worked out to complement your architecture and make the fireplace feel like the natural anchor of the space it's in.",
     hero: "We design and install custom mantel profiles scaled to your fireplace opening and surrounding wall proportions.",
     benefits: [
       "Tailored mantel profile and dimensions",
