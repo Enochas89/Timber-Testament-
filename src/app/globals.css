@@ -607,6 +607,101 @@ main {
   transform: scale(1.1);
 }
 
+.service-toggle {
+  overflow: hidden;
+  border: 1px solid rgba(222, 210, 189, 0.9);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 250, 241, 0.96), rgba(244, 236, 221, 0.82)),
+    var(--paper);
+  box-shadow: var(--soft-shadow);
+}
+
+.service-toggle-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  padding: clamp(1rem, 2.4vw, 1.45rem);
+}
+
+.service-toggle-copy {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.service-toggle-copy h2,
+.service-toggle-copy p {
+  margin: 0;
+}
+
+.service-toggle-button {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  border: 1px solid rgba(35, 56, 45, 0.18);
+  border-radius: 999px;
+  background: var(--forest);
+  color: #fffaf1;
+  padding: 0.72rem 1rem;
+  font: inherit;
+  font-weight: 900;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 12px 24px rgba(35, 56, 45, 0.2);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.service-toggle-button:hover,
+.service-toggle-button:focus-visible {
+  background: #304d3d;
+  box-shadow: 0 16px 30px rgba(35, 56, 45, 0.26);
+  transform: translateY(-2px);
+}
+
+.service-toggle-button:focus-visible {
+  outline: 3px solid rgba(183, 121, 46, 0.38);
+  outline-offset: 3px;
+}
+
+.service-toggle-icon {
+  width: 0.62rem;
+  height: 0.62rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 180ms ease;
+}
+
+.service-toggle.is-open .service-toggle-icon {
+  transform: rotate(225deg) translateY(-2px);
+}
+
+.service-toggle-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 260ms ease;
+}
+
+.service-toggle.is-open .service-toggle-panel {
+  grid-template-rows: 1fr;
+}
+
+.service-toggle-inner {
+  min-height: 0;
+  overflow: hidden;
+  padding: 0 clamp(1rem, 2.4vw, 1.45rem);
+}
+
+.service-toggle.is-open .service-toggle-inner {
+  padding-bottom: clamp(1rem, 2.4vw, 1.45rem);
+}
+
 .services-collage {
   position: relative;
   overflow: hidden;
@@ -1077,6 +1172,14 @@ main {
   .service-flow-item,
   .service-selection-card {
     grid-template-columns: 1fr;
+  }
+
+  .service-toggle-head {
+    grid-template-columns: 1fr;
+  }
+
+  .service-toggle-button {
+    width: 100%;
   }
 
   .services-collage-grid {

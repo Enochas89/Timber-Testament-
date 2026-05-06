@@ -4,6 +4,7 @@ import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
+import { ServiceToggle } from "@/components/ServiceToggle";
 import { serviceSelectionImages } from "@/data/service-images";
 import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
@@ -173,15 +174,13 @@ export default function ServicesPage() {
         </section>
 
         <section className="section">
-          <div className="section-head">
-            <h2>More Carpentry Services</h2>
-            <p>Explore the remaining specialty woodwork and finish services.</p>
-          </div>
-          <div className="service-compact-list">
-            {additionalServices.map((service) => (
-              <ServiceSelectionRow key={service.slug} service={service} />
-            ))}
-          </div>
+          <ServiceToggle>
+            <div className="service-compact-list">
+              {additionalServices.map((service) => (
+                <ServiceSelectionRow key={service.slug} service={service} />
+              ))}
+            </div>
+          </ServiceToggle>
         </section>
 
         <section className="section">
