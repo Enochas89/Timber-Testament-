@@ -245,7 +245,7 @@ export const services: Service[] = [
     slug: "custom-furniture",
     name: "Custom Furniture",
     shortDescription:
-      "One-of-a-kind furniture pieces built for your dimensions, style, and everyday use.",
+      "Custom furniture is built for your life, not adapted from someone else's. Whether it's a dining table sized for your room and your family, a bedroom dresser with the exact drawer configuration you've always wanted, or an entryway bench built to a specific nook, every piece starts with your dimensions and your needs. We work in hardwoods and quality materials built to last well beyond the trends, with joinery and finish work that holds up to daily use and looks better with age.",
     hero: "When store-bought dimensions do not fit, we build custom furniture that complements the room and performs over time.",
     benefits: [
       "Exact fit for your space",
