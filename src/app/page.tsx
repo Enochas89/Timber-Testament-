@@ -120,6 +120,55 @@ export default function Home() {
       </section>
 
       <section className="section">
+        <div className="shell human-connection">
+          <div className="human-connection-copy">
+            <p className="eyebrow">People Behind The Work</p>
+            <h2>Real Crews, Real Job Sites, Real Care</h2>
+            <p>
+              Homeowners are trusting us with the places they live every day.
+              That means showing up prepared, communicating clearly, and doing
+              careful work even before the finished details are visible.
+            </p>
+            <p>
+              From structural framing to final carpentry, our work is done by
+              people who care about fit, safety, cleanup, and how the finished
+              project will feel once your family is using the space.
+            </p>
+            <div className="hero-actions">
+              <Link className="btn" href="/about">
+                Meet Timber &amp; Testament
+              </Link>
+              <Link className="btn-outline" href="/contact">
+                Talk Through a Project
+              </Link>
+            </div>
+          </div>
+          <div className="human-photo-grid" aria-label="Timber and Testament crews working on framing projects">
+            <figure className="human-photo human-photo-tall">
+              <Image
+                src="/images/team/crew-framing-trusses.jpg"
+                alt="Timber and Testament crew members framing a residential structure"
+                width={1000}
+                height={1499}
+                sizes="(max-width: 920px) 100vw, 340px"
+              />
+              <figcaption>Hands-on framing work with attention to layout and structure.</figcaption>
+            </figure>
+            <figure className="human-photo">
+              <Image
+                src="/images/team/carpenter-framing-wall.jpg"
+                alt="Carpenter fastening wall framing on a residential build"
+                width={1200}
+                height={800}
+                sizes="(max-width: 920px) 100vw, 440px"
+              />
+              <figcaption>Every project starts with people doing the work carefully.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="shell">
           <div className="section-head">
             <h2>Services at a Glance</h2>

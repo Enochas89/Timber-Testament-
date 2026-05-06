@@ -434,6 +434,83 @@ main {
   color: rgba(255, 250, 241, 0.86);
 }
 
+.human-connection {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+  gap: clamp(1rem, 3vw, 2rem);
+  align-items: center;
+}
+
+.human-connection-copy {
+  max-width: 620px;
+}
+
+.human-connection-copy h2 {
+  position: relative;
+  padding-bottom: 0.85rem;
+}
+
+.human-connection-copy h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 54px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--clay));
+}
+
+.human-photo-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: end;
+}
+
+.human-photo {
+  position: relative;
+  min-height: 310px;
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid rgba(222, 210, 189, 0.88);
+  border-radius: var(--radius);
+  background: var(--forest);
+  box-shadow: var(--soft-shadow);
+}
+
+.human-photo-tall {
+  min-height: 520px;
+}
+
+.human-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.human-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 52%, rgba(23, 32, 27, 0.76));
+  pointer-events: none;
+}
+
+.human-photo figcaption {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1;
+  color: #fffaf1;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.35;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.36);
+}
+
 .card,
 .home-checklist,
 .testimonial-panel,
@@ -1155,6 +1232,7 @@ main {
   .testimonial-stack,
   .services-overview,
   .services-proof,
+  .human-connection,
   .authority-grid,
   .footer-grid,
   .cols-2 {
@@ -1180,6 +1258,15 @@ main {
 
   .service-toggle-button {
     width: 100%;
+  }
+
+  .human-photo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .human-photo,
+  .human-photo-tall {
+    min-height: 360px;
   }
 
   .services-collage-grid {
