@@ -173,7 +173,7 @@ export const services: Service[] = [
     slug: "finish-carpentry",
     name: "Finish Carpentry",
     shortDescription:
-      "Detail-driven finish carpentry for upgraded interiors and cleaner final presentation.",
+      "Finish carpentry is where a house starts feeling like a home. We handle all the detail work that pulls an interior together - crown molding, base trim, door and window casing, chair rail, built-up headers, and any custom millwork that gives a space its character. It's precise, patient work that most people don't notice when it's done right, but everyone notices when it isn't. Clean joints, tight miters, and profiles that match your architecture make the difference between a finish that looks complete and one that looks considered.",
     hero: "From subtle upgrades to full room refreshes, our finish carpentry work adds architectural detail and cohesive polish.",
     benefits: [
       "Improves room character and perceived quality",
