@@ -436,7 +436,6 @@ main {
 
 .card,
 .home-checklist,
-.service-compact-details,
 .testimonial-panel,
 .authority-block,
 .cta-band,
@@ -449,7 +448,6 @@ main {
 
 .card,
 .testimonial-panel,
-.service-compact-details,
 .authority-block {
   background: rgba(255, 250, 241, 0.86);
   border: 1px solid rgba(222, 210, 189, 0.9);

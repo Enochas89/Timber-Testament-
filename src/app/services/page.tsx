@@ -173,14 +173,15 @@ export default function ServicesPage() {
         </section>
 
         <section className="section">
-          <details className="service-compact-details">
-            <summary>View all carpentry services</summary>
-            <div className="service-compact-list">
-              {additionalServices.map((service) => (
-                <ServiceSelectionRow key={service.slug} service={service} />
-              ))}
-            </div>
-          </details>
+          <div className="section-head">
+            <h2>More Carpentry Services</h2>
+            <p>Explore the remaining specialty woodwork and finish services.</p>
+          </div>
+          <div className="service-compact-list">
+            {additionalServices.map((service) => (
+              <ServiceSelectionRow key={service.slug} service={service} />
+            ))}
+          </div>
         </section>
 
         <section className="section">
