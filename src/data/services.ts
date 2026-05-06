@@ -77,7 +77,7 @@ export const services: Service[] = [
     slug: "custom-cabinets",
     name: "Custom Cabinets",
     shortDescription:
-      "Space-specific cabinet solutions built for function, flow, and long-term durability.",
+      "Custom cabinets are built around how you actually use your space - not adapted from a standard size that almost fits. Whether it's a kitchen that needs to maximize every inch, a bathroom vanity with specific storage demands, or a laundry room that finally needs to work harder, every cabinet is designed to your layout, built from quality materials, and finished with hardware and details that hold up over years of daily use. The difference between custom and off-the-shelf isn't just looks - it's a cabinet that fits perfectly, functions exactly as intended, and lasts.",
     hero: "We build custom cabinet layouts that increase storage and maintain a cohesive, finished appearance throughout the room.",
     benefits: [
       "Dimensioned for your exact space",
