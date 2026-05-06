@@ -125,7 +125,7 @@ export const services: Service[] = [
     slug: "media-walls",
     name: "Media Walls",
     shortDescription:
-      "Custom media walls that create a focal point and reduce visible clutter.",
+      "A custom media wall brings order to the busiest wall in your home. We design and build around your specific TV size, component setup, and storage needs - integrating shelving, cabinetry, and cable management into a single cohesive unit that looks intentional from every angle. Whether you want a sleek, minimal surround or a full floor-to-ceiling built-in with closed storage and display space, the result is a focal point that cleans up the clutter and elevates the whole room.",
     hero: "Our media wall builds combine TV support structure, storage, and finish carpentry details for a polished built-in look.",
     benefits: [
       "Focal-point design with built-in storage",
