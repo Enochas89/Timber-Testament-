@@ -53,7 +53,7 @@ export const services: Service[] = [
     slug: "built-ins",
     name: "Built-Ins",
     shortDescription:
-      "Custom built-ins for living rooms, offices, and bedrooms that improve storage and layout.",
+      "Custom built-ins transform underused wall space into purposeful, polished storage. Whether it's a living room entertainment wall, a bedroom closet system, or office shelving designed around your workflow, every unit is built to your exact dimensions and finished to match your trim, paint, or stain. The result is storage that feels like it was always part of the room - not something added to it.",
     hero: "Our built-ins are designed for clean integration with your existing room architecture while adding practical organization.",
     benefits: [
       "Maximizes underused wall space",
