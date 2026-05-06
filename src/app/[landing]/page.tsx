@@ -118,6 +118,25 @@ export default async function SeoLandingPage({ params }: LandingPageProps) {
         </div>
 
         <section className="section">
+          <article className="card">
+            <h2>What This Service Covers</h2>
+            <p>
+              Timber &amp; Testament uses this page to match the right
+              {` ${page.serviceLabel.toLowerCase()} `} request with the right
+              local scope. That may include a single repair, a bundled
+              punch-list, a small install, or a larger finish project that needs
+              careful measuring and clean completion.
+            </p>
+            <p>
+              Before quoting work in {page.areaServed.join(", ")}, we review
+              photos, dimensions, access, materials, and any timing pressure so
+              the estimate reflects the real job instead of a generic service
+              menu.
+            </p>
+          </article>
+        </section>
+
+        <section className="section">
           <h2>{page.serviceName} FAQs</h2>
           <div className="card-grid">
             {page.faqs.map((faq) => (

@@ -8,6 +8,7 @@ export const metadata: Metadata = buildPageMetadata({
   description:
     "Operational citation and backlink outreach resources for Timber and Testament, including checklist CSV files and outreach templates.",
   path: "/local-citation-partnership-kit",
+  noIndex: true,
 });
 
 const citationPlatforms = [
