@@ -101,7 +101,7 @@ export const services: Service[] = [
     slug: "floating-shelves",
     name: "Floating Shelves",
     shortDescription:
-      "Custom floating shelf sets with concealed support and a clean, substantial look.",
+      "Floating shelves done right are deceptively simple - no visible brackets, no wobble, just clean lines and solid support. We build and install custom shelf sets sized to your wall, cut from real wood or high-quality materials that match your space, with concealed hardware rated for real weight. Whether you need a single statement shelf or a full wall of them, the result is a look that's minimal without feeling cheap and sturdy enough to actually use.",
     hero: "Floating shelves add practical storage and warmth without visual clutter when designed and installed correctly.",
     benefits: [
       "Custom sizing and spacing",
