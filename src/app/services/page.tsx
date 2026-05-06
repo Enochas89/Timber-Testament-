@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { ServiceToggle } from "@/components/ServiceToggle";
+import { corridorRepairServiceLinks } from "@/data/repairServiceLinks";
 import { serviceSelectionImages } from "@/data/service-images";
 import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
@@ -163,8 +164,27 @@ export default function ServicesPage() {
 
         <section className="section">
           <div className="section-head">
-            <h2>Most Requested Services</h2>
-            <p>Start here if you are planning a new custom carpentry project.</p>
+            <h2>Most Requested Repair Services</h2>
+            <p>
+              Start here for handyman work, home repair, drywall, doors,
+              cabinets, property maintenance, and common repair or install jobs.
+            </p>
+          </div>
+          <div className="card-grid">
+            {corridorRepairServiceLinks.map((item) => (
+              <article className="card" key={item.href}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <Link href={item.href}>View service page</Link>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="section-head">
+            <h2>Custom Carpentry Services</h2>
+            <p>Start here if you are planning a custom woodwork or finish carpentry project.</p>
           </div>
           <div className="service-selection-list">
             {featuredServices.map((service) => (

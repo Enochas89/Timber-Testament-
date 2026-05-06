@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { cities } from "@/data/cities";
+import { getCityRepairServiceLinks } from "@/data/repairServiceLinks";
 import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
 import { getCityBySlug, getProjectsByCity } from "@/lib/content";
@@ -52,6 +53,7 @@ export default async function CityPage({ params }: CityPageProps) {
   }
 
   const cityProjects = getProjectsByCity(city.slug);
+  const priorityRepairLinks = getCityRepairServiceLinks(city);
 
   const breadcrumbItems = [
     { name: "Home", path: "/" },
@@ -90,7 +92,44 @@ export default async function CityPage({ params }: CityPageProps) {
           </article>
 
           <article className="card">
-            <h2>Local Service Pages</h2>
+            <h2>Priority Home Repair Pages</h2>
+            <ul className="list">
+              {priorityRepairLinks.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href}>{item.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </article>
+        </div>
+
+        <section className="section">
+          <div className="section-head">
+            <h2>Common Repair and Install Requests in {city.name}</h2>
+            <p>
+              These are the high-demand services local homeowners often search
+              for when they need a reliable home service professional.
+            </p>
+          </div>
+          <div className="card-grid">
+            {priorityRepairLinks.slice(0, 6).map((item) => (
+              <article className="card" key={item.href}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <Link href={item.href}>Open service page</Link>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section">
+          <article className="card">
+            <h2>Custom Carpentry and Finish Services in {city.name}</h2>
+            <p>
+              For built-ins, custom cabinetry, mantels, floating shelves, trim,
+              media walls, furniture, and wood feature installations, use the
+              local carpentry service links below.
+            </p>
             <ul className="list">
               {services.map((service) => (
                 <li key={service.slug}>
@@ -101,7 +140,7 @@ export default async function CityPage({ params }: CityPageProps) {
               ))}
             </ul>
           </article>
-        </div>
+        </section>
 
         <section className="section">
           <article className="card">

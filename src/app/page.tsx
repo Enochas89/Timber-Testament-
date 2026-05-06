@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { business } from "@/data/business";
 import { cities } from "@/data/cities";
 import { projects } from "@/data/projects";
+import { corridorRepairServiceLinks } from "@/data/repairServiceLinks";
 import { serviceSelectionImages } from "@/data/service-images";
 import { repairSeoKeywords } from "@/data/seoKeywords";
 import { services } from "@/data/services";
@@ -164,6 +165,33 @@ export default function Home() {
               />
               <figcaption>Every project starts with people doing the work carefully.</figcaption>
             </figure>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="shell">
+          <div className="section-head">
+            <h2>Home Repair and Handyman Help</h2>
+            <p>
+              Fast paths for the services homeowners search for most: handyman
+              help, drywall repair, door repair, cabinet installation, property
+              maintenance, and everyday repairs.
+            </p>
+          </div>
+          <div className="card-grid">
+            {corridorRepairServiceLinks.slice(0, 5).map((item) => (
+              <article className="card" key={item.href}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <Link href={item.href}>View {item.title.toLowerCase()}</Link>
+              </article>
+            ))}
+          </div>
+          <div className="hero-actions">
+            <Link className="btn-outline" href="/repairs-and-installs-chattanooga-to-knoxville">
+              See Common Repairs and Installs
+            </Link>
           </div>
         </div>
       </section>

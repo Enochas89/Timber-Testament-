@@ -20,7 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/services/trim",
     "/services/custom-woodworking",
     "/log-slabs",
-    "/local-citation-partnership-kit",
   ].map(
     (path) => ({
       url: absoluteUrl(path),

@@ -97,11 +97,6 @@ export function Footer() {
               </li>
             ))}
             <li>
-              <Link href="/local-citation-partnership-kit">
-                Local citation and partner outreach kit
-              </Link>
-            </li>
-            <li>
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
