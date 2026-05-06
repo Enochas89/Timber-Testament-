@@ -13,11 +13,15 @@ export const serviceImageSets: Record<string, string[]> = {
     "/images/services/custom-framing-monday-3.jpg",
   ],
   "built-ins": [
+    "/images/services/built-ins-wall-window.jpg",
+    "/images/services/built-ins-painted-shelves.jpg",
+    "/images/services/built-ins-window-benches.jpg",
     "/images/services/built-ins.jpg",
     "/images/services/built-ins-2.webp",
     "/images/projects/custom-built-in-cabinet-storage-ooltewah-tn.jpg",
   ],
   "custom-cabinets": [
+    "/images/services/custom-cabinets-shop-assembly.jpg",
     "/images/services/custom-cabinets.jpg",
     "/images/services/custom-cabinets-2.webp",
     "/images/services/custom-cabinets-3.webp",
