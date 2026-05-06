@@ -11,14 +11,14 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 const citationPlatforms = [
-  { name: "Google Business Profile", url: "https://www.google.com/business/", priority: "Highest" },
-  { name: "Bing Places", url: "https://www.bingplaces.com/", priority: "High" },
-  { name: "Apple Business Connect", url: "https://businessconnect.apple.com/", priority: "High" },
-  { name: "Yelp", url: "https://biz.yelp.com/", priority: "High" },
-  { name: "BBB", url: "https://www.bbb.org/", priority: "High" },
-  { name: "Angi", url: "https://www.angi.com/", priority: "Medium" },
+  { name: "Google Business Profile", url: "https://business.google.com/us/business-profile/", priority: "Highest" },
+  { name: "Bing Places", url: "https://www.bing.com/forbusiness/", priority: "High" },
+  { name: "Apple Business Connect", url: "https://business.apple.com/", priority: "High" },
+  { name: "Yelp", url: "https://business.yelp.com/", priority: "High" },
+  { name: "BBB", note: "Research manually; public BBB pages can block crawlers.", priority: "High" },
+  { name: "Angi", note: "Research manually; Angi blocks many crawler requests.", priority: "Medium" },
   { name: "Thumbtack", url: "https://www.thumbtack.com/", priority: "Medium" },
-  { name: "Nextdoor Business", url: "https://nextdoor.com/business", priority: "Medium" },
+  { name: "Nextdoor Business", url: "https://nextdoor.com/create-business", priority: "Medium" },
 ];
 
 export default function LocalCitationPartnershipKitPage() {
@@ -50,9 +50,13 @@ export default function LocalCitationPartnershipKitPage() {
               <article className="card" key={platform.name}>
                 <h3>{platform.name}</h3>
                 <p>Priority: {platform.priority}</p>
-                <a href={platform.url} target="_blank" rel="noreferrer">
-                  Open submission page
-                </a>
+                {"url" in platform ? (
+                  <a href={platform.url} target="_blank" rel="noreferrer">
+                    Open submission page
+                  </a>
+                ) : (
+                  <p>{platform.note}</p>
+                )}
               </article>
             ))}
           </div>

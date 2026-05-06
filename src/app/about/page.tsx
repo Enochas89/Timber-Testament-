@@ -60,6 +60,24 @@ export default function AboutPage() {
             </p>
           </article>
         </div>
+
+        <section className="section">
+          <div className="card">
+            <h2>Built for Practical Homes</h2>
+            <p>
+              Most projects start with a specific problem: not enough storage,
+              damaged trim, a room that needs a stronger focal point, or a
+              repair list that needs one dependable crew. We look at the room
+              conditions, existing finishes, daily use, and budget before
+              recommending a build or repair path.
+            </p>
+            <p>
+              Our work includes home repair, handyman support, cabinet
+              installation, finish carpentry, built-ins, shelves, mantels, and
+              custom wood features across East Tennessee homes.
+            </p>
+          </div>
+        </section>
       </div>
     </div>
   );

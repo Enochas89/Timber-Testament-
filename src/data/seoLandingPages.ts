@@ -462,8 +462,8 @@ export const corridorLandingPages: SeoLandingPage[] = serviceTemplates.map((temp
   return {
     slug,
     path: `/${slug}`,
-    title: `${template.serviceName} Chattanooga To Knoxville TN`,
-    description: template.corridorDescription,
+    title: `${template.serviceLabel} East TN`,
+    description: `${template.serviceLabel} from Chattanooga to Knoxville for repairs, installs, maintenance, and practical home upgrades.`,
     h1: `${template.serviceName} In Chattanooga To Knoxville, TN`,
     intro: `Timber & Testament delivers ${template.serviceLabel.toLowerCase()} service across East Tennessee with local family-owned care and clear communication from first call to final walkthrough.`,
     serviceName: template.serviceName,
@@ -493,8 +493,8 @@ export const cityLandingPages: SeoLandingPage[] = targetCities.flatMap((city) =>
     return {
       slug,
       path: `/${slug}`,
-      title: `${template.serviceName} ${city.name}, ${city.state}`,
-      description: `${template.cityDescription} Serving ${city.name}, ${city.state} homeowners with dependable local scheduling and quality execution.`,
+      title: `${template.serviceLabel} ${city.name} ${city.state}`,
+      description: `${template.serviceLabel} in ${city.name}, ${city.state} for repair lists, installs, maintenance, and practical home upgrades.`,
       h1: `${template.serviceName} In ${city.name}, ${city.state}`,
       intro: `If you need ${template.serviceLabel.toLowerCase()} service in ${city.name}, ${city.state}, our family-owned team can scope, schedule, and complete the work with practical results and strong communication.`,
       serviceName: template.serviceName,

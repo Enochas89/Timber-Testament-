@@ -60,6 +60,22 @@ export default function CustomWoodworkingPage() {
         </FoundersInsight>
 
         <section className="section">
+          <div className="card">
+            <h2>How Custom Woodworking Is Planned</h2>
+            <p>
+              We start by reviewing how the piece or feature needs to function:
+              storage, display, daily use, durability, and how it should relate
+              to the surrounding trim, cabinets, flooring, and wall finishes.
+            </p>
+            <p>
+              From there, we map the material path, visible details, mounting
+              requirements, and finish expectations so the final piece feels
+              built for the room instead of simply placed inside it.
+            </p>
+          </div>
+        </section>
+
+        <section className="section">
           <div className="cta-band">
             <h2>Planning a Custom Woodworking Project?</h2>
             <p>

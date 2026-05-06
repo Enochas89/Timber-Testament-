@@ -12,9 +12,9 @@ import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 import { Service } from "@/lib/types";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Home Repair, Handyman, and Carpentry Services",
+  title: "Home Repair Services",
   description:
-    "Explore home repair services, handyman work, drywall repair, door repair, cabinet installation, trim work, finish carpentry, built-ins, and woodworking.",
+    "Explore home repair, handyman work, drywall, doors, cabinet installation, trim, finish carpentry, built-ins, and woodworking.",
   path: "/services",
   keywords: repairSeoKeywords,
 });

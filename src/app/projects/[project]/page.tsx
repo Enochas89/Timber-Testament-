@@ -11,6 +11,18 @@ import { services } from "@/data/services";
 import { getProjectBySlug } from "@/lib/content";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
+const projectSeoTitles: Record<string, string> = {
+  "custom-framing-3500-sqft-house-cleveland-tn": "Custom Framing Cleveland TN",
+  "floating-shelves-kitchen-dining-charleston-tn": "Floating Shelves Charleston TN",
+  "custom-fireplace-mantel-athens-tn": "Fireplace Mantel Athens TN",
+  "custom-built-in-cabinet-storage-ooltewah-tn": "Built-In Storage Ooltewah TN",
+  "custom-wood-furniture-piece-chattanooga-tn": "Outdoor Shower Chattanooga TN",
+  "custom-mudroom-storage-athens-tn": "Mudroom Storage Athens TN",
+  "interior-trim-upgrade-cleveland-tn": "Interior Trim Cleveland TN",
+  "custom-pergola-shade-structure-chattanooga-tn": "Pergola Build Chattanooga TN",
+  "accent-wall-finish-carpentry-collegedale-tn": "Accent Wall Collegedale TN",
+};
+
 export function generateStaticParams() {
   return projects.map((project) => ({ project: project.slug }));
 }
@@ -30,9 +42,13 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     };
   }
 
+  const city = cities.find((item) => item.slug === project.citySlug);
+  const seoTitle = projectSeoTitles[project.slug] ?? project.title;
+  const location = city ? `${city.name}, ${city.state}` : "Southeast Tennessee";
+
   return buildPageMetadata({
-    title: project.title,
-    description: `${project.title} case study from licensed and insured master carpenters, featuring custom-built woodworking, finish detailing, and durable residential craftsmanship.`,
+    title: seoTitle,
+    description: `${seoTitle} case study in ${location}. Review scope, materials, and finished carpentry details from Timber & Testament.`,
     path: `/projects/${project.slug}`,
   });
 }
@@ -95,6 +111,23 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 <li key={item}>{item}</li>
               ))}
             </ul>
+          </article>
+        </section>
+
+        <section className="section">
+          <article className="card">
+            <h2>Project Planning Notes</h2>
+            <p>
+              This project was planned around fit, function, and finish quality
+              for the specific space. Before installation, we review dimensions,
+              site conditions, material choices, and how the finished work needs
+              to hold up under daily use.
+            </p>
+            <p>
+              The same process applies across home repair, custom carpentry,
+              built-ins, trim work, cabinet installation, mantels, shelves, and
+              other residential woodworking projects.
+            </p>
           </article>
         </section>
 

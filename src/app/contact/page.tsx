@@ -108,6 +108,23 @@ export default function ContactPage() {
             </form>
           </article>
         </div>
+
+        <section className="section">
+          <div className="card">
+            <h2>What to Include With Your Request</h2>
+            <p>
+              Helpful details include the project address or city, a few photos,
+              rough dimensions, the service you need, and whether the work is
+              urgent. For repair lists, group related items together so we can
+              understand the full scope before scheduling.
+            </p>
+            <p>
+              We quote home repair, handyman work, drywall repair, door repair,
+              cabinet installation, trim work, built-ins, mantels, shelves,
+              property maintenance, and small upgrade projects.
+            </p>
+          </div>
+        </section>
       </div>
     </div>
   );

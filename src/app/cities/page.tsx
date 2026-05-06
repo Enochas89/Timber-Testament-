@@ -8,9 +8,9 @@ import { repairSeoKeywords } from "@/data/seoKeywords";
 import { breadcrumbSchema, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Home Repair and Handyman Service Areas",
+  title: "Home Repair Service Areas",
   description:
-    "Browse home repair, handyman, drywall repair, door repair, cabinet installation, property maintenance, and carpentry service areas across Southeast Tennessee.",
+    "Browse home repair, handyman, drywall, door repair, cabinet installation, property maintenance, and carpentry areas in Southeast Tennessee.",
   path: "/cities",
   keywords: repairSeoKeywords,
 });

@@ -56,6 +56,23 @@ export default function TrimCarpentryPage() {
         </FoundersInsight>
 
         <section className="section">
+          <div className="card">
+            <h2>Trim Details We Review</h2>
+            <p>
+              Trim work depends on clean reveals, profile matching, wall
+              conditions, door and window transitions, and paint-ready prep. We
+              review existing lines before recommending repair, replacement, or
+              extension of the current trim package.
+            </p>
+            <p>
+              Common requests include baseboards, casing, crown, accent trim,
+              damaged trim repair, room refreshes, and finish carpentry that
+              helps the whole space look more complete.
+            </p>
+          </div>
+        </section>
+
+        <section className="section">
           <div className="cta-band">
             <h2>Need a Trim Upgrade Plan?</h2>
             <p>
