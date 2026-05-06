@@ -5,7 +5,7 @@ export const services: Service[] = [
     slug: "custom-carpentry",
     name: "Custom Carpentry",
     shortDescription:
-      "Custom-built wood features tailored to your room dimensions, style, and functional goals.",
+      "Custom-built wood features tailored to your room dimensions, style, and functional goals. From floor-to-ceiling built-ins and custom cabinetry to wainscoting, mantels, and home office builds, every piece is designed and crafted from scratch to fit your space exactly. We measure on-site, select materials to match your existing finishes, and install everything clean and complete - no off-the-shelf compromises, just woodwork that looks like it was always meant to be there.",
     hero: "We design and install custom carpentry elements that bring character, storage, and clean finish quality to everyday living spaces.",
     benefits: [
       "Built for your exact layout and use case",
