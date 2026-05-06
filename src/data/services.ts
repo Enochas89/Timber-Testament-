@@ -269,7 +269,7 @@ export const services: Service[] = [
     slug: "wood-feature-installations",
     name: "Wood Feature Installations",
     shortDescription:
-      "Specialty wood features that add character, texture, and a custom finished look.",
+      "Wood features are the details that give a space its personality. We design and install specialty elements - ceiling beams, wall treatments, decorative panels, wood ceilings, and architectural accents - that add warmth, texture, and a level of craft that standard finishes can't replicate. Each installation is planned to work with your existing architecture, scaled to the room, and finished to complement your overall design so it feels like a deliberate part of the space rather than something added after the fact.",
     hero: "We install custom wood features that bring craftsmanship and architectural identity to key rooms in the home.",
     benefits: [
       "Distinctive handcrafted visual detail",
