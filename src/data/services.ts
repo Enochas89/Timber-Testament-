@@ -221,7 +221,7 @@ export const services: Service[] = [
     slug: "trim-work",
     name: "Trim Work",
     shortDescription:
-      "Precision trim upgrades for baseboards, doors, windows, and room transitions.",
+      "Good trim is the detail that ties a room together. We install and upgrade baseboards, door and window casing, crown molding, chair rail, and transition pieces with the kind of precision that makes every joint tight and every profile consistent throughout. Whether you're refreshing outdated trim, matching existing millwork in an addition, or starting from scratch in a new build, clean trim work is one of the highest-return upgrades a room can get - subtle enough to feel natural, noticeable enough to matter.",
     hero: "Well-executed trim work sharpens the room, improves transitions, and makes every other finish look better.",
     benefits: [
       "Cleaner room lines and transitions",
