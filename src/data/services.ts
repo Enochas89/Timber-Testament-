@@ -29,7 +29,7 @@ export const services: Service[] = [
     slug: "custom-framing",
     name: "Custom Framing",
     shortDescription:
-      "Structural and layout framing for new residential builds and large custom home projects.",
+      "Custom framing is the backbone of every well-built home. Whether you're breaking ground on a new residential build or tackling a large-scale custom project, our crews handle the full structural layout - walls, floors, roofs, and everything in between - with precision that sets the standard for every trade that follows. We work closely with architects and contractors to frame to spec, stay on schedule, and build a structure that's plumb, square, and built to last.",
     hero: "We provide detail-driven house framing with clean layout execution, structural consistency, and build-ready precision.",
     benefits: [
       "Accurate wall, opening, and layout framing",
