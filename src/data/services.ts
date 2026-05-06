@@ -197,7 +197,7 @@ export const services: Service[] = [
     slug: "accent-walls",
     name: "Accent Walls",
     shortDescription:
-      "Custom accent wall designs built with trim, panel layouts, and finish-ready details.",
+      "An accent wall built with real trim and paneling has a presence that paint alone can't match. We design and install custom layouts - board and batten, shiplap, geometric panel patterns, picture frame molding, and more - sized and spaced to your wall dimensions so the proportions feel intentional rather than templated. Everything is finished flush, caulked tight, and ready for paint, giving you a wall that adds genuine architectural detail without overwhelming the rest of the room.",
     hero: "We transform plain walls into standout features with custom layouts that add depth, texture, and structure.",
     benefits: [
       "Custom layout and proportions",
