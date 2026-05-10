@@ -44,6 +44,13 @@ export default function Home() {
               {business.tagline} We handle repair lists, home maintenance,
               installs, and practical upgrades for daily use.
             </p>
+            <div className="hero-service-tags" aria-label="Common work types">
+              <span>Handyman</span>
+              <span>Drywall</span>
+              <span>Doors</span>
+              <span>Cabinets</span>
+              <span>Carpentry</span>
+            </div>
             <div className="hero-actions">
               <Link className="btn" href="/contact">
                 Request an Estimate
