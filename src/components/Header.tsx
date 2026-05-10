@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { business } from "@/data/business";
+
 const navItems = [
   { href: "/services", label: "Services" },
   { href: "/projects", label: "Projects" },
@@ -11,6 +13,12 @@ const navItems = [
 export function Header() {
   return (
     <header className="site-header">
+      <div className="service-alert">
+        <div className="shell service-alert-inner">
+          <span>Home repair, handyman work, and carpentry from Chattanooga to Knoxville</span>
+          <a href={`tel:${business.primaryPhoneRaw}`}>Call {business.primaryPhoneDisplay}</a>
+        </div>
+      </div>
       <div className="shell header-inner">
         <Link href="/" className="brand" aria-label="Timber and Testament home">
           Timber &amp; Testament
