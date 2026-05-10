@@ -71,7 +71,12 @@ npm run dev
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID`
 - `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`
 - `NEXT_PUBLIC_BING_SITE_VERIFICATION`
-- `NEXT_PUBLIC_CONTACT_FORM_ENDPOINT`
+- `RESEND_API_KEY`
+- `CONTACT_TO_EMAIL`
+- `CONTACT_FROM_EMAIL`
+
+The contact page photo intake form sends email through Resend. `CONTACT_FROM_EMAIL`
+must use a sender address/domain verified in Resend.
 
 ## Deploy to Vercel
 
