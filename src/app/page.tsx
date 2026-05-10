@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <div className="shell hero-grid">
+        <div className="shell hero-layout">
           <div className="hero-copy hero-copy-tile">
             <p className="eyebrow">Local Family-Owned Home Services</p>
             <h1>Home Repair, Handyman, Doors, Drywall, Cabinets, and Carpentry from Chattanooga to Knoxville</h1>
@@ -54,23 +54,73 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="stat-grid">
-            <div className="stat">
-              <strong>{business.yearsExperience}+</strong>
-              Years of carpentry experience in local markets.
+          <aside className="hero-service-panel" aria-label="Start a home service request">
+            <p className="eyebrow">How Can We Help?</p>
+            <h2>Tell us what needs fixed, built, or installed.</h2>
+            <p>
+              Call for a quick conversation or send photos and details so we can
+              point you toward the right estimate path.
+            </p>
+            <div className="hero-service-actions">
+              <a className="btn" href={`tel:${business.primaryPhoneRaw}`}>
+                Call {business.primaryPhoneDisplay}
+              </a>
+              <Link className="btn-outline" href="/contact">
+                Send Project Details
+              </Link>
             </div>
-            <div className="stat">
-              <strong>{cities.length}</strong>
-              Service areas across Southeast Tennessee and nearby Georgia.
+            <div className="hero-quick-links" aria-label="Popular service paths">
+              {corridorRepairServiceLinks.slice(0, 4).map((item) => (
+                <Link key={item.href} href={item.href}>
+                  {item.title}
+                </Link>
+              ))}
             </div>
-            <div className="stat">
-              <strong>{services.length}</strong>
-              Core services built around real homeowner needs.
-            </div>
-            <div className="stat">
-              <strong>Fast</strong>
-              Quote response workflow for quick home repairs and urgent punch lists.
-            </div>
+          </aside>
+        </div>
+        <div className="shell stat-strip" aria-label="Timber and Testament service proof">
+          <div className="stat">
+            <strong>{business.yearsExperience}+</strong>
+            Years of carpentry experience in local markets.
+          </div>
+          <div className="stat">
+            <strong>{cities.length}</strong>
+            Service areas across Southeast Tennessee and nearby Georgia.
+          </div>
+          <div className="stat">
+            <strong>{services.length}</strong>
+            Core services built around real homeowner needs.
+          </div>
+          <div className="stat">
+            <strong>Fast</strong>
+            Quote response workflow for quick home repairs and urgent punch lists.
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-tight">
+        <div className="shell">
+          <div className="section-head">
+            <h2>Home Repair and Handyman Help</h2>
+            <p>
+              Fast paths for the services homeowners search for most: handyman
+              help, drywall repair, door repair, cabinet installation, property
+              maintenance, and everyday repairs.
+            </p>
+          </div>
+          <div className="quick-service-grid">
+            {corridorRepairServiceLinks.slice(0, 5).map((item) => (
+              <article className="quick-service-card" key={item.href}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <Link href={item.href}>View {item.title.toLowerCase()}</Link>
+              </article>
+            ))}
+          </div>
+          <div className="hero-actions">
+            <Link className="btn-outline" href="/repairs-and-installs-chattanooga-to-knoxville">
+              See Common Repairs and Installs
+            </Link>
           </div>
         </div>
       </section>
@@ -165,33 +215,6 @@ export default function Home() {
               />
               <figcaption>Every project starts with people doing the work carefully.</figcaption>
             </figure>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="shell">
-          <div className="section-head">
-            <h2>Home Repair and Handyman Help</h2>
-            <p>
-              Fast paths for the services homeowners search for most: handyman
-              help, drywall repair, door repair, cabinet installation, property
-              maintenance, and everyday repairs.
-            </p>
-          </div>
-          <div className="card-grid">
-            {corridorRepairServiceLinks.slice(0, 5).map((item) => (
-              <article className="card" key={item.href}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-                <Link href={item.href}>View {item.title.toLowerCase()}</Link>
-              </article>
-            ))}
-          </div>
-          <div className="hero-actions">
-            <Link className="btn-outline" href="/repairs-and-installs-chattanooga-to-knoxville">
-              See Common Repairs and Installs
-            </Link>
           </div>
         </div>
       </section>
