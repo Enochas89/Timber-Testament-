@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: `%s | Timber & Testament`,
   },
   description:
-    "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, and custom carpentry across East Tennessee.",
+    "24/7 emergency home repair, handyman, leak repair help, drywall, door, plumbing fixture, and property maintenance across East Tennessee.",
   applicationName: business.name,
   keywords: allSeoKeywords,
   openGraph: {
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
     url: business.websiteUrl,
     title: "Home Services from Chattanooga to Knoxville | Timber & Testament",
   description:
-      "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, and custom carpentry across East Tennessee.",
+      "24/7 emergency home repair, handyman, leak repair help, drywall, door, plumbing fixture, and property maintenance across East Tennessee.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Home Services from Chattanooga to Knoxville | Timber & Testament",
   description:
-      "Family-owned home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, and custom carpentry across East Tennessee.",
+      "24/7 emergency home repair, handyman, leak repair help, drywall, door, plumbing fixture, and property maintenance across East Tennessee.",
   },
   verification: {
     ...(googleVerification ? { google: googleVerification } : {}),

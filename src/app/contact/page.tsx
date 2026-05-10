@@ -10,9 +10,9 @@ const contactFormEndpoint =
   process.env.NEXT_PUBLIC_CONTACT_FORM_ENDPOINT;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Contact and Request an Estimate",
+  title: "Contact for 24/7 Emergency Repair",
   description:
-    "Request a quote for home repair services, handyman work, drywall repair, door repair, cabinet installation, property maintenance, trim, and built-ins.",
+    "Call or request help for 24/7 emergency home repair, leaks, plumbing fixture issues, electrical fixture problems, drywall, doors, and handyman work.",
   path: "/contact",
   keywords: repairSeoKeywords,
 });
@@ -33,15 +33,22 @@ export default function ContactPage() {
             { label: "Contact" },
           ]}
         />
-        <h1 className="page-title">Request an Estimate</h1>
+        <h1 className="page-title">Request Emergency Repair Help or an Estimate</h1>
         <p className="page-subtitle">
-          Tell us your repair list, project location, and target timeline.
-          Include photos and rough dimensions to speed up quoting.
+          Tell us whether this is urgent, your repair list, project location,
+          and target timeline. Include photos and rough dimensions to speed up
+          quoting.
         </p>
 
         <div className="cols-2">
           <article className="card">
             <h2>Contact Details</h2>
+            <p>
+              <strong>24/7 Emergency Requests:</strong> Call for urgent leaks,
+              plumbing fixture problems, electrical fixture concerns, storm
+              damage, damaged doors or windows, drywall damage, and home safety
+              repairs.
+            </p>
             <p>
               <strong>Phone:</strong>{" "}
               <a href={`tel:${business.primaryPhoneRaw}`}>{business.primaryPhoneDisplay}</a>
@@ -94,7 +101,7 @@ export default function ContactPage() {
                 <input
                   id="service"
                   name="service"
-                  placeholder="Drywall repair, door repair, cabinet installation, handyman work, etc."
+                  placeholder="Emergency leak repair, plumbing fixture issue, electrical fixture issue, drywall repair, door repair, handyman work, etc."
                   required
                 />
               </div>
@@ -114,14 +121,16 @@ export default function ContactPage() {
             <h2>What to Include With Your Request</h2>
             <p>
               Helpful details include the project address or city, a few photos,
-              rough dimensions, the service you need, and whether the work is
-              urgent. For repair lists, group related items together so we can
-              understand the full scope before scheduling.
+              rough dimensions, the service you need, and whether the work is a
+              24/7 emergency request. For repair lists, group related items
+              together so we can understand the full scope before scheduling.
             </p>
             <p>
-              We quote home repair, handyman work, drywall repair, door repair,
-              cabinet installation, trim work, built-ins, mantels, shelves,
-              property maintenance, and small upgrade projects.
+              We quote emergency home repair requests, leak repair help,
+              plumbing fixture issues, electrical fixture concerns, drywall
+              repair, door repair, window repair, cabinet installation, trim
+              work, built-ins, mantels, shelves, property maintenance, and small
+              upgrade projects.
             </p>
           </div>
         </section>
