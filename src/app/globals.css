@@ -1258,12 +1258,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: clamp(360px, 44vw, 610px);
-  margin: 0.8rem -0.8rem -0.8rem;
+  min-height: auto;
+  margin: 1rem -0.8rem -0.8rem;
 }
 
 .contact-support-figure img {
-  width: min(112%, 760px);
+  width: min(116%, 860px);
+  max-height: 620px;
   height: auto;
   object-fit: contain;
 }
