@@ -146,7 +146,6 @@ export function IssueIntakeForm({ serviceAreas }: IssueIntakeFormProps) {
           name="photos"
           type="file"
           accept="image/*"
-          capture="environment"
           multiple
           onChange={(event) => setSelectedFiles(Array.from(event.currentTarget.files ?? []))}
         />
