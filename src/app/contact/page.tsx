@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -62,6 +63,16 @@ export default function ContactPage() {
             <p>
               <strong>Service Areas:</strong> {business.serviceArea.join(", ")}
             </p>
+            <figure className="contact-support-figure">
+              <Image
+                src="/images/contact/leaks.png"
+                alt="Emergency repair services including leaks, electrical fixtures, doors, windows, cabinets, drywall, and more"
+                width={691}
+                height={549}
+                sizes="(max-width: 920px) 100vw, 430px"
+                priority
+              />
+            </figure>
           </article>
 
           <article className="card" id="emergency-details">

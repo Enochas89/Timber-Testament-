@@ -1254,6 +1254,20 @@ main {
   opacity: 0;
 }
 
+.contact-support-figure {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: clamp(260px, 32vw, 430px);
+  margin: 1.2rem 0 0;
+}
+
+.contact-support-figure img {
+  width: min(100%, 430px);
+  height: auto;
+  object-fit: contain;
+}
+
 .project-image {
   width: 100%;
   aspect-ratio: 16 / 10;
