@@ -1256,14 +1256,14 @@ main {
 
 .contact-support-figure {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-  min-height: clamp(260px, 32vw, 430px);
-  margin: 1.2rem 0 0;
+  min-height: clamp(360px, 44vw, 610px);
+  margin: 0.8rem -0.8rem -0.8rem;
 }
 
 .contact-support-figure img {
-  width: min(100%, 430px);
+  width: min(112%, 760px);
   height: auto;
   object-fit: contain;
 }
