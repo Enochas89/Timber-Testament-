@@ -57,7 +57,7 @@ export default function Home() {
               <span>Carpentry</span>
             </div>
             <div className="hero-actions">
-              <Link className="btn" href="/contact">
+              <Link className="btn" href="/contact#general-request">
                 Request an Estimate
               </Link>
               <a className="btn-outline" href={`tel:${business.primaryPhoneRaw}`}>
@@ -78,7 +78,7 @@ export default function Home() {
               <a className="btn" href={`tel:${business.primaryPhoneRaw}`}>
                 Call {business.primaryPhoneDisplay}
               </a>
-              <Link className="btn-outline" href="/contact">
+              <Link className="btn-outline" href="/contact#emergency-details">
                 Send Emergency Details
               </Link>
             </div>

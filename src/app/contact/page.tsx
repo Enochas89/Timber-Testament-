@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { GeneralContactForm } from "@/components/GeneralContactForm";
 import { IssueIntakeForm } from "@/components/IssueIntakeForm";
 import { JsonLd } from "@/components/JsonLd";
 import { business } from "@/data/business";
@@ -63,7 +64,7 @@ export default function ContactPage() {
             </p>
           </article>
 
-          <article className="card">
+          <article className="card" id="emergency-details">
             <h2>Photo Repair Request Form</h2>
             <p>
               Use your phone to take photos of the issue, describe what is
@@ -72,6 +73,19 @@ export default function ContactPage() {
             <IssueIntakeForm serviceAreas={business.serviceArea} />
           </article>
         </div>
+
+        <section className="section" id="general-request">
+          <div className="card">
+            <h2>Regular Contact Form</h2>
+            <p>
+              For non-emergency projects, planned carpentry, built-ins, trim,
+              cabinets, maintenance, and repair lists, send the details here.
+              Photos are optional for regular requests; if you need to include
+              photos, use the emergency/photo form above.
+            </p>
+            <GeneralContactForm serviceAreas={business.serviceArea} />
+          </div>
+        </section>
 
         <section className="section">
           <div className="card">
