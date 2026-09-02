@@ -17,7 +17,7 @@ import "./globals.css";
 const headingFont = Playfair_Display({
   variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["400", "600"],
+  weight: ["400", "600", "700"],
 });
 
 const bodyFont = Inter({
