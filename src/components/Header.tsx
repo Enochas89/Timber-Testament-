@@ -15,7 +15,7 @@ export function Header() {
     <header className="site-header">
       <div className="service-alert">
         <div className="shell service-alert-inner">
-          <span>24/7 emergency repair requests, handyman work, and carpentry from Chattanooga to Knoxville</span>
+          <span>Repair requests, handyman work, and carpentry from Chattanooga to Knoxville</span>
           <a href={`tel:${business.primaryPhoneRaw}`}>Call {business.primaryPhoneDisplay}</a>
         </div>
       </div>
@@ -32,8 +32,8 @@ export function Header() {
             ))}
           </ul>
         </nav>
-        <Link href="/emergency-home-repair-chattanooga-to-knoxville" className="header-cta">
-          24/7 Emergency Help
+        <Link href="/contact" className="header-cta">
+          Request an Estimate
         </Link>
       </div>
     </header>

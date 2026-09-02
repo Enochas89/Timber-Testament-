@@ -122,7 +122,7 @@ export function GeneralContactForm({ serviceAreas }: GeneralContactFormProps) {
       </div>
 
       <button className="btn" type="submit" disabled={submitState === "submitting"}>
-        {submitState === "submitting" ? "Sending Request..." : "Submit Non-Emergency Request"}
+        {submitState === "submitting" ? "Sending Request..." : "Submit Request"}
       </button>
 
       {statusMessage ? (

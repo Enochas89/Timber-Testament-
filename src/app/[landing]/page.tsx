@@ -49,7 +49,6 @@ export default async function SeoLandingPage({ params }: LandingPageProps) {
   }
 
   const relatedPages = getSeoLandingPagesBySlugs(page.relatedSlugs);
-  const isEmergencyPage = page.slug.startsWith("emergency-home-repair");
 
   const breadcrumbItems = [
     { name: "Home", path: "/" },
@@ -162,14 +161,9 @@ export default async function SeoLandingPage({ params }: LandingPageProps) {
               with your project details.
             </p>
             <div className="hero-actions">
-              <Link className="btn" href={isEmergencyPage ? "/contact#emergency-details" : "/contact#general-request"}>
-                {isEmergencyPage ? "Send Emergency Details" : "Request Estimate"}
+              <Link className="btn" href="/contact#general-request">
+                Request Estimate
               </Link>
-              {isEmergencyPage ? (
-                <Link className="btn-outline" href="/contact#general-request">
-                  Non-Emergency Contact Form
-                </Link>
-              ) : null}
               <a className="btn-outline" href={`tel:${business.primaryPhoneRaw}`}>
                 Call {business.primaryPhoneDisplay}
               </a>

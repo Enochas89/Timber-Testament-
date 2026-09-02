@@ -13,9 +13,9 @@ import { testimonials, whyChooseUs } from "@/data/trust";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "24/7 Emergency Home Repair & Handyman TN",
+  title: "Home Repair & Handyman TN",
   description:
-    "24/7 emergency home repair requests, handyman work, leak repair help, drywall, doors, cabinets, and property maintenance from Chattanooga to Knoxville.",
+    "Home repair requests, handyman work, leak repair help, drywall, doors, cabinets, and property maintenance from Chattanooga to Knoxville.",
   path: "/",
   keywords: repairSeoKeywords,
 });
@@ -38,15 +38,14 @@ export default function Home() {
       <section className="hero">
         <div className="shell hero-layout">
           <div className="hero-copy hero-copy-tile">
-            <p className="eyebrow">24/7 Emergency Repair Requests</p>
-            <h1>Emergency Home Repair, Handyman, Leaks, Doors, Drywall, Cabinets, and Carpentry from Chattanooga to Knoxville</h1>
+            <p className="eyebrow">Home Repair Requests</p>
+            <h1>Home Repair, Handyman, Leaks, Doors, Drywall, Cabinets, and Carpentry from Chattanooga to Knoxville</h1>
             <p>
-              {business.tagline} We handle urgent repair requests, leak repair
+              {business.tagline} We handle repair requests, leak repair
               help, plumbing fixture issues, electrical fixture concerns, repair
               lists, home maintenance, installs, and practical upgrades.
             </p>
             <div className="hero-service-tags" aria-label="Common work types">
-              <span>24/7 Emergency</span>
               <span>Leaks</span>
               <span>Plumbing Fixtures</span>
               <span>Electrical Fixtures</span>
@@ -67,19 +66,19 @@ export default function Home() {
           </div>
 
           <aside className="hero-service-panel" aria-label="Start a home service request">
-            <p className="eyebrow">Emergency Service</p>
-            <h2>Need urgent repair help? Call or send details now.</h2>
+            <p className="eyebrow">Request Service</p>
+            <h2>Need repair help? Call or send details now.</h2>
             <p>
-              We accept 24/7 emergency repair requests for leaks, storm damage,
-              damaged doors or windows, drywall damage, plumbing fixture
-              problems, electrical fixture issues, and urgent safety concerns.
+              We take repair requests for leaks, storm damage, damaged doors or
+              windows, drywall damage, plumbing fixture problems, and
+              electrical fixture issues.
             </p>
             <div className="hero-service-actions">
               <a className="btn" href={`tel:${business.primaryPhoneRaw}`}>
                 Call {business.primaryPhoneDisplay}
               </a>
-              <Link className="btn-outline" href="/contact#emergency-details">
-                Send Emergency Details
+              <Link className="btn-outline" href="/contact#photo-repair-request">
+                Send Repair Details
               </Link>
             </div>
             <div className="hero-quick-links" aria-label="Popular service paths">
@@ -105,8 +104,8 @@ export default function Home() {
             Core services built around real homeowner needs.
           </div>
           <div className="stat">
-            <strong>24/7</strong>
-            Emergency repair request intake for urgent home issues.
+            <strong>Local</strong>
+            Family-owned crews serving your neighborhood.
           </div>
         </div>
       </section>
@@ -114,12 +113,12 @@ export default function Home() {
       <section className="section section-tight">
         <div className="shell">
           <div className="section-head">
-            <h2>24/7 Emergency Home Repair and Handyman Help</h2>
+            <h2>Home Repair and Handyman Help</h2>
             <p>
-              Fast paths for urgent and common repair searches: emergency home
-              repair, plumbing leaks, electrical fixture problems, drywall
-              repair, door repair, window repair, cabinet installation, storm
-              damage, property maintenance, and everyday handyman repairs.
+              Fast paths for common repair searches: plumbing leaks, electrical
+              fixture problems, drywall repair, door repair, window repair,
+              cabinet installation, storm damage, property maintenance, and
+              everyday handyman repairs.
             </p>
           </div>
           <div className="quick-service-grid">
@@ -161,8 +160,8 @@ export default function Home() {
           <article className="card">
             <h2>Why Homeowners Choose Us</h2>
             <p>
-              Our emergency home repair, handyman, and improvement services are
-              built for urgent communication, long-term function, clean finish
+              Our home repair, handyman, and improvement services are built
+              for clear communication, long-term function, clean finish
               quality, and a final result that feels right for the home.
             </p>
             <div className="hero-actions">
