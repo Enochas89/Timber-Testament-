@@ -56,39 +56,6 @@ const targetCities: TargetCity[] = [
 
 const serviceTemplates: ServiceTemplate[] = [
   {
-    slugBase: "emergency-home-repair",
-    serviceName: "24/7 Emergency Home Repair",
-    serviceLabel: "Emergency Home Repair",
-    corridorDescription:
-      "24/7 emergency home repair request support for urgent leaks, plumbing fixture problems, electrical fixture issues, storm damage, door and window damage, drywall damage, deck hazards, fence damage, and urgent repair lists from Chattanooga to Knoxville.",
-    cityDescription:
-      "24/7 emergency home repair request support for leaks, plumbing fixture problems, electrical fixture issues, storm damage, door and window damage, drywall damage, and urgent safety repairs.",
-    corridorHighlights: [
-      "24/7 emergency repair request intake",
-      "Leak, sink, faucet, toilet, and plumbing fixture repair help",
-      "Electrical fixture, outlet, switch, and ceiling fan issue review",
-      "Storm damage, door, window, drywall, deck, and fence repair scopes",
-    ],
-    cityHighlights: [
-      "Emergency home repair request intake",
-      "Water leak and plumbing fixture repair help",
-      "Electrical fixture and outlet issue review",
-      "Storm, door, window, drywall, deck, and fence damage support",
-    ],
-    faqTemplate: [
-      {
-        question: "Do you take 24/7 emergency home repair requests?",
-        answer:
-          "Yes. We accept 24/7 emergency repair requests for urgent home issues such as leaks, plumbing fixture problems, electrical fixture concerns, storm damage, damaged doors or windows, drywall damage, and safety-related repair needs. Scheduling depends on location, scope, and availability.",
-      },
-      {
-        question: "What emergency repairs can you help with?",
-        answer:
-          "Common emergency requests include water leak repair, sink leak repair, faucet leak repair, toilet leak repair, door repair, window repair, drywall damage, storm damage, deck hazards, fence damage, outlet or switch issues, light fixture problems, and urgent handyman repair lists.",
-      },
-    ],
-  },
-  {
     slugBase: "handyman-services",
     serviceName: "Handyman Services",
     serviceLabel: "Handyman",
@@ -148,7 +115,7 @@ const serviceTemplates: ServiceTemplate[] = [
           "We handle general repair services such as drywall repair, door repair, trim work, fixture installs, punch-list repairs, and small home maintenance tasks.",
       },
       {
-        question: "Can you help with quick or emergency home repair needs?",
+        question: "Can you help with quick or urgent home repair needs?",
         answer:
           "Yes. We can review urgent repair requests and schedule quick home repairs when our calendar and the project scope allow.",
       },
@@ -431,31 +398,6 @@ function extraKeywordTargets(slugBase: string, cityName?: string) {
       "same day handyman",
       "small job contractor",
     ],
-    "emergency-home-repair": [
-      "24/7 emergency home repair",
-      "24 hour emergency handyman",
-      "emergency handyman near me",
-      "emergency home repair",
-      "emergency repair service",
-      "urgent home repair",
-      "after hours home repair",
-      "emergency plumbing repair",
-      "plumbing leak repair",
-      "water leak repair",
-      "sink leak repair",
-      "toilet leak repair",
-      "faucet leak repair",
-      "emergency electrical repair",
-      "electrical fixture repair",
-      "outlet repair",
-      "light fixture repair",
-      "storm damage repair",
-      "water damage repair",
-      "emergency door repair",
-      "emergency window repair",
-      "roof leak help",
-      "burst pipe repair help",
-    ],
     "home-repair-services": [
       "home repair services",
       city === "chattanooga" ? "home repair chattanooga tn" : "home repair services",
@@ -464,7 +406,6 @@ function extraKeywordTargets(slugBase: string, cityName?: string) {
       "home maintenance services",
       "home repair specialist",
       "quick home repairs",
-      "emergency home repair",
     ],
     "drywall-repair": ["drywall repair", "drywall repair near me", "home repair specialist"],
     "cabinet-installation": [

@@ -6,12 +6,6 @@ export type RepairServiceLink = {
 
 export const corridorRepairServiceLinks: RepairServiceLink[] = [
   {
-    href: "/emergency-home-repair-chattanooga-to-knoxville",
-    title: "24/7 Emergency Home Repair",
-    description:
-      "Emergency repair requests for leaks, plumbing fixture issues, electrical fixture problems, storm damage, doors, windows, drywall, and urgent home safety concerns.",
-  },
-  {
     href: "/handyman-services-chattanooga-to-knoxville",
     title: "Handyman Services",
     description:
@@ -56,7 +50,6 @@ export const corridorRepairServiceLinks: RepairServiceLink[] = [
 ];
 
 export const cityRepairSlugBases = [
-  "emergency-home-repair",
   "handyman-services",
   "home-repair-services",
   "drywall-repair",
@@ -67,7 +60,6 @@ export const cityRepairSlugBases = [
 ];
 
 const cityRepairTitleBySlugBase: Record<string, string> = {
-  "emergency-home-repair": "24/7 Emergency Home Repair",
   "handyman-services": "Handyman",
   "home-repair-services": "Home Repair",
   "drywall-repair": "Drywall Repair",
@@ -93,8 +85,6 @@ export function getCityRepairServiceLinks(city: { slug: string; name: string; st
     href: `/${slugBase}-${city.slug}`,
     title: `${cityRepairTitleBySlugBase[slugBase]} in ${city.name}, ${city.state}`,
     description:
-      slugBase === "emergency-home-repair"
-        ? "24/7 emergency repair requests for leaks, plumbing fixture issues, electrical fixture problems, storm damage, doors, windows, drywall, and urgent home safety concerns."
-        : "Local repair, install, maintenance, and punch-list support for homeowners and properties.",
+      "Local repair, install, maintenance, and punch-list support for homeowners and properties.",
   }));
 }

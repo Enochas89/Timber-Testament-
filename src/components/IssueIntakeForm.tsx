@@ -110,9 +110,9 @@ export function IssueIntakeForm({ serviceAreas }: IssueIntakeFormProps) {
         </div>
         <div>
           <label htmlFor="urgency">Urgency</label>
-          <select id="urgency" name="urgency" defaultValue="Emergency / today" required>
-            <option>Emergency / today</option>
+          <select id="urgency" name="urgency" defaultValue="This week" required>
             <option>This week</option>
+            <option>Within 2 weeks</option>
             <option>Planning ahead</option>
           </select>
         </div>
