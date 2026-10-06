@@ -1,10 +1,30 @@
 import type { NextConfig } from "next";
 
+// portal.timbertestament.com is the client portal of the company CRM, which runs on the company server
+// (not on Vercel) and is published there with Tailscale Funnel. Vercel forwards every request for that host.
+const PORTAL_HOST = "portal.timbertestament.com";
+const PORTAL_ORIGIN = "https://flexserver.tail5bc9f4.ts.net:10000";
+
 const nextConfig: NextConfig = {
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: "/:path*",
+          has: [{ type: "host", value: PORTAL_HOST }],
+          destination: `${PORTAL_ORIGIN}/:path*`,
+        },
+      ],
+      afterFiles: [],
+      fallback: [],
+    };
+  },
   async headers() {
     return [
       {
         source: "/:path*",
+        // The portal sends its own security headers; this site's CSP would block it.
+        missing: [{ type: "host", value: PORTAL_HOST }],
         headers: [
           {
             key: "Content-Security-Policy",

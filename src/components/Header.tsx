@@ -8,6 +8,8 @@ const navItems = [
   { href: "/cities", label: "Service Area" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
+  // Client portal (project status, contracts, deliveries), served from the company server via a rewrite in next.config.ts.
+  { href: "https://portal.timbertestament.com", label: "Client Login", external: true },
 ];
 
 export function Header() {
@@ -27,7 +29,7 @@ export function Header() {
           <ul className="nav-list">
             {navItems.map((item) => (
               <li key={item.href}>
-                <Link href={item.href}>{item.label}</Link>
+                {item.external ? <a href={item.href}>{item.label}</a> : <Link href={item.href}>{item.label}</Link>}
               </li>
             ))}
           </ul>
